@@ -6,6 +6,9 @@
 //  Copyright (c) 2014年 weiboyi. All rights reserved.
 //
 
+#import "UILabel+Addition.h"
+#import "NSString+Addition.h"
+
 @implementation UILabel (Addition)
 
 - (CGRect)resizeToStretch {
@@ -38,7 +41,7 @@
     } else {
         expectedLabelSize.width += marginValue;
     }
-    
+
     if (expectedLabelSize.height < self.frame.size.height) {
         expectedLabelSize.height = self.frame.size.height;
     } else {
