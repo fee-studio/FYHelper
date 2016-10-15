@@ -5,6 +5,7 @@
  */
 
 // Thanks to Emanuele Vulcano, Kevin Ballard/Eridius, Ryandjohnson, Matt Brown, etc.
+#import "UIDevice+DeviceInfo.h"
 
 #include <sys/sysctl.h>
 #import <mach/mach.h>
@@ -14,7 +15,7 @@
 @implementation UIDevice (DeviceInfo)
 /*
  Platforms
- 
+
  iFPGA ->        ??
 
  iPhone1,1 ->    iPhone 1G, M68
@@ -35,7 +36,7 @@
  iPod2,2   ->    Unknown, ??
  iPod3,1   ->    iPod touch 3G, N18
  iPod4,1   ->    iPod touch 4G, N80
- 
+
  // Thanks NSForge
  iPad1,1   ->    iPad 1G, WiFi and 3G, K48
  iPad2,1   ->    iPad 2G, WiFi, K93
