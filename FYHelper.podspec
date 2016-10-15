@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "FYHelper"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "iOS开发助手"
 
 
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 
 
   s.homepage     = "https://github.com/iosfeng/FYHelper"
-  s.license      = "MIT"  
+  s.license      = "MIT"
   s.author       = { "iosfeng" => "iosfeng@163.com" }
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/iosfeng/FYHelper.git", :tag => "#{s.version}" }
