@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "FYHelper"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "iOS开发助手"
 
 
@@ -28,7 +28,8 @@ Pod::Spec.new do |s|
   s.author       = { "iosfeng" => "iosfeng@163.com" }
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/iosfeng/FYHelper.git", :tag => "#{s.version}" }
-  s.source_files  = "FYSubclass/*", "FYCategory/*"
-  s.frameworks = 'Foundation', 'CoreGraphics', 'UIKit'
+  s.source_files = "FYHelper/*"
+  s.frameworks   = 'Foundation', 'CoreGraphics', 'UIKit'
   s.requires_arc = true
+
 end
