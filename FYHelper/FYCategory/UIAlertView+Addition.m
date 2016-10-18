@@ -5,6 +5,7 @@
 //  Created by line0 on 12-12-4.
 //  Copyright (c) 2012年 line0. All rights reserved.
 //
+#import "UIAlertView+Addition.h"
 
 @implementation UIAlertView (Addition)
 

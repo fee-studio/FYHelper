@@ -6,6 +6,8 @@
 //  Copyright (c) 2012年 开趣. All rights reserved.
 //
 
+#import "UIImage+Addition.h"
+
 @implementation UIImage (Addition)
 
 CGFloat DegreesToRadians(CGFloat degrees) {

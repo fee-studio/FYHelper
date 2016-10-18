@@ -6,6 +6,8 @@
 //  Copyright (c) 2012年 wsk. All rights reserved.
 //
 
+#import "NSData+Addition.h"
+
 @implementation NSDate (Addition)
 
 - (NSString *)convertDateToStringWithFormat:(NSString *)format {

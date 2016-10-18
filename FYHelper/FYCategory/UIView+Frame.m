@@ -6,6 +6,8 @@
 //  Copyright (c) 2012年 wsk. All rights reserved.
 //
 
+#import "UIView+Frame.h"
+
 @implementation UIView (Frame)
 
 - (CGFloat)left {

@@ -6,6 +6,8 @@
 //  Copyright (c) 2014年 weiboyi. All rights reserved.
 //
 
+#import "UINavigationItem+Addition.h"
+
 @implementation UINavigationItem (Addition)
 
 - (UIBarButtonItem *)backBarButtonItem {

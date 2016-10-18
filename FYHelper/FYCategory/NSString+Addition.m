@@ -7,6 +7,7 @@
 //
 
 #import <CommonCrypto/CommonDigest.h>
+#import "NSString+Addition.h"
 
 @implementation NSString (Addition)
 

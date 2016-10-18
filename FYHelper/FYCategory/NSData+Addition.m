@@ -7,6 +7,7 @@
 //
 
 #import <CommonCrypto/CommonDigest.h>
+#import "NSData+Addition.h"
 
 @implementation NSData (Addition)
 

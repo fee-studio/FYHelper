@@ -7,6 +7,7 @@
 //
 
 #import <objc/runtime.h>
+#import "UITextField+LimitLength.h"
 
 @implementation UITextField (LimitLength)
 

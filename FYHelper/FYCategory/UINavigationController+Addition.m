@@ -5,6 +5,7 @@
 //  Created by efeng on 14/10/30.
 //  Copyright (c) 2014年 weiboyi. All rights reserved.
 //
+#import "UINavigationController+Addition.h"
 
 @implementation UINavigationController (Addition)
 

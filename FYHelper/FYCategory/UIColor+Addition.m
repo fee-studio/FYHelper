@@ -5,6 +5,7 @@
 //  Created by 何 振东 on 12-9-26.
 //
 //
+#import "UIColor+Addition.h"
 
 @implementation UIColor (Addition)
 
