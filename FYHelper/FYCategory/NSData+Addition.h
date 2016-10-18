@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface NSData (Addition)
+
 - (NSData *)dataWithObject:(id)object;
 
 - (id)convertDataToObject;
@@ -16,4 +17,5 @@
 - (NSString *)hexadecimalString;
 
 - (NSString *)md5;
+
 @end

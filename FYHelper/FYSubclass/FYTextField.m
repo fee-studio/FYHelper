@@ -6,9 +6,9 @@
 //  Copyright © 2016年 buerguo. All rights reserved.
 //
 
-#import "YITextField.h"
+#import "FYTextField.h"
 
-@implementation YITextField
+@implementation FYTextField
 
 /*
 // Only override drawRect: if you perform custom drawing.

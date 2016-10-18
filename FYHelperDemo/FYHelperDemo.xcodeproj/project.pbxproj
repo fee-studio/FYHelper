@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		521EF2A11DB67562005A65F8 /* FYDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 521EF2A01DB67562005A65F8 /* FYDeviceInfo.m */; };
 		52E875221DB5071900169C24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E875211DB5071900169C24 /* main.m */; };
 		52E875251DB5071900169C24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E875241DB5071900169C24 /* AppDelegate.m */; };
 		52E875281DB5071900169C24 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E875271DB5071900169C24 /* FirstViewController.m */; };
@@ -24,7 +25,6 @@
 		52E876361DB5215C00169C24 /* UIAlertView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E876111DB5215C00169C24 /* UIAlertView+Addition.m */; };
 		52E876371DB5215C00169C24 /* UIColor+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E876131DB5215C00169C24 /* UIColor+Addition.m */; };
 		52E876381DB5215C00169C24 /* UIColor+Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E876151DB5215C00169C24 /* UIColor+Colours.m */; };
-		52E876391DB5215C00169C24 /* UIDevice+DeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E876171DB5215C00169C24 /* UIDevice+DeviceInfo.m */; };
 		52E8763A1DB5215C00169C24 /* UIImage+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E876191DB5215C00169C24 /* UIImage+Addition.m */; };
 		52E8763B1DB5215C00169C24 /* UILabel+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E8761B1DB5215C00169C24 /* UILabel+Addition.m */; };
 		52E8763C1DB5215C00169C24 /* UINavigationController+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E8761D1DB5215C00169C24 /* UINavigationController+Addition.m */; };
@@ -34,7 +34,7 @@
 		52E876411DB5215C00169C24 /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E876271DB5215C00169C24 /* UIView+Animation.m */; };
 		52E876421DB5215C00169C24 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E876291DB5215C00169C24 /* UIView+Frame.m */; };
 		52E876431DB5215C00169C24 /* UIView+Layer.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E8762B1DB5215C00169C24 /* UIView+Layer.m */; };
-		52E876451DB5215C00169C24 /* YITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E876301DB5215C00169C24 /* YITextField.m */; };
+		5BF2C90B09CD6E8834B7C957 /* FYTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C2895B43287AA359775A /* FYTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +55,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		521EF29F1DB67562005A65F8 /* FYDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYDeviceInfo.h; sourceTree = "<group>"; };
+		521EF2A01DB67562005A65F8 /* FYDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYDeviceInfo.m; sourceTree = "<group>"; };
 		52E8751D1DB5071900169C24 /* FYHelperDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYHelperDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E875211DB5071900169C24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		52E875231DB5071900169C24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -90,8 +92,6 @@
 		52E876131DB5215C00169C24 /* UIColor+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Addition.m"; sourceTree = "<group>"; };
 		52E876141DB5215C00169C24 /* UIColor+Colours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Colours.h"; sourceTree = "<group>"; };
 		52E876151DB5215C00169C24 /* UIColor+Colours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Colours.m"; sourceTree = "<group>"; };
-		52E876161DB5215C00169C24 /* UIDevice+DeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+DeviceInfo.h"; sourceTree = "<group>"; };
-		52E876171DB5215C00169C24 /* UIDevice+DeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+DeviceInfo.m"; sourceTree = "<group>"; };
 		52E876181DB5215C00169C24 /* UIImage+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Addition.h"; sourceTree = "<group>"; };
 		52E876191DB5215C00169C24 /* UIImage+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Addition.m"; sourceTree = "<group>"; };
 		52E8761A1DB5215C00169C24 /* UILabel+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Addition.h"; sourceTree = "<group>"; };
@@ -110,9 +110,9 @@
 		52E876291DB5215C00169C24 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		52E8762A1DB5215C00169C24 /* UIView+Layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layer.h"; sourceTree = "<group>"; };
 		52E8762B1DB5215C00169C24 /* UIView+Layer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layer.m"; sourceTree = "<group>"; };
-		52E8762F1DB5215C00169C24 /* YITextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YITextField.h; sourceTree = "<group>"; };
-		52E876301DB5215C00169C24 /* YITextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YITextField.m; sourceTree = "<group>"; };
 		52E876461DB5217C00169C24 /* FYHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYHelper.h; sourceTree = "<group>"; };
+		5BF2C125ED97786DC3D9E4BD /* FYTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYTextField.h; sourceTree = "<group>"; };
+		5BF2C2895B43287AA359775A /* FYTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +140,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		521EF29E1DB67562005A65F8 /* FYUtil */ = {
+			isa = PBXGroup;
+			children = (
+				521EF29F1DB67562005A65F8 /* FYDeviceInfo.h */,
+				521EF2A01DB67562005A65F8 /* FYDeviceInfo.m */,
+			);
+			path = FYUtil;
+			sourceTree = "<group>";
+		};
 		52E875141DB5071900169C24 = {
 			isa = PBXGroup;
 			children = (
@@ -208,6 +217,7 @@
 		52E876031DB5215C00169C24 /* FYHelper */ = {
 			isa = PBXGroup;
 			children = (
+				521EF29E1DB67562005A65F8 /* FYUtil */,
 				52E876041DB5215C00169C24 /* FYCategory */,
 				52E8762E1DB5215C00169C24 /* FYSubclass */,
 				52E876461DB5217C00169C24 /* FYHelper.h */,
@@ -236,8 +246,6 @@
 				52E876131DB5215C00169C24 /* UIColor+Addition.m */,
 				52E876141DB5215C00169C24 /* UIColor+Colours.h */,
 				52E876151DB5215C00169C24 /* UIColor+Colours.m */,
-				52E876161DB5215C00169C24 /* UIDevice+DeviceInfo.h */,
-				52E876171DB5215C00169C24 /* UIDevice+DeviceInfo.m */,
 				52E876181DB5215C00169C24 /* UIImage+Addition.h */,
 				52E876191DB5215C00169C24 /* UIImage+Addition.m */,
 				52E8761A1DB5215C00169C24 /* UILabel+Addition.h */,
@@ -263,8 +271,8 @@
 		52E8762E1DB5215C00169C24 /* FYSubclass */ = {
 			isa = PBXGroup;
 			children = (
-				52E8762F1DB5215C00169C24 /* YITextField.h */,
-				52E876301DB5215C00169C24 /* YITextField.m */,
+				5BF2C125ED97786DC3D9E4BD /* FYTextField.h */,
+				5BF2C2895B43287AA359775A /* FYTextField.m */,
 			);
 			path = FYSubclass;
 			sourceTree = "<group>";
@@ -405,11 +413,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52E876391DB5215C00169C24 /* UIDevice+DeviceInfo.m in Sources */,
 				52E8752B1DB5071900169C24 /* SecondViewController.m in Sources */,
 				52E8763F1DB5215C00169C24 /* UITextField+LimitLength.m in Sources */,
 				52E876351DB5215C00169C24 /* NSString+Addition.m in Sources */,
-				52E876451DB5215C00169C24 /* YITextField.m in Sources */,
 				52E875251DB5071900169C24 /* AppDelegate.m in Sources */,
 				52E876331DB5215C00169C24 /* NSDate+Addition.m in Sources */,
 				52E8763A1DB5215C00169C24 /* UIImage+Addition.m in Sources */,
@@ -425,9 +431,11 @@
 				52E876411DB5215C00169C24 /* UIView+Animation.m in Sources */,
 				52E876371DB5215C00169C24 /* UIColor+Addition.m in Sources */,
 				52E876401DB5215C00169C24 /* UIView+Addition.m in Sources */,
+				521EF2A11DB67562005A65F8 /* FYDeviceInfo.m in Sources */,
 				52E876311DB5215C00169C24 /* NSArray+Addition.m in Sources */,
 				52E876361DB5215C00169C24 /* UIAlertView+Addition.m in Sources */,
 				52E8763C1DB5215C00169C24 /* UINavigationController+Addition.m in Sources */,
+				5BF2C90B09CD6E8834B7C957 /* FYTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

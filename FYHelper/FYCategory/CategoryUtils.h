@@ -13,7 +13,6 @@
 #import "UIColor+Colours.h"
 #import "UITextField+LimitLength.h"
 #import "NSData+Addition.h"
-#import "UIDevice+DeviceInfo.h"
 #import "NSFileManager+Addition.h"
 #import "NSDate+Addition.h"
 #import "NSString+Addition.h"
@@ -28,6 +27,4 @@
 #import "UINavigationItem+Addition.h"
 #import "UILabel+Addition.h"
 #import "UINavigationController+Addition.h"
-#import "UIWindow+Hierarchy.h"
-#import "UIScreen+Frame.h"
 

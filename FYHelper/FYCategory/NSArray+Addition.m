@@ -15,9 +15,7 @@
     NSError *error = nil;
     NSData *data = [NSJSONSerialization dataWithJSONObject:self options:NSJSONWritingPrettyPrinted error:&error];
     json = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
-
     return (error ? nil : json);
 }
-
 
 @end
