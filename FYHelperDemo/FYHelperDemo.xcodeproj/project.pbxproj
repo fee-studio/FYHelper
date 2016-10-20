@@ -31,9 +31,7 @@
 		521939841DB8F488009503A1 /* FYFileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5219395E1DB8F488009503A1 /* FYFileUtil.m */; };
 		521939851DB8F488009503A1 /* FYLocationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 521939601DB8F488009503A1 /* FYLocationUtil.m */; };
 		521939861DB8F488009503A1 /* FYOtherUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 521939621DB8F488009503A1 /* FYOtherUtil.m */; };
-		521939871DB8F488009503A1 /* FYDismissingAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 521939661DB8F488009503A1 /* FYDismissingAnimator.m */; };
 		521939881DB8F488009503A1 /* FYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 521939681DB8F488009503A1 /* FYNavigationController.m */; };
-		521939891DB8F488009503A1 /* FYPresentingAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5219396A1DB8F488009503A1 /* FYPresentingAnimator.m */; };
 		5219398A1DB8F488009503A1 /* FYVCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5219396C1DB8F488009503A1 /* FYVCManager.m */; };
 		5219398B1DB8F488009503A1 /* FYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5219396E1DB8F488009503A1 /* FYViewController.m */; };
 		52E875221DB5071900169C24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E875211DB5071900169C24 /* main.m */; };
@@ -115,12 +113,8 @@
 		521939601DB8F488009503A1 /* FYLocationUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYLocationUtil.m; sourceTree = "<group>"; };
 		521939611DB8F488009503A1 /* FYOtherUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYOtherUtil.h; sourceTree = "<group>"; };
 		521939621DB8F488009503A1 /* FYOtherUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYOtherUtil.m; sourceTree = "<group>"; };
-		521939651DB8F488009503A1 /* FYDismissingAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYDismissingAnimator.h; sourceTree = "<group>"; };
-		521939661DB8F488009503A1 /* FYDismissingAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYDismissingAnimator.m; sourceTree = "<group>"; };
 		521939671DB8F488009503A1 /* FYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYNavigationController.h; sourceTree = "<group>"; };
 		521939681DB8F488009503A1 /* FYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYNavigationController.m; sourceTree = "<group>"; };
-		521939691DB8F488009503A1 /* FYPresentingAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYPresentingAnimator.h; sourceTree = "<group>"; };
-		5219396A1DB8F488009503A1 /* FYPresentingAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYPresentingAnimator.m; sourceTree = "<group>"; };
 		5219396B1DB8F488009503A1 /* FYVCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYVCManager.h; sourceTree = "<group>"; };
 		5219396C1DB8F488009503A1 /* FYVCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYVCManager.m; sourceTree = "<group>"; };
 		5219396D1DB8F488009503A1 /* FYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYViewController.h; sourceTree = "<group>"; };
@@ -179,7 +173,6 @@
 				521939541DB8F488009503A1 /* FYMacroDefinition.m */,
 				521939551DB8F488009503A1 /* FYSubclass */,
 				521939581DB8F488009503A1 /* FYUtil */,
-				521939631DB8F488009503A1 /* FYView */,
 				521939641DB8F488009503A1 /* FYViewController */,
 			);
 			name = FYHelper;
@@ -254,22 +247,11 @@
 			path = FYUtil;
 			sourceTree = "<group>";
 		};
-		521939631DB8F488009503A1 /* FYView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = FYView;
-			sourceTree = "<group>";
-		};
 		521939641DB8F488009503A1 /* FYViewController */ = {
 			isa = PBXGroup;
 			children = (
-				521939651DB8F488009503A1 /* FYDismissingAnimator.h */,
-				521939661DB8F488009503A1 /* FYDismissingAnimator.m */,
 				521939671DB8F488009503A1 /* FYNavigationController.h */,
 				521939681DB8F488009503A1 /* FYNavigationController.m */,
-				521939691DB8F488009503A1 /* FYPresentingAnimator.h */,
-				5219396A1DB8F488009503A1 /* FYPresentingAnimator.m */,
 				5219396B1DB8F488009503A1 /* FYVCManager.h */,
 				5219396C1DB8F488009503A1 /* FYVCManager.m */,
 				5219396D1DB8F488009503A1 /* FYViewController.h */,
@@ -501,11 +483,9 @@
 				5219397B1DB8F488009503A1 /* UITextField+LimitLength.m in Sources */,
 				521939861DB8F488009503A1 /* FYOtherUtil.m in Sources */,
 				521939881DB8F488009503A1 /* FYNavigationController.m in Sources */,
-				521939891DB8F488009503A1 /* FYPresentingAnimator.m in Sources */,
 				521939831DB8F488009503A1 /* FYDeviceInfo.m in Sources */,
 				521939781DB8F488009503A1 /* UILabel+Addition.m in Sources */,
 				521939841DB8F488009503A1 /* FYFileUtil.m in Sources */,
-				521939871DB8F488009503A1 /* FYDismissingAnimator.m in Sources */,
 				5219397C1DB8F488009503A1 /* UIView+Addition.m in Sources */,
 				5219398A1DB8F488009503A1 /* FYVCManager.m in Sources */,
 				521939801DB8F488009503A1 /* FYMacroDefinition.m in Sources */,
