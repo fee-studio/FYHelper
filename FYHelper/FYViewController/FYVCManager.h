@@ -9,13 +9,12 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@class FYNavigationController;
 
-#define VC_MANAGER ([FYVCManager instance])
+#define mVcManager ([FYVCManager instance])
 
 @interface FYVCManager : NSObject
 
-@property(nonatomic, strong) FYNavigationController *baseNavigationController;
+@property(nonatomic, strong) UINavigationController *baseNavigationController;
 
 + (FYVCManager *)instance;
 
@@ -29,10 +28,9 @@
 
 #pragma mark - push
 
-- (void)pushTo:(NSString *)viewController;
+- (void)pushTo:(Class)classVc;
 
-- (void)pushTo:(NSString *)viewController
- withParameter:(NSDictionary *)parameter;
+- (void)pushTo:(Class)classVc withParameter:(NSDictionary *)parameter;
 
 #pragma mark - present
 

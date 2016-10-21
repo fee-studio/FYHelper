@@ -66,13 +66,13 @@
 
 #pragma mark - push
 
-- (void)pushTo:(NSString *)viewController; {
-    [self pushTo:viewController withParameter:nil];
+- (void)pushTo:(Class)classVc; {
+    [self pushTo:classVc withParameter:nil];
 }
 
-- (void)pushTo:(NSString *)viewController withParameter:(NSDictionary *)parameter; {
+- (void)pushTo:(Class)classVc withParameter:(NSDictionary *)parameter; {
     // 初始化
-    FYViewController *controller = (FYViewController *) [[NSClassFromString(viewController) alloc] init];
+    FYViewController *controller = (FYViewController *) [[classVc alloc] init];
     NSAssert(controller, @"错误: 目标页不存在!");
     // 传参
     controller.parameter = parameter;

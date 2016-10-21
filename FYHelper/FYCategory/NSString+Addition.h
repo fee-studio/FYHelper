@@ -14,7 +14,6 @@
 
 /**
  *  计算字符串的字数。
- *  @param  string:输入字符串。
  *  return  返回输入字符串的字数。
  */
 - (int)wordsCount;
@@ -60,5 +59,4 @@
 
 - (BOOL)isEmpty;
 
-- (BOOL)isOK;
 @end

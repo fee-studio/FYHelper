@@ -16,7 +16,7 @@
 @property(nonatomic, assign) BOOL keyboardIsShown;
 
 
-- (void)hideKeyboard:(id)sender;
+- (void)hideKeyboard;
 
 - (void)keyboardWillShow:(NSNotification *)n;
 

@@ -12,10 +12,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // 加载参数
-    [self dispatchParameter];
 
-    self.view.frame = mScreenBounds;
+    self.view.backgroundColor = [UIColor whiteColor];
+//	self.view.frame = mScreenBounds;
+
+    // 分派参数
+    [self dispatchParameter];
 
     if ([self respondsToSelector:@selector(edgesForExtendedLayout)]) {
         // skill 这句很关键.关于在UINavigationController下面布局UIViewController + UITableView
@@ -44,7 +46,7 @@
 #pragma mark -
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-    [self hideKeyboard:nil];
+    [self hideKeyboard];
 }
 
 #pragma mark - keyboard selector
@@ -52,7 +54,7 @@
 /**
  *  隐藏键盘
  */
-- (void)hideKeyboard:(id)sender {
+- (void)hideKeyboard {
     [self.view endEditing:YES];
 }
 

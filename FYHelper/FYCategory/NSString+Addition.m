@@ -195,12 +195,4 @@
     return [[self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] isEqualToString:@""];
 }
 
-- (BOOL)isOK {
-    if (self && ![[self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] isEqualToString:@""]) {
-        return YES;
-    } else {
-        return NO;
-    }
-}
-
 @end
