@@ -32,7 +32,6 @@
 		521939851DB8F488009503A1 /* FYLocationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 521939601DB8F488009503A1 /* FYLocationUtil.m */; };
 		521939861DB8F488009503A1 /* FYOtherUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 521939621DB8F488009503A1 /* FYOtherUtil.m */; };
 		521939881DB8F488009503A1 /* FYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 521939681DB8F488009503A1 /* FYNavigationController.m */; };
-		5219398A1DB8F488009503A1 /* FYVCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5219396C1DB8F488009503A1 /* FYVCManager.m */; };
 		5219398B1DB8F488009503A1 /* FYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5219396E1DB8F488009503A1 /* FYViewController.m */; };
 		52E875221DB5071900169C24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E875211DB5071900169C24 /* main.m */; };
 		52E875251DB5071900169C24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E875241DB5071900169C24 /* AppDelegate.m */; };
@@ -115,8 +114,6 @@
 		521939621DB8F488009503A1 /* FYOtherUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYOtherUtil.m; sourceTree = "<group>"; };
 		521939671DB8F488009503A1 /* FYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYNavigationController.h; sourceTree = "<group>"; };
 		521939681DB8F488009503A1 /* FYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYNavigationController.m; sourceTree = "<group>"; };
-		5219396B1DB8F488009503A1 /* FYVCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYVCManager.h; sourceTree = "<group>"; };
-		5219396C1DB8F488009503A1 /* FYVCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYVCManager.m; sourceTree = "<group>"; };
 		5219396D1DB8F488009503A1 /* FYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYViewController.h; sourceTree = "<group>"; };
 		5219396E1DB8F488009503A1 /* FYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYViewController.m; sourceTree = "<group>"; };
 		52E8751D1DB5071900169C24 /* FYHelperDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYHelperDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -252,8 +249,6 @@
 			children = (
 				521939671DB8F488009503A1 /* FYNavigationController.h */,
 				521939681DB8F488009503A1 /* FYNavigationController.m */,
-				5219396B1DB8F488009503A1 /* FYVCManager.h */,
-				5219396C1DB8F488009503A1 /* FYVCManager.m */,
 				5219396D1DB8F488009503A1 /* FYViewController.h */,
 				5219396E1DB8F488009503A1 /* FYViewController.m */,
 			);
@@ -487,7 +482,6 @@
 				521939781DB8F488009503A1 /* UILabel+Addition.m in Sources */,
 				521939841DB8F488009503A1 /* FYFileUtil.m in Sources */,
 				5219397C1DB8F488009503A1 /* UIView+Addition.m in Sources */,
-				5219398A1DB8F488009503A1 /* FYVCManager.m in Sources */,
 				521939801DB8F488009503A1 /* FYMacroDefinition.m in Sources */,
 				521939751DB8F488009503A1 /* UIColor+Addition.m in Sources */,
 				5219396F1DB8F488009503A1 /* NSArray+Addition.m in Sources */,
