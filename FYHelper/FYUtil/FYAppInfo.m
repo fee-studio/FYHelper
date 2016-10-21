@@ -59,7 +59,7 @@
 
 + (NSString *)channelName {
     NSString *chName = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"Channel"];
-    if (chName.isOK) {
+    if (chName.isReality) {
         return chName;
     } else {
         return @"AppStore";
