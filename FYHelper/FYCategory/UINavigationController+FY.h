@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UINavigationController (Addition)
+@interface UINavigationController (FY)
 
 - (void)fy_pushTo:(Class)classVc;
 

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSArray (Addition)
+@interface NSArray (FY)
 
 /**
  * 数组转为JSON字符串

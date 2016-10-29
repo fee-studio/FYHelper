@@ -5,10 +5,10 @@
 //  Created by efeng on 14/10/30.
 //  Copyright (c) 2014年 weiboyi. All rights reserved.
 //
-#import "UINavigationController+Addition.h"
+#import "UINavigationController+FY.h"
 #import "FYViewController.h"
 
-@implementation UINavigationController (Addition)
+@implementation UINavigationController (FY)
 
 - (void)fy_pushTo:(Class)classVc {
     [self fy_pushTo:classVc animated:YES];

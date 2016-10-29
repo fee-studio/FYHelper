@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5219396F1DB8F488009503A1 /* NSArray+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 521939311DB8F488009503A1 /* NSArray+Addition.m */; };
+		5219396F1DB8F488009503A1 /* NSArray+FY.m in Sources */ = {isa = PBXBuildFile; fileRef = 521939311DB8F488009503A1 /* NSArray+FY.m */; };
 		521939701DB8F488009503A1 /* NSData+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 521939331DB8F488009503A1 /* NSData+Addition.m */; };
 		521939711DB8F488009503A1 /* NSDate+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 521939351DB8F488009503A1 /* NSDate+Addition.m */; };
 		521939721DB8F488009503A1 /* NSFileManager+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 521939371DB8F488009503A1 /* NSFileManager+Addition.m */; };
 		521939731DB8F488009503A1 /* NSString+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 521939391DB8F488009503A1 /* NSString+Addition.m */; };
 		521939741DB8F488009503A1 /* UIAlertView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5219393B1DB8F488009503A1 /* UIAlertView+Addition.m */; };
-		521939751DB8F488009503A1 /* UIColor+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5219393D1DB8F488009503A1 /* UIColor+Addition.m */; };
+		521939751DB8F488009503A1 /* UIColor+FY.m in Sources */ = {isa = PBXBuildFile; fileRef = 5219393D1DB8F488009503A1 /* UIColor+FY.m */; };
 		521939771DB8F488009503A1 /* UIImage+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 521939411DB8F488009503A1 /* UIImage+Addition.m */; };
 		521939781DB8F488009503A1 /* UILabel+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 521939431DB8F488009503A1 /* UILabel+Addition.m */; };
-		521939791DB8F488009503A1 /* UINavigationController+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 521939451DB8F488009503A1 /* UINavigationController+Addition.m */; };
+		521939791DB8F488009503A1 /* UINavigationController+FY.m in Sources */ = {isa = PBXBuildFile; fileRef = 521939451DB8F488009503A1 /* UINavigationController+FY.m */; };
 		5219397A1DB8F488009503A1 /* UINavigationItem+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 521939471DB8F488009503A1 /* UINavigationItem+Addition.m */; };
 		5219397B1DB8F488009503A1 /* UITextField+LimitLength.m in Sources */ = {isa = PBXBuildFile; fileRef = 521939491DB8F488009503A1 /* UITextField+LimitLength.m */; };
 		5219397C1DB8F488009503A1 /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5219394B1DB8F488009503A1 /* UIView+Addition.m */; };
@@ -40,7 +40,7 @@
 		52E875331DB5071900169C24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E875311DB5071900169C24 /* LaunchScreen.storyboard */; };
 		52E8753E1DB5071900169C24 /* FYHelperDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E8753D1DB5071900169C24 /* FYHelperDemoTests.m */; };
 		52E875491DB5071900169C24 /* FYHelperDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E875481DB5071900169C24 /* FYHelperDemoUITests.m */; };
-		5BF2C56AC11D0612E907FEB3 /* NSDictionary+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C442AD29670C0123DE93 /* NSDictionary+Addition.m */; };
+		5BF2C56AC11D0612E907FEB3 /* NSDictionary+FY.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C442AD29670C0123DE93 /* NSDictionary+FY.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,9 +61,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5219392F1DB8F488009503A1 /* CategoryUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryUtils.h; sourceTree = "<group>"; };
-		521939301DB8F488009503A1 /* NSArray+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Addition.h"; sourceTree = "<group>"; };
-		521939311DB8F488009503A1 /* NSArray+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Addition.m"; sourceTree = "<group>"; };
+		5219392F1DB8F488009503A1 /* FYCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYCategory.h; sourceTree = "<group>"; };
+		521939301DB8F488009503A1 /* NSArray+FY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+FY.h"; sourceTree = "<group>"; };
+		521939311DB8F488009503A1 /* NSArray+FY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+FY.m"; sourceTree = "<group>"; };
 		521939321DB8F488009503A1 /* NSData+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Addition.h"; sourceTree = "<group>"; };
 		521939331DB8F488009503A1 /* NSData+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Addition.m"; sourceTree = "<group>"; };
 		521939341DB8F488009503A1 /* NSDate+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Addition.h"; sourceTree = "<group>"; };
@@ -74,14 +74,14 @@
 		521939391DB8F488009503A1 /* NSString+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Addition.m"; sourceTree = "<group>"; };
 		5219393A1DB8F488009503A1 /* UIAlertView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Addition.h"; sourceTree = "<group>"; };
 		5219393B1DB8F488009503A1 /* UIAlertView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Addition.m"; sourceTree = "<group>"; };
-		5219393C1DB8F488009503A1 /* UIColor+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Addition.h"; sourceTree = "<group>"; };
-		5219393D1DB8F488009503A1 /* UIColor+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Addition.m"; sourceTree = "<group>"; };
+		5219393C1DB8F488009503A1 /* UIColor+FY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FY.h"; sourceTree = "<group>"; };
+		5219393D1DB8F488009503A1 /* UIColor+FY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FY.m"; sourceTree = "<group>"; };
 		521939401DB8F488009503A1 /* UIImage+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Addition.h"; sourceTree = "<group>"; };
 		521939411DB8F488009503A1 /* UIImage+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Addition.m"; sourceTree = "<group>"; };
 		521939421DB8F488009503A1 /* UILabel+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Addition.h"; sourceTree = "<group>"; };
 		521939431DB8F488009503A1 /* UILabel+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Addition.m"; sourceTree = "<group>"; };
-		521939441DB8F488009503A1 /* UINavigationController+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Addition.h"; sourceTree = "<group>"; };
-		521939451DB8F488009503A1 /* UINavigationController+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Addition.m"; sourceTree = "<group>"; };
+		521939441DB8F488009503A1 /* UINavigationController+FY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FY.h"; sourceTree = "<group>"; };
+		521939451DB8F488009503A1 /* UINavigationController+FY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FY.m"; sourceTree = "<group>"; };
 		521939461DB8F488009503A1 /* UINavigationItem+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+Addition.h"; sourceTree = "<group>"; };
 		521939471DB8F488009503A1 /* UINavigationItem+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+Addition.m"; sourceTree = "<group>"; };
 		521939481DB8F488009503A1 /* UITextField+LimitLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+LimitLength.h"; sourceTree = "<group>"; };
@@ -129,8 +129,8 @@
 		52E875441DB5071900169C24 /* FYHelperDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYHelperDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E875481DB5071900169C24 /* FYHelperDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYHelperDemoUITests.m; sourceTree = "<group>"; };
 		52E8754A1DB5071900169C24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5BF2C442AD29670C0123DE93 /* NSDictionary+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Addition.m"; sourceTree = "<group>"; };
-		5BF2CCD38795486EFAD074D6 /* NSDictionary+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Addition.h"; sourceTree = "<group>"; };
+		5BF2C442AD29670C0123DE93 /* NSDictionary+FY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+FY.m"; sourceTree = "<group>"; };
+		5BF2CCD38795486EFAD074D6 /* NSDictionary+FY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+FY.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,9 +176,9 @@
 		5219392E1DB8F488009503A1 /* FYCategory */ = {
 			isa = PBXGroup;
 			children = (
-				5219392F1DB8F488009503A1 /* CategoryUtils.h */,
-				521939301DB8F488009503A1 /* NSArray+Addition.h */,
-				521939311DB8F488009503A1 /* NSArray+Addition.m */,
+				5219392F1DB8F488009503A1 /* FYCategory.h */,
+				521939301DB8F488009503A1 /* NSArray+FY.h */,
+				521939311DB8F488009503A1 /* NSArray+FY.m */,
 				521939321DB8F488009503A1 /* NSData+Addition.h */,
 				521939331DB8F488009503A1 /* NSData+Addition.m */,
 				521939341DB8F488009503A1 /* NSDate+Addition.h */,
@@ -189,14 +189,14 @@
 				521939391DB8F488009503A1 /* NSString+Addition.m */,
 				5219393A1DB8F488009503A1 /* UIAlertView+Addition.h */,
 				5219393B1DB8F488009503A1 /* UIAlertView+Addition.m */,
-				5219393C1DB8F488009503A1 /* UIColor+Addition.h */,
-				5219393D1DB8F488009503A1 /* UIColor+Addition.m */,
+				5219393C1DB8F488009503A1 /* UIColor+FY.h */,
+				5219393D1DB8F488009503A1 /* UIColor+FY.m */,
 				521939401DB8F488009503A1 /* UIImage+Addition.h */,
 				521939411DB8F488009503A1 /* UIImage+Addition.m */,
 				521939421DB8F488009503A1 /* UILabel+Addition.h */,
 				521939431DB8F488009503A1 /* UILabel+Addition.m */,
-				521939441DB8F488009503A1 /* UINavigationController+Addition.h */,
-				521939451DB8F488009503A1 /* UINavigationController+Addition.m */,
+				521939441DB8F488009503A1 /* UINavigationController+FY.h */,
+				521939451DB8F488009503A1 /* UINavigationController+FY.m */,
 				521939461DB8F488009503A1 /* UINavigationItem+Addition.h */,
 				521939471DB8F488009503A1 /* UINavigationItem+Addition.m */,
 				521939481DB8F488009503A1 /* UITextField+LimitLength.h */,
@@ -207,8 +207,8 @@
 				5219394D1DB8F488009503A1 /* UIView+Animation.m */,
 				521939501DB8F488009503A1 /* UIView+Layer.h */,
 				521939511DB8F488009503A1 /* UIView+Layer.m */,
-				5BF2C442AD29670C0123DE93 /* NSDictionary+Addition.m */,
-				5BF2CCD38795486EFAD074D6 /* NSDictionary+Addition.h */,
+				5BF2C442AD29670C0123DE93 /* NSDictionary+FY.m */,
+				5BF2CCD38795486EFAD074D6 /* NSDictionary+FY.h */,
 			);
 			path = FYCategory;
 			sourceTree = "<group>";
@@ -463,7 +463,7 @@
 				521939851DB8F488009503A1 /* FYLocationUtil.m in Sources */,
 				521939701DB8F488009503A1 /* NSData+Addition.m in Sources */,
 				521939821DB8F488009503A1 /* FYAppInfo.m in Sources */,
-				521939791DB8F488009503A1 /* UINavigationController+Addition.m in Sources */,
+				521939791DB8F488009503A1 /* UINavigationController+FY.m in Sources */,
 				5219397A1DB8F488009503A1 /* UINavigationItem+Addition.m in Sources */,
 				521939811DB8F488009503A1 /* FYTextField.m in Sources */,
 				5219397F1DB8F488009503A1 /* UIView+Layer.m in Sources */,
@@ -476,10 +476,10 @@
 				521939841DB8F488009503A1 /* FYFileUtil.m in Sources */,
 				5219397C1DB8F488009503A1 /* UIView+Addition.m in Sources */,
 				521939801DB8F488009503A1 /* FYMacroDefinition.m in Sources */,
-				521939751DB8F488009503A1 /* UIColor+Addition.m in Sources */,
-				5219396F1DB8F488009503A1 /* NSArray+Addition.m in Sources */,
+				521939751DB8F488009503A1 /* UIColor+FY.m in Sources */,
+				5219396F1DB8F488009503A1 /* NSArray+FY.m in Sources */,
 				521939741DB8F488009503A1 /* UIAlertView+Addition.m in Sources */,
-				5BF2C56AC11D0612E907FEB3 /* NSDictionary+Addition.m in Sources */,
+				5BF2C56AC11D0612E907FEB3 /* NSDictionary+FY.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

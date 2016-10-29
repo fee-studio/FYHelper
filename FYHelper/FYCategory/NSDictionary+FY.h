@@ -5,7 +5,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSDictionary (Addition)
+@interface NSDictionary (FY)
 
 /**
  * 字典转为JSON字符串

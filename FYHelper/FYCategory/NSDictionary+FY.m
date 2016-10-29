@@ -3,10 +3,10 @@
 // Copyright (c) 2016 buerguo. All rights reserved.
 //
 
-#import "NSDictionary+Addition.h"
+#import "NSDictionary+FY.h"
 
 
-@implementation NSDictionary (Addition)
+@implementation NSDictionary (FY)
 
 - (NSString *)fy_jsonString {
     NSError *error = nil;

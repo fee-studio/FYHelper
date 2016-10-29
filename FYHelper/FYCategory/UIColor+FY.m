@@ -1,6 +1,6 @@
-#import "UIColor+Addition.h"
+#import "UIColor+FY.h"
 
-@implementation UIColor (Addition)
+@implementation UIColor (FY)
 
 + (UIColor *)fy_randomColor {
 

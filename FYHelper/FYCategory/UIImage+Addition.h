@@ -12,7 +12,7 @@
 
 /**
  *  抓取屏幕。
- *  @param  scale:屏幕放大倍数，1为原尺寸。
+ *  @param  scale 屏幕放大倍数，1为原尺寸。
  *  return  屏幕后的Image。
  */
 + (UIImage *)grabScreenWithScale:(CGFloat)scale;

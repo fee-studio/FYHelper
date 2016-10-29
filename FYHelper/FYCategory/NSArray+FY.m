@@ -6,9 +6,9 @@
 //  Copyright (c) 2014年 weiboyi. All rights reserved.
 //
 
-#import "NSArray+Addition.h"
+#import "NSArray+FY.h"
 
-@implementation NSArray (Addition)
+@implementation NSArray (FY)
 
 - (NSString *)fy_jsonString {
     NSError *error = nil;

@@ -11,7 +11,7 @@
 
 
 #import "FYDeviceInfo.h"
-#import "CategoryUtils.h"
+#import "FYCategory.h"
 #import "FYTextField.h"
 #import "FYViewController.h"
 #import "FYNavigationController.h"
