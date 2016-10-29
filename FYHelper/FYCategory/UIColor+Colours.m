@@ -27,7 +27,7 @@
 #pragma mark - Static Block
 
 static CGFloat (^RAD)(CGFloat) = ^CGFloat(CGFloat degree) {
-    return degree * M_PI / 180;
+    return (CGFloat) (degree * M_PI / 180);
 };
 
 

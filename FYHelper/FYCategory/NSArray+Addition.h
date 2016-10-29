@@ -10,6 +10,11 @@
 
 @interface NSArray (Addition)
 
-- (NSString *)json;
+/**
+ * 数组转为JSON字符串
+ * @return JSON字符串
+ */
+- (NSString *)fy_jsonString;
 
 @end
+

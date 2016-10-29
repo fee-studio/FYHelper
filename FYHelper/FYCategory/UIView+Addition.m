@@ -18,7 +18,6 @@
     return nil;
 }
 
-
 + (UIView *)loadNibView:(NSString *)viewName {
     return [[NSBundle mainBundle] loadNibNamed:viewName owner:self options:nil][0];
 }
@@ -34,7 +33,6 @@
     return nil;
 }
 
-
 - (UIImage *)toImage {
     UIImage *snapshotImage;
     if ([UIDevice currentDevice].systemVersion.floatValue < 7.0) {
@@ -42,16 +40,13 @@
         [self.layer renderInContext:UIGraphicsGetCurrentContext()];
         snapshotImage = UIGraphicsGetImageFromCurrentImageContext();
         UIGraphicsEndImageContext();
-
     } else {
         UIGraphicsBeginImageContextWithOptions(self.bounds.size, NO, self.window.screen.scale);
         [self drawViewHierarchyInRect:self.frame afterScreenUpdates:YES];
         snapshotImage = UIGraphicsGetImageFromCurrentImageContext();
         UIGraphicsEndImageContext();
-
     }
     return snapshotImage;
 }
-
 
 @end

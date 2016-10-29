@@ -1,14 +1,12 @@
 //
-//  NSArray+Addition.m
-//  Dobby
-//
-//  Created by efeng on 14/12/9.
-//  Copyright (c) 2014年 weiboyi. All rights reserved.
+// Created by efeng on 2016/10/29.
+// Copyright (c) 2016 buerguo. All rights reserved.
 //
 
-#import "NSArray+Addition.h"
+#import "NSDictionary+Addition.h"
 
-@implementation NSArray (Addition)
+
+@implementation NSDictionary (Addition)
 
 - (NSString *)fy_jsonString {
     NSError *error = nil;

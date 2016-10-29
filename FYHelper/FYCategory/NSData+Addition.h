@@ -10,7 +10,7 @@
 
 @interface NSData (Addition)
 
-- (NSData *)dataWithObject:(id)object;
++ (NSData *)dataWithObject:(id)object;
 
 - (id)convertDataToObject;
 

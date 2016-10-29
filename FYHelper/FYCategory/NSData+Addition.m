@@ -11,14 +11,14 @@
 
 @implementation NSData (Addition)
 
-- (NSData *)dataWithObject:(id)object {
++ (NSData *)dataWithObject:(id)object {
     NSData *data = [NSKeyedArchiver archivedDataWithRootObject:object];
     return data;
 }
 
 - (id)convertDataToObject {
-    NSArray *array = [NSKeyedUnarchiver unarchiveObjectWithData:self];
-    return array;
+    id object = [NSKeyedUnarchiver unarchiveObjectWithData:self];
+    return object;
 }
 
 /**
