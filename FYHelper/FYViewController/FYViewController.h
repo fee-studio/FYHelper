@@ -8,7 +8,7 @@
 @interface FYViewController : UIViewController
 
 // 基参数
-@property(nonatomic, strong) NSDictionary *parameter;
+@property(nonatomic, strong) NSDictionary *fyParameter;
 
 // 分派参数
 - (void)dispatchParameter;

@@ -22,7 +22,6 @@
 		5219397B1DB8F488009503A1 /* UITextField+LimitLength.m in Sources */ = {isa = PBXBuildFile; fileRef = 521939491DB8F488009503A1 /* UITextField+LimitLength.m */; };
 		5219397C1DB8F488009503A1 /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5219394B1DB8F488009503A1 /* UIView+Addition.m */; };
 		5219397D1DB8F488009503A1 /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5219394D1DB8F488009503A1 /* UIView+Animation.m */; };
-		5219397E1DB8F488009503A1 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5219394F1DB8F488009503A1 /* UIView+Frame.m */; };
 		5219397F1DB8F488009503A1 /* UIView+Layer.m in Sources */ = {isa = PBXBuildFile; fileRef = 521939511DB8F488009503A1 /* UIView+Layer.m */; };
 		521939801DB8F488009503A1 /* FYMacroDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 521939541DB8F488009503A1 /* FYMacroDefinition.m */; };
 		521939811DB8F488009503A1 /* FYTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 521939571DB8F488009503A1 /* FYTextField.m */; };
@@ -93,8 +92,6 @@
 		5219394B1DB8F488009503A1 /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
 		5219394C1DB8F488009503A1 /* UIView+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Animation.h"; sourceTree = "<group>"; };
 		5219394D1DB8F488009503A1 /* UIView+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animation.m"; sourceTree = "<group>"; };
-		5219394E1DB8F488009503A1 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
-		5219394F1DB8F488009503A1 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		521939501DB8F488009503A1 /* UIView+Layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layer.h"; sourceTree = "<group>"; };
 		521939511DB8F488009503A1 /* UIView+Layer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layer.m"; sourceTree = "<group>"; };
 		521939521DB8F488009503A1 /* FYHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYHelper.h; sourceTree = "<group>"; };
@@ -210,8 +207,6 @@
 				5219394B1DB8F488009503A1 /* UIView+Addition.m */,
 				5219394C1DB8F488009503A1 /* UIView+Animation.h */,
 				5219394D1DB8F488009503A1 /* UIView+Animation.m */,
-				5219394E1DB8F488009503A1 /* UIView+Frame.h */,
-				5219394F1DB8F488009503A1 /* UIView+Frame.m */,
 				521939501DB8F488009503A1 /* UIView+Layer.h */,
 				521939511DB8F488009503A1 /* UIView+Layer.m */,
 			);
@@ -465,7 +460,6 @@
 				52E875281DB5071900169C24 /* FirstViewController.m in Sources */,
 				5219397D1DB8F488009503A1 /* UIView+Animation.m in Sources */,
 				52E875221DB5071900169C24 /* main.m in Sources */,
-				5219397E1DB8F488009503A1 /* UIView+Frame.m in Sources */,
 				521939851DB8F488009503A1 /* FYLocationUtil.m in Sources */,
 				521939701DB8F488009503A1 /* NSData+Addition.m in Sources */,
 				521939821DB8F488009503A1 /* FYAppInfo.m in Sources */,

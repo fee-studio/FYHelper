@@ -19,11 +19,6 @@
     // 分派参数
     [self dispatchParameter];
 
-    if ([self respondsToSelector:@selector(edgesForExtendedLayout)]) {
-        // skill 这句很关键.关于在UINavigationController下面布局UIViewController + UITableView
-        self.edgesForExtendedLayout = UIRectEdgeNone;
-    }
-
     // register for keyboard notifications
     [mNotificationCenter addObserver:self
                             selector:@selector(keyboardWillShow:)

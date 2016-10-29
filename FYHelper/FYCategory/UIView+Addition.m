@@ -6,7 +6,6 @@
 //  Copyright (c) 2013年 makeLaugh. All rights reserved.
 //
 #import "UIView+Addition.h"
-#import "UIView+Frame.h"
 
 @implementation UIView (Addition)
 
@@ -52,43 +51,6 @@
 
     }
     return snapshotImage;
-}
-
-- (void)borderAndCornerStyle {
-    self.layer.borderColor = [[UIColor lightGrayColor] CGColor];
-    self.layer.cornerRadius = 5.f;
-    self.layer.borderWidth = .5f;
-    self.layer.masksToBounds = YES;
-}
-
-- (void)cornerStyle {
-    self.layer.cornerRadius = 4.f;
-    self.layer.masksToBounds = YES;
-}
-
-- (void)borderStyle {
-    self.layer.borderColor = [[UIColor lightGrayColor] CGColor];
-    self.layer.borderWidth = .5f;
-    self.layer.masksToBounds = YES;
-}
-
-- (void)borderStyle:(CGFloat)borderWidth {
-    self.layer.borderColor = [[UIColor lightGrayColor] CGColor];
-    self.layer.borderWidth = borderWidth;
-    self.layer.masksToBounds = YES;
-}
-
-- (void)circleStyle {
-    self.clipsToBounds = YES;
-    self.layer.cornerRadius = self.width / 2.f;
-    self.layer.masksToBounds = YES;
-}
-
-- (void)flashlightSwitchStyle {
-    self.layer.borderColor = [[UIColor lightGrayColor] CGColor];
-    self.layer.borderWidth = 5.f;
-    self.layer.cornerRadius = self.width / 2.f;
-    self.layer.masksToBounds = YES;
 }
 
 

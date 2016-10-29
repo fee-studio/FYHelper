@@ -19,15 +19,5 @@
 
 - (UIImage *)toImage;
 
-- (void)borderAndCornerStyle;
-
-- (void)cornerStyle;
-
-- (void)borderStyle;
-- (void)borderStyle:(CGFloat)borderWidth;
-
-- (void)flashlightSwitchStyle;
-
-- (void)circleStyle;
 
 @end
