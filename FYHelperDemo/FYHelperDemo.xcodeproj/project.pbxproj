@@ -41,6 +41,7 @@
 		52E8753E1DB5071900169C24 /* FYHelperDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E8753D1DB5071900169C24 /* FYHelperDemoTests.m */; };
 		52E875491DB5071900169C24 /* FYHelperDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E875481DB5071900169C24 /* FYHelperDemoUITests.m */; };
 		5BF2C56AC11D0612E907FEB3 /* NSDictionary+FY.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C442AD29670C0123DE93 /* NSDictionary+FY.m */; };
+		5BF2CCD66C371F5D5506F320 /* FYErrorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C15CDFA56F0F9FFCCBA6 /* FYErrorUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,8 +130,10 @@
 		52E875441DB5071900169C24 /* FYHelperDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYHelperDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E875481DB5071900169C24 /* FYHelperDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYHelperDemoUITests.m; sourceTree = "<group>"; };
 		52E8754A1DB5071900169C24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BF2C15CDFA56F0F9FFCCBA6 /* FYErrorUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYErrorUtil.m; sourceTree = "<group>"; };
 		5BF2C442AD29670C0123DE93 /* NSDictionary+FY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+FY.m"; sourceTree = "<group>"; };
 		5BF2CCD38795486EFAD074D6 /* NSDictionary+FY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+FY.h"; sourceTree = "<group>"; };
+		5BF2CE9CC852342415105569 /* FYErrorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYErrorUtil.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +238,8 @@
 				521939601DB8F488009503A1 /* FYLocationUtil.m */,
 				521939611DB8F488009503A1 /* FYOtherUtil.h */,
 				521939621DB8F488009503A1 /* FYOtherUtil.m */,
+				5BF2C15CDFA56F0F9FFCCBA6 /* FYErrorUtil.m */,
+				5BF2CE9CC852342415105569 /* FYErrorUtil.h */,
 			);
 			path = FYUtil;
 			sourceTree = "<group>";
@@ -480,6 +485,7 @@
 				5219396F1DB8F488009503A1 /* NSArray+FY.m in Sources */,
 				521939741DB8F488009503A1 /* UIAlertView+Addition.m in Sources */,
 				5BF2C56AC11D0612E907FEB3 /* NSDictionary+FY.m in Sources */,
+				5BF2CCD66C371F5D5506F320 /* FYErrorUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
