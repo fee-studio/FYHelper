@@ -18,13 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
-    [[FYErrorUtil instance] fy_registerToHandle:^(NSInteger code, NSDictionary *userInfo, NSString *message, NSError *error) {
-        NSLog(@"code = %d", code);
-        NSLog(@"message = %@", message);
-        NSLog(@"userInfo = %@", userInfo);
+    [[FYErrorUtil instance] fy_registerToHandle:^(NSError *error, NSString *fy_message) {
+        NSLog(@"message = %@", fy_message);
         NSLog(@"error = %@", error);
         NSLog(@"error.userinfo = %@", error.userInfo);
-
     }];
 
     [NSError errorWithDomain:@"com.buerguo.fy" code:101 userInfo:@{@"fy_key": @"fy_value"}];
