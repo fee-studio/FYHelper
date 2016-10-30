@@ -64,10 +64,8 @@
 
 - (void)handleError:(NSNotification *)notification {
     NSError *error = [notification object]; //获取到传递的对象
-    NSInteger code = error.code;
     NSString *message = [error userInfo][NSLocalizedDescriptionKey];
-    NSDictionary *userInfo = [error userInfo];
-
-    self.handleErrorBlock(code, userInfo, message, error);
+    // block
+    self.handleErrorBlock(error, message);
 }
 @end

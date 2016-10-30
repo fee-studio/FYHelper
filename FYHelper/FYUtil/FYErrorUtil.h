@@ -22,10 +22,7 @@
 
 #pragma mark -
 
-typedef void (^FYErrorHandleBlock)(NSInteger code,
-        NSDictionary *userInfo,
-        NSString *message,
-        NSError *error);
+typedef void (^FYErrorHandleBlock)(NSError *error, NSString *fy_message);
 
 @interface FYErrorUtil : NSObject
 
