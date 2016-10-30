@@ -12,27 +12,27 @@
 
 
 + (NSString *)fy_systemName {
-	return [[UIDevice currentDevice] systemName];
+    return [[UIDevice currentDevice] systemName];
 }
 
 + (NSString *)fy_systemVersion {
-	return [[UIDevice currentDevice] systemVersion];
+    return [[UIDevice currentDevice] systemVersion];
 }
 
 + (BOOL)fy_isiPad {
-	return [UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad;
+    return [UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad;
 }
 
 + (BOOL)fy_isiPhone {
-	return [UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPhone;
+    return [UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPhone;
 }
 
 + (NSString *)fy_deviceModel {
-	return [[UIDevice currentDevice] model];
+    return [[UIDevice currentDevice] model];
 }
 
 + (NSString *)fy_vendorUUID {
-	return [[[UIDevice currentDevice] identifierForVendor] UUIDString];
+    return [[[UIDevice currentDevice] identifierForVendor] UUIDString];
 }
 
 @end

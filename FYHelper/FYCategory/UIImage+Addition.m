@@ -150,8 +150,7 @@ CGFloat RadiansToDegrees(CGFloat radians) {
 
         if (widthFactor > heightFactor) {
             thumbnailPoint.y = (targetHeight - scaledHeight) * 0.5;
-        }
-        else if (widthFactor < heightFactor) {
+        } else if (widthFactor < heightFactor) {
             thumbnailPoint.x = (targetWidth - scaledWidth) * 0.5;
         }
     }

@@ -53,7 +53,8 @@ static CGFloat (^RAD)(CGFloat) = ^CGFloat(CGFloat degree) {
     NSScanner *scanner = [NSScanner scannerWithString:hexString];
     [scanner scanHexInt:&rgbValue];
 
-    return [[self class] colorWithR:((rgbValue & 0xFF0000) >> 16) G:((rgbValue & 0xFF00) >> 8) B:(rgbValue & 0xFF) A:1.0];
+    return [[self class] colorWithR:((rgbValue & 0xFF0000) >> 16) G:((rgbValue & 0xFF00)
+            >> 8)                 B:(rgbValue & 0xFF) A:1.0];
 }
 
 
@@ -103,8 +104,7 @@ static CGFloat (^RAD)(CGFloat) = ^CGFloat(CGFloat degree) {
 
     if ([self respondsToSelector:@selector(getRed:green:blue:alpha:)]) {
         [self getRed:&r green:&g blue:&b alpha:&a];
-    }
-    else {
+    } else {
         const CGFloat *components = CGColorGetComponents(self.CGColor);
         r = components[0];
         g = components[1];
@@ -122,8 +122,7 @@ static CGFloat (^RAD)(CGFloat) = ^CGFloat(CGFloat degree) {
     CGFloat r = 0, g = 0, b = 0, a = 0;
     if ([self respondsToSelector:@selector(getRed:green:blue:alpha:)]) {
         [self getRed:&r green:&g blue:&b alpha:&a];
-    }
-    else {
+    } else {
         const CGFloat *components = CGColorGetComponents(self.CGColor);
         r = components[0];
         g = components[1];
@@ -131,10 +130,10 @@ static CGFloat (^RAD)(CGFloat) = ^CGFloat(CGFloat degree) {
         a = components[3];
     }
 
-    return @{kColoursRGBA_R : @(r),
-            kColoursRGBA_G : @(g),
-            kColoursRGBA_B : @(b),
-            kColoursRGBA_A : @(a)};
+    return @{kColoursRGBA_R: @(r),
+            kColoursRGBA_G: @(g),
+            kColoursRGBA_B: @(b),
+            kColoursRGBA_A: @(a)};
 }
 
 
@@ -161,10 +160,10 @@ static CGFloat (^RAD)(CGFloat) = ^CGFloat(CGFloat degree) {
         [self getHue:&h saturation:&s brightness:&b alpha:&a];
     }
 
-    return @{kColoursHSBA_H : @(h),
-            kColoursHSBA_S : @(s),
-            kColoursHSBA_B : @(b),
-            kColoursHSBA_A : @(a)};
+    return @{kColoursHSBA_H: @(h),
+            kColoursHSBA_S: @(s),
+            kColoursHSBA_B: @(b),
+            kColoursHSBA_A: @(a)};
 }
 
 
@@ -239,10 +238,10 @@ static CGFloat (^RAD)(CGFloat) = ^CGFloat(CGFloat degree) {
 
 - (NSDictionary *)CIE_LabDictionary {
     NSArray *colors = [self CIE_LabArray];
-    return @{kColoursCIE_L : colors[0],
-            kColoursCIE_A : colors[1],
-            kColoursCIE_B : colors[2],
-            kColoursCIE_alpha : colors[3],};
+    return @{kColoursCIE_L: colors[0],
+            kColoursCIE_A: colors[1],
+            kColoursCIE_B: colors[2],
+            kColoursCIE_alpha: colors[3],};
 }
 
 
@@ -322,8 +321,7 @@ static CGFloat (^RAD)(CGFloat) = ^CGFloat(CGFloat degree) {
         C = 0;
         M = 0;
         Y = 0;
-    }
-    else {
+    } else {
         void (^newCMYK)(CGFloat *);
         newCMYK = ^(CGFloat *x) {
             *x = (*x - K) / (1 - K);
@@ -341,10 +339,10 @@ static CGFloat (^RAD)(CGFloat) = ^CGFloat(CGFloat degree) {
 
 - (NSDictionary *)cmykDictionary {
     NSArray *colors = [self cmykArray];
-    return @{kColoursCMYK_C : colors[0],
-            kColoursCMYK_M : colors[1],
-            kColoursCMYK_Y : colors[2],
-            kColoursCMYK_K : colors[3]};
+    return @{kColoursCMYK_C: colors[0],
+            kColoursCMYK_M: colors[1],
+            kColoursCMYK_Y: colors[2],
+            kColoursCMYK_K: colors[3]};
 }
 
 #pragma mark - CMYK to Color
@@ -647,8 +645,7 @@ static CGFloat (^RAD)(CGFloat) = ^CGFloat(CGFloat degree) {
     CGFloat deltahPrime = 0;
     if (fabsf(hPrime1 - hPrime2) <= RAD(180.0)) {
         deltahPrime = hPrime2 - hPrime1;
-    }
-    else {
+    } else {
         deltahPrime = (hPrime2 <= hPrime1) ? hPrime2 - hPrime1 + RAD(360.0) : hPrime2 - hPrime1 - RAD(360.0);
     }
     CGFloat deltaHPrime = 2 * sqrt(cPrime1 * cPrime2) * sin(deltahPrime / 2);
@@ -1129,11 +1126,9 @@ static CGFloat (^RAD)(CGFloat) = ^CGFloat(CGFloat degree) {
     if (staticDeg > 360) {
         float offset = staticDeg - 360;
         return offset;
-    }
-    else if (staticDeg < 0) {
+    } else if (staticDeg < 0) {
         return -1 * staticDeg;
-    }
-    else {
+    } else {
         return staticDeg;
     }
 }
@@ -1250,8 +1245,7 @@ static CGFloat (^RAD)(CGFloat) = ^CGFloat(CGFloat degree) {
 - (BOOL)colours_getRed:(CGFloat *)red green:(CGFloat *)green blue:(CGFloat *)blue alpha:(CGFloat *)alpha {
     if (CGColorGetNumberOfComponents(self.CGColor) == 4) {
         return [self colours_getRed:red green:green blue:blue alpha:alpha];
-    }
-    else if (CGColorGetNumberOfComponents(self.CGColor) == 2) {
+    } else if (CGColorGetNumberOfComponents(self.CGColor) == 2) {
         CGFloat white;
         CGFloat m_alpha;
         [self getWhite:&white alpha:&m_alpha];
@@ -1271,8 +1265,7 @@ static CGFloat (^RAD)(CGFloat) = ^CGFloat(CGFloat degree) {
 - (BOOL)colours_getHue:(CGFloat *)hue saturation:(CGFloat *)saturation brightness:(CGFloat *)brightness alpha:(CGFloat *)alpha {
     if (CGColorGetNumberOfComponents(self.CGColor) == 4) {
         return [self colours_getHue:hue saturation:saturation brightness:brightness alpha:alpha];
-    }
-    else if (CGColorGetNumberOfComponents(self.CGColor) == 2) {
+    } else if (CGColorGetNumberOfComponents(self.CGColor) == 2) {
         CGFloat white = 0;
         CGFloat a = 0;
         [self getWhite:&white alpha:&a];
