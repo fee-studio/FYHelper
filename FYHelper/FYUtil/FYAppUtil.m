@@ -3,31 +3,31 @@
 // Copyright (c) 2016 weiboyi. All rights reserved.
 //
 
-#import "FYAppInfo.h"
+#import "FYAppUtil.h"
 #import "NSString+Addition.h"
 
-@implementation FYAppInfo {
+@implementation FYAppUtil {
 
 }
 
-+ (NSString *)appName {
++ (NSString *)fy_appName {
     NSString *appName = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleDisplayName"];
     return appName;
 }
 
-+ (NSString *)appBundleId; {
++ (NSString *)fy_appBundleId; {
     NSString *appBundleId = [[NSBundle mainBundle] infoDictionary][(__bridge NSString *) kCFBundleIdentifierKey];
     return appBundleId;
 }
 
-+ (UIImage *)appIconImage; {
++ (UIImage *)fy_appIconImage; {
     NSDictionary *infoPlist = [[NSBundle mainBundle] infoDictionary];
     NSString *icon = [[infoPlist valueForKeyPath:@"CFBundleIcons.CFBundlePrimaryIcon.CFBundleIconFiles"] lastObject];
     UIImage *image = [UIImage imageNamed:icon];
     return image;
 }
 
-+ (void)suspendAppAndExit {
++ (void)fy_appSuspendAndExit {
     //home button press programmatically
     UIApplication *app = [UIApplication sharedApplication];
     [app performSelector:@selector(suspend)];
@@ -37,7 +37,7 @@
     exit(0);
 }
 
-+ (BOOL)isRegisteredRemoteNotification {
++ (BOOL)fy_isRegisteredRemoteNotification {
     UIApplication *application = [UIApplication sharedApplication];
     if ([application respondsToSelector:@selector(isRegisteredForRemoteNotifications)]) {
         return [application isRegisteredForRemoteNotifications];
@@ -46,18 +46,18 @@
     }
 }
 
-+ (NSString *)appVersion {
++ (NSString *)fy_appVersion {
     NSString *version = [[NSBundle mainBundle] infoDictionary][@"CFBundleShortVersionString"];
     return version;
 }
 
-+ (NSString *)unixTimestamp {
++ (NSString *)fy_appTimestamp {
     NSDate *date = [NSDate date];
     NSTimeInterval timestamp = [date timeIntervalSince1970];
     return [NSString stringWithFormat:@"%li", (long) timestamp];
 }
 
-+ (NSString *)channelName {
++ (NSString *)fy_appChannelName {
     NSString *chName = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"Channel"];
     if (chName.isReality) {
         return chName;

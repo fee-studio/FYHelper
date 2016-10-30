@@ -29,7 +29,7 @@
     [self pushViewController:vc animated:YES];
 }
 
-- (NSArray *)popToViewControllerBackLevel:(NSUInteger)level animated:(BOOL)animated {
+- (NSArray *)fy_popToBackLevel:(NSUInteger)level animated:(BOOL)animated {
     NSMutableArray *vcs = [NSMutableArray arrayWithArray:self.viewControllers];
     NSUInteger count = vcs.count;
     if (level <= count - 1) {
@@ -40,8 +40,8 @@
     }
 }
 
-// Ps. leve 从前面数 从0开始代表第一个
-- (NSArray *)popToViewControllerFrontLevel:(NSInteger)level animated:(BOOL)animated {
+// Ps. level 从前面数 从0开始代表第一个
+- (NSArray *)fy_popToFrontLevel:(NSInteger)level animated:(BOOL)animated {
 
     NSMutableArray *vcs = [NSMutableArray arrayWithArray:self.viewControllers];
     NSUInteger count = vcs.count;

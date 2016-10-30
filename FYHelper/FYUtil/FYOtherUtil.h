@@ -8,7 +8,11 @@
 
 @interface FYOtherUtil : NSObject
 
-+ (void)copyStringToPasteboard:(NSString *)copiedString;
+/**
+ * 复制文字到粘贴板
+ * @param copiedString 被复制的文字
+ */
++ (void)fy_copyStringToPasteboard:(NSString *)copiedString;
 
 
 @end

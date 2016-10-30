@@ -23,9 +23,9 @@
 		5219397D1DB8F488009503A1 /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5219394D1DB8F488009503A1 /* UIView+Animation.m */; };
 		5219397F1DB8F488009503A1 /* UIView+Layer.m in Sources */ = {isa = PBXBuildFile; fileRef = 521939511DB8F488009503A1 /* UIView+Layer.m */; };
 		521939801DB8F488009503A1 /* FYMacroDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 521939541DB8F488009503A1 /* FYMacroDefinition.m */; };
-		521939811DB8F488009503A1 /* FYTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 521939571DB8F488009503A1 /* FYTextField.m */; };
-		521939821DB8F488009503A1 /* FYAppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5219395A1DB8F488009503A1 /* FYAppInfo.m */; };
-		521939831DB8F488009503A1 /* FYDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5219395C1DB8F488009503A1 /* FYDeviceInfo.m */; };
+		521939811DB8F488009503A1 /* FYPaddingTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 521939571DB8F488009503A1 /* FYPaddingTextField.m */; };
+		521939821DB8F488009503A1 /* FYAppUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5219395A1DB8F488009503A1 /* FYAppUtil.m */; };
+		521939831DB8F488009503A1 /* FYDeviceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5219395C1DB8F488009503A1 /* FYDeviceUtil.m */; };
 		521939841DB8F488009503A1 /* FYFileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5219395E1DB8F488009503A1 /* FYFileUtil.m */; };
 		521939851DB8F488009503A1 /* FYLocationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 521939601DB8F488009503A1 /* FYLocationUtil.m */; };
 		521939861DB8F488009503A1 /* FYOtherUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 521939621DB8F488009503A1 /* FYOtherUtil.m */; };
@@ -95,12 +95,12 @@
 		521939521DB8F488009503A1 /* FYHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYHelper.h; sourceTree = "<group>"; };
 		521939531DB8F488009503A1 /* FYMacroDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYMacroDefinition.h; sourceTree = "<group>"; };
 		521939541DB8F488009503A1 /* FYMacroDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYMacroDefinition.m; sourceTree = "<group>"; };
-		521939561DB8F488009503A1 /* FYTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYTextField.h; sourceTree = "<group>"; };
-		521939571DB8F488009503A1 /* FYTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYTextField.m; sourceTree = "<group>"; };
-		521939591DB8F488009503A1 /* FYAppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYAppInfo.h; sourceTree = "<group>"; };
-		5219395A1DB8F488009503A1 /* FYAppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYAppInfo.m; sourceTree = "<group>"; };
-		5219395B1DB8F488009503A1 /* FYDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYDeviceInfo.h; sourceTree = "<group>"; };
-		5219395C1DB8F488009503A1 /* FYDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYDeviceInfo.m; sourceTree = "<group>"; };
+		521939561DB8F488009503A1 /* FYPaddingTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYPaddingTextField.h; sourceTree = "<group>"; };
+		521939571DB8F488009503A1 /* FYPaddingTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYPaddingTextField.m; sourceTree = "<group>"; };
+		521939591DB8F488009503A1 /* FYAppUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYAppUtil.h; sourceTree = "<group>"; };
+		5219395A1DB8F488009503A1 /* FYAppUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYAppUtil.m; sourceTree = "<group>"; };
+		5219395B1DB8F488009503A1 /* FYDeviceUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYDeviceUtil.h; sourceTree = "<group>"; };
+		5219395C1DB8F488009503A1 /* FYDeviceUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYDeviceUtil.m; sourceTree = "<group>"; };
 		5219395D1DB8F488009503A1 /* FYFileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYFileUtil.h; sourceTree = "<group>"; };
 		5219395E1DB8F488009503A1 /* FYFileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYFileUtil.m; sourceTree = "<group>"; };
 		5219395F1DB8F488009503A1 /* FYLocationUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYLocationUtil.h; sourceTree = "<group>"; };
@@ -216,8 +216,8 @@
 		521939551DB8F488009503A1 /* FYSubclass */ = {
 			isa = PBXGroup;
 			children = (
-				521939561DB8F488009503A1 /* FYTextField.h */,
-				521939571DB8F488009503A1 /* FYTextField.m */,
+				521939561DB8F488009503A1 /* FYPaddingTextField.h */,
+				521939571DB8F488009503A1 /* FYPaddingTextField.m */,
 			);
 			path = FYSubclass;
 			sourceTree = "<group>";
@@ -225,10 +225,10 @@
 		521939581DB8F488009503A1 /* FYUtil */ = {
 			isa = PBXGroup;
 			children = (
-				521939591DB8F488009503A1 /* FYAppInfo.h */,
-				5219395A1DB8F488009503A1 /* FYAppInfo.m */,
-				5219395B1DB8F488009503A1 /* FYDeviceInfo.h */,
-				5219395C1DB8F488009503A1 /* FYDeviceInfo.m */,
+				521939591DB8F488009503A1 /* FYAppUtil.h */,
+				5219395A1DB8F488009503A1 /* FYAppUtil.m */,
+				5219395B1DB8F488009503A1 /* FYDeviceUtil.h */,
+				5219395C1DB8F488009503A1 /* FYDeviceUtil.m */,
 				5219395D1DB8F488009503A1 /* FYFileUtil.h */,
 				5219395E1DB8F488009503A1 /* FYFileUtil.m */,
 				5219395F1DB8F488009503A1 /* FYLocationUtil.h */,
@@ -462,16 +462,16 @@
 				52E875221DB5071900169C24 /* main.m in Sources */,
 				521939851DB8F488009503A1 /* FYLocationUtil.m in Sources */,
 				521939701DB8F488009503A1 /* NSData+Addition.m in Sources */,
-				521939821DB8F488009503A1 /* FYAppInfo.m in Sources */,
+				521939821DB8F488009503A1 /* FYAppUtil.m in Sources */,
 				521939791DB8F488009503A1 /* UINavigationController+FY.m in Sources */,
 				5219397A1DB8F488009503A1 /* UINavigationItem+Addition.m in Sources */,
-				521939811DB8F488009503A1 /* FYTextField.m in Sources */,
+				521939811DB8F488009503A1 /* FYPaddingTextField.m in Sources */,
 				5219397F1DB8F488009503A1 /* UIView+Layer.m in Sources */,
 				521939721DB8F488009503A1 /* NSFileManager+Addition.m in Sources */,
 				5219397B1DB8F488009503A1 /* UITextField+LimitLength.m in Sources */,
 				521939861DB8F488009503A1 /* FYOtherUtil.m in Sources */,
 				521939881DB8F488009503A1 /* FYNavigationController.m in Sources */,
-				521939831DB8F488009503A1 /* FYDeviceInfo.m in Sources */,
+				521939831DB8F488009503A1 /* FYDeviceUtil.m in Sources */,
 				521939781DB8F488009503A1 /* UILabel+Addition.m in Sources */,
 				521939841DB8F488009503A1 /* FYFileUtil.m in Sources */,
 				5219397C1DB8F488009503A1 /* UIView+Addition.m in Sources */,

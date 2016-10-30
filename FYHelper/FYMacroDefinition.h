@@ -12,15 +12,15 @@
 #define mKeyWindow          [[UIApplication sharedApplication] keyWindow]
 
 // 页面设计相关
-#define mNavBarHeight    44
-#define mTabBarHeight    49
-#define mStatusBarHeight 20
-#define mToolbarHeight   44
-#define mTopBarHeight   (mToolbarHeight + mStatusBarHeight + mNavBarHeight)
+#define mNavBarHeight        44
+#define mTabBarHeight        49
+#define mStatusBarHeight    20
+#define mToolbarHeight        44
+#define mTopBarHeight        (mToolbarHeight + mStatusBarHeight + mNavBarHeight)
 
-#define mScreenBounds         ([UIScreen mainScreen].bounds)
-#define mScreenWidth          ([UIScreen mainScreen].bounds.size.width)
-#define mScreenHeight         ([UIScreen mainScreen].bounds.size.height)
+#define mScreenBounds        ([UIScreen mainScreen].bounds)
+#define mScreenWidth        ([UIScreen mainScreen].bounds.size.width)
+#define mScreenHeight       ([UIScreen mainScreen].bounds.size.height)
 
 @interface FYMacroDefinition : NSObject
 

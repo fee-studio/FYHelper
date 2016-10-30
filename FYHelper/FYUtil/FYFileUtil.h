@@ -10,14 +10,14 @@
 
 @interface FYFileUtil : NSObject
 
-+ (NSString *)appCachesDirectory;
++ (NSString *)fy_appCachesDirectory;
 
-+ (NSString *)appDocumentDirectory;
++ (NSString *)fy_appDocumentDirectory;
 
 // 单个文件的大小
-+ (long long)fileSizeAtPath:(NSString *)filePath;
++ (long long)fy_fileSizeAtPath:(NSString *)filePath;
 
 // 遍历文件夹获得文件夹大小，返回多少M
-+ (float)folderSizeAtPath:(NSString *)folderPath;
++ (float)fy_folderSizeAtPath:(NSString *)folderPath;
 
 @end

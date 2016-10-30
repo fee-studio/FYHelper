@@ -7,14 +7,17 @@
 
 @interface FYViewController : UIViewController
 
+#pragma mark- 传参机制
+
 // 基参数
 @property(nonatomic, strong) NSDictionary *fyParameter;
 
 // 分派参数
 - (void)dispatchParameter;
 
-@property(nonatomic, assign) BOOL keyboardIsShown;
+#pragma mark- 键盘相关
 
+@property(nonatomic, assign) BOOL keyboardIsShown;
 
 - (void)hideKeyboard;
 

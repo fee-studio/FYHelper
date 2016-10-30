@@ -14,7 +14,6 @@
     [super viewDidLoad];
 
     self.view.backgroundColor = [UIColor whiteColor];
-//	self.view.frame = mScreenBounds;
 
     // 分派参数
     [self dispatchParameter];

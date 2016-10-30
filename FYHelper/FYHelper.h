@@ -10,9 +10,9 @@
 #define FYHelper_h
 
 
-#import "FYDeviceInfo.h"
+#import "FYDeviceUtil.h"
 #import "FYCategory.h"
-#import "FYTextField.h"
+#import "FYPaddingTextField.h"
 #import "FYViewController.h"
 #import "FYNavigationController.h"
 #import "FYMacroDefinition.h"

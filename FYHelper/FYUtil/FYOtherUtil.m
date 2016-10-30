@@ -13,7 +13,7 @@
 /*
  复制文本到剪贴板
  */
-+ (void)copyStringToPasteboard:(NSString *)copiedString {
++ (void)fy_copyStringToPasteboard:(NSString *)copiedString {
     UIPasteboard *pasteboard = [UIPasteboard generalPasteboard];
     [pasteboard setString:copiedString];
 }

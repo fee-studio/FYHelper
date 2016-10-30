@@ -1,37 +1,37 @@
 //
-//  FYDeviceInfo.m
+//  FYDeviceUtil.m
 //  MagicWallpaper
 //
 //  Created by efeng on 2016/10/18.
 //  Copyright © 2016年 buerguo. All rights reserved.
 //
 
-#import "FYDeviceInfo.h"
+#import "FYDeviceUtil.h"
 
-@implementation FYDeviceInfo
+@implementation FYDeviceUtil
 
 
-+ (NSString *)systemName {
++ (NSString *)fy_systemName {
 	return [[UIDevice currentDevice] systemName];
 }
 
-+ (NSString *)systemVersion {
++ (NSString *)fy_systemVersion {
 	return [[UIDevice currentDevice] systemVersion];
 }
 
-+ (BOOL)isIpad {
++ (BOOL)fy_isiPad {
 	return [UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad;
 }
 
-+ (BOOL)isIphone {
++ (BOOL)fy_isiPhone {
 	return [UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPhone;
 }
 
-+ (NSString *)deviceModel {
++ (NSString *)fy_deviceModel {
 	return [[UIDevice currentDevice] model];
 }
 
-+ (NSString *)vendorId {
++ (NSString *)fy_vendorUUID {
 	return [[[UIDevice currentDevice] identifierForVendor] UUIDString];
 }
 

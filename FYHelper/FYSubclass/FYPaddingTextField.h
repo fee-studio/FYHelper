@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FYTextField : UITextField
+@interface FYPaddingTextField : UITextField
 
 @end

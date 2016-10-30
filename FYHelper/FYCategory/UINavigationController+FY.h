@@ -16,7 +16,8 @@
 
 - (void)fy_pushTo:(Class)classVc withParameter:(NSDictionary *)parameter;
 
-- (NSArray *)popToViewControllerBackLevel:(NSUInteger)level animated:(BOOL)animated;
-- (NSArray *)popToViewControllerFrontLevel:(NSInteger)level animated:(BOOL)animated;
+- (NSArray *)fy_popToBackLevel:(NSUInteger)level animated:(BOOL)animated;
+
+- (NSArray *)fy_popToFrontLevel:(NSInteger)level animated:(BOOL)animated;
 
 @end
