@@ -22,8 +22,9 @@
     return [NSError errorWithDomain:domain code:code userInfo:userInfo];
 }
 
-- (void)fy_toHandle {
+- (instancetype)fy_toHandle {
     [mNotificationCenter postNotificationName:APP_ERROR_HANDLE_NOTIFICATION object:self];
+    return self;
 }
 
 @end

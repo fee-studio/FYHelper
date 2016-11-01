@@ -4,7 +4,7 @@
 //
 
 #import "FYAppUtil.h"
-#import "NSString+Addition.h"
+#import "NSString+FY.h"
 
 @implementation FYAppUtil {
 
@@ -59,7 +59,7 @@
 
 + (NSString *)fy_appChannelName {
     NSString *chName = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"Channel"];
-    if (chName.isReality) {
+    if (chName.fy_isReality) {
         return chName;
     } else {
         return @"AppStore";

@@ -1,31 +1,19 @@
-//
-//  NSData+Addition.m
-//  Line0
-//
-//  Created by line0 on 12-12-5.
-//  Copyright (c) 2012年 line0. All rights reserved.
-//
-
 #import <CommonCrypto/CommonDigest.h>
-#import "NSData+Addition.h"
+#import "NSData+FY.h"
 
-@implementation NSData (Addition)
+@implementation NSData (FY)
 
-+ (NSData *)dataWithObject:(id)object {
++ (NSData *)fy_dataFromObject:(id)object {
     NSData *data = [NSKeyedArchiver archivedDataWithRootObject:object];
     return data;
 }
 
-- (id)convertDataToObject {
+- (id)fy_objectFromData {
     id object = [NSKeyedUnarchiver unarchiveObjectWithData:self];
     return object;
 }
 
-/**
- * Returns hexadecimal string of NSData. 
- * Empty string if data is empty.   
- */
-- (NSString *)hexadecimalString {
+- (NSString *)fy_hexString {
     const unsigned char *dataBuffer = (const unsigned char *) [self bytes];
 
     if (!dataBuffer)
@@ -40,7 +28,7 @@
     return [NSString stringWithString:hexString];
 }
 
-- (NSString *)md5 {
+- (NSString *)fy_MD5String {
     unsigned char result[CC_MD5_DIGEST_LENGTH];
     CC_MD5(self.bytes, (int) self.length, result); // This is the md5 call
     return [NSString stringWithFormat:

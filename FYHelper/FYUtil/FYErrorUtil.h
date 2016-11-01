@@ -15,7 +15,7 @@
 
 + (instancetype)fy_errorWithDomain:(NSErrorDomain)domain code:(NSInteger)code message:(NSString *)message;
 
-- (void)fy_toHandle;
+- (instancetype)fy_toHandle;
 
 @end
 

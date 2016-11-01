@@ -7,10 +7,10 @@
 #import "UINavigationController+FY.h"
 
 #import "UITextField+LimitLength.h"
-#import "NSData+Addition.h"
+#import "NSData+FY.h"
 #import "NSFileManager+Addition.h"
-#import "NSDate+Addition.h"
-#import "NSString+Addition.h"
+#import "NSDate+FYFormat.h"
+#import "NSString+FY.h"
 #import "UIAlertView+Addition.h"
 #import "UIImage+Addition.h"
 #import "UIView+Addition.h"

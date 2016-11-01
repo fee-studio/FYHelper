@@ -7,7 +7,7 @@
 //
 
 #import "UILabel+Addition.h"
-#import "NSString+Addition.h"
+#import "NSString+FY.h"
 
 @implementation UILabel (Addition)
 
@@ -29,7 +29,7 @@
 
     CGSize maximumLabelSize = CGSizeMake(self.frame.size.width, 9999);
 
-    CGSize expectedLabelSize = [self.text calculateSize:maximumLabelSize font:self.font];
+    CGSize expectedLabelSize = [self.text fy_calculateSize:maximumLabelSize font:self.font];
 
     CGFloat marginValue = 10.f;
     expectedLabelSize.width += marginValue;
@@ -65,13 +65,13 @@
 }
 
 - (UILabel *)autoWidthOnText {
-    if (self.text.isEmpty) {
+    if (self.text.fy_isEmpty) {
         CGRect frame = self.frame;
         frame.size.width = 0;
         self.frame = frame;
     } else {
         CGSize maximumSize = CGSizeMake(MAXFLOAT, self.frame.size.height);
-        CGSize size = [self.text calculateSize:maximumSize font:self.font];
+        CGSize size = [self.text fy_calculateSize:maximumSize font:self.font];
         CGRect newFrame = self.frame;
         newFrame.size.width = ceilf(size.width) + 10;
         newFrame.size.height = ceilf(self.frame.size.height) + 10;
@@ -82,13 +82,13 @@
 
 - (UILabel *)autoHeightOnText {
     [self setNumberOfLines:0];
-    if (self.text.isEmpty) {
+    if (self.text.fy_isEmpty) {
         CGRect frame = self.frame;
         frame.size.height = 0;
         self.frame = frame;
     } else {
         CGSize maximumSize = CGSizeMake(self.frame.size.width, MAXFLOAT);
-        CGSize size = [self.text calculateSize:maximumSize font:self.font];
+        CGSize size = [self.text fy_calculateSize:maximumSize font:self.font];
         CGRect newFrame = self.frame;
         newFrame.size.width = ceilf(self.frame.size.width) + 10;
         newFrame.size.height = ceilf(size.height) + 10;

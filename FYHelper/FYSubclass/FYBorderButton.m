@@ -7,7 +7,6 @@
 //
 
 #import "FYBorderButton.h"
-#import "YIConfigUtil+UI.h"
 
 @implementation FYBorderButton
 
@@ -22,7 +21,7 @@
 - (void)layoutSubviews {
     [super layoutSubviews];
 
-    self.layer.borderColor = [kAppColorMain CGColor];
+    self.layer.borderColor = [[UIColor grayColor] CGColor];
     self.layer.cornerRadius = 12.f;
     self.layer.borderWidth = 1.f;
     self.layer.masksToBounds = YES;
