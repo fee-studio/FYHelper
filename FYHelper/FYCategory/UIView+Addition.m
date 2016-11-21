@@ -6,6 +6,7 @@
 //  Copyright (c) 2013年 makeLaugh. All rights reserved.
 //
 #import "UIView+Addition.h"
+#import "FYHelper.h"
 
 @implementation UIView (Addition)
 
@@ -47,6 +48,12 @@
         UIGraphicsEndImageContext();
     }
     return snapshotImage;
+}
+
+- (void)fy_randomColor4Subviews; {
+    for (UIView *view in self.subviews) {
+        view.backgroundColor = [UIColor fy_randomColor];
+    }
 }
 
 @end

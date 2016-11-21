@@ -19,5 +19,11 @@
 
 - (UIImage *)toImage;
 
+/**
+ * 给所有的子View都填充上随机的颜色
+ * 方便看View的布局
+ */
+- (void)fy_randomColor4Subviews;
+
 
 @end

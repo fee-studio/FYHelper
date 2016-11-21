@@ -13,7 +13,7 @@
  * NSData to Object
  * @return
  */
-- (id)fy_objectFromData;
+- (id)fy_toObject;
 
 /**
  * Returns hexadecimal string of NSData.

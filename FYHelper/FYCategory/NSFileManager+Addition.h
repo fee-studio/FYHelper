@@ -43,8 +43,8 @@
 
 /**
  *  查找并返回文件。
- *  @param  fileName:要查找的文件名。
- *  @param  path:文件所在的目录。
+ *  @param  fileName 要查找的文件名。
+ *  @param  path 文件所在的目录。
  *  return  成功返回文件，失败返回nil。
  */
 + (NSData *)findFile:(NSString *)fileName atPath:(NSString *)path;

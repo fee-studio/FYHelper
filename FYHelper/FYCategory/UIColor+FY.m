@@ -3,7 +3,6 @@
 @implementation UIColor (FY)
 
 + (UIColor *)fy_randomColor {
-
     CGFloat red = arc4random() / (CGFloat) INT_MAX;
     CGFloat green = arc4random() / (CGFloat) INT_MAX;
     CGFloat blue = arc4random() / (CGFloat) INT_MAX;

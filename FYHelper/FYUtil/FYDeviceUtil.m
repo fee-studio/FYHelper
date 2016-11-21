@@ -19,6 +19,11 @@
     return [[UIDevice currentDevice] systemVersion];
 }
 
++ (float)fy_systemVersionCode {
+    return [[[UIDevice currentDevice] systemVersion] floatValue];
+}
+
+
 + (BOOL)fy_isiPad {
     return [UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad;
 }

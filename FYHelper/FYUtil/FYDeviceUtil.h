@@ -22,6 +22,11 @@
 + (NSString *)fy_systemVersion;
 
 /**
+ * 系统版本号floats
+ */
++ (float)fy_systemVersionCode;
+
+/**
  * 设备型号
  * e.g. @"iPhone", @"iPod touch"
  */

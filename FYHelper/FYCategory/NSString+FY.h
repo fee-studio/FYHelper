@@ -47,9 +47,14 @@
 
 /**
  * MD5 string
- * @return
+ * @return md5 string
  */
 - (NSString *)fy_MD5String;
+
+/**
+ * 复制文本到剪贴板
+ */
+- (void)fy_copyStringToPasteboard;
 
 
 @end

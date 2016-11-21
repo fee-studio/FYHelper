@@ -11,6 +11,12 @@
 @implementation UIView (FYBorder)
 
 
+- (void)fy_cornerStyleWithRadius:(CGFloat)radius {
+    self.layer.cornerRadius = radius;
+    self.clipsToBounds = YES;
+    self.layer.masksToBounds = YES;
+}
+
 - (void)fy_borderStyleWithColor:(UIColor *)color width:(CGFloat)width cornerRadius:(CGFloat)radius {
     self.layer.borderColor = [color CGColor];
     self.layer.borderWidth = width;
@@ -22,7 +28,6 @@
 - (void)fy_borderStyleWithColor:(UIColor *)color width:(CGFloat)width {
     self.layer.borderColor = [color CGColor];
     self.layer.borderWidth = width;
-    self.layer.cornerRadius = self.bounds.size.height / 2.0f;
     self.clipsToBounds = YES;
     self.layer.masksToBounds = YES;
 }

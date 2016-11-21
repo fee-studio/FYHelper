@@ -21,6 +21,10 @@
  */
 + (void)fy_appSuspendAndExit;
 
+/**
+ * 是否同意打开远程推送
+ * @return
+ */
 + (BOOL)fy_isRegisteredRemoteNotification;
 
 /**

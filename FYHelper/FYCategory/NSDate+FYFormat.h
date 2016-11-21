@@ -7,7 +7,22 @@
  * @param format 格式
  * @return 格式化后的日期
  */
-- (NSString *)fy_dateStringWithFormat:(NSString *)format;
+- (NSString *)fy_formatDateStringWithFormat:(NSString *)format;
+
+/**
+ * 把second按format格式化后返回
+ * @param second
+ * @param format
+ * @return
+ */
++ (NSString *)fy_formatDateStringWithSecond:(NSTimeInterval)second format:(NSString *)format;
+
+/**
+ * 把second按@"yyyy-MM-dd HH:mm"格式化后返回
+ * @param second
+ * @return
+ */
++ (NSString *)fy_formatDateStringWithSecond:(NSTimeInterval)second;
 
 
 @end

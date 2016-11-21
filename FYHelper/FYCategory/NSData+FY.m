@@ -8,7 +8,7 @@
     return data;
 }
 
-- (id)fy_objectFromData {
+- (id)fy_toObject {
     id object = [NSKeyedUnarchiver unarchiveObjectWithData:self];
     return object;
 }

@@ -100,4 +100,10 @@
             [NSCharacterSet whitespaceAndNewlineCharacterSet]] isEqualToString:@""];
 }
 
+- (void)fy_copyStringToPasteboard {
+    UIPasteboard *pasteboard = [UIPasteboard generalPasteboard];
+    [pasteboard setString:self];
+};
+
+
 @end
