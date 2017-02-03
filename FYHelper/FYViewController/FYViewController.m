@@ -10,6 +10,16 @@
 
 }
 
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+
+    }
+
+    return self;
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 
@@ -28,7 +38,6 @@
                             selector:@selector(keyboardWillHide:)
                                 name:UIKeyboardWillHideNotification
                               object:self.view.window];
-
 }
 
 #pragma mark - 基类里面啥不需要加载
@@ -58,6 +67,18 @@
 
 - (void)keyboardWillHide:(NSNotification *)n {
     _keyboardIsShown = NO;
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    [mNotificationCenter removeObserver:self name:UIKeyboardWillShowNotification object:nil];
+    [mNotificationCenter removeObserver:self name:UIKeyboardWillHideNotification object:nil];
+}
+
+
+- (void)dealloc {
+    [mNotificationCenter removeObserver:self name:UIKeyboardWillShowNotification object:nil];
+    [mNotificationCenter removeObserver:self name:UIKeyboardWillHideNotification object:nil];
 }
 
 @end

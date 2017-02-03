@@ -13,7 +13,7 @@
  * @param albumName 相册名
  * @param completedBlock
  */
-- (void)saveToAlbumNamed:(NSString *)albumName
-          completedBlock:(nullable void (^)(BOOL success, NSError *__nullable error))completedBlock;
+- (void)fy_saveToAlbumNamed:(NSString *)albumName
+             completedBlock:(void (^)(BOOL success, NSError *error))completedBlock;
 
 @end

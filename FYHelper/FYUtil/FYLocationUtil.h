@@ -17,6 +17,12 @@
 @property(nonatomic, strong) NSString *district;
 @property(nonatomic, strong) NSString *street;
 
+/**
+ * HELP
+ * http://stackoverflow.com/questions/3058927/why-the-cllocationmanager-delegate-is-not-getting-called-in-iphone-sdk-4-0
+ */
+@property(nonatomic, strong) CLLocationManager *locationManager;
+
 + (FYLocationUtil *)instance;
 
 - (void)startLocation;

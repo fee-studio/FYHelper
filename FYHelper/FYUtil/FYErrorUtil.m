@@ -10,15 +10,26 @@
 
 @implementation NSError (FY)
 
-+ (instancetype)fy_errorWithCode:(NSInteger)code message:(NSString *)message {
++ (instancetype)fy_errorWithCode:(NSInteger)code
+                         message:(NSString *)message
+                            info:(NSDictionary *)info {
     NSParameterAssert(message != nil);
-    NSDictionary *userInfo = @{NSLocalizedDescriptionKey: message};
+    if (info == nil) {
+        info = @{};
+    }
+    NSDictionary *userInfo = @{@"message": message, @"info": info};
     return [NSError errorWithDomain:@"com.buerguo.fyhelper" code:code userInfo:userInfo];
 }
 
-+ (instancetype)fy_errorWithDomain:(NSErrorDomain)domain code:(NSInteger)code message:(NSString *)message {
++ (instancetype)fy_errorWithDomain:(NSErrorDomain)domain
+                              code:(NSInteger)code
+                           message:(NSString *)message
+                              info:(NSDictionary *)info {
     NSParameterAssert(message != nil);
-    NSDictionary *userInfo = @{NSLocalizedDescriptionKey: message};
+    if (info == nil) {
+        info = @{};
+    }
+    NSDictionary *userInfo = @{@"message": message, @"info": info};
     return [NSError errorWithDomain:domain code:code userInfo:userInfo];
 }
 
@@ -64,9 +75,10 @@
 }
 
 - (void)handleError:(NSNotification *)notification {
-    NSError *error = [notification object]; //获取到传递的对象
-    NSString *message = [error userInfo][NSLocalizedDescriptionKey];
+    NSError *error = [notification object]; // 获取到传递的对象
+    NSString *message = [error userInfo][@"message"];
+    NSDictionary *info = [error userInfo][@"info"];
     // block
-    self.handleErrorBlock(error, message);
+    self.handleErrorBlock(error, message, info);
 }
 @end

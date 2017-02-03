@@ -66,4 +66,21 @@
     }
 }
 
++ (void)fy_openURL:(NSString *)scheme completionHandler:(void (^ __nullable)(BOOL success))completion {
+    UIApplication *application = [UIApplication sharedApplication];
+    NSURL *URL = [NSURL URLWithString:scheme];
+    if ([application respondsToSelector:@selector(openURL:options:completionHandler:)]) {
+        [application openURL:URL
+                     options:@{}
+           completionHandler:^(BOOL success) {
+               NSLog(@"Open %@ : %d", scheme, success);
+               completion(success);
+           }];
+    } else {
+        BOOL success = [application openURL:URL];
+        NSLog(@"Open %@ : %d", scheme, success);
+        completion(success);
+    }
+}
+
 @end

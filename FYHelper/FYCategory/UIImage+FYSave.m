@@ -9,8 +9,8 @@
 
 @implementation UIImage (FYSave)
 
-- (void)saveToAlbumNamed:(NSString *)albumName
-          completedBlock:(nullable void (^)(BOOL success, NSError *__nullable error))completedBlock {
+- (void)fy_saveToAlbumNamed:(NSString *)albumName
+             completedBlock:(void (^)(BOOL success, NSError *error))completedBlock {
     //Fetch a collection in the photos library that has the title "albumName"
     PHFetchOptions *fetchOptions = [PHFetchOptions new];
     //Provide the predicate to match the title of the album.

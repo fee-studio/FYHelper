@@ -15,7 +15,6 @@
 
 
 + (NSString *)fy_csvStringFromArray:(NSArray *)stringArray {
-
     NSMutableString *tmpString = [NSMutableString string];
     @try {
         for (int i = 0; i < stringArray.count; i++) {
@@ -72,11 +71,10 @@
 #pragma clang diagnostic pop
     }
 
-    return CGSizeMake(ceil(expectedLabelSize.width), ceil(expectedLabelSize.height));
+    return CGSizeMake(ceilf(expectedLabelSize.width), ceilf(expectedLabelSize.height));
 }
 
 + (NSString *)fy_jsonStringFromArray:(NSArray *)array {
-
     NSData *jsonData = [NSJSONSerialization dataWithJSONObject:array options:0 error:nil];
     NSString *jsonString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
     return jsonString;
@@ -105,5 +103,7 @@
     [pasteboard setString:self];
 };
 
-
+- (NSURL *)fy_toURL; {
+    return [NSURL URLWithString:self];
+}
 @end

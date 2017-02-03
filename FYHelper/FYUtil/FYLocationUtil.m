@@ -31,7 +31,7 @@
 - (void)startLocation {
     // 判断定位操作是否被允许
     if ([CLLocationManager locationServicesEnabled]) {
-        CLLocationManager *_locationManager = [[CLLocationManager alloc] init];
+        self.locationManager = [[CLLocationManager alloc] init];
         _locationManager.delegate = self;
         _locationManager.desiredAccuracy = kCLLocationAccuracyBest;
         if ([_locationManager respondsToSelector:@selector(requestAlwaysAuthorization)]) {

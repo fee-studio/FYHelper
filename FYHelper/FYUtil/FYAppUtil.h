@@ -41,4 +41,10 @@
  */
 + (NSString *)fy_appChannelName;
 
+/**
+ * fy open url
+ * @param scheme
+ * @param completion
+ */
++ (void)fy_openURL:(NSString *)scheme completionHandler:(void (^ __nullable)(BOOL success))completion;
 @end

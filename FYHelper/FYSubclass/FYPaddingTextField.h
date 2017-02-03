@@ -10,4 +10,6 @@
 
 @interface FYPaddingTextField : UITextField
 
+@property(nonatomic, strong) NSIndexPath *indexPath;
+
 @end

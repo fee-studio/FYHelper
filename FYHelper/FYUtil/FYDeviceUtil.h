@@ -48,5 +48,9 @@
  */
 + (NSString *)fy_vendorUUID;
 
-
+/**
+ * 打电话
+ * @param phoneNumber
+ */
++ (void)fy_callTelephone:(NSString *)phoneNumber;
 @end

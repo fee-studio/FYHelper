@@ -17,7 +17,7 @@
 */
 - (CGRect)resizeToStretch;
 
-- (CGSize)calSizeOnText;
+//- (CGSize)calSizeOnText;
 
 - (UILabel *)autoWidthOnText;
 

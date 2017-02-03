@@ -11,9 +11,14 @@
  */
 @interface NSError (FY)
 
-+ (instancetype)fy_errorWithCode:(NSInteger)code message:(NSString *)message;
++ (instancetype)fy_errorWithCode:(NSInteger)code
+                         message:(NSString *)message
+                            info:(NSDictionary *)info;
 
-+ (instancetype)fy_errorWithDomain:(NSErrorDomain)domain code:(NSInteger)code message:(NSString *)message;
++ (instancetype)fy_errorWithDomain:(NSErrorDomain)domain
+                              code:(NSInteger)code
+                           message:(NSString *)message
+                              info:(NSDictionary *)info;
 
 - (instancetype)fy_toHandle;
 
@@ -22,7 +27,7 @@
 
 #pragma mark -
 
-typedef void (^FYErrorHandleBlock)(NSError *error, NSString *fy_message);
+typedef void (^FYErrorHandleBlock)(NSError *error, NSString *fy_message, NSDictionary *fy_info);
 
 @interface FYErrorUtil : NSObject
 

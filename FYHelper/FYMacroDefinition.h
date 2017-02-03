@@ -16,7 +16,7 @@
 #define mTabBarHeight       49
 #define mStatusBarHeight    20
 #define mToolbarHeight      44
-#define mTopBarHeight       (mToolbarHeight + mStatusBarHeight + mNavBarHeight)
+#define mTopBarHeight       (mStatusBarHeight + mNavBarHeight)
 
 #define mScreenBounds       ([UIScreen mainScreen].bounds)
 #define mScreenWidth        ([UIScreen mainScreen].bounds.size.width)

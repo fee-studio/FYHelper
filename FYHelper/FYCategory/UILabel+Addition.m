@@ -52,17 +52,17 @@
     return expectedLabelSize;
 }
 
-- (CGSize)calSizeOnText {
-    [self setNumberOfLines:0];
-    CGSize maximumLabelSize = CGSizeMake(MAXFLOAT, MAXFLOAT);
-    CGRect rect = [self.text boundingRectWithSize:maximumLabelSize
-                                          options:NSStringDrawingUsesLineFragmentOrigin
-                                       attributes:nil
-                                          context:nil];
-    CGSize size = rect.size;
-    NSLog(@"cal rect = %@", NSStringFromCGRect(rect));
-    return size;
-}
+//- (CGSize)calSizeOnText {
+//    [self setNumberOfLines:0];
+//    CGSize maximumLabelSize = CGSizeMake(MAXFLOAT, MAXFLOAT);
+//    CGRect rect = [self.text boundingRectWithSize:maximumLabelSize
+//                                          options:NSStringDrawingUsesLineFragmentOrigin
+//                                       attributes:nil
+//                                          context:nil];
+//    CGSize size = rect.size;
+//    NSLog(@"cal rect = %@", NSStringFromCGRect(rect));
+//    return size;
+//}
 
 - (UILabel *)autoWidthOnText {
     if (self.text.fy_isEmpty) {

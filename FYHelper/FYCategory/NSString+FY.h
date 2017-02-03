@@ -57,4 +57,6 @@
 - (void)fy_copyStringToPasteboard;
 
 
+- (NSURL *)fy_toURL;
+
 @end

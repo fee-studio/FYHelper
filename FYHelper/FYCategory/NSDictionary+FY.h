@@ -13,4 +13,9 @@
  */
 - (NSString *)fy_jsonString;
 
+/**
+ * 字典转为URL字符串
+ * @return
+ */
+- (NSString *)fy_urlString;
 @end
