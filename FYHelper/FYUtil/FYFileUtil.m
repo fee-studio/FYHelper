@@ -51,4 +51,15 @@
     return (float) (folderSize / (1024.0 * 1024.0));
 }
 
++ (id)fy_jsonDataWithFileName:(NSString *)fileName {
+    NSString *path = [[NSBundle mainBundle] pathForResource:fileName ofType:@"json"];
+    NSData *jsonData = [NSData dataWithContentsOfFile:path];
+    NSError *error = nil;
+    id jsonObject = [NSJSONSerialization JSONObjectWithData:jsonData
+                                                    options:NSJSONReadingAllowFragments
+                                                      error:&error];
+    return jsonObject;
+}
+
+
 @end

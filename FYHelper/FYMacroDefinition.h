@@ -4,12 +4,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
+#define mApplication        [UIApplication sharedApplication]
 #define mAppDelegate        [[UIApplication sharedApplication] delegate]
+#define mKeyWindow          [[UIApplication sharedApplication] keyWindow]
+
 #define mUserDefaults       [NSUserDefaults standardUserDefaults]
 #define mNotificationCenter [NSNotificationCenter defaultCenter]
-#define mApplication        [UIApplication sharedApplication]
-#define mKeyWindow          [[UIApplication sharedApplication] keyWindow]
 
 // 页面设计相关
 #define mNavBarHeight       44
@@ -30,6 +32,26 @@
 #define FYLog(...)
 #endif
 
+/**
+ 以下的改造,增加的方法主要为了给swift来使用.
+ https://medium.com/@YogevSitton/from-objective-c-to-swift-use-complex-define-macros-in-swift-28cdff464fc7#.9ynd5vdw0
+ */
 @interface FYMacroDefinition : NSObject
+
++ (UIApplication *)fy_Application;
+
++ (id)fy_AppDelegate;
+
++ (UIWindow *)fy_Window;
+
++ (NSUserDefaults *)fy_UserDefaults;
+
++ (NSNotificationCenter *)fy_NotificationCenter;
+
++ (CGRect)fy_ScreenBounds;
+
++ (CGFloat)fy_ScreenWidth;
+
++ (CGFloat)fy_ScreenHeight;
 
 @end

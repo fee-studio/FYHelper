@@ -20,4 +20,11 @@
 // 遍历文件夹获得文件夹大小，返回多少M
 + (float)fy_folderSizeAtPath:(NSString *)folderPath;
 
+/**
+ * 从Json文件中获取数据
+ * @param fileName 文件名,不包含后缀名
+ * @return
+ */
++ (id)fy_jsonDataWithFileName:(NSString *)fileName;
+
 @end
