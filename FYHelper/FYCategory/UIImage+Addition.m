@@ -7,6 +7,7 @@
 //
 
 #import "UIImage+Addition.h"
+#import "FYMacroDefinition.h"
 
 @implementation UIImage (Addition)
 
@@ -169,7 +170,7 @@ CGFloat RadiansToDegrees(CGFloat radians) {
     newImage = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
 
-    if (newImage == nil) NSLog(@"could not scale image");
+    if (newImage == nil) FYLog(@"could not scale image");
 
     return newImage;
 }
@@ -228,7 +229,7 @@ CGFloat RadiansToDegrees(CGFloat radians) {
     newImage = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
 
-    if (newImage == nil) NSLog(@"could not scale image");
+    if (newImage == nil) FYLog(@"could not scale image");
 
     return newImage;
 }
@@ -264,7 +265,7 @@ CGFloat RadiansToDegrees(CGFloat radians) {
     newImage = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
 
-    if (newImage == nil) NSLog(@"could not scale image");
+    if (newImage == nil) FYLog(@"could not scale image");
 
 
     return newImage;
@@ -398,7 +399,7 @@ CGFloat RadiansToDegrees(CGFloat radians) {
     return resultUIImage;
 }
 
-+ (UIImage *)imageWithColor:(UIColor *)color {
++ (UIImage *)fy_imageWithColor:(UIColor *)color {
     CGRect rect = CGRectMake(0, 0, 1, 1);
     UIGraphicsBeginImageContext(rect.size);
     CGContextRef context = UIGraphicsGetCurrentContext();

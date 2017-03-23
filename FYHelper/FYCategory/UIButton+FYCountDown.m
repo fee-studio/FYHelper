@@ -28,7 +28,7 @@
             NSString *strTime = [NSString stringWithFormat:@"%ld", (long) timeOut];
             dispatch_async(dispatch_get_main_queue(), ^{
                 //设置界面的按钮显示 根据自己需求设置
-                NSLog(@"____%@", strTime);
+                FYLog(@"____%@", strTime);
                 [self setTitle:[NSString stringWithFormat:@"%@%@", strTime, waitTitle] forState:UIControlStateNormal];
                 self.userInteractionEnabled = NO;
             });
@@ -60,7 +60,7 @@
             NSString *strTime = [NSString stringWithFormat:@"%ld", (long) timeOut];
             dispatch_async(dispatch_get_main_queue(), ^{
                 //设置界面的按钮显示 根据自己需求设置
-                NSLog(@"____%@", strTime);
+                FYLog(@"____%@", strTime);
                 [self setTitle:[NSString stringWithFormat:@"%@%@", strTime, waitTitle] forState:UIControlStateNormal];
                 self.userInteractionEnabled = NO;
                 [self setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];

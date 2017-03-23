@@ -28,16 +28,57 @@
     // 分派参数
     [self dispatchParameter];
 
-    // register for keyboard notifications
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+
+
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+
+
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+
     [mNotificationCenter addObserver:self
                             selector:@selector(keyboardWillShow:)
                                 name:UIKeyboardWillShowNotification
-                              object:self.view.window];
-    // register for keyboard notifications
+                              object:nil];
+    [mNotificationCenter addObserver:self
+                            selector:@selector(keyboardDidShow:)
+                                name:UIKeyboardDidShowNotification
+                              object:nil];
+
     [mNotificationCenter addObserver:self
                             selector:@selector(keyboardWillHide:)
                                 name:UIKeyboardWillHideNotification
-                              object:self.view.window];
+                              object:nil];
+    [mNotificationCenter addObserver:self
+                            selector:@selector(keyboardDidHide:)
+                                name:UIKeyboardDidHideNotification
+                              object:nil];
+}
+
+- (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:animated];
+
+    [mNotificationCenter removeObserver:self
+                                   name:UIKeyboardWillShowNotification
+                                 object:nil];
+    [mNotificationCenter removeObserver:self
+                                   name:UIKeyboardDidShowNotification
+                                 object:nil];
+    [mNotificationCenter removeObserver:self
+                                   name:UIKeyboardWillHideNotification
+                                 object:nil];
+    [mNotificationCenter removeObserver:self
+                                   name:UIKeyboardDidHideNotification
+                                 object:nil];
 }
 
 #pragma mark - 基类里面啥不需要加载
@@ -65,20 +106,32 @@
     _keyboardIsShown = YES;
 }
 
+- (void)keyboardDidShow:(NSNotification *)n {
+    _keyboardIsShown = YES;
+}
+
 - (void)keyboardWillHide:(NSNotification *)n {
     _keyboardIsShown = NO;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    [mNotificationCenter removeObserver:self name:UIKeyboardWillShowNotification object:nil];
-    [mNotificationCenter removeObserver:self name:UIKeyboardWillHideNotification object:nil];
+- (void)keyboardDidHide:(NSNotification *)n {
+    _keyboardIsShown = NO;
 }
 
+#pragma mark -
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+//    [mNotificationCenter removeObserver:self name:UIKeyboardWillShowNotification object:nil];
+//    [mNotificationCenter removeObserver:self name:UIKeyboardWillHideNotification object:nil];
+}
 
 - (void)dealloc {
-    [mNotificationCenter removeObserver:self name:UIKeyboardWillShowNotification object:nil];
-    [mNotificationCenter removeObserver:self name:UIKeyboardWillHideNotification object:nil];
+//    [mNotificationCenter removeObserver:self name:UIKeyboardWillShowNotification object:nil];
+//    [mNotificationCenter removeObserver:self name:UIKeyboardWillHideNotification object:nil];
+
+    NSString *tips = [NSString stringWithFormat:@"🆘FYVc: %@ - dealloc", NSStringFromClass(self.class)];
+    NSLog(@"%@", tips);
 }
 
 @end

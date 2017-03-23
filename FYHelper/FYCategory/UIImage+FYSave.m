@@ -6,6 +6,7 @@
 #import "UIImage+FYSave.h"
 #import "TSMessage.h"
 #import <Photos/Photos.h>
+#import "FYMacroDefinition.h"
 
 @implementation UIImage (FYSave)
 
@@ -49,7 +50,7 @@
             }
                                       completionHandler:^(BOOL success, NSError *_Nullable error) {
                                           if (error != nil) {
-                                              NSLog(@"Error inserting image into asset collection: %@", error.localizedDescription);
+                                              FYLog(@"Error inserting image into asset collection: %@", error.localizedDescription);
                                           }
                                           completedBlock(success, error);
                                       }];

@@ -96,7 +96,7 @@
  *
  *  @return 所生成的image
  */
-+ (UIImage *)imageWithColor:(UIColor *)color;
++ (UIImage *)fy_imageWithColor:(UIColor *)color;
 
 - (UIImage *)image32k;
 

@@ -59,4 +59,6 @@
 
 - (NSURL *)fy_toURL;
 
+- (NSString *)fy_trim;
+
 @end

@@ -1,5 +1,6 @@
 #import <CommonCrypto/CommonDigest.h>
 #import "NSString+FY.h"
+#import "FYMacroDefinition.h"
 
 @implementation NSString (FY)
 
@@ -31,7 +32,7 @@
         }
     }
     @catch (NSException *exception) {
-        NSLog(@"NSString(Addition) +stringCSVFromArray: - Exception: %@", exception);
+        FYLog(@"NSString(Addition) +stringCSVFromArray: - Exception: %@", exception);
     }
     @finally {
 
@@ -105,5 +106,9 @@
 
 - (NSURL *)fy_toURL; {
     return [NSURL URLWithString:self];
+}
+
+- (NSString *)fy_trim {
+    return [self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
 }
 @end
