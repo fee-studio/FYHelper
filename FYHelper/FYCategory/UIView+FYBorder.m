@@ -17,11 +17,27 @@ typedef NS_ENUM(NSInteger, EdgeType) {
 
 @implementation UIView (FYBorder)
 
-
 - (void)fy_cornerStyleWithRadius:(CGFloat)radius {
-    self.layer.cornerRadius = radius;
-    self.clipsToBounds = YES;
-    self.layer.masksToBounds = YES;
+    // iOS9以上用layer的方法反而更好.
+    if (NSFoundationVersionNumber >= NSFoundationVersionNumber_iOS_9_0) { // iOS系统版本 >= 9.0
+        self.layer.cornerRadius = radius;
+        self.clipsToBounds = YES;
+        self.layer.masksToBounds = YES;
+    } else {
+        CGRect rect = self.bounds;
+        // Create the path
+        UIBezierPath *maskPath = [UIBezierPath bezierPathWithRoundedRect:rect
+                                                       byRoundingCorners:UIRectCornerAllCorners
+                                                             cornerRadii:CGSizeMake(radius, radius)];
+
+        // Create the shape layer and set its path
+        CAShapeLayer *maskLayer = [CAShapeLayer layer];
+        maskLayer.frame = rect;
+        maskLayer.path = maskPath.CGPath;
+
+        // Set the newly created shape layer as the mask for the view's layer
+        self.layer.mask = maskLayer;
+    }
 }
 
 - (void)fy_borderStyleWithColor:(UIColor *)color width:(CGFloat)width cornerRadius:(CGFloat)radius {
@@ -37,24 +53,6 @@ typedef NS_ENUM(NSInteger, EdgeType) {
     self.layer.borderWidth = width;
     self.clipsToBounds = YES;
     self.layer.masksToBounds = YES;
-}
-
-// todo 优化，iOS9以上用以上的方法反而更好。iOS9对以上的方法有优化。
-- (void)fy_setCornerWithRadius:(CGFloat)radius {
-    CGRect rect = self.bounds;
-
-    // Create the path
-    UIBezierPath *maskPath = [UIBezierPath bezierPathWithRoundedRect:rect
-                                                   byRoundingCorners:UIRectCornerAllCorners
-                                                         cornerRadii:CGSizeMake(radius, radius)];
-
-    // Create the shape layer and set its path
-    CAShapeLayer *maskLayer = [CAShapeLayer layer];
-    maskLayer.frame = rect;
-    maskLayer.path = maskPath.CGPath;
-
-    // Set the newly created shape layer as the mask for the view's layer
-    self.layer.mask = maskLayer;
 }
 
 #pragma mark - custom border
@@ -260,7 +258,6 @@ typedef NS_ENUM(NSInteger, EdgeType) {
     [self addConstraint:[NSLayoutConstraint constraintWithItem:border attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:self attribute:NSLayoutAttributeBottom multiplier:1.0 constant:-endPoint]];
     [self addConstraint:[NSLayoutConstraint constraintWithItem:border attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0 constant:borderWidth]];
 }
-
 
 
 @end

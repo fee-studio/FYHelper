@@ -27,8 +27,8 @@ static char *const kTagObjectKey;
 }
 
 - (void)setTagObject:(id)tagObject; {
-    objc_setAssociatedObject(self, kTagObjectKey, tagObject, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
-//    objc_setAssociatedObject(self, kTagObjectKey, tagObject, OBJC_ASSOCIATION_COPY_NONATOMIC);
+//    objc_setAssociatedObject(self, kTagObjectKey, tagObject, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    objc_setAssociatedObject(self, kTagObjectKey, tagObject, OBJC_ASSOCIATION_COPY_NONATOMIC);
 }
 
 @end

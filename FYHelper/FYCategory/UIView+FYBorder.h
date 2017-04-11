@@ -15,14 +15,13 @@ typedef NS_OPTIONS(NSUInteger, FYExcludePoint) {
 };
 
 @interface UIView (FYBorder)
-// todo 性能优化
+
 - (void)fy_cornerStyleWithRadius:(CGFloat)radius;
 
 - (void)fy_borderStyleWithColor:(UIColor *)color width:(CGFloat)width cornerRadius:(CGFloat)radius;
 
 - (void)fy_borderStyleWithColor:(UIColor *)color width:(CGFloat)width;
 
-- (void)fy_setCornerWithRadius:(CGFloat)radius;
 /////////////////////////////////////////////
 
 - (void)fy_addTopBorderWithColor:(UIColor *)color width:(CGFloat)borderWidth;

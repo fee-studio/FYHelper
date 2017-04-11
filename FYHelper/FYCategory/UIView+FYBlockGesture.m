@@ -9,7 +9,7 @@
 static char fy_kFYTapBlockKey;
 
 @implementation UIView (FYBlockGesture)
-// todo ... 明天试试这个方法
+
 - (void)fy_tapBlock:(FYGestureBlock)block {
     UITapGestureRecognizer *gesture = [[UITapGestureRecognizer alloc]
             initWithTarget:self action:@selector(p_handleTapGesture:)];

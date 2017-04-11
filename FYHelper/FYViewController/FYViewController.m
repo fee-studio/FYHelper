@@ -130,7 +130,7 @@
 //    [mNotificationCenter removeObserver:self name:UIKeyboardWillShowNotification object:nil];
 //    [mNotificationCenter removeObserver:self name:UIKeyboardWillHideNotification object:nil];
 
-    NSString *tips = [NSString stringWithFormat:@"🆘FYVc: %@ - dealloc", NSStringFromClass(self.class)];
+    NSString *tips = [NSString stringWithFormat:@"✅ FYVc: %@ - dealloc", NSStringFromClass(self.class)];
     NSLog(@"%@", tips);
 }
 
