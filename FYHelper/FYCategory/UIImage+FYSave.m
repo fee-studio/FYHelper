@@ -4,7 +4,6 @@
 //
 
 #import "UIImage+FYSave.h"
-#import "TSMessage.h"
 #import <Photos/Photos.h>
 #import "FYMacroDefinition.h"
 

@@ -6,6 +6,8 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+#define FYWeakSelf      __weak __typeof(self) weakSelf = self;
+
 #define mApplication        [UIApplication sharedApplication]
 #define mAppDelegate        [[UIApplication sharedApplication] delegate]
 #define mKeyWindow          [[UIApplication sharedApplication] keyWindow]

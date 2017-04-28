@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "FYErrorUtil.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-
+/*
     [[FYErrorUtil instance] fy_registerToHandle:^(NSError *error, NSString *fy_message) {
         NSLog(@"message = %@", fy_message);
         NSLog(@"error = %@", error);
@@ -32,7 +31,7 @@
     [[NSError fy_errorWithCode:106 message:@""] fy_toHandle];
     [[NSError fy_errorWithCode:0 message:@"msg00000"] fy_toHandle];
     [[NSError errorWithDomain:@"com.buerguo.fy4" code:-100 userInfo:nil] fy_toHandle];
-
+*/
     return YES;
 }
 
