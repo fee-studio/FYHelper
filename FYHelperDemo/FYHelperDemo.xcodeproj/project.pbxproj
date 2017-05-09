@@ -29,7 +29,6 @@
 		524388E41EB2379D00E97573 /* UIView+FYFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C45A53FFC0D998032B11 /* UIView+FYFrame.m */; };
 		524388E51EB2379D00E97573 /* NSDate+FYFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C1CF0D3323872D421987 /* NSDate+FYFormat.m */; };
 		524388E61EB2379D00E97573 /* NSDictionary+FY.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2CE4B3D65B201B3929439 /* NSDictionary+FY.m */; };
-		524388E71EB2379D00E97573 /* UIColor+Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2CB799607D5890F93B17C /* UIColor+Colours.m */; };
 		524388E81EB2379D00E97573 /* UILabel+FYStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2CCC549D83A593E2D353B /* UILabel+FYStyle.m */; };
 		524388E91EB2379D00E97573 /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2CEF209BFC28CDA69DF8B /* UIView+Addition.m */; };
 		524388EA1EB237AF00E97573 /* UIView+FYBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2CAC77832BEC6BEDC59E0 /* UIView+FYBorder.m */; };
@@ -111,7 +110,6 @@
 		5BF2CE78258728AF534C1822 /* UIButton+FYCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C29DC9D8BDBF4104FA60 /* UIButton+FYCountDown.m */; };
 		5BF2CE7A1327DF0998BE9229 /* NSData+FYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C6637ECF7D9C827679FB /* NSData+FYCache.m */; };
 		5BF2CE819EA46EC8D927572A /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2CEF209BFC28CDA69DF8B /* UIView+Addition.m */; };
-		5BF2CF397DDC5C9949717DB9 /* UIColor+Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2CB799607D5890F93B17C /* UIColor+Colours.m */; };
 		5BF2CF67907509B822FFCDFB /* UIButton+FYStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C1BCBD3A3AB0B5E294BD /* UIButton+FYStyle.m */; };
 		5BF2CF7A77E0D360DD98A260 /* UIWindow+FY.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2CC7B35157E3B55F75E6A /* UIWindow+FY.m */; };
 		5BF2CFA08F99583717C480E1 /* NSArray+FY.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C068A841631C38DD2458 /* NSArray+FY.m */; };
@@ -183,7 +181,6 @@
 		5BF2C19D4B6EFD40B1EA3083 /* UIView+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animation.m"; sourceTree = "<group>"; };
 		5BF2C1BCBD3A3AB0B5E294BD /* UIButton+FYStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FYStyle.m"; sourceTree = "<group>"; };
 		5BF2C1CF0D3323872D421987 /* NSDate+FYFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+FYFormat.m"; sourceTree = "<group>"; };
-		5BF2C1FD8EC9BEB24EB7ACCC /* UIColor+Colours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Colours.h"; sourceTree = "<group>"; };
 		5BF2C20C30CF1763EE61E513 /* FYCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYCategory.h; sourceTree = "<group>"; };
 		5BF2C223C28E0AF1EC13AC08 /* UIAlertController+FYSupportedInterfaceOrientations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+FYSupportedInterfaceOrientations.h"; sourceTree = "<group>"; };
 		5BF2C254BB8DF2023A05A76B /* AVAsset+FYVideoOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVAsset+FYVideoOrientation.h"; sourceTree = "<group>"; };
@@ -235,7 +232,6 @@
 		5BF2CAC77832BEC6BEDC59E0 /* UIView+FYBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FYBorder.m"; sourceTree = "<group>"; };
 		5BF2CB06FB6257CEB27D454A /* UIView+FYBlockGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FYBlockGesture.m"; sourceTree = "<group>"; };
 		5BF2CB076A01AE1BEE466A2B /* UIImage+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Addition.h"; sourceTree = "<group>"; };
-		5BF2CB799607D5890F93B17C /* UIColor+Colours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Colours.m"; sourceTree = "<group>"; };
 		5BF2CB89A524B6DBE56F99A0 /* FYMacroDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYMacroDefinition.h; sourceTree = "<group>"; };
 		5BF2CBA9417062ABE9E5D637 /* UIImage+FYSave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FYSave.h"; sourceTree = "<group>"; };
 		5BF2CC0D8ADD13214EE19BA5 /* UIView+FYBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FYBorder.h"; sourceTree = "<group>"; };
@@ -457,8 +453,6 @@
 				5BF2C1CF0D3323872D421987 /* NSDate+FYFormat.m */,
 				5BF2CED2B31703FD3153E00D /* NSDictionary+FY.h */,
 				5BF2CE4B3D65B201B3929439 /* NSDictionary+FY.m */,
-				5BF2C1FD8EC9BEB24EB7ACCC /* UIColor+Colours.h */,
-				5BF2CB799607D5890F93B17C /* UIColor+Colours.m */,
 				5BF2C48D4BC5E6C5578E3009 /* UILabel+FYStyle.h */,
 				5BF2CCC549D83A593E2D353B /* UILabel+FYStyle.m */,
 				5BF2CA0CDB9947348CEA43C8 /* UIView+Addition.h */,
@@ -719,7 +713,6 @@
 				524388E41EB2379D00E97573 /* UIView+FYFrame.m in Sources */,
 				524388E51EB2379D00E97573 /* NSDate+FYFormat.m in Sources */,
 				524388E61EB2379D00E97573 /* NSDictionary+FY.m in Sources */,
-				524388E71EB2379D00E97573 /* UIColor+Colours.m in Sources */,
 				524388E81EB2379D00E97573 /* UILabel+FYStyle.m in Sources */,
 				524388E91EB2379D00E97573 /* UIView+Addition.m in Sources */,
 				524388CE1EB2377300E97573 /* FYAppUtil.m in Sources */,
@@ -760,7 +753,6 @@
 				5BF2C7B0E775CB33DA1BCA6B /* UIView+FYFrame.m in Sources */,
 				5BF2C5FFD601072DF3409B84 /* NSDate+FYFormat.m in Sources */,
 				5BF2C943B5F7C3C77D2C9710 /* NSDictionary+FY.m in Sources */,
-				5BF2CF397DDC5C9949717DB9 /* UIColor+Colours.m in Sources */,
 				5BF2C2854A91BB95BB332327 /* UILabel+FYStyle.m in Sources */,
 				5BF2CE819EA46EC8D927572A /* UIView+Addition.m in Sources */,
 				5BF2C69546EC3B1A490C1270 /* UIView+FYBorder.m in Sources */,

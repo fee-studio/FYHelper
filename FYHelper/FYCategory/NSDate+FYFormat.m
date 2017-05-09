@@ -2,6 +2,10 @@
 
 @implementation NSDate (FYFormat)
 
+- (NSString *)fy_formatDateStringWithDefaultFormat; {
+    return [self fy_formatDateStringWithFormat:@"yyyy-MM-dd HH:mm"];
+}
+
 - (NSString *)fy_formatDateStringWithFormat:(NSString *)format {
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
     [formatter setDateFormat:format];
