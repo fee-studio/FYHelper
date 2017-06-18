@@ -43,7 +43,8 @@
  * @param array 装有String的Array  @[@"xxx", @"yyy", @"zzzz"]
  * @return @"xxx,yyy,zzz"样式的字符串
  */
-+ (NSString *)fy_csvStringFromArray:(NSArray<NSString *> *)array;
++ (NSString *)fy_csvStringFromArray:(NSArray *)array;
++ (NSString *)fy_csvFromArray:(NSArray *)array;
 
 /**
  * MD5 string

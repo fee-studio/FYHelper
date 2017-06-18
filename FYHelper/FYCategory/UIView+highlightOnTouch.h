@@ -1,14 +1,14 @@
+////
+////  UIView+highlightOnTouch.m
+////
+////  Created by Simon Westerlund on 15/01/14.
+////  Copyright (c) 2014 Simon Westerlund. All rights reserved.
+////
 //
-//  UIView+highlightOnTouch.m
+//#import <UIKit/UIKit.h>
 //
-//  Created by Simon Westerlund on 15/01/14.
-//  Copyright (c) 2014 Simon Westerlund. All rights reserved.
+//@interface UIView (highlightOnTouch)
 //
-
-#import <UIKit/UIKit.h>
-
-@interface UIView (highlightOnTouch)
-
-@property(nonatomic, getter = shouldHightlightOnTouch) BOOL highlightOnTouch;
-
-@end
+//@property(nonatomic, getter = shouldHightlightOnTouch) BOOL highlightOnTouch;
+//
+//@end

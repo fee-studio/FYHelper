@@ -20,15 +20,14 @@ static char *const kTagObjectKey;
     objc_setAssociatedObject(self, kTagStringKey, tagString, OBJC_ASSOCIATION_COPY_NONATOMIC);
 }
 
-
 - (id)tagObject; {
     id obj = objc_getAssociatedObject(self, kTagObjectKey);
     return obj;
 }
 
 - (void)setTagObject:(id)tagObject; {
-//    objc_setAssociatedObject(self, kTagObjectKey, tagObject, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
-    objc_setAssociatedObject(self, kTagObjectKey, tagObject, OBJC_ASSOCIATION_COPY_NONATOMIC);
+    objc_setAssociatedObject(self, kTagObjectKey, tagObject, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+//    objc_setAssociatedObject(self, kTagObjectKey, tagObject, OBJC_ASSOCIATION_COPY_NONATOMIC); // 不能用这个。会深复制
 }
 
 @end

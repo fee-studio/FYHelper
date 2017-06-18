@@ -18,12 +18,19 @@ typedef NS_ENUM(NSInteger, EdgeType) {
 @implementation UIView (FYBorder)
 
 - (void)fy_cornerStyleWithRadius:(CGFloat)radius {
+
+    self.layer.cornerRadius = radius;
+    self.clipsToBounds = YES;
+    self.layer.masksToBounds = YES;
+
+    /*
     // iOS9以上用layer的方法反而更好.
     if (NSFoundationVersionNumber >= NSFoundationVersionNumber_iOS_9_0) { // iOS系统版本 >= 9.0
         self.layer.cornerRadius = radius;
         self.clipsToBounds = YES;
         self.layer.masksToBounds = YES;
     } else {
+     /// iOS8下，UITextField的内容会显示不出来。由于以下的代码。先暂停
         CGRect rect = self.bounds;
         // Create the path
         UIBezierPath *maskPath = [UIBezierPath bezierPathWithRoundedRect:rect
@@ -38,6 +45,7 @@ typedef NS_ENUM(NSInteger, EdgeType) {
         // Set the newly created shape layer as the mask for the view's layer
         self.layer.mask = maskLayer;
     }
+     */
 }
 
 - (void)fy_borderStyleWithColor:(UIColor *)color width:(CGFloat)width cornerRadius:(CGFloat)radius {

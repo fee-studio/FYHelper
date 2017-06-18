@@ -5,9 +5,10 @@
 
 #import "UIScrollView+FYTouch.h"
 
-
+// plan ...
 @implementation UIScrollView (FYTouch)
 // todo ... 会导致iOS9 & iphone5s crash...
+
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     [[self nextResponder] touchesBegan:touches withEvent:event];
     [super touchesBegan:touches withEvent:event];

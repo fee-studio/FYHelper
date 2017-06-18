@@ -23,4 +23,8 @@
 
 + (NSDate *)fy_dateYesterday;
 
+- (BOOL)fy_isInFuture;
+
+- (BOOL)fy_isInPast;
+
 @end

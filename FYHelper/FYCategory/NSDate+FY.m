@@ -50,4 +50,20 @@
     return [[NSCalendar currentCalendar] dateByAddingComponents:c toDate:[NSDate date] options:0];
 }
 
+- (BOOL)fy_isEarlierThanDate:(NSDate *)aDate {
+    return ([self compare:aDate] == NSOrderedAscending);
+}
+
+- (BOOL)fy_isLaterThanDate:(NSDate *)aDate {
+    return ([self compare:aDate] == NSOrderedDescending);
+}
+
+- (BOOL)fy_isInFuture {
+    return ([self fy_isLaterThanDate:[NSDate date]]);
+}
+
+- (BOOL)fy_isInPast {
+    return ([self fy_isEarlierThanDate:[NSDate date]]);
+}
+
 @end

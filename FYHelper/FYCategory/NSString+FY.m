@@ -14,12 +14,28 @@
     }
 }
 
++ (NSString *)fy_csvFromArray:(NSArray *)array {
+    NSMutableString *mutableString = [NSMutableString string];
+    for (id object in array) {
+        NSString *string = object;
+        if ([object isKindOfClass:[NSNumber class]]) {
+            string = [object stringValue];
+        }
+        if (![[string fy_trim] isEqualToString:@""]) {
+            [mutableString appendString:string];
+            [mutableString appendString:@","];
+        }
+    }
+    if (mutableString.length > 0) {
+        [mutableString deleteCharactersInRange:NSMakeRange(mutableString.length - 1, 1)];
+    }
+    return mutableString;
+}
 
 + (NSString *)fy_csvStringFromArray:(NSArray *)stringArray {
     NSMutableString *tmpString = [NSMutableString string];
     @try {
         for (int i = 0; i < stringArray.count; i++) {
-
             id stringObject = stringArray[i];
             if ([stringObject isKindOfClass:[NSNumber class]]) {
                 stringObject = [stringObject stringValue];
