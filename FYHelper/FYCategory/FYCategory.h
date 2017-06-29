@@ -2,7 +2,6 @@
 #import "NSDictionary+FY.h"
 #import "UIColor+FY.h"
 #import "UINavigationController+FY.h"
-
 #import "UITextField+LimitLength.h"
 #import "NSData+FY.h"
 #import "NSFileManager+Addition.h"
@@ -22,7 +21,7 @@
 #import "UIButton+FYStyle.h"
 #import "UIView+FYFrame.h"
 #import "UIScreen+FYFrame.h"
-#import "NSDate+FY.h"
+#import "NSDate+FYCompare.h"
 #import "UIWindow+FY.h"
 #import "UILabel+FYStyle.h"
 #import "UIViewController+FYBackButtonTouched.h"

@@ -5,7 +5,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSDate (FY)
+@interface NSDate (FYCompare)
+
+///是否是同一天
+- (BOOL)fy_isSameDay:(NSDate *)anotherDate;
 
 ///是否是今天
 - (BOOL)fy_isToday;

@@ -3,10 +3,11 @@
 // Copyright (c) 2017 weiboyi. All rights reserved.
 //
 
-#import "NSDate+FY.h"
+#import "NSDate+FYCompare.h"
 
 
-@implementation NSDate (FY)
+@implementation NSDate (FYCompare)
+
 - (BOOL)fy_isSameDay:(NSDate *)anotherDate {
     NSCalendar *calendar = [NSCalendar currentCalendar];
     NSDateComponents *components1 = [calendar components:(NSCalendarUnitYear
