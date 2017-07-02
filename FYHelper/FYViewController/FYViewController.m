@@ -27,7 +27,6 @@
 
     // 分派参数
     [self dispatchParameter];
-
 }
 
 - (void)viewWillAppear:(BOOL)animated {

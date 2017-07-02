@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e5a59009-9c45-4d41-8490-c6dce193fd20" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/BuglyHotfix/BuglyHotfix.framework/BuglyHotfix" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/FYHelperDemoPod.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/xcode.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FYHelperDemoPod.xcodeproj/project.pbxproj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FYHelperDemoPod.xcworkspace/contents.xcworkspacedata" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FYHelperDemoPod/AppDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FYHelperDemoPod/AppDelegate.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FYHelperDemoPod/Assets.xcassets/AppIcon.appiconset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FYHelperDemoPod/Base.lproj/LaunchScreen.storyboard" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FYHelperDemoPod/Base.lproj/Main.storyboard" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FYHelperDemoPod/DataViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FYHelperDemoPod/DataViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FYHelperDemoPod/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FYHelperDemoPod/ModelController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FYHelperDemoPod/ModelController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FYHelperDemoPod/RootViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FYHelperDemoPod/RootViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FYHelperDemoPod/main.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FYHelperDemoPodTests/FYHelperDemoPodTests.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FYHelperDemoPodTests/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FYHelperDemoPodUITests/FYHelperDemoPodUITests.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FYHelperDemoPodUITests/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Podfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Podfile.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFAutoPurgingImageCache.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFAutoPurgingImageCache.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFImageDownloader.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFImageDownloader.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIImage+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIKit+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/BuglyHotfix/BuglyHotfix.framework/Headers/Bugly.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/BuglyHotfix/BuglyHotfix.framework/Headers/BuglyConfig.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/BuglyHotfix/BuglyHotfix.framework/Headers/BuglyLog.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/BuglyHotfix/BuglyHotfix.framework/Headers/BuglyMender.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/BuglyHotfix/BuglyHotfix.framework/Modules/module.modulemap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/CocoaLumberjack.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/CocoaLumberjack.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/DDASLLogCapture.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/DDASLLogCapture.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/DDASLLogger.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/DDASLLogger.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/DDAbstractDatabaseLogger.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/DDAbstractDatabaseLogger.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/DDAssertMacros.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/DDFileLogger.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/DDFileLogger.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/DDLegacyMacros.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/DDLog+LOGV.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/DDLog.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/DDLog.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/DDLogMacros.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/DDOSLogger.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/DDOSLogger.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/DDTTYLogger.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/DDTTYLogger.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/Extensions/DDContextFilterLogFormatter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/Extensions/DDContextFilterLogFormatter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/Extensions/DDDispatchQueueLogFormatter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/Extensions/DDDispatchQueueLogFormatter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/Extensions/DDMultiFormatter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/Extensions/DDMultiFormatter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/Framework/Lumberjack/CocoaLumberjack.modulemap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/AVAsset+FYVideoOrientation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/AVAsset+FYVideoOrientation.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/FYCategory.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/NSArray+FY.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/NSArray+FY.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/NSData+FY.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/NSData+FY.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/NSData+FYCache.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/NSData+FYCache.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/NSDate+FYCompare.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/NSDate+FYCompare.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/NSDate+FYFormat.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/NSDate+FYFormat.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/NSDictionary+FY.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/NSDictionary+FY.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/NSFileManager+Addition.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/NSFileManager+Addition.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/NSObject+FY.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/NSObject+FY.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/NSString+FY.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/NSString+FY.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/NSTimer+Block.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/NSTimer+Block.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/NSTimer+FYBlocks.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/NSTimer+FYBlocks.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UIAlertController+FYSupportedInterfaceOrientations.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UIAlertController+FYSupportedInterfaceOrientations.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UIAlertView+Addition.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UIAlertView+Addition.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UIButton+FYBlock.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UIButton+FYBlock.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UIButton+FYCountDown.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UIButton+FYCountDown.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UIButton+FYStyle.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UIButton+FYStyle.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UIColor+FY.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UIColor+FY.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UIImage+Addition.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UIImage+Addition.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UIImage+FYCorner.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UIImage+FYCorner.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UIImage+FYSave.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UIImage+FYSave.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UILabel+Addition.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UILabel+Addition.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UILabel+FYStyle.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UILabel+FYStyle.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UINavigationController+FY.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UINavigationController+FY.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UINavigationItem+Addition.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UINavigationItem+Addition.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UIScreen+FYFrame.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UIScreen+FYFrame.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UIScrollView+FYTouch.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UIScrollView+FYTouch.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UITextField+LimitLength.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UITextField+LimitLength.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UIView+Addition.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UIView+Addition.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UIView+Animation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UIView+Animation.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UIView+FYBlockGesture.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UIView+FYBlockGesture.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UIView+FYBorder.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UIView+FYBorder.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UIView+FYFrame.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UIView+FYFrame.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UIView+Layer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UIView+Layer.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UIView+highlightOnTouch.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UIView+highlightOnTouch.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UIViewController+FYBackButtonTouched.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UIViewController+FYBackButtonTouched.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UIWindow+FY.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYCategory/UIWindow+FY.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYHelper.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYSubclass/FYBorderButton.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYSubclass/FYBorderButton.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYSubclass/FYPaddingTextField.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYSubclass/FYPaddingTextField.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYUtil/FYAppUtil.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYUtil/FYAppUtil.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYUtil/FYDeviceUtil.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYUtil/FYDeviceUtil.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYUtil/FYErrorUtil.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYUtil/FYErrorUtil.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYUtil/FYFileUtil.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYUtil/FYFileUtil.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYUtil/FYLocationUtil.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYUtil/FYLocationUtil.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYUtil/FYMacroDefinition.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYUtil/FYMacroDefinition.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYUtil/FYOtherUtil.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYUtil/FYOtherUtil.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYViewController/FYNavigationController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYViewController/FYNavigationController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYViewController/FYViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/FYHelper/FYViewController/FYViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FYHelper/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/AFAutoPurgingImageCache.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/AFHTTPSessionManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/AFImageDownloader.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/AFNetworkActivityIndicatorManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/AFNetworkReachabilityManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/AFSecurityPolicy.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/AFURLRequestSerialization.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/AFURLResponseSerialization.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/AFURLSessionManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/UIActivityIndicatorView+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/UIButton+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/UIImage+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/UIImageView+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/UIKit+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/UIProgressView+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/UIRefreshControl+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/UIWebView+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/CocoaLumberjack/CocoaLumberjack.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/CocoaLumberjack/DDASLLogCapture.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/CocoaLumberjack/DDASLLogger.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/CocoaLumberjack/DDAbstractDatabaseLogger.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/CocoaLumberjack/DDAssertMacros.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/CocoaLumberjack/DDContextFilterLogFormatter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/CocoaLumberjack/DDDispatchQueueLogFormatter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/CocoaLumberjack/DDFileLogger.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/CocoaLumberjack/DDLegacyMacros.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/CocoaLumberjack/DDLog+LOGV.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/CocoaLumberjack/DDLog.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/CocoaLumberjack/DDLogMacros.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/CocoaLumberjack/DDMultiFormatter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/CocoaLumberjack/DDOSLogger.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/CocoaLumberjack/DDTTYLogger.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/AVAsset+FYVideoOrientation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/FYAppUtil.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/FYBorderButton.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/FYCategory.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/FYDeviceUtil.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/FYErrorUtil.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/FYFileUtil.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/FYHelper.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/FYLocationUtil.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/FYMacroDefinition.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/FYNavigationController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/FYOtherUtil.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/FYPaddingTextField.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/FYViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/NSArray+FY.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/NSData+FY.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/NSData+FYCache.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/NSDate+FYCompare.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/NSDate+FYFormat.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/NSDictionary+FY.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/NSFileManager+Addition.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/NSObject+FY.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/NSString+FY.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/NSTimer+Block.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/NSTimer+FYBlocks.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UIAlertController+FYSupportedInterfaceOrientations.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UIAlertView+Addition.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UIButton+FYBlock.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UIButton+FYCountDown.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UIButton+FYStyle.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UIColor+FY.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UIImage+Addition.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UIImage+FYCorner.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UIImage+FYSave.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UILabel+Addition.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UILabel+FYStyle.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UINavigationController+FY.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UINavigationItem+Addition.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UIScreen+FYFrame.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UIScrollView+FYTouch.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UITextField+LimitLength.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UIView+Addition.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UIView+Animation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UIView+FYBlockGesture.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UIView+FYBorder.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UIView+FYFrame.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UIView+Layer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UIView+highlightOnTouch.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UIViewController+FYBackButtonTouched.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UIWindow+FY.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/AFAutoPurgingImageCache.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/AFHTTPSessionManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/AFImageDownloader.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/AFNetworkActivityIndicatorManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/AFNetworkReachabilityManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/AFSecurityPolicy.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/AFURLRequestSerialization.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/AFURLResponseSerialization.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/AFURLSessionManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/UIActivityIndicatorView+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/UIButton+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/UIImage+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/UIImageView+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/UIKit+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/UIProgressView+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/UIRefreshControl+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/UIWebView+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/BuglyHotfix/BuglyHotfix/Bugly.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/BuglyHotfix/BuglyHotfix/BuglyConfig.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/BuglyHotfix/BuglyHotfix/BuglyLog.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/BuglyHotfix/BuglyHotfix/BuglyMender.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/CocoaLumberjack/CocoaLumberjack.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/CocoaLumberjack/DDASLLogCapture.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/CocoaLumberjack/DDASLLogger.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/CocoaLumberjack/DDAbstractDatabaseLogger.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/CocoaLumberjack/DDAssertMacros.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/CocoaLumberjack/DDContextFilterLogFormatter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/CocoaLumberjack/DDDispatchQueueLogFormatter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/CocoaLumberjack/DDFileLogger.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/CocoaLumberjack/DDLegacyMacros.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/CocoaLumberjack/DDLog+LOGV.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/CocoaLumberjack/DDLog.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/CocoaLumberjack/DDLogMacros.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/CocoaLumberjack/DDMultiFormatter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/CocoaLumberjack/DDOSLogger.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/CocoaLumberjack/DDTTYLogger.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/AVAsset+FYVideoOrientation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/FYAppUtil.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/FYBorderButton.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/FYCategory.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/FYDeviceUtil.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/FYErrorUtil.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/FYFileUtil.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/FYHelper.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/FYLocationUtil.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/FYMacroDefinition.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/FYNavigationController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/FYOtherUtil.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/FYPaddingTextField.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/FYViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/NSArray+FY.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/NSData+FY.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/NSData+FYCache.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/NSDate+FYCompare.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/NSDate+FYFormat.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/NSDictionary+FY.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/NSFileManager+Addition.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/NSObject+FY.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/NSString+FY.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/NSTimer+Block.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/NSTimer+FYBlocks.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UIAlertController+FYSupportedInterfaceOrientations.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UIAlertView+Addition.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UIButton+FYBlock.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UIButton+FYCountDown.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UIButton+FYStyle.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UIColor+FY.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UIImage+Addition.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UIImage+FYCorner.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UIImage+FYSave.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UILabel+Addition.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UILabel+FYStyle.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UINavigationController+FY.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UINavigationItem+Addition.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UIScreen+FYFrame.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UIScrollView+FYTouch.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UITextField+LimitLength.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UIView+Addition.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UIView+Animation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UIView+FYBlockGesture.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UIView+FYBorder.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UIView+FYFrame.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UIView+Layer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UIView+highlightOnTouch.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UIViewController+FYBackButtonTouched.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UIWindow+FY.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking-dummy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking-prefix.pch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/CocoaLumberjack/CocoaLumberjack-dummy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/CocoaLumberjack/CocoaLumberjack-prefix.pch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/CocoaLumberjack/CocoaLumberjack.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/FYHelper/FYHelper-dummy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/FYHelper/FYHelper-prefix.pch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/FYHelper/FYHelper.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FYHelperDemoPod/Pods-FYHelperDemoPod-acknowledgements.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FYHelperDemoPod/Pods-FYHelperDemoPod-acknowledgements.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FYHelperDemoPod/Pods-FYHelperDemoPod-dummy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FYHelperDemoPod/Pods-FYHelperDemoPod-frameworks.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FYHelperDemoPod/Pods-FYHelperDemoPod-resources.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FYHelperDemoPod/Pods-FYHelperDemoPod.debug.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FYHelperDemoPod/Pods-FYHelperDemoPod.release.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FYHelperDemoPure/.idea/FYHelperDemoPure.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FYHelperDemoPure/.idea/dbnavigator.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FYHelperDemoPure/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FYHelperDemoPure/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FYHelperDemoPure/.idea/xcode.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FYHelperDemoPure/FYHelperDemoPure.xcodeproj/project.pbxproj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FYHelperDemoPure/FYHelperDemoPure.xcodeproj/project.xcworkspace/contents.xcworkspacedata" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FYHelperDemoPure/FYHelperDemoPure/AppDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FYHelperDemoPure/FYHelperDemoPure/AppDelegate.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FYHelperDemoPure/FYHelperDemoPure/Assets.xcassets/AppIcon.appiconset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FYHelperDemoPure/FYHelperDemoPure/Base.lproj/LaunchScreen.storyboard" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FYHelperDemoPure/FYHelperDemoPure/Base.lproj/Main.storyboard" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FYHelperDemoPure/FYHelperDemoPure/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FYHelperDemoPure/FYHelperDemoPure/ViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FYHelperDemoPure/FYHelperDemoPure/ViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FYHelperDemoPure/FYHelperDemoPure/main.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FYHelperDemoPure/FYHelperDemoPureTests/FYHelperDemoPureTests.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FYHelperDemoPure/FYHelperDemoPureTests/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FYHelperDemoPure/FYHelperDemoPureUITests/FYHelperDemoPureUITests.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FYHelperDemoPure/FYHelperDemoPureUITests/Info.plist" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FYHelperDemo/.idea/dbnavigator.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FYHelperDemo/FYHelperDemo.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FYHelperDemo/FYHelperDemo.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FYHelperDemo/FYHelperDemo/AppDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FYHelperDemo/FYHelperDemo/AppDelegate.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FYHelperDemo/FYHelperDemo/Assets.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FYHelperDemo/FYHelperDemo/Assets.xcassets/first.imageset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FYHelperDemo/FYHelperDemo/Assets.xcassets/first.imageset/first.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FYHelperDemo/FYHelperDemo/Assets.xcassets/second.imageset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FYHelperDemo/FYHelperDemo/Assets.xcassets/second.imageset/second.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FYHelperDemo/FYHelperDemo/Base.lproj/LaunchScreen.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FYHelperDemo/FYHelperDemo/Base.lproj/Main.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FYHelperDemo/FYHelperDemo/FirstViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FYHelperDemo/FYHelperDemo/FirstViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FYHelperDemo/FYHelperDemo/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FYHelperDemo/FYHelperDemo/SecondViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FYHelperDemo/FYHelperDemo/SecondViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FYHelperDemo/FYHelperDemo/main.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FYHelperDemo/FYHelperDemoTests/FYHelperDemoTests.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FYHelperDemo/FYHelperDemoTests/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FYHelperDemo/FYHelperDemoUITests/FYHelperDemoUITests.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FYHelperDemo/FYHelperDemoUITests/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FYHelperDemo/FYHelperLib/FYHelperLib.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FYHelperDemo/FYHelperLib/FYHelperLib.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Icon&#13;" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FYHelper.podspec" afterPath="$PROJECT_DIR$/../FYHelper.podspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FYHelper/FYViewController/FYViewController.m" afterPath="$PROJECT_DIR$/../FYHelper/FYViewController/FYViewController.m" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_6ff0b0d3c5ea22415a719715e511bb490b1134e6" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="78" />
+    <option name="y" value="23" />
+    <option name="width" value="1842" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Cidr.FilesView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FYHelperDemoPod" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.FYHelperDemoPod">
+    <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" MAKE_ACTIVE="TRUE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="FYHelperDemoPod" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FYHelperDemoPod" TARGET_NAME="FYHelperDemoPod" CONFIG_NAME="Debug" SCHEME_NAME="FYHelperDemoPod" RUN_TARGET_PROJECT_NAME="FYHelperDemoPod" RUN_TARGET_NAME="FYHelperDemoPod" MAKE_ACTIVE="TRUE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.FYHelperDemoPod" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5a59009-9c45-4d41-8490-c6dce193fd20" name="Default" comment="" />
+      <created>1499010306550</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1499010306550</updated>
+      <workItem from="1499010308231" duration="466000" />
+      <workItem from="1499010895328" duration="85000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="551000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="78" y="23" width="1842" height="1057" extended-state="6" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.55336785" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25277779" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="MaxCompute Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Running Info" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Running Result" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="MaxCompute Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>

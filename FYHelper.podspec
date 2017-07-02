@@ -9,8 +9,8 @@
 Pod::Spec.new do |s|
 
   s.name         = "FYHelper"
-  s.version      = "0.0.7"
-  s.summary      = "iOS dev helper"
+  s.version      = "0.0.8"
+  s.summary      = "iOS Dev Helper"
 
 
   # This description is used to generate tags and improve search results.
@@ -19,17 +19,20 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                   iOS dev helper
+                   iOS Dev Helper, this is a base framework for me.
                    DESC
-
 
   s.homepage     = "https://github.com/iosfeng/FYHelper"
   s.license      = "MIT"
   s.author       = { "iosfeng" => "iosfeng@163.com" }
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/iosfeng/FYHelper.git", :tag => "#{s.version}" }
-  s.source_files = "FYHelper/**/*"
+  s.source_files = 'FYHelper/*', 'FYHelper/FYCategory/*', 'FYHelper/FYSubclass/*', 'FYHelper/FYUtil/*', 'FYHelper/FYViewController/*'
+  # s.public_header_files = 'FYHelper/**/*.h'   #公开头文件地址
   s.frameworks   = 'Foundation', 'CoreGraphics', 'UIKit'
   s.requires_arc = true
+  s.dependency 'AFNetworking'
+  s.dependency 'CocoaLumberjack'
+  s.dependency 'BuglyHotfix'
 
 end

@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5835D7410054A3C8EFE7A96B /* libPods-FYHelperDemoPod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12CDB10D8D41DFCABE49E896 /* libPods-FYHelperDemoPod.a */; };
+		84A39117284D89B67F650752 /* FYHelperDemoPodUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A39195A218B47B73BAFAF8 /* FYHelperDemoPodUITests.m */; };
+		84A392597CA5F238174AD184 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A392E941FCD28397B710EA /* AppDelegate.m */; };
+		84A393CA4B76E65B703F4D2D /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A394EF09B0D58E61D404D6 /* ModelController.m */; };
+		84A39640E41734A3246C98E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A39C8DCC883B0EA8F98AC5 /* Assets.xcassets */; };
+		84A397418CE363D00AB75B60 /* FYHelperDemoPodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A392EE909A19F20DE43164 /* FYHelperDemoPodTests.m */; };
+		84A397E41FB31F8D4A3D9438 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A391803640764198CDB2A6 /* DataViewController.m */; };
+		84A39C7D819E1E67C0509A50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A39C4EE6D46E7C54913DE2 /* main.m */; };
+		84A39D36344274FF17AF2896 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A398D2B9E6A555131A21E9 /* RootViewController.m */; };
+		84A39E1EBA85B392949A5003 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A3991D18AD3DD66B9CB125 /* Main.storyboard */; };
+		84A39FCE650AABD08DD20CEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A397B7FC324E5EFEA08520 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84A3992B4C9587019572C4FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84A397DBE9BE92EA39B2C017 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84A394F3AC04F74519ED1264;
+			remoteInfo = FYHelperDemoPod;
+		};
+		84A39AC260B3BC2DDA2CFEE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84A397DBE9BE92EA39B2C017 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84A394F3AC04F74519ED1264;
+			remoteInfo = FYHelperDemoPod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12CDB10D8D41DFCABE49E896 /* libPods-FYHelperDemoPod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FYHelperDemoPod.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A391803640764198CDB2A6 /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		84A39195A218B47B73BAFAF8 /* FYHelperDemoPodUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYHelperDemoPodUITests.m; sourceTree = "<group>"; };
+		84A391D1DFE97E8675734569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84A392888E7E417884B2D5D9 /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		84A392E941FCD28397B710EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84A392EE909A19F20DE43164 /* FYHelperDemoPodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYHelperDemoPodTests.m; sourceTree = "<group>"; };
+		84A394EF09B0D58E61D404D6 /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		84A3950906DA6B718D0935D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84A3951597BF08741BE5A6D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84A396435CF3054A3AA2E555 /* FYHelperDemoPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYHelperDemoPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A39816A34FE025AE37C2FA /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		84A398839BE9202B4DF32FBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		84A398A7FA865BCE5C4860CD /* FYHelperDemoPodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYHelperDemoPodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A398D2B9E6A555131A21E9 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		84A3991CE21FDB41D7A390B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		84A39BE5653BCF63A0E89820 /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		84A39C4EE6D46E7C54913DE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84A39C8DCC883B0EA8F98AC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84A39D64FB1E0543A10AC730 /* FYHelperDemoPodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYHelperDemoPodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A39FC39F5F6F462AA32FB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		DD9A33BA3CBFA2CE80BAAD58 /* Pods-FYHelperDemoPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYHelperDemoPod.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FYHelperDemoPod/Pods-FYHelperDemoPod.debug.xcconfig"; sourceTree = "<group>"; };
+		F05052927613362D48CE79CC /* Pods-FYHelperDemoPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYHelperDemoPod.release.xcconfig"; path = "Pods/Target Support Files/Pods-FYHelperDemoPod/Pods-FYHelperDemoPod.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84A396574C35951EE51873CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A399767323F25DAA588D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5835D7410054A3C8EFE7A96B /* libPods-FYHelperDemoPod.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A39A407F4217E7D9E50D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84A39165FC071761A0A64622 /* FYHelperDemoPod */ = {
+			isa = PBXGroup;
+			children = (
+				84A3991CE21FDB41D7A390B7 /* Info.plist */,
+				84A39C8DCC883B0EA8F98AC5 /* Assets.xcassets */,
+				84A397B7FC324E5EFEA08520 /* LaunchScreen.storyboard */,
+				84A3946CA9D7A925E4DD788A /* Supporting Files */,
+				84A3951597BF08741BE5A6D7 /* AppDelegate.h */,
+				84A392E941FCD28397B710EA /* AppDelegate.m */,
+				84A3991D18AD3DD66B9CB125 /* Main.storyboard */,
+				84A39816A34FE025AE37C2FA /* RootViewController.h */,
+				84A398D2B9E6A555131A21E9 /* RootViewController.m */,
+				84A392888E7E417884B2D5D9 /* DataViewController.h */,
+				84A391803640764198CDB2A6 /* DataViewController.m */,
+				84A39BE5653BCF63A0E89820 /* ModelController.h */,
+				84A394EF09B0D58E61D404D6 /* ModelController.m */,
+			);
+			path = FYHelperDemoPod;
+			sourceTree = "<group>";
+		};
+		84A3946CA9D7A925E4DD788A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84A39C4EE6D46E7C54913DE2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84A397AAE8EFCBC157BBAEDB = {
+			isa = PBXGroup;
+			children = (
+				84A39C11499E00093F376D7A /* Products */,
+				84A39165FC071761A0A64622 /* FYHelperDemoPod */,
+				84A39EF96AD7AF23748D4D5B /* FYHelperDemoPodTests */,
+				84A39F68C4D218305D653442 /* FYHelperDemoPodUITests */,
+				C4CEE31988B8314A73919611 /* Pods */,
+				EEB54BC03E504BFDBF1E4B4A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84A39C11499E00093F376D7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84A396435CF3054A3AA2E555 /* FYHelperDemoPod.app */,
+				84A398A7FA865BCE5C4860CD /* FYHelperDemoPodTests.xctest */,
+				84A39D64FB1E0543A10AC730 /* FYHelperDemoPodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84A39EF96AD7AF23748D4D5B /* FYHelperDemoPodTests */ = {
+			isa = PBXGroup;
+			children = (
+				84A398839BE9202B4DF32FBB /* Info.plist */,
+				84A392EE909A19F20DE43164 /* FYHelperDemoPodTests.m */,
+			);
+			path = FYHelperDemoPodTests;
+			sourceTree = "<group>";
+		};
+		84A39F68C4D218305D653442 /* FYHelperDemoPodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84A39FC39F5F6F462AA32FB8 /* Info.plist */,
+				84A39195A218B47B73BAFAF8 /* FYHelperDemoPodUITests.m */,
+			);
+			path = FYHelperDemoPodUITests;
+			sourceTree = "<group>";
+		};
+		C4CEE31988B8314A73919611 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD9A33BA3CBFA2CE80BAAD58 /* Pods-FYHelperDemoPod.debug.xcconfig */,
+				F05052927613362D48CE79CC /* Pods-FYHelperDemoPod.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EEB54BC03E504BFDBF1E4B4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12CDB10D8D41DFCABE49E896 /* libPods-FYHelperDemoPod.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84A3949F27A0710A77956D3A /* FYHelperDemoPodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A39185DD789B5BAAF531EA /* Build configuration list for PBXNativeTarget "FYHelperDemoPodUITests" */;
+			buildPhases = (
+				84A39E65B28D6E0505110F3A /* Sources */,
+				84A39A407F4217E7D9E50D8C /* Frameworks */,
+				84A395BACCD8759AA40220EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84A39584A07B1D6DB446A1FC /* PBXTargetDependency */,
+			);
+			name = FYHelperDemoPodUITests;
+			productName = FYHelperDemoPodUITests;
+			productReference = 84A39D64FB1E0543A10AC730 /* FYHelperDemoPodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		84A394F3AC04F74519ED1264 /* FYHelperDemoPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A3924E836E344757BF0EE7 /* Build configuration list for PBXNativeTarget "FYHelperDemoPod" */;
+			buildPhases = (
+				2F62F3312224BA63B9FE715A /* [CP] Check Pods Manifest.lock */,
+				84A3991638EF90E90D3D1817 /* Sources */,
+				84A399767323F25DAA588D27 /* Frameworks */,
+				84A39AD6AD71EC993F610DA3 /* Resources */,
+				7B5CD3FE18AAA91AB76C7A6B /* [CP] Embed Pods Frameworks */,
+				0BE6705A920D472A69BDFBDA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FYHelperDemoPod;
+			productName = FYHelperDemoPod;
+			productReference = 84A396435CF3054A3AA2E555 /* FYHelperDemoPod.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84A39AB21ABF5C91B6A8B14A /* FYHelperDemoPodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A3982E1A0BE19CAF83E295 /* Build configuration list for PBXNativeTarget "FYHelperDemoPodTests" */;
+			buildPhases = (
+				84A3919AAFE88C8996381472 /* Sources */,
+				84A396574C35951EE51873CA /* Frameworks */,
+				84A390C18BC593304F24D8CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84A392495D01250257F846FE /* PBXTargetDependency */,
+			);
+			name = FYHelperDemoPodTests;
+			productName = FYHelperDemoPodTests;
+			productReference = 84A398A7FA865BCE5C4860CD /* FYHelperDemoPodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84A397DBE9BE92EA39B2C017 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					84A394F3AC04F74519ED1264 = {
+						DevelopmentTeam = 9LA84498JK;
+					};
+				};
+			};
+			buildConfigurationList = 84A39265C6505DDFFFABA8A8 /* Build configuration list for PBXProject "FYHelperDemoPod" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84A397AAE8EFCBC157BBAEDB;
+			productRefGroup = 84A39C11499E00093F376D7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84A394F3AC04F74519ED1264 /* FYHelperDemoPod */,
+				84A39AB21ABF5C91B6A8B14A /* FYHelperDemoPodTests */,
+				84A3949F27A0710A77956D3A /* FYHelperDemoPodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84A390C18BC593304F24D8CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A395BACCD8759AA40220EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A39AD6AD71EC993F610DA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A39640E41734A3246C98E7 /* Assets.xcassets in Resources */,
+				84A39FCE650AABD08DD20CEF /* LaunchScreen.storyboard in Resources */,
+				84A39E1EBA85B392949A5003 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BE6705A920D472A69BDFBDA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FYHelperDemoPod/Pods-FYHelperDemoPod-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F62F3312224BA63B9FE715A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7B5CD3FE18AAA91AB76C7A6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FYHelperDemoPod/Pods-FYHelperDemoPod-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84A3919AAFE88C8996381472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A397418CE363D00AB75B60 /* FYHelperDemoPodTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A3991638EF90E90D3D1817 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A39C7D819E1E67C0509A50 /* main.m in Sources */,
+				84A392597CA5F238174AD184 /* AppDelegate.m in Sources */,
+				84A39D36344274FF17AF2896 /* RootViewController.m in Sources */,
+				84A397E41FB31F8D4A3D9438 /* DataViewController.m in Sources */,
+				84A393CA4B76E65B703F4D2D /* ModelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A39E65B28D6E0505110F3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A39117284D89B67F650752 /* FYHelperDemoPodUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84A392495D01250257F846FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84A394F3AC04F74519ED1264 /* FYHelperDemoPod */;
+			targetProxy = 84A39AC260B3BC2DDA2CFEE7 /* PBXContainerItemProxy */;
+		};
+		84A39584A07B1D6DB446A1FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84A394F3AC04F74519ED1264 /* FYHelperDemoPod */;
+			targetProxy = 84A3992B4C9587019572C4FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84A397B7FC324E5EFEA08520 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84A3950906DA6B718D0935D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		84A3991D18AD3DD66B9CB125 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84A391D1DFE97E8675734569 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84A390331B3FA62C1FCDE2F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD9A33BA3CBFA2CE80BAAD58 /* Pods-FYHelperDemoPod.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9LA84498JK;
+				INFOPLIST_FILE = FYHelperDemoPod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.buerguo.FYHelperDemoPod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84A3903DA1BDFC0BEB856CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FYHelperDemoPod.app/FYHelperDemoPod";
+				INFOPLIST_FILE = FYHelperDemoPodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.buerguo.FYHelperDemoPodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		84A396BD3EB13C155438C3BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F05052927613362D48CE79CC /* Pods-FYHelperDemoPod.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9LA84498JK;
+				INFOPLIST_FILE = FYHelperDemoPod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.buerguo.FYHelperDemoPod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84A39868EEC0086D97A4F88E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84A39AA834FE8ECE73B49F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FYHelperDemoPod.app/FYHelperDemoPod";
+				INFOPLIST_FILE = FYHelperDemoPodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.buerguo.FYHelperDemoPodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		84A39B9D354628F24CCE71AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84A39BD24A510385E4847A93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FYHelperDemoPodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.buerguo.FYHelperDemoPodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FYHelperDemoPod;
+			};
+			name = Release;
+		};
+		84A39E5C11A49464468C623E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FYHelperDemoPodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.buerguo.FYHelperDemoPodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FYHelperDemoPod;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84A39185DD789B5BAAF531EA /* Build configuration list for PBXNativeTarget "FYHelperDemoPodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A39E5C11A49464468C623E /* Debug */,
+				84A39BD24A510385E4847A93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A3924E836E344757BF0EE7 /* Build configuration list for PBXNativeTarget "FYHelperDemoPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A390331B3FA62C1FCDE2F3 /* Debug */,
+				84A396BD3EB13C155438C3BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A39265C6505DDFFFABA8A8 /* Build configuration list for PBXProject "FYHelperDemoPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A39868EEC0086D97A4F88E /* Debug */,
+				84A39B9D354628F24CCE71AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A3982E1A0BE19CAF83E295 /* Build configuration list for PBXNativeTarget "FYHelperDemoPodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A39AA834FE8ECE73B49F18 /* Debug */,
+				84A3903DA1BDFC0BEB856CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84A397DBE9BE92EA39B2C017 /* Project object */;
+}

@@ -1,0 +1,42 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - BuglyHotfix (2.0.0):
+    - BuglyHotfix/Core (= 2.0.0)
+  - BuglyHotfix/Core (2.0.0)
+  - CocoaLumberjack (3.2.0):
+    - CocoaLumberjack/Default (= 3.2.0)
+    - CocoaLumberjack/Extensions (= 3.2.0)
+  - CocoaLumberjack/Default (3.2.0)
+  - CocoaLumberjack/Extensions (3.2.0):
+    - CocoaLumberjack/Default
+  - FYHelper (0.0.8):
+    - AFNetworking
+    - BuglyHotfix
+    - CocoaLumberjack
+
+DEPENDENCIES:
+  - FYHelper
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  BuglyHotfix: c56f21af72dda3acdc0b611d351b0bbb86fb2464
+  CocoaLumberjack: 9b4aed7073d242f29cc2f62068d995faf67f703a
+  FYHelper: a548ffd3be30613010f8f70d557b144933d24d24
+
+PODFILE CHECKSUM: 2e2aa3f5a6d2f2730746d668c5f0865b30988fd2
+
+COCOAPODS: 1.2.0
