@@ -35,3 +35,9 @@ update_pod:
 
 # 搜索看是不是与TAG_CODE一致
 	pod search $(POD_NAME)
+
+
+publish_pod_and_check:
+	pod trunk push ../$(POD_NAME).podspec --use-libraries --allow-warnings
+	pod setup
+	pod search $(POD_NAME)

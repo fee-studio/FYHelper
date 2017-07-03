@@ -11,6 +11,12 @@ POD_NAME=FYHelper
 DID_TAG=0
 TAGS=$(git tag)
 
+
+############################################################################
+
+# 返到上一级目录
+cd ..
+
 # 给源代码打版本标签，与podspec文件中version一致即可
 # shell不允许‘=’号两边有空格 DID_TAG=1
 for tag in $TAGS ; do
@@ -34,7 +40,7 @@ pod lib lint --use-libraries --allow-warnings
 
 # 提交你的代码
 git add .                       # 将当前目录下所有文件和子目录的修改记录到Git索引中
-git add ..                      # 将上一级目录下所有文件和子目录的修改记录到Git索引中
+# git add ..                      # 将上一级目录下所有文件和子目录的修改记录到Git索引中
 git status                      # 列出当前目录下被修改还未提交的状态
 git commit -m $CMT_MSG          # 提交被add的改动
 git push origin master          # push代码到Git

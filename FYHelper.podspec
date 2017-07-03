@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "FYHelper"
-  s.version      = "0.0.9"
+  s.version      = "0.0.10"
   s.summary      = "iOS Dev Helper"
 
 
