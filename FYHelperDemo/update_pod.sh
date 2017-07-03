@@ -34,6 +34,7 @@ pod lib lint --use-libraries --allow-warnings
 
 # 提交你的代码
 git add .                       # 将当前目录下所有文件和子目录的修改记录到Git索引中
+git add ..                      # 将上一级目录下所有文件和子目录的修改记录到Git索引中
 git status                      # 列出当前目录下被修改还未提交的状态
 git commit -m $CMT_MSG          # 提交被add的改动
 git push origin master          # push代码到Git

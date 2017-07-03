@@ -11,7 +11,7 @@
 @interface UIView (Addition)
 
 
-- (UIView *)subViewWithTag:(int)tag;
+- (UIView *)fy_subViewWithTag:(int)tag;
 
 + (UIView *)loadNibView:(NSString *)viewName;
 

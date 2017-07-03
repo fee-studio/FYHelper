@@ -10,7 +10,7 @@
 
 @implementation UIView (Addition)
 
-- (UIView *)subViewWithTag:(int)tag {
+- (UIView *)fy_subViewWithTag:(int)tag {
     for (UIView *v in self.subviews) {
         if (v.tag == tag) {
             return v;
