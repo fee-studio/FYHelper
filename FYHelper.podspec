@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "FYHelper"
-  s.version      = "0.0.8"
+  s.version      = "0.0.9"
   s.summary      = "iOS Dev Helper"
 
 
@@ -27,7 +27,8 @@ Pod::Spec.new do |s|
   s.author       = { "iosfeng" => "iosfeng@163.com" }
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/iosfeng/FYHelper.git", :tag => "#{s.version}" }
-  s.source_files = 'FYHelper/*', 'FYHelper/FYCategory/*', 'FYHelper/FYSubclass/*', 'FYHelper/FYUtil/*', 'FYHelper/FYViewController/*'
+  s.source_files = 'FYHelper/**/*'
+  # s.source_files = 'FYHelper/*', 'FYHelper/FYCategory/*', 'FYHelper/FYSubclass/*', 'FYHelper/FYUtil/*', 'FYHelper/FYViewController/*'
   # s.public_header_files = 'FYHelper/**/*.h'   #公开头文件地址
   s.frameworks   = 'Foundation', 'CoreGraphics', 'UIKit'
   s.requires_arc = true
