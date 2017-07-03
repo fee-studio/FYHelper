@@ -1,0 +1,93 @@
+PODS:
+  - AFNetworkActivityLogger (2.0.4):
+    - AFNetworking/NSURLConnection (~> 2.0)
+    - AFNetworking/NSURLSession (~> 2.0)
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - BuglyHotfix (2.0.0):
+    - BuglyHotfix/Core (= 2.0.0)
+  - BuglyHotfix/Core (2.0.0)
+  - ChameleonFramework (2.1.0):
+    - ChameleonFramework/Default (= 2.1.0)
+  - ChameleonFramework/Default (2.1.0)
+  - CocoaLumberjack (3.2.0):
+    - CocoaLumberjack/Default (= 3.2.0)
+    - CocoaLumberjack/Extensions (= 3.2.0)
+  - CocoaLumberjack/Default (3.2.0)
+  - CocoaLumberjack/Extensions (3.2.0):
+    - CocoaLumberjack/Default
+  - DZNEmptyDataSet (1.8.1)
+  - FLEX (2.4.0)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - FXBlurView (1.6.4)
+  - Instabug (7.2.8)
+  - iVersion (1.11.5)
+  - KVOController (1.2.0)
+  - Masonry (0.5.3)
+  - MBProgressHUD (1.0.0)
+  - pop (1.0.10)
+  - RKNotificationHub (2.0.4)
+  - UITableView+FDTemplateLayoutCell (1.6)
+
+DEPENDENCIES:
+  - AFNetworkActivityLogger
+  - AFNetworking
+  - BuglyHotfix
+  - ChameleonFramework
+  - CocoaLumberjack
+  - DZNEmptyDataSet
+  - FLEX (~> 2.0)
+  - FMDB
+  - FXBlurView
+  - Instabug
+  - iVersion
+  - KVOController
+  - Masonry (= 0.5.3)
+  - MBProgressHUD (~> 1.0.0)
+  - pop (~> 1.0)
+  - RKNotificationHub
+  - UITableView+FDTemplateLayoutCell
+
+SPEC CHECKSUMS:
+  AFNetworkActivityLogger: 121486778117d53b3ab1c61d264b88081d0c3eee
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  BuglyHotfix: c56f21af72dda3acdc0b611d351b0bbb86fb2464
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  CocoaLumberjack: 9b4aed7073d242f29cc2f62068d995faf67f703a
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FLEX: bd1a39e55b56bb413b6f1b34b3c10a0dc44ef079
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  FXBlurView: db786c2561cb49a09ae98407f52460096ab8a44f
+  Instabug: 4090e47918cb91a3f690e05211dff9aaf2f574ec
+  iVersion: 3a93a89259eb3b52b0a8ba52c46a0027fa6b4d30
+  KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
+  Masonry: 9f515466afe48632562342a40a1c224071a1a022
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+  RKNotificationHub: 3765424499139c3d3885b681bb0837f072d12ae6
+  UITableView+FDTemplateLayoutCell: 5c949b4a5059c404b442926c0e80f81d10a2d66f
+
+PODFILE CHECKSUM: 34c7864f746a66a1690d0720e19c81b98bff927d
+
+COCOAPODS: 1.2.1
