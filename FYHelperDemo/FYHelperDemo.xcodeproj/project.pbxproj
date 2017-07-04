@@ -49,6 +49,7 @@
 		5BF2CA85D8A63B38FF0919DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF2CD6CA70F08C7308E1797 /* LaunchScreen.storyboard */; };
 		5BF2CAD4FEAF2422791E51EC /* NSArray+FY.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C5309F1C73997E6F9819 /* NSArray+FY.m */; };
 		5BF2CAE037214C57B43F4865 /* UIImage+FYCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C56E45E47BB461408136 /* UIImage+FYCorner.m */; };
+		5BF2CAE2933C1D8D158AE6D5 /* Bugly+FYSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C02B584B06492DCC33A6 /* Bugly+FYSetup.m */; };
 		5BF2CB3D32ADAE198EC8A255 /* NSDictionary+FY.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C070C94E5B97ED4807B9 /* NSDictionary+FY.m */; };
 		5BF2CB90F54651EE13C9AF3D /* UIImage+FYSave.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C3CBFE2CC956F4C321F6 /* UIImage+FYSave.m */; };
 		5BF2CBA37E12EB6D4CC94E04 /* AVAsset+FYVideoOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2CA8EB434656D89245C5F /* AVAsset+FYVideoOrientation.m */; };
@@ -59,6 +60,7 @@
 		5BF2CD70AA1AF9113CD0861E /* UIView+FYBlockGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C15C33825BAE68D22F17 /* UIView+FYBlockGesture.m */; };
 		5BF2CDD2036706E7C0281398 /* UILabel+FYStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C0B274056076D19F4B96 /* UILabel+FYStyle.m */; };
 		5BF2CE0D07EB1B822FE2560A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BF2C1CE47FF10D224ECD854 /* Info.plist */; };
+		5BF2CE28994B5C42DE4F3340 /* FYSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C76E4FDD42CB4A5211FC /* FYSetup.m */; };
 		5BF2CE4BDBB7CAF438AAA453 /* FYLocationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C73001F1EAFDA6961203 /* FYLocationUtil.m */; };
 		5BF2CE594CD8903527B48986 /* UIColor+FY.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C101080A849F118625D5 /* UIColor+FY.m */; };
 		5BF2CEDE8ED0096CF5DB1848 /* NSString+FY.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2CEC5358C0842F29BDB2D /* NSString+FY.m */; };
@@ -94,6 +96,7 @@
 		5BF2C000074D91AC3AD93F4A /* UIButton+FYCountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FYCountDown.h"; sourceTree = "<group>"; };
 		5BF2C0159E772B36CB1E37E1 /* UITextField+LimitLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+LimitLength.h"; sourceTree = "<group>"; };
 		5BF2C02B4ABA8B829F955CAD /* UINavigationController+FY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FY.h"; sourceTree = "<group>"; };
+		5BF2C02B584B06492DCC33A6 /* Bugly+FYSetup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Bugly+FYSetup.m"; sourceTree = "<group>"; };
 		5BF2C037F21C5736BCF4E5A4 /* NSObject+FY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FY.h"; sourceTree = "<group>"; };
 		5BF2C070C94E5B97ED4807B9 /* NSDictionary+FY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+FY.m"; sourceTree = "<group>"; };
 		5BF2C07383B6E727B958B9C0 /* FYAppUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYAppUtil.h; sourceTree = "<group>"; };
@@ -141,6 +144,7 @@
 		5BF2C649D4EB0C64252464E1 /* UIAlertView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Addition.h"; sourceTree = "<group>"; };
 		5BF2C6829C195223512CBF48 /* UIImage+FYCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FYCorner.h"; sourceTree = "<group>"; };
 		5BF2C73001F1EAFDA6961203 /* FYLocationUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYLocationUtil.m; sourceTree = "<group>"; };
+		5BF2C76E4FDD42CB4A5211FC /* FYSetup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYSetup.m; sourceTree = "<group>"; };
 		5BF2C76F532A167316E82967 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BF2C777BF23668F3787FD62 /* FYMacroDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYMacroDefinition.h; sourceTree = "<group>"; };
 		5BF2C7A17EDCE070D548B636 /* UIButton+FYStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FYStyle.m"; sourceTree = "<group>"; };
@@ -182,6 +186,7 @@
 		5BF2CB04FC765FBDD7655226 /* NSFileManager+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+Addition.m"; sourceTree = "<group>"; };
 		5BF2CB38E46F1D6954358FAA /* FYHelperDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYHelperDemoUITests.m; sourceTree = "<group>"; };
 		5BF2CB44EAE6EDCB597CD7E6 /* UIView+FYFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FYFrame.h"; sourceTree = "<group>"; };
+		5BF2CB8B8BE0E6FBB06BC2F8 /* FYSetup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYSetup.h; sourceTree = "<group>"; };
 		5BF2CBB5ED78B8F5A093CEBD /* UIView+FYBlockGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FYBlockGesture.h"; sourceTree = "<group>"; };
 		5BF2CBBD9AEB43A4C40187FA /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		5BF2CBFB28BD2F7396E4F5BB /* FYLocationUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYLocationUtil.h; sourceTree = "<group>"; };
@@ -202,6 +207,7 @@
 		5BF2CEBBC095A5846C2DEDB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5BF2CEC5358C0842F29BDB2D /* NSString+FY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FY.m"; sourceTree = "<group>"; };
 		5BF2CED69BA6A143E669BC0F /* UIButton+FYBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FYBlock.h"; sourceTree = "<group>"; };
+		5BF2CEDD290D1A3431A8587E /* Bugly+FYSetup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bugly+FYSetup.h"; sourceTree = "<group>"; };
 		5BF2CEEE5EB2B6F791707FA9 /* UINavigationItem+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+Addition.h"; sourceTree = "<group>"; };
 		5BF2CEF8FCF3C2F7162736E4 /* DDLog+FYSetup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DDLog+FYSetup.m"; sourceTree = "<group>"; };
 		5BF2CEFFEACEE7F5697BF53B /* UIButton+FYStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FYStyle.h"; sourceTree = "<group>"; };
@@ -414,6 +420,10 @@
 			children = (
 				5BF2CEF8FCF3C2F7162736E4 /* DDLog+FYSetup.m */,
 				5BF2C14764F223D8294C01DF /* DDLog+FYSetup.h */,
+				5BF2C76E4FDD42CB4A5211FC /* FYSetup.m */,
+				5BF2CB8B8BE0E6FBB06BC2F8 /* FYSetup.h */,
+				5BF2C02B584B06492DCC33A6 /* Bugly+FYSetup.m */,
+				5BF2CEDD290D1A3431A8587E /* Bugly+FYSetup.h */,
 			);
 			path = FYSetup;
 			sourceTree = "<group>";
@@ -721,6 +731,8 @@
 				5BF2C2D7A1925824DBEBF4A9 /* FYNavigationController.m in Sources */,
 				5BF2C47162610D8B3B553734 /* DDLog+FYSetup.m in Sources */,
 				5BF2C27D17CA2F40FE0F25CD /* makefile in Sources */,
+				5BF2CE28994B5C42DE4F3340 /* FYSetup.m in Sources */,
+				5BF2CAE2933C1D8D158AE6D5 /* Bugly+FYSetup.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

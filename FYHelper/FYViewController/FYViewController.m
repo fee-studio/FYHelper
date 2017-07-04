@@ -6,6 +6,11 @@
 #import "FYViewController.h"
 #import "FYMacroDefinition.h"
 
+#if DEBUG
+#import "FLEXManager.h"
+#endif
+
+
 @implementation FYViewController {
 
 }
@@ -22,11 +27,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
     self.view.backgroundColor = [UIColor whiteColor];
 
     // 分派参数
     [self dispatchParameter];
+
+    // FLEX
+#if DEBUG
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]
+            initWithTitle:@"FLEX"
+                    style:UIBarButtonItemStylePlain
+                   target:self
+                   action:@selector(actionFlex:)];
+#endif
+
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -84,6 +98,14 @@
 
 - (void)dispatchParameter {
     //	NSAssert(self.parameter, @"self.parameter必须不为空");
+}
+
+#pragma mark - FLEX
+
+- (void)actionFlex:(id)sender {
+#if DEBUG
+    [[FLEXManager sharedManager] showExplorer];
+#endif
 }
 
 #pragma mark -
