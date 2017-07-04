@@ -7,4 +7,5 @@
 
 
 @interface FYSetup : NSObject
+
 @end

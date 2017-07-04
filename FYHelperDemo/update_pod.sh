@@ -17,6 +17,10 @@ TAGS=$(git tag)
 # 返到上一级目录
 cd ..
 
+# Run following command to enable credential caching.
+git config credential.helper store
+git push https://github.com/repo.git
+
 # 给源代码打版本标签，与podspec文件中version一致即可
 # shell不允许‘=’号两边有空格 DID_TAG=1
 for tag in $TAGS ; do
