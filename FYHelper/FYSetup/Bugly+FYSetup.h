@@ -8,6 +8,7 @@
 
 @interface Bugly (FYSetup)
 
-+ (void)fy_setup;
+
++ (void)fy_setupWithAppId:(NSString *)appId;
 
 @end

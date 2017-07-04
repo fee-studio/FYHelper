@@ -24,13 +24,14 @@
     return self;
 }
 
+#pragma mark - view lifecycle
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
 
     // 分派参数
-    [self dispatchParameter];
+    [self fy_dispatchParameter];
 
     // FLEX
 #if DEBUG
@@ -40,18 +41,15 @@
                    target:self
                    action:@selector(actionFlex:)];
 #endif
-
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
 
-
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
-
 
 }
 
@@ -66,7 +64,6 @@
                             selector:@selector(keyboardDidShow:)
                                 name:UIKeyboardDidShowNotification
                               object:nil];
-
     [mNotificationCenter addObserver:self
                             selector:@selector(keyboardWillHide:)
                                 name:UIKeyboardWillHideNotification
@@ -96,7 +93,7 @@
 
 #pragma mark - 基类里面啥不需要加载
 
-- (void)dispatchParameter {
+- (void)fy_dispatchParameter {
     //	NSAssert(self.parameter, @"self.parameter必须不为空");
 }
 
@@ -143,15 +140,12 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-//    [mNotificationCenter removeObserver:self name:UIKeyboardWillShowNotification object:nil];
-//    [mNotificationCenter removeObserver:self name:UIKeyboardWillHideNotification object:nil];
+
+    FYLog(@"☣️内存警告!️");
 }
 
 - (void)dealloc {
-//    [mNotificationCenter removeObserver:self name:UIKeyboardWillShowNotification object:nil];
-//    [mNotificationCenter removeObserver:self name:UIKeyboardWillHideNotification object:nil];
-
-    NSString *tips = [NSString stringWithFormat:@"✅ FYVc: %@ - dealloc", NSStringFromClass(self.class)];
+    NSString *tips = [NSString stringWithFormat:@"✅ FYVC: %@ - dealloc", NSStringFromClass(self.class)];
     NSLog(@"%@", tips);
 }
 

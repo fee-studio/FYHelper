@@ -25,7 +25,7 @@
     NSAssert([classVc isSubclassOfClass:FYViewController.class], @"必须是UIViewController的子类");
 
     FYViewController *vc = (FYViewController *) [[classVc alloc] init];
-    vc.fyParameter = parameter;
+    vc.fy_parameter = parameter;
     [self pushViewController:vc animated:YES];
 }
 

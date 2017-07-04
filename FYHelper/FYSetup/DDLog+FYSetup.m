@@ -12,9 +12,7 @@
 
 + (void)fy_setup {
     [DDLog addLogger:[DDTTYLogger sharedInstance]];
-
     [[DDTTYLogger sharedInstance] setColorsEnabled:YES];
-
     DDFileLogger *fileLogger = [[DDFileLogger alloc] init];
     fileLogger.rollingFrequency = 60 * 60 * 24; // 24 hour rolling
     fileLogger.logFileManager.maximumNumberOfLogFiles = 7;

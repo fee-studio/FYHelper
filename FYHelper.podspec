@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "FYHelper"
-  s.version      = "0.0.10"
+  s.version      = "0.0.11"
   s.summary      = "iOS Dev Helper"
 
 
@@ -35,5 +35,13 @@ Pod::Spec.new do |s|
   s.dependency 'AFNetworking'
   s.dependency 'CocoaLumberjack'
   s.dependency 'BuglyHotfix'
+  s.dependency 'FLEX'
+  s.dependency 'FMDB'
+  s.dependency 'Instabug'
+  s.dependency 'KVOController'
+  s.dependency 'Masonry'
+  s.dependency 'pop'
+  s.dependency 'iVersion'
+  s.dependency 'DZNEmptyDataSet'
 
 end

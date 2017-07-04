@@ -24,7 +24,7 @@
 
 
     [DDLog fy_setup];
-    [Bugly fy_setup];
+    [Bugly fy_setupWithAppId:@"29487291"]; // TODO: temp value
 
 
 

@@ -46,6 +46,7 @@
 
 // view controller
 #import "FYViewController.h"
+#import "FYScrollViewController.h"
 #import "FYNavigationController.h"
 
 // macro definition
@@ -58,6 +59,19 @@
 #import "FYFileUtil.h"
 #import "FYLocationUtil.h"
 #import "FYOtherUtil.h"
+
+/// FYHelper默认包含的第三方库的头文件（必备常用库）
+#import <AFNetworking/AFNetworking.h>
+#import <CocoaLumberjack/DDLog.h>
+#import <BuglyHotfix/Bugly.h>
+#import <FLEX/FLEX.h>
+#import <FMDB/FMDB.h>
+#import <Instabug/Instabug.h>
+#import <KVOController/KVOController.h>
+#import <Masonry/Masonry.h>
+#import <pop/POP.h>
+#import <iVersion/iVersion.h>
+#import <DZNEmptyDataSet/UIScrollView+EmptyDataSet.h>
 
 
 #endif /* FYHelper_h */

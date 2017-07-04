@@ -6,16 +6,15 @@
 #import "Bugly+FYSetup.h"
 #import "FYAppUtil.h"
 
-static NSString *const BUGLY_APP_ID = @"23c3fe70a3"; // TODO: modify here
 
 @implementation Bugly (FYSetup)
 
-+ (void)fy_setup {
++ (void)fy_setupWithAppId:(NSString *)appId {
     BuglyConfig *config = [[BuglyConfig alloc] init];
     config.blockMonitorEnable = YES;
     config.channel = [FYAppUtil fy_appChannelName];
 
-    [Bugly startWithAppId:BUGLY_APP_ID
+    [Bugly startWithAppId:appId
 #ifdef DEBUG
         developmentDevice:YES
 #endif

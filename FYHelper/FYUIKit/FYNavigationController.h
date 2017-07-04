@@ -6,4 +6,5 @@
 #import <UIKit/UIKit.h>
 
 @interface FYNavigationController : UINavigationController
+
 @end

@@ -13,16 +13,19 @@
 		5BF2C217FA774794ADB945FC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C4DE8F3D7C448E0BE29B /* FirstViewController.m */; };
 		5BF2C276FA2EECC4A4395791 /* FYOtherUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C58C3FDF48256CBFEB12 /* FYOtherUtil.m */; };
 		5BF2C27D17CA2F40FE0F25CD /* makefile in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C199D5AB515E66FA18FC /* makefile */; };
+		5BF2C2897CDF47F29760D3F0 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C6B7897DC543A1B9284A /* README.md */; };
 		5BF2C2B952E6F3E29751C387 /* UIAlertView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C54FB4BFA632240316B1 /* UIAlertView+Addition.m */; };
 		5BF2C2D7A1925824DBEBF4A9 /* FYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2CE4984140B231BAE3CAC /* FYNavigationController.m */; };
 		5BF2C356489AC5F4725BD3E6 /* UIView+Layer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2CAE07C05DE8F52281A04 /* UIView+Layer.m */; };
 		5BF2C37EB27F47F8A19DB38A /* NSDate+FYCompare.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C813B5BB8C56AB5F14D1 /* NSDate+FYCompare.m */; };
+		5BF2C4454C7C2F06DE8A337D /* FYHelper.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 5BF2CFA54B82B95F01B1137D /* FYHelper.podspec */; };
 		5BF2C47162610D8B3B553734 /* DDLog+FYSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2CEF8FCF3C2F7162736E4 /* DDLog+FYSetup.m */; };
 		5BF2C495B49E741BC8617530 /* NSTimer+FYBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C9D8EBFB913397640CD3 /* NSTimer+FYBlocks.m */; };
 		5BF2C498DB2986024D2A9F04 /* FYErrorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C09D45E05A6766A1F400 /* FYErrorUtil.m */; };
 		5BF2C4999B7A2E7A80EE9A2E /* FYBorderButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C34114D0F35DFDA6823E /* FYBorderButton.m */; };
 		5BF2C4C24234AC75D7BCD373 /* UIButton+FYCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2CD5D4D66C97F26360C2E /* UIButton+FYCountDown.m */; };
 		5BF2C4CED9700E693671FD22 /* UIScrollView+FYTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2CDDF7D8A3E6A2FE5BF8A /* UIScrollView+FYTouch.m */; };
+		5BF2C4E4DE00713ED530F0CB /* FYScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C9700327158FBB653BD8 /* FYScrollViewController.m */; };
 		5BF2C5092A73DFB225523FB3 /* UIImage+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C1F6E39CF7C45C7943AF /* UIImage+Addition.m */; };
 		5BF2C5456D1E7A5928E3E890 /* FYHelperDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C874D54CFF64FA513D98 /* FYHelperDemoTests.m */; };
 		5BF2C5AB44C1BBB049069A3A /* UIView+FYFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C870A9C43949FD57044B /* UIView+FYFrame.m */; };
@@ -143,6 +146,7 @@
 		5BF2C6383B8A0CACA9763BEA /* FYAppUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYAppUtil.m; sourceTree = "<group>"; };
 		5BF2C649D4EB0C64252464E1 /* UIAlertView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Addition.h"; sourceTree = "<group>"; };
 		5BF2C6829C195223512CBF48 /* UIImage+FYCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FYCorner.h"; sourceTree = "<group>"; };
+		5BF2C6B7897DC543A1B9284A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5BF2C73001F1EAFDA6961203 /* FYLocationUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYLocationUtil.m; sourceTree = "<group>"; };
 		5BF2C76E4FDD42CB4A5211FC /* FYSetup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYSetup.m; sourceTree = "<group>"; };
 		5BF2C76F532A167316E82967 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -165,6 +169,8 @@
 		5BF2C8D541413D7BD6671552 /* NSData+FY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+FY.h"; sourceTree = "<group>"; };
 		5BF2C915E1D3178AD548DDF8 /* UILabel+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Addition.h"; sourceTree = "<group>"; };
 		5BF2C933B433AE5FD8DBC785 /* FYFileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYFileUtil.h; sourceTree = "<group>"; };
+		5BF2C9700327158FBB653BD8 /* FYScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYScrollViewController.m; sourceTree = "<group>"; };
+		5BF2C9A9D26AF34C919FD803 /* FYScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYScrollViewController.h; sourceTree = "<group>"; };
 		5BF2C9CC52BAFA72BE019829 /* FYDeviceUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYDeviceUtil.h; sourceTree = "<group>"; };
 		5BF2C9CF143C121F9EA7FF39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BF2C9D51F206699DA8D1A09 /* FYHelperDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYHelperDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -216,6 +222,7 @@
 		5BF2CF6FEB77E05D3AD772A7 /* UIColor+FY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FY.h"; sourceTree = "<group>"; };
 		5BF2CF975239A3ABF8DA209E /* NSData+FYCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+FYCache.h"; sourceTree = "<group>"; };
 		5BF2CFA517F6DEC836D57BD8 /* UINavigationController+FY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FY.m"; sourceTree = "<group>"; };
+		5BF2CFA54B82B95F01B1137D /* FYHelper.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; name = FYHelper.podspec; path = ../FYHelper.podspec; sourceTree = "<group>"; };
 		5BF2CFE3A2DC41A3FCF260ED /* NSDate+FYFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+FYFormat.h"; sourceTree = "<group>"; };
 		6315377586A9D2013C7E6EA0 /* Pods-FYHelperDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYHelperDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FYHelperDemo/Pods-FYHelperDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		9905FCEA298067BF5F4E050C /* Pods-FYHelperDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYHelperDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FYHelperDemo/Pods-FYHelperDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -280,6 +287,8 @@
 				5BF2CEFAA530353D7C00A256 /* FYHelper */,
 				5BF2C199D5AB515E66FA18FC /* makefile */,
 				5BF2CA07E69F127AA33C4A6C /* update_pod.sh */,
+				5BF2CFA54B82B95F01B1137D /* FYHelper.podspec */,
+				5BF2C6B7897DC543A1B9284A /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -373,15 +382,17 @@
 			path = FYCategory;
 			sourceTree = "<group>";
 		};
-		5BF2C7F976C76F81D9CCB50A /* FYViewController */ = {
+		5BF2C7F976C76F81D9CCB50A /* FYUIKit */ = {
 			isa = PBXGroup;
 			children = (
 				5BF2CAE8FC56AA40D7339BA6 /* FYViewController.h */,
 				5BF2C80702E1D2A7D072168B /* FYViewController.m */,
 				5BF2CAB928C544B5E9C47B04 /* FYNavigationController.h */,
 				5BF2CE4984140B231BAE3CAC /* FYNavigationController.m */,
+				5BF2C9700327158FBB653BD8 /* FYScrollViewController.m */,
+				5BF2C9A9D26AF34C919FD803 /* FYScrollViewController.h */,
 			);
-			path = FYViewController;
+			path = FYUIKit;
 			sourceTree = "<group>";
 		};
 		5BF2C93F53814F3473D2B995 /* Products */ = {
@@ -435,7 +446,7 @@
 				5BF2C65433D58731C5D5AC71 /* FYCategory */,
 				5BF2C8CDCED962278D69D15C /* FYHelper.h */,
 				5BF2C0B52DF81AB921EA528C /* FYSubclass */,
-				5BF2C7F976C76F81D9CCB50A /* FYViewController */,
+				5BF2C7F976C76F81D9CCB50A /* FYUIKit */,
 				5BF2CD39C90529E41FECF2D3 /* FYSetup */,
 			);
 			name = FYHelper;
@@ -587,6 +598,7 @@
 				5BF2CA85D8A63B38FF0919DB /* LaunchScreen.storyboard in Resources */,
 				5BF2CF278A93F2D790CF2622 /* Main.storyboard in Resources */,
 				5BF2C0ADC9AB69C08F20BCDC /* update_pod.sh in Resources */,
+				5BF2C4454C7C2F06DE8A337D /* FYHelper.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -733,6 +745,8 @@
 				5BF2C27D17CA2F40FE0F25CD /* makefile in Sources */,
 				5BF2CE28994B5C42DE4F3340 /* FYSetup.m in Sources */,
 				5BF2CAE2933C1D8D158AE6D5 /* Bugly+FYSetup.m in Sources */,
+				5BF2C4E4DE00713ED530F0CB /* FYScrollViewController.m in Sources */,
+				5BF2C2897CDF47F29760D3F0 /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
