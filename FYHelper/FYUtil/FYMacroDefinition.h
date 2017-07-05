@@ -40,20 +40,20 @@
  */
 @interface FYMacroDefinition : NSObject
 
-+ (UIApplication *)fy_Application;
++ (UIApplication *)fy_application;
 
-+ (id)fy_AppDelegate;
++ (id)fy_appDelegate;
 
-+ (UIWindow *)fy_Window;
++ (UIWindow *)fy_window;
 
-+ (NSUserDefaults *)fy_UserDefaults;
++ (NSUserDefaults *)fy_userDefaults;
 
-+ (NSNotificationCenter *)fy_NotificationCenter;
++ (NSNotificationCenter *)fy_notificationCenter;
 
-+ (CGRect)fy_ScreenBounds;
++ (CGRect)fy_screenBounds;
 
-+ (CGFloat)fy_ScreenWidth;
++ (CGFloat)fy_screenWidth;
 
-+ (CGFloat)fy_ScreenHeight;
++ (CGFloat)fy_screenHeight;
 
 @end

@@ -10,35 +10,35 @@
 
 }
 
-+ (UIApplication *)fy_Application; {
++ (UIApplication *)fy_application; {
     return mApplication;
 }
 
-+ (id)fy_AppDelegate; {
++ (id)fy_appDelegate; {
     return mAppDelegate;
 }
 
-+ (UIWindow *)fy_Window; {
++ (UIWindow *)fy_window; {
     return mKeyWindow;
 }
 
-+ (NSUserDefaults *)fy_UserDefaults; {
++ (NSUserDefaults *)fy_userDefaults; {
     return mUserDefaults;
 }
 
-+ (NSNotificationCenter *)fy_NotificationCenter; {
++ (NSNotificationCenter *)fy_notificationCenter; {
     return mNotificationCenter;
 }
 
-+ (CGRect)fy_ScreenBounds; {
++ (CGRect)fy_screenBounds; {
     return mScreenBounds;
 }
 
-+ (CGFloat)fy_ScreenWidth; {
++ (CGFloat)fy_screenWidth; {
     return mScreenWidth;
 }
 
-+ (CGFloat)fy_ScreenHeight; {
++ (CGFloat)fy_screenHeight; {
     return mScreenHeight;
 }
 

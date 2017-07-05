@@ -58,7 +58,7 @@
 #import "FYErrorUtil.h"
 #import "FYFileUtil.h"
 #import "FYLocationUtil.h"
-#import "FYOtherUtil.h"
+#import "FYTextUtil.h"
 
 /// FYHelper默认包含的第三方库的头文件（必备常用库）
 #import <AFNetworking/AFNetworking.h>

@@ -6,7 +6,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface FYOtherUtil : NSObject
+@interface FYTextUtil : NSObject
 
 /**
  * 复制文字到粘贴板

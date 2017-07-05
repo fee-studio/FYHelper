@@ -3,10 +3,10 @@
 // Copyright (c) 2016 weiboyi. All rights reserved.
 //
 
-#import "FYOtherUtil.h"
+#import "FYTextUtil.h"
 
 
-@implementation FYOtherUtil {
+@implementation FYTextUtil {
 
 }
 

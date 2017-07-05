@@ -11,7 +11,7 @@
 		5BF2C0ADC9AB69C08F20BCDC /* update_pod.sh in Resources */ = {isa = PBXBuildFile; fileRef = 5BF2CA07E69F127AA33C4A6C /* update_pod.sh */; };
 		5BF2C19F3248E1AD6782FE78 /* UIScreen+FYFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2CDD845304FD7EC5D65FD /* UIScreen+FYFrame.m */; };
 		5BF2C217FA774794ADB945FC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C4DE8F3D7C448E0BE29B /* FirstViewController.m */; };
-		5BF2C276FA2EECC4A4395791 /* FYOtherUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C58C3FDF48256CBFEB12 /* FYOtherUtil.m */; };
+		5BF2C276FA2EECC4A4395791 /* FYTextUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C58C3FDF48256CBFEB12 /* FYTextUtil.m */; };
 		5BF2C27D17CA2F40FE0F25CD /* makefile in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C199D5AB515E66FA18FC /* makefile */; };
 		5BF2C2897CDF47F29760D3F0 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C6B7897DC543A1B9284A /* README.md */; };
 		5BF2C2B952E6F3E29751C387 /* UIAlertView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C54FB4BFA632240316B1 /* UIAlertView+Addition.m */; };
@@ -141,7 +141,7 @@
 		5BF2C5309F1C73997E6F9819 /* NSArray+FY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+FY.m"; sourceTree = "<group>"; };
 		5BF2C54FB4BFA632240316B1 /* UIAlertView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Addition.m"; sourceTree = "<group>"; };
 		5BF2C56E45E47BB461408136 /* UIImage+FYCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FYCorner.m"; sourceTree = "<group>"; };
-		5BF2C58C3FDF48256CBFEB12 /* FYOtherUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYOtherUtil.m; sourceTree = "<group>"; };
+		5BF2C58C3FDF48256CBFEB12 /* FYTextUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYTextUtil.m; sourceTree = "<group>"; };
 		5BF2C5E9D5C90AA5A3EE4861 /* UIView+highlightOnTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+highlightOnTouch.h"; sourceTree = "<group>"; };
 		5BF2C622C37CD5D49E13C177 /* FYPaddingTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYPaddingTextField.h; sourceTree = "<group>"; };
 		5BF2C6383B8A0CACA9763BEA /* FYAppUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYAppUtil.m; sourceTree = "<group>"; };
@@ -178,7 +178,7 @@
 		5BF2C9D51F206699DA8D1A09 /* FYHelperDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYHelperDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF2C9D8EBFB913397640CD3 /* NSTimer+FYBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+FYBlocks.m"; sourceTree = "<group>"; };
 		5BF2CA07E69F127AA33C4A6C /* update_pod.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = update_pod.sh; sourceTree = "<group>"; };
-		5BF2CA2E6D3EFF165D00D085 /* FYOtherUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYOtherUtil.h; sourceTree = "<group>"; };
+		5BF2CA2E6D3EFF165D00D085 /* FYTextUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYTextUtil.h; sourceTree = "<group>"; };
 		5BF2CA6B7667B404B8FFCF44 /* UIView+Layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layer.h"; sourceTree = "<group>"; };
 		5BF2CA806646AB2CFF7488AE /* UIWindow+FY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+FY.h"; sourceTree = "<group>"; };
 		5BF2CA8EB434656D89245C5F /* AVAsset+FYVideoOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVAsset+FYVideoOrientation.m"; sourceTree = "<group>"; };
@@ -417,8 +417,8 @@
 				5BF2C3CD95AD72EE88B2EEB8 /* FYFileUtil.m */,
 				5BF2C21FE655DD5E7A5C3FC3 /* FYErrorUtil.h */,
 				5BF2C09D45E05A6766A1F400 /* FYErrorUtil.m */,
-				5BF2CA2E6D3EFF165D00D085 /* FYOtherUtil.h */,
-				5BF2C58C3FDF48256CBFEB12 /* FYOtherUtil.m */,
+				5BF2CA2E6D3EFF165D00D085 /* FYTextUtil.h */,
+				5BF2C58C3FDF48256CBFEB12 /* FYTextUtil.m */,
 				5BF2C9CC52BAFA72BE019829 /* FYDeviceUtil.h */,
 				5BF2CA908454A9ED7C6E0068 /* FYDeviceUtil.m */,
 				5BF2CBFB28BD2F7396E4F5BB /* FYLocationUtil.h */,
@@ -701,7 +701,7 @@
 				5BF2C8028221FC40D24EB7AB /* FYAppUtil.m in Sources */,
 				5BF2CC3DBAF91E454BF0548B /* FYFileUtil.m in Sources */,
 				5BF2C498DB2986024D2A9F04 /* FYErrorUtil.m in Sources */,
-				5BF2C276FA2EECC4A4395791 /* FYOtherUtil.m in Sources */,
+				5BF2C276FA2EECC4A4395791 /* FYTextUtil.m in Sources */,
 				5BF2C9E3CCEEFCD4511E4F0C /* FYDeviceUtil.m in Sources */,
 				5BF2CE4BDBB7CAF438AAA453 /* FYLocationUtil.m in Sources */,
 				5BF2CF88DC0F8EAE2A04D3B0 /* FYMacroDefinition.m in Sources */,
