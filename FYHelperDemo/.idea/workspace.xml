@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0700f8f-7ab7-4265-bd0a-2ddc0da2e057" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FYHelper/FYSetup/FYSetup.m" afterPath="$PROJECT_DIR$/../FYHelper/FYSetup/FYSetup.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FYHelper/FYInstall/Instabug+FYInstall.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FYHelper/FYInstall/Instabug+FYInstall.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYSetup/Bugly+FYSetup.h" afterPath="$PROJECT_DIR$/../FYHelper/FYInstall/Bugly+FYInstall.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYSetup/Bugly+FYSetup.m" afterPath="$PROJECT_DIR$/../FYHelper/FYInstall/Bugly+FYInstall.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYSetup/DDLog+FYSetup.h" afterPath="$PROJECT_DIR$/../FYHelper/FYInstall/DDLog+FYInstall.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYSetup/DDLog+FYSetup.m" afterPath="$PROJECT_DIR$/../FYHelper/FYInstall/DDLog+FYInstall.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYSetup/FYSetup.h" afterPath="$PROJECT_DIR$/../FYHelper/FYInstall/FYInstall.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYSetup/FYSetup.m" afterPath="$PROJECT_DIR$/../FYHelper/FYInstall/FYInstall.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FYHelperDemo.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/FYHelperDemo.xcodeproj/project.pbxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../README.md" afterPath="$PROJECT_DIR$/../README.md" />
     </list>
     <ignored path="$USER_HOME$/Library/Caches/AppCode2017.1/DerivedData/FYHelperDemo-dihsbpjvqdohykbqbmxpybofeyru/" />
@@ -18,102 +26,88 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulatoriPhone_7_10.3_x86_64_1" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DDLog+FYSetup.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../FYHelper/FYSetup/DDLog+FYSetup.m">
+      <file leaf-file-name="DDLog+FYInstall.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../FYHelper/FYInstall/DDLog+FYInstall.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+            <state relative-caret-position="363">
+              <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
               <folding>
-                <element signature="e#96#121#0" expanded="true" />
+                <element signature="e#96#129#0" expanded="true" />
+                <element signature="e#219#263#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FYHelper.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../FYHelper/FYHelper.h">
+      <file leaf-file-name="FYInstall.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../FYHelper/FYInstall/FYInstall.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+            <state relative-caret-position="360">
+              <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
               <folding>
-                <element signature="e#1090#1120#0" expanded="true" />
-                <element signature="e#1168#1196#0" expanded="true" />
-                <element signature="e#1328#1349#0" expanded="true" />
-                <element signature="e#1507#1544#0" expanded="true" />
+                <element signature="e#103#124#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DDLog+FYSetup.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../FYHelper/FYSetup/DDLog+FYSetup.h">
+      <file leaf-file-name="Bugly+FYInstall.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../FYHelper/FYInstall/Bugly+FYInstall.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FYViewController.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../FYHelper/FYUIKit/FYViewController.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FYSetup.m" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../FYHelper/FYSetup/FYSetup.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding>
-                <element signature="e#103#122#0" expanded="true" />
+                <element signature="e#103#130#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bugly+FYSetup.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../FYHelper/FYSetup/Bugly+FYSetup.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-              <folding>
-                <element signature="e#103#128#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="588">
+              <caret line="57" column="3" lean-forward="true" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FYBorderButton.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../FYHelper/FYSubclass/FYBorderButton.m">
+      <file leaf-file-name="Instabug+FYInstall.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../FYHelper/FYInstall/Instabug+FYInstall.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+            <state relative-caret-position="255">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bugly+FYSetup.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../FYHelper/FYSetup/Bugly+FYSetup.h">
+      <file leaf-file-name="Instabug+FYInstall.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../FYHelper/FYInstall/Instabug+FYInstall.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+            <state relative-caret-position="135">
+              <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FYHelper.podspec" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../FYHelper.podspec">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="608">
+              <caret line="43" column="24" lean-forward="false" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bugly+FYInstall.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../FYHelper/FYInstall/Bugly+FYInstall.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
               <folding>
                 <element signature="e#103#136#0" expanded="true" />
               </folding>
@@ -121,8 +115,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FYSetup.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../FYHelper/FYSetup/FYSetup.h">
+      <file leaf-file-name="Podfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Podfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="175" column="46" lean-forward="true" selection-start-line="175" selection-start-column="6" selection-end-line="175" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FYInstall.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../FYHelper/FYInstall/FYInstall.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
@@ -137,8 +141,12 @@
     <findStrings>
       <find>uiscrollview</find>
       <find>DID_TAG</find>
-      <find>flex</find>
       <find>baseScrollView</find>
+      <find>log</find>
+      <find>kvo</find>
+      <find>flex</find>
+      <find>maso</find>
+      <find>iversion</find>
     </findStrings>
     <replaceStrings>
       <replace>fy_scrollView</replace>
@@ -150,7 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Podfile" />
         <option value="$PROJECT_DIR$/../FYHelper/FYCategory/UIScrollView+FYTouch.h" />
         <option value="$PROJECT_DIR$/../FYHelper/FYCategory/UIView+Addition.h" />
         <option value="$PROJECT_DIR$/makefile" />
@@ -169,8 +176,16 @@
         <option value="$PROJECT_DIR$/../FYHelper/FYSetup/Bugly+FYSetup.h" />
         <option value="$PROJECT_DIR$/../FYHelper/FYSetup/Bugly+FYSetup.m" />
         <option value="$PROJECT_DIR$/../FYHelper/FYSetup/DDLog+FYSetup.m" />
-        <option value="$PROJECT_DIR$/../README.md" />
         <option value="$PROJECT_DIR$/../FYHelper/FYSetup/FYSetup.m" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYSetup/Instabug+FYSetup.h" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYSetup/Instabug+FYSetup.m" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYSetup/Instabug+FYInstall.m" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYInstall/Instabug+FYInstall.h" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYInstall/Instabug+FYInstall.m" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYInstall/DDLog+FYInstall.h" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYInstall/Bugly+FYInstall.h" />
+        <option value="$PROJECT_DIR$/Podfile" />
+        <option value="$PROJECT_DIR$/../README.md" />
       </list>
     </option>
   </component>
@@ -210,7 +225,7 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FYHelperDemo" />
+              <option name="myItemId" value="Pods" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -222,28 +237,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="FYHelperDemo" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FYHelper" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FYHelperDemo" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FYHelper" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FYSetup" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -253,7 +246,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="FYHelperDemo" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Other File Types" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -357,7 +350,7 @@
       <workItem from="1499048524382" duration="10513000" />
       <workItem from="1499067553325" duration="4324000" />
       <workItem from="1499073779143" duration="4006000" />
-      <workItem from="1499180125685" duration="4509000" />
+      <workItem from="1499180125685" duration="13578000" />
     </task>
     <task id="LOCAL-00001" summary="remove UIScrollView+FYTouch">
       <created>1499051512704</created>
@@ -401,11 +394,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499184205381</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add bugly app id">
+      <created>1499216855957</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1499216855957</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24398000" />
+    <option name="totallyTimeSpent" value="33467000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1436" height="877" extended-state="6" />
@@ -415,11 +415,11 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39745224" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37197453" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42165604" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24946997" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1943463" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21201414" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -471,27 +471,14 @@
     <MESSAGE value="modify podspec version code" />
     <MESSAGE value="add FYSetup mechanism" />
     <MESSAGE value="框架结构进化" />
-    <option name="LAST_COMMIT_MESSAGE" value="框架结构进化" />
+    <MESSAGE value="add bugly app id" />
+    <option name="LAST_COMMIT_MESSAGE" value="add bugly app id" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/UIView+Addition.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/UIView+Addition.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="55" lean-forward="false" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/makefile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -549,14 +536,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYSetup/DDLog+FYSetup.h">
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYInstall/DDLog+FYInstall.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYSetup/DDLog+FYSetup.m">
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYInstall/DDLog+FYInstall.m">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
@@ -684,14 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Podfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2235">
-          <caret line="149" column="28" lean-forward="false" selection-start-line="149" selection-start-column="28" selection-end-line="149" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/update_pod.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -705,9 +684,9 @@
         <state relative-caret-position="-338">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1277#1314#0" expanded="true" />
-            <element signature="e#1416#1456#0" expanded="true" />
-            <element signature="e#1816#1884#0" expanded="true" />
+            <element signature="e#1277#1314#0" expanded="false" />
+            <element signature="e#1416#1456#0" expanded="false" />
+            <element signature="e#1816#1884#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -717,7 +696,7 @@
         <state relative-caret-position="165">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="e#298#339#0" expanded="true" />
+            <element signature="e#298#339#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -778,14 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper.podspec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../FYHelper/FYSubclass/FYBorderButton.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -798,42 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYUIKit/FYViewController.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYSetup/Bugly+FYSetup.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-          <folding>
-            <element signature="e#103#136#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYSetup/Bugly+FYSetup.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-          <folding>
-            <element signature="e#103#128#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYSetup/DDLog+FYSetup.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -851,17 +786,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYSetup/DDLog+FYSetup.m">
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYInstall/DDLog+FYInstall.m">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
           <folding>
-            <element signature="e#96#121#0" expanded="true" />
+            <element signature="e#96#123#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYSetup/FYSetup.h">
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYUIKit/FYViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYInstall/Bugly+FYInstall.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="e#103#136#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYInstall/Bugly+FYInstall.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="e#103#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYInstall/DDLog+FYInstall.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          <folding>
+            <element signature="e#96#129#0" expanded="true" />
+            <element signature="e#219#263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYInstall/FYInstall.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
@@ -869,21 +843,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../README.md">
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYInstall/FYInstall.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="e#103#124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYInstall/Instabug+FYInstall.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYSetup/FYSetup.m">
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYInstall/Instabug+FYInstall.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#103#122#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Podfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="175" column="46" lean-forward="true" selection-start-line="175" selection-start-column="6" selection-end-line="175" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FYHelper.podspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="43" column="24" lean-forward="false" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="57" column="3" lean-forward="true" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>

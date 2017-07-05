@@ -3,13 +3,13 @@
 // Copyright (c) 2017 ___FULLUSERNAME___. All rights reserved.
 //
 
-#import "Bugly+FYSetup.h"
+#import "Bugly+FYInstall.h"
 #import "FYAppUtil.h"
 
 
-@implementation Bugly (FYSetup)
+@implementation Bugly (FYInstall)
 
-+ (void)fy_setupWithAppId:(NSString *)appId {
++ (void)fy_installWithAppId:(NSString *)appId {
     BuglyConfig *config = [[BuglyConfig alloc] init];
     config.blockMonitorEnable = YES;
     config.channel = [FYAppUtil fy_appChannelName];

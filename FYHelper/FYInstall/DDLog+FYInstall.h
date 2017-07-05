@@ -22,8 +22,8 @@ static const int ddLogLevel = LOG_LEVEL_OFF;
 #define FYLogVerbose(frmt, ...) DDLogVerbose(frmt, ##__VA_ARGS__)
 
 
-@interface DDLog (FYSetup)
+@interface DDLog (FYInstall)
 
-+ (void)fy_setup;
++ (void)fy_install;
 
 @end

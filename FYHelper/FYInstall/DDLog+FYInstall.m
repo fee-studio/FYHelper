@@ -3,14 +3,14 @@
 // Copyright (c) 2017 xiaojia. All rights reserved.
 //
 
-#import "DDLog+FYSetup.h"
+#import "DDLog+FYInstall.h"
 #import <CocoaLumberjack/CocoaLumberjack.h>
 
 
-@implementation DDLog (FYSetup)
+@implementation DDLog (FYInstall)
 
 
-+ (void)fy_setup {
++ (void)fy_install {
     [DDLog addLogger:[DDTTYLogger sharedInstance]];
     [[DDTTYLogger sharedInstance] setColorsEnabled:YES];
     DDFileLogger *fileLogger = [[DDFileLogger alloc] init];

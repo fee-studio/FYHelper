@@ -4,11 +4,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <BuglyHotfix/Bugly.h>
-
-@interface Bugly (FYSetup)
 
 
-+ (void)fy_setupWithAppId:(NSString *)appId;
+@interface FYInstall : NSObject
 
 @end
