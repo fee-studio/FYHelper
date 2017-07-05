@@ -26,7 +26,6 @@ void BLYLogv(BuglyLogLevel level, NSString *format, va_list args);
 ```
 2，支持[DDLog](https://github.com/CocoaLumberjack/CocoaLumberjack)，一个强大的log系统
 ```
-地址：https://github.com/CocoaLumberjack/CocoaLumberjack
 用法：
 // Convert from this:
 NSLog(@"Broken sprocket detected!");
