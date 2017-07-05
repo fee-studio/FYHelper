@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0700f8f-7ab7-4265-bd0a-2ddc0da2e057" name="Default" comment="modify README.md">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYUtil/FYOtherUtil.h" afterPath="$PROJECT_DIR$/../FYHelper/FYUtil/FYTextUtil.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYUtil/FYOtherUtil.m" afterPath="$PROJECT_DIR$/../FYHelper/FYUtil/FYTextUtil.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FYHelper/FYHelper.h" afterPath="$PROJECT_DIR$/../FYHelper/FYHelper.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FYHelper/FYUtil/FYDeviceUtil.m" afterPath="$PROJECT_DIR$/../FYHelper/FYUtil/FYDeviceUtil.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FYHelper/FYUtil/FYMacroDefinition.h" afterPath="$PROJECT_DIR$/../FYHelper/FYUtil/FYMacroDefinition.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FYHelper/FYUtil/FYMacroDefinition.m" afterPath="$PROJECT_DIR$/../FYHelper/FYUtil/FYMacroDefinition.m" />
+    <list default="true" id="e0700f8f-7ab7-4265-bd0a-2ddc0da2e057" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FYHelperDemo.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/FYHelperDemo.xcodeproj/project.pbxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../README.md" afterPath="$PROJECT_DIR$/../README.md" />
     </list>
     <ignored path="$USER_HOME$/Library/Caches/AppCode2017.1/DerivedData/FYHelperDemo-dihsbpjvqdohykbqbmxpybofeyru/" />
@@ -119,8 +112,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+            <state relative-caret-position="150">
+              <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -376,7 +369,7 @@
       <workItem from="1499048524382" duration="10513000" />
       <workItem from="1499067553325" duration="4324000" />
       <workItem from="1499073779143" duration="4006000" />
-      <workItem from="1499180125685" duration="18042000" />
+      <workItem from="1499180125685" duration="18231000" />
     </task>
     <task id="LOCAL-00001" summary="remove UIScrollView+FYTouch">
       <created>1499051512704</created>
@@ -434,11 +427,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499242839262</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="modify README.md">
+      <created>1499248175601</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1499248175601</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37931000" />
+    <option name="totallyTimeSpent" value="38120000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1436" height="877" extended-state="6" />
@@ -448,7 +448,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42038217" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30955413" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42165604" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -931,8 +931,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+        <state relative-caret-position="150">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
           <folding />
         </state>
       </provider>

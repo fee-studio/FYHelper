@@ -2,7 +2,7 @@
 
 #### 文件夹分类说明
 ```
-【FYCategory】收集的一些常用的便捷方法。方便快速开发
+【FYCategory】收集的一些常用的便捷方法，方便快速开发
 【FYInstall】 常用第三方库的安装器
 【FYSubclass】收集的UI控件子类
 【FYUtil】    常用的一些工具类
