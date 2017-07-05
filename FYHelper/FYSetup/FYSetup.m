@@ -24,7 +24,7 @@
 
 
     [DDLog fy_setup];
-    [Bugly fy_setupWithAppId:@"29487291"]; // TODO: temp value
+    [Bugly fy_setupWithAppId:@"xxxxxx"]; // TODO xxxxxx你在bugly.qq.com申请的app id.
 
 
 
