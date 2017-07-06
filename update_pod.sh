@@ -1,8 +1,8 @@
 #!/bin/bash
 
 ############################################################################
-TAG_CODE=0.0.10
-CMT_MSG='每次都要改这个'
+TAG_CODE=0.0.12
+CMT_MSG='support pod subspec'
 ############################################################################
 
 
@@ -13,9 +13,6 @@ TAGS=$(git tag)
 
 
 ############################################################################
-
-# 返到上一级目录
-cd ..
 
 # Run following command to enable credential caching.
 git config credential.helper store
