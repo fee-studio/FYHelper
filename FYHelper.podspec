@@ -30,24 +30,25 @@ Pod::Spec.new do |s|
 
   s.public_header_files = 'FYHelper/FYHelper.h'
 
+  s.default_subspecs = 'FYCategory', 'FYInstall', 'FYSubclass', 'FYUIKit', 'FYUtil'
   s.subspec 'FYCategory' do |ss|
-    ss.source_files         = 'FYHelper/FYCategory/*'
+    ss.source_files = 'FYHelper/FYCategory/*'
   end
 
   s.subspec 'FYInstall' do |ss|
-    ss.source_files         = 'FYHelper/FYInstall/*'
+    ss.source_files = 'FYHelper/FYInstall/*'
   end
 
   s.subspec 'FYSubclass' do |ss|
-    ss.source_files         = 'FYHelper/FYSubclass/*'
+    ss.source_files = 'FYHelper/FYSubclass/*'
   end
 
   s.subspec 'FYUIKit' do |ss|
-    ss.source_files         = 'FYHelper/FYUIKit/*'
+    ss.source_files = 'FYHelper/FYUIKit/*'
   end
 
   s.subspec 'FYUtil' do |ss|
-    ss.source_files         = 'FYHelper/FYUtil/*'
+    ss.source_files = 'FYHelper/FYUtil/*'
   end
 
   s.frameworks      = 'Foundation', 'CoreGraphics', 'UIKit'
