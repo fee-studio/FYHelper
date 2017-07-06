@@ -9,29 +9,48 @@
 Pod::Spec.new do |s|
 
   s.name         = "FYHelper"
-  s.version      = "0.0.11"
+  s.version      = "0.0.12"
   s.summary      = "iOS Dev Helper"
-
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   iOS Dev Helper, this is a base framework for me.
-                   DESC
+  s.description     = <<-DESC
+                        iOS Dev Helper, this is a base framework for me.
+                        DESC
 
-  s.homepage     = "https://github.com/iosfeng/FYHelper"
-  s.license      = "MIT"
-  s.author       = { "iosfeng" => "iosfeng@163.com" }
-  s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/iosfeng/FYHelper.git", :tag => "#{s.version}" }
-  s.source_files = 'FYHelper/**/*'
-  # s.source_files = 'FYHelper/*', 'FYHelper/FYCategory/*', 'FYHelper/FYSubclass/*', 'FYHelper/FYUtil/*', 'FYHelper/FYViewController/*'
-  # s.public_header_files = 'FYHelper/**/*.h'   #公开头文件地址
-  s.frameworks   = 'Foundation', 'CoreGraphics', 'UIKit'
-  s.requires_arc = true
+  s.homepage        = "https://github.com/iosfeng/FYHelper"
+  s.license         = "MIT"
+  s.author          = { "iosfeng" => "iosfeng@163.com" }
+  s.platform        = :ios, "7.0"
+  s.requires_arc    = true
+  s.source          = { :git => "https://github.com/iosfeng/FYHelper.git", :tag => "#{s.version}" }
+
+  s.public_header_files = 'FYHelper/FYHelper.h'
+
+  s.subspec 'FYCategory' do |ss|
+    ss.source_files         = 'FYHelper/FYCategory/*'
+  end
+
+  s.subspec 'FYInstall' do |ss|
+    ss.source_files         = 'FYHelper/FYInstall/*'
+  end
+
+  s.subspec 'FYSubclass' do |ss|
+    ss.source_files         = 'FYHelper/FYSubclass/*'
+  end
+
+  s.subspec 'FYUIKit' do |ss|
+    ss.source_files         = 'FYHelper/FYUIKit/*'
+  end
+
+  s.subspec 'FYUtil' do |ss|
+    ss.source_files         = 'FYHelper/FYUtil/*'
+  end
+
+  s.frameworks      = 'Foundation', 'CoreGraphics', 'UIKit'
   s.dependency 'AFNetworking'
   s.dependency 'CocoaLumberjack'
   s.dependency 'BuglyHotfix'

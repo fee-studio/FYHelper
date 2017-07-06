@@ -44,7 +44,7 @@
 #import "FYPaddingTextField.h"
 #import "FYBorderButton.h"
 
-// view controller
+// fyuikit
 #import "FYViewController.h"
 #import "FYScrollViewController.h"
 #import "FYNavigationController.h"
