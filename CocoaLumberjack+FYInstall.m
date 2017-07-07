@@ -3,11 +3,10 @@
 // Copyright (c) 2017 xiaojia. All rights reserved.
 //
 
-#import "DDLog+FYInstall.h"
-#import <CocoaLumberjack/CocoaLumberjack.h>
+#import "CocoaLumberjack+FYInstall.h"
 
 
-@implementation DDLog (FYInstall)
+@implementation CocoaLumberjack (FYInstall)
 
 
 + (void)fy_install {
