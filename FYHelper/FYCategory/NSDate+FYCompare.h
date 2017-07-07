@@ -26,8 +26,14 @@
 
 + (NSDate *)fy_dateYesterday;
 
+///  是否为将来的时间
 - (BOOL)fy_isInFuture;
-
+///  是否为过去的时间
 - (BOOL)fy_isInPast;
 
+///  是否为今天之前的日子，以天为单位
+- (BOOL)fy_isBeforeOnDayUnit;
+
+///  是否为今天之后的日子，以天为单位
+- (BOOL)fy_isAfterOnDayUnit;
 @end

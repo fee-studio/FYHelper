@@ -67,4 +67,30 @@
     return ([self fy_isEarlierThanDate:[NSDate date]]);
 }
 
+- (BOOL)fy_isBeforeOnDayUnit; {
+    NSCalendar *calendar = [NSCalendar currentCalendar];
+    NSDateComponents *givenDc = [calendar components:(NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay)
+                                            fromDate:self];
+    NSDateComponents *nowDc = [calendar components:(NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay)
+                                          fromDate:[NSDate date]];
+
+    NSDate *givenDate = [calendar dateFromComponents:givenDc];
+    NSDate *nowDate = [calendar dateFromComponents:nowDc];
+
+    return [givenDate fy_isEarlierThanDate:nowDate];
+}
+
+- (BOOL)fy_isAfterOnDayUnit; {
+    NSCalendar *calendar = [NSCalendar currentCalendar];
+    NSDateComponents *givenDc = [calendar components:(NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay)
+                                            fromDate:self];
+    NSDateComponents *nowDc = [calendar components:(NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay)
+                                          fromDate:[NSDate date]];
+
+    NSDate *givenDate = [calendar dateFromComponents:givenDc];
+    NSDate *nowDate = [calendar dateFromComponents:nowDc];
+
+    return [givenDate fy_isLaterThanDate:nowDate];
+}
+
 @end
