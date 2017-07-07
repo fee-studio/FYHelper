@@ -7,7 +7,7 @@
 //
 
 #import "FYDeviceUtil.h"
-#import "FYHelper.h"
+#import "FYMacroDefinition.h"
 
 @implementation FYDeviceUtil
 
@@ -23,7 +23,6 @@
 + (float)fy_systemVersionCode {
     return [[[UIDevice currentDevice] systemVersion] floatValue];
 }
-
 
 + (BOOL)fy_isiPad {
     return [UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad;
@@ -84,6 +83,7 @@
 //
 //        // 显示控制器
 //        [self presentViewController:controller animated:YES completion:nil];
+
 }
 
 @end

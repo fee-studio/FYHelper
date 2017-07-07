@@ -5,8 +5,8 @@
 //  Created by efeng on 2016/10/18.
 //  Copyright © 2016年 buerguo. All rights reserved.
 //
-
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+//#import <UIKit/UIKit.h>
 
 @interface FYDeviceUtil : NSObject
 
@@ -44,13 +44,12 @@
 
 /**
  * 供应商的UUID
- * @return
  */
 + (NSString *)fy_vendorUUID;
 
 /**
- * 打电话
- * @param phoneNumber
+ * 打电话 
  */
 + (void)fy_callTelephone:(NSString *)phoneNumber;
+
 @end

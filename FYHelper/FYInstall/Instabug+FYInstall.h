@@ -4,7 +4,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "../../FYHelperDemo/Pods/Instabug/Instabug.framework/Headers/Instabug.h"
+#import <Instabug/Instabug.h>
 
 @interface Instabug (FYInstall)
 

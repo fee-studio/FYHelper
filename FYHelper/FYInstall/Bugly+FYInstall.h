@@ -8,7 +8,6 @@
 
 @interface Bugly (FYInstall)
 
-
 + (void)fy_installWithAppId:(NSString *)appId;
 
 @end

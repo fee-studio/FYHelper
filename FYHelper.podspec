@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "FYHelper"
-  s.version      = "0.0.12"
+  s.version      = "0.0.13"
   s.summary      = "iOS Dev Helper"
 
   # This description is used to generate tags and improve search results.
@@ -23,37 +23,39 @@ Pod::Spec.new do |s|
 
   s.homepage        = "https://github.com/iosfeng/FYHelper"
   s.license         = "MIT"
-  s.author          = { "iosfeng" => "iosfeng@163.com" }
-  s.platform        = :ios, "7.0"
+  s.author          = { "FengYiyi" => "iosfeng@163.com" }
+  s.platform        = :ios
+  s.ios.deployment_target = '8.0'
   s.requires_arc    = true
   s.source          = { :git => "https://github.com/iosfeng/FYHelper.git", :tag => "#{s.version}" }
+  s.source_files = 'FYHelper/**/*'
+  # s.public_header_files = 'FYHelper/FYHelper.h'
 
-  s.public_header_files = 'FYHelper/FYHelper.h'
+# s.default_subspecs = 'FYCategory', 'FYInstall', 'FYSubclass', 'FYUIKit', 'FYUtil'
+# s.subspec 'FYCategory' do |ss|
+#   ss.source_files = 'FYHelper/FYCategory/*'
+#   ss.dependency 'FYHelper/FYUtil'
+# end
+# s.subspec 'FYInstall' do |ss|
+#   ss.source_files = 'FYHelper/FYInstall/*'
+# end
+# s.subspec 'FYSubclass' do |ss|
+#   ss.source_files = 'FYHelper/FYSubclass/*'
+# end
+# s.subspec 'FYUIKit' do |ss|
+#   ss.source_files = 'FYHelper/FYUIKit/*'
+# end
+# s.subspec 'FYUtil' do |ss|
+#   ss.source_files = 'FYHelper/FYUtil/*'
+# end
 
-  s.default_subspecs = 'FYCategory', 'FYInstall', 'FYSubclass', 'FYUIKit', 'FYUtil'
-  s.subspec 'FYCategory' do |ss|
-    ss.source_files = 'FYHelper/FYCategory/*'
-  end
-
-  s.subspec 'FYInstall' do |ss|
-    ss.source_files = 'FYHelper/FYInstall/*'
-  end
-
+  s.default_subspecs = 'FYSubclass'
   s.subspec 'FYSubclass' do |ss|
     ss.source_files = 'FYHelper/FYSubclass/*'
   end
 
-  s.subspec 'FYUIKit' do |ss|
-    ss.source_files = 'FYHelper/FYUIKit/*'
-  end
-
-  s.subspec 'FYUtil' do |ss|
-    ss.source_files = 'FYHelper/FYUtil/*'
-  end
-
   s.frameworks      = 'Foundation', 'CoreGraphics', 'UIKit'
   s.dependency 'AFNetworking'
-  s.dependency 'CocoaLumberjack'
   s.dependency 'BuglyHotfix'
   s.dependency 'FLEX'
   s.dependency 'FMDB'

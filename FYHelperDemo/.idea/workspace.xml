@@ -1,10 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0700f8f-7ab7-4265-bd0a-2ddc0da2e057" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/NSDate+FYCompare.h" afterPath="$PROJECT_DIR$/../FYHelper/FYCategory/NSDate+FYCompare.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/NSDate+FYCompare.m" afterPath="$PROJECT_DIR$/../FYHelper/FYCategory/NSDate+FYCompare.m" />
+    <list default="true" id="e0700f8f-7ab7-4265-bd0a-2ddc0da2e057" name="Default" comment="optimize NSDate compare">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/FYCategory.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/NSTimer+Block.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/NSTimer+Block.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FYHelper/FYInstall/CocoaLumberjack+FYInstall.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FYHelper/FYInstall/DDLog+FYInstall.h" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/NSArray+FY.h" afterPath="$PROJECT_DIR$/../FYHelper/FYCategory/NSArray+FYJson.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/NSArray+FY.m" afterPath="$PROJECT_DIR$/../FYHelper/FYCategory/NSArray+FYJson.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/NSData+FY.h" afterPath="$PROJECT_DIR$/../FYHelper/FYCategory/NSData+FYHelper.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/NSData+FY.m" afterPath="$PROJECT_DIR$/../FYHelper/FYCategory/NSData+FYHelper.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/NSDictionary+FY.h" afterPath="$PROJECT_DIR$/../FYHelper/FYCategory/NSDictionary+FYJson.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/NSDictionary+FY.m" afterPath="$PROJECT_DIR$/../FYHelper/FYCategory/NSDictionary+FYJson.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/NSFileManager+Addition.h" afterPath="$PROJECT_DIR$/../FYHelper/FYCategory/NSFileManager+FYQuick.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/NSFileManager+Addition.m" afterPath="$PROJECT_DIR$/../FYHelper/FYCategory/NSFileManager+FYQuick.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/NSObject+FY.h" afterPath="$PROJECT_DIR$/../FYHelper/FYCategory/NSObject+FYTag.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/NSObject+FY.m" afterPath="$PROJECT_DIR$/../FYHelper/FYCategory/NSObject+FYTag.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/NSString+FY.h" afterPath="$PROJECT_DIR$/../FYHelper/FYCategory/NSString+FYHelper.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/NSString+FY.m" afterPath="$PROJECT_DIR$/../FYHelper/FYCategory/NSString+FYHelper.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/NSTimer+FYBlocks.h" afterPath="$PROJECT_DIR$/../FYHelper/FYCategory/NSTimer+FYBlock.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/NSTimer+FYBlocks.m" afterPath="$PROJECT_DIR$/../FYHelper/FYCategory/NSTimer+FYBlock.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/UIAlertView+Addition.h" afterPath="$PROJECT_DIR$/../FYHelper/FYCategory/UIAlertView+FYQuick.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/UIAlertView+Addition.m" afterPath="$PROJECT_DIR$/../FYHelper/FYCategory/UIAlertView+FYQuick.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/UIColor+FY.h" afterPath="$PROJECT_DIR$/../FYHelper/FYCategory/UIColor+FYHelper.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/UIColor+FY.m" afterPath="$PROJECT_DIR$/../FYHelper/FYCategory/UIColor+FYHelper.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/UIImage+Addition.h" afterPath="$PROJECT_DIR$/../FYHelper/FYCategory/UIImage+FYHelper.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/UIImage+Addition.m" afterPath="$PROJECT_DIR$/../FYHelper/FYCategory/UIImage+FYHelper.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/UILabel+Addition.h" afterPath="$PROJECT_DIR$/../FYHelper/FYCategory/UILabel+FYSize.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/UILabel+Addition.m" afterPath="$PROJECT_DIR$/../FYHelper/FYCategory/UILabel+FYSize.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/UINavigationController+FY.h" afterPath="$PROJECT_DIR$/../FYHelper/FYCategory/UINavigationController+FYPushPop.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/UINavigationController+FY.m" afterPath="$PROJECT_DIR$/../FYHelper/FYCategory/UINavigationController+FYPushPop.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/UINavigationItem+Addition.h" afterPath="$PROJECT_DIR$/../FYHelper/FYCategory/UINavigationItem+FYBack.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/UINavigationItem+Addition.m" afterPath="$PROJECT_DIR$/../FYHelper/FYCategory/UINavigationItem+FYBack.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/UITextField+LimitLength.h" afterPath="$PROJECT_DIR$/../FYHelper/FYCategory/UITextField+FYLimitLength.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/UITextField+LimitLength.m" afterPath="$PROJECT_DIR$/../FYHelper/FYCategory/UITextField+FYLimitLength.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/UIView+Addition.h" afterPath="$PROJECT_DIR$/../FYHelper/FYCategory/UIView+FYHelper.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/UIView+Addition.m" afterPath="$PROJECT_DIR$/../FYHelper/FYCategory/UIView+FYHelper.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/UIView+Animation.h" afterPath="$PROJECT_DIR$/../FYHelper/FYCategory/UIView+FYAnimation.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/UIView+Animation.m" afterPath="$PROJECT_DIR$/../FYHelper/FYCategory/UIView+FYAnimation.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/UIView+Layer.h" afterPath="$PROJECT_DIR$/../FYHelper/FYCategory/UIView+FYLayer.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/UIView+Layer.m" afterPath="$PROJECT_DIR$/../FYHelper/FYCategory/UIView+FYLayer.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/UIWindow+FY.h" afterPath="$PROJECT_DIR$/../FYHelper/FYCategory/UIWindow+FYViewController.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FYHelper/FYCategory/UIWindow+FY.m" afterPath="$PROJECT_DIR$/../FYHelper/FYCategory/UIWindow+FYViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FYHelper.podspec" afterPath="$PROJECT_DIR$/../FYHelper.podspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FYHelper/FYHelper.h" afterPath="$PROJECT_DIR$/../FYHelper/FYHelper.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FYHelper/FYInstall/Bugly+FYInstall.h" afterPath="$PROJECT_DIR$/../FYHelper/FYInstall/Bugly+FYInstall.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FYHelper/FYInstall/Bugly+FYInstall.m" afterPath="$PROJECT_DIR$/../FYHelper/FYInstall/Bugly+FYInstall.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FYHelper/FYInstall/FYInstall.m" afterPath="$PROJECT_DIR$/../FYHelper/FYInstall/FYInstall.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FYHelper/FYInstall/Instabug+FYInstall.h" afterPath="$PROJECT_DIR$/../FYHelper/FYInstall/Instabug+FYInstall.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FYHelper/FYInstall/Instabug+FYInstall.m" afterPath="$PROJECT_DIR$/../FYHelper/FYInstall/Instabug+FYInstall.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FYHelper/FYUIKit/FYViewController.m" afterPath="$PROJECT_DIR$/../FYHelper/FYUIKit/FYViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FYHelper/FYUtil/FYAppUtil.m" afterPath="$PROJECT_DIR$/../FYHelper/FYUtil/FYAppUtil.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FYHelper/FYUtil/FYDeviceUtil.h" afterPath="$PROJECT_DIR$/../FYHelper/FYUtil/FYDeviceUtil.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FYHelper/FYUtil/FYDeviceUtil.m" afterPath="$PROJECT_DIR$/../FYHelper/FYUtil/FYDeviceUtil.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FYHelperDemo.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/FYHelperDemo.xcodeproj/project.pbxproj" />
     </list>
     <ignored path="$USER_HOME$/Library/Caches/AppCode2017.1/DerivedData/FYHelperDemo-dihsbpjvqdohykbqbmxpybofeyru/" />
     <ignored path=".idea/" />
@@ -18,42 +69,34 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulatoriPhone_7_10.3_x86_64_1" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FYAppUtil.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../FYHelper/FYUtil/FYAppUtil.m">
+      <file leaf-file-name="UINavigationItem+FYBack.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/UINavigationItem+FYBack.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FYDeviceUtil.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../FYHelper/FYUtil/FYDeviceUtil.m">
+      <file leaf-file-name="UIAlertController+FYSupportedInterfaceOrientations.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/UIAlertController+FYSupportedInterfaceOrientations.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="86" column="1" lean-forward="false" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="1" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FYMacroDefinition.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../FYHelper/FYUtil/FYMacroDefinition.m">
+      <file leaf-file-name="UIAlertController+FYSupportedInterfaceOrientations.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/UIAlertController+FYSupportedInterfaceOrientations.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Podfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Podfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="318" column="21" lean-forward="false" selection-start-line="318" selection-start-column="21" selection-end-line="318" selection-end-column="21" />
-              <folding />
+            <state relative-caret-position="330">
+              <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+              <folding>
+                <element signature="e#376#487#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,63 +104,70 @@
       <file leaf-file-name="FYHelper.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../FYHelper/FYHelper.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="413">
+              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding>
-                <element signature="e#1160#1188#0" expanded="true" />
+                <element signature="e#181#207#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FYTextUtil.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../FYHelper/FYUtil/FYTextUtil.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="60">
-                <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NSDate+FYCompare.h" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/NSDate+FYCompare.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NSDate+FYCompare.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/NSDate+FYCompare.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FYHelper.podspec" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FYHelper.podspec" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../FYHelper.podspec">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="49" column="28" lean-forward="false" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+            <state relative-caret-position="561">
+              <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FYBorderButton.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../FYHelper/FYSubclass/FYBorderButton.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FYPaddingTextField.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../FYHelper/FYSubclass/FYPaddingTextField.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UIView+highlightOnTouch.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/UIView+highlightOnTouch.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UIView+highlightOnTouch.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/UIView+highlightOnTouch.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="3" lean-forward="false" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UINavigationBar.h" pinned="false" current-in-tab="false">
+        <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers/UINavigationBar.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="116" column="54" lean-forward="false" selection-start-line="116" selection-start-column="54" selection-end-line="116" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -135,6 +185,16 @@
       <find>flex</find>
       <find>maso</find>
       <find>iversion</find>
+      <find>chame</find>
+      <find>FYTextUtil</find>
+      <find>FYDeviceUtil.o</find>
+      <find>FYDeviceUtil.</find>
+      <find>FYDeviceUtil</find>
+      <find>#if DEBUG</find>
+      <find>DEBUG</find>
+      <find>ddLogLevel</find>
+      <find>scheduledTimerWithTimeInterval:(NSTimeInterval)interval repeats:(BOOL)repeats block:(void (^)(NSTimer *timer))block</find>
+      <find>NSTimer+FYBlock</find>
     </findStrings>
     <replaceStrings>
       <replace>fy_scrollView</replace>
@@ -146,40 +206,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../FYHelper/FYCategory/UIScrollView+FYTouch.h" />
-        <option value="$PROJECT_DIR$/../FYHelper/FYCategory/UIView+Addition.h" />
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/../FYHelper/FYSetup/FYSetuper.h" />
-        <option value="$PROJECT_DIR$/../FYHelper/FYSetup/FYSetup.h" />
-        <option value="$PROJECT_DIR$/update_pod.sh" />
-        <option value="$PROJECT_DIR$/../FYHelper/FYViewController/FYViewController.h" />
-        <option value="$PROJECT_DIR$/../FYHelper/FYViewController/FYViewController.m" />
-        <option value="$PROJECT_DIR$/../FYHelper/FYViewController/FYScrollViewController.h" />
-        <option value="$PROJECT_DIR$/../FYHelper/FYViewController/FYScrollViewController.m" />
-        <option value="$PROJECT_DIR$/../FYHelper/FYViewController/FYNavigationController.m" />
-        <option value="$PROJECT_DIR$/../FYHelper/FYViewController/FYNavigationController.h" />
-        <option value="$PROJECT_DIR$/../FYHelper/FYSetup/Bugly+FYSetup.h" />
-        <option value="$PROJECT_DIR$/../FYHelper/FYSetup/Bugly+FYSetup.m" />
-        <option value="$PROJECT_DIR$/../FYHelper/FYSetup/DDLog+FYSetup.m" />
         <option value="$PROJECT_DIR$/../FYHelper/FYSetup/FYSetup.m" />
         <option value="$PROJECT_DIR$/../FYHelper/FYSetup/Instabug+FYSetup.h" />
         <option value="$PROJECT_DIR$/../FYHelper/FYSetup/Instabug+FYSetup.m" />
         <option value="$PROJECT_DIR$/../FYHelper/FYSetup/Instabug+FYInstall.m" />
-        <option value="$PROJECT_DIR$/../FYHelper/FYInstall/Instabug+FYInstall.h" />
-        <option value="$PROJECT_DIR$/../FYHelper/FYInstall/Instabug+FYInstall.m" />
-        <option value="$PROJECT_DIR$/../FYHelper/FYInstall/DDLog+FYInstall.h" />
         <option value="$PROJECT_DIR$/../FYHelper/FYInstall/Bugly+FYInstall.h" />
         <option value="$PROJECT_DIR$/Podfile" />
         <option value="$PROJECT_DIR$/../FYHelper/FYUtil/FYTextUtil.m" />
         <option value="$PROJECT_DIR$/../FYHelper/FYUtil/FYMacroDefinition.h" />
-        <option value="$PROJECT_DIR$/../FYHelper/FYUtil/FYDeviceUtil.m" />
         <option value="$PROJECT_DIR$/../README.md" />
-        <option value="$PROJECT_DIR$/../FYHelper/FYHelper.h" />
         <option value="$PROJECT_DIR$/makefile" />
         <option value="$PROJECT_DIR$/../update_pod.sh" />
-        <option value="$PROJECT_DIR$/../FYHelper.podspec" />
         <option value="$PROJECT_DIR$/../FYHelper/FYCategory/NSDate+FYCompare.m" />
         <option value="$PROJECT_DIR$/../FYHelper/FYCategory/NSDate+FYCompare.h" />
+        <option value="$PROJECT_DIR$/../makefile" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYUIKit/FYViewController.m" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYInstall/Bugly+FYInstall.m" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYInstall/FYInstall.m" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYInstall/Instabug+FYInstall.h" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYInstall/DDLog+FYInstall.h" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYInstall/DDLog+FYInstall.m" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYUtil/FYDeviceUtil.h" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYUtil/FYDeviceUtil.m" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYCategory/NSArray+FYJson.m" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYCategory/NSObject+FY.h" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYCategory/NSObject+FY.m" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYCategory/NSObject+FYTag.m" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYCategory/NSFileManager+Addition.h" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYCategory/NSFileManager+FYQuick.h" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYCategory/NSFileManager+FYQuick.m" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYCategory/UIAlertView+Addition.h" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYCategory/UIAlertView+Addition.m" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYCategory/UIAlertView+FYQuick.m" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYCategory/NSString+FY.h" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYCategory/NSString+FYHelper.h" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYCategory/NSDictionary+FYJson.h" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYCategory/NSData+FYHelper.h" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYCategory/NSTimer+FYBlocks.h" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYHelper.h" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYCategory/NSTimer+FYBlock.m" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYInstall/Instabug+FYInstall.m" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYCategory/UIView+FYHelper.h" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYCategory/UIView+FYAnimation.h" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYCategory/UIView+FYLayer.h" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYCategory/UIWindow+FYViewController.h" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYCategory/UILabel+FYSize.h" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYCategory/UITextField+FYLimitLength.m" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYCategory/UINavigationController+FYPushPop.h" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYCategory/UIColor+FYHelper.h" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYCategory/UIImage+FYHelper.h" />
+        <option value="$PROJECT_DIR$/../FYHelper/FYCategory/UINavigationItem+FYBack.m" />
+        <option value="$PROJECT_DIR$/../FYHelper.podspec" />
       </list>
     </option>
   </component>
@@ -243,6 +320,24 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Pods" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pods" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BuglyHotfix" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="FYHelperDemo" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
             </PATH_ELEMENT>
@@ -258,24 +353,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="FYHelper" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FYHelperDemo" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FYHelper" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FYCategory" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -287,6 +364,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="FYHelperDemo" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="SearchEverywhereHistoryKey" value="FYTextUtil&#9;FILE&#9;file:///Users/efeng/workspace/GITHUB_DEMO/FYHelper/FYHelper/FYUtil/FYTextUtil.m&#10;FYDeviceUtil.m&#9;FILE&#9;file:///Users/efeng/workspace/GITHUB_DEMO/FYHelper/FYHelper/FYUtil/FYDeviceUtil.m" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -359,7 +437,7 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="FYHelperDemo" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FYHelperDemo" TARGET_NAME="FYHelperDemo" CONFIG_NAME="Debug" SCHEME_NAME="FYHelperDemo" RUN_TARGET_PROJECT_NAME="FYHelperDemo" RUN_TARGET_NAME="FYHelperDemo" MAKE_ACTIVE="TRUE">
+    <configuration default="false" name="FYHelperDemo" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FYHelperDemo" TARGET_NAME="FYHelperDemo" CONFIG_NAME="Release" SCHEME_NAME="FYHelperDemo" RUN_TARGET_PROJECT_NAME="FYHelperDemo" RUN_TARGET_NAME="FYHelperDemo" MAKE_ACTIVE="TRUE">
       <envs />
       <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
         <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
@@ -377,6 +455,9 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -396,7 +477,7 @@
       <workItem from="1499304619522" duration="6160000" />
       <workItem from="1499332935517" duration="7000" />
       <workItem from="1499336638947" duration="30000" />
-      <workItem from="1499394231201" duration="210000" />
+      <workItem from="1499394231201" duration="11328000" />
     </task>
     <task id="LOCAL-00001" summary="remove UIScrollView+FYTouch">
       <created>1499051512704</created>
@@ -496,35 +577,42 @@
       <option name="project" value="LOCAL" />
       <updated>1499336656639</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="optimize NSDate compare">
+      <created>1499394461115</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1499394461115</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45903000" />
+    <option name="totallyTimeSpent" value="57021000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1436" height="877" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.510828" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42292994" sideWeight="0.5024735" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49044585" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3821656" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.61528665" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42292994" sideWeight="0.4975265" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2155477" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24946997" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21201414" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -571,275 +659,194 @@
     <MESSAGE value="pod support subspec" />
     <MESSAGE value="change shell file path" />
     <MESSAGE value="change podspec" />
-    <option name="LAST_COMMIT_MESSAGE" value="change podspec" />
+    <MESSAGE value="optimize NSDate compare" />
+    <option name="LAST_COMMIT_MESSAGE" value="optimize NSDate compare" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/NSArray+FY.m">
+    <entry file="file://$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/DDLog.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="315">
+          <caret line="267" column="30" lean-forward="false" selection-start-line="267" selection-start-column="30" selection-end-line="267" selection-end-column="30" />
+          <folding>
+            <element signature="e#741#767#0" expanded="true" />
+            <element signature="e#880#924#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/NSData+FY.h">
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYUtil/FYAppUtil.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="33" />
+          <folding>
+            <element signature="e#94#127#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/NSData+FYCache.m">
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYUtil/FYDeviceUtil.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="540">
+          <caret line="36" column="3" lean-forward="false" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/NSDate+FYFormat.m">
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYUtil/FYDeviceUtil.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="345">
+          <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding>
+            <element signature="e#136#160#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/UIColor+FY.m">
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/NSArray+FYJson.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/UIColor+FY.h">
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/NSArray+FYJson.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/UIScrollView+FYTouch.h">
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/NSObject+FYTag.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/UIView+Animation.h">
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/NSObject+FYTag.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/NSString+FYHelper.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="93" column="55" lean-forward="false" selection-start-line="93" selection-start-column="55" selection-end-line="93" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/FYCategory.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/UIView+Addition.h">
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/NSDictionary+FYJson.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        <state relative-caret-position="240">
+          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/UIView+Addition.m">
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/NSFileManager+FYQuick.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="55" lean-forward="false" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+        <state relative-caret-position="150">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../.swift-version">
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/NSFileManager+FYQuick.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="343">
+          <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/UIAlertView+FYQuick.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/DZNEmptyDataSet/Source/UIScrollView+EmptyDataSet.m">
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/UIAlertView+FYQuick.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="20" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+        <state relative-caret-position="255">
+          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/update_pod.sh" />
-    <entry file="file://$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFNetworking.h">
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/NSString+FYHelper.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-338">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="814">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/KVOController/FBKVOController/KVOController.h">
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/NSDictionary+FYJson.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/NSData+FYHelper.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSTimer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/NSTimer+Block.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIResponder.h">
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/NSTimer+Block.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="48" column="8" lean-forward="false" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+        <state relative-caret-position="480">
+          <caret line="32" column="4" lean-forward="false" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYUIKit/FYNavigationController.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYUIKit/FYScrollViewController.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYSubclass/FYBorderButton.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYSubclass/FYBorderButton.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYInstall/DDLog+FYInstall.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYUIKit/FYViewController.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYInstall/Bugly+FYInstall.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYInstall/Bugly+FYInstall.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYInstall/DDLog+FYInstall.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYInstall/FYInstall.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYInstall/FYInstall.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYInstall/Instabug+FYInstall.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYInstall/Instabug+FYInstall.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYUIKit/FYScrollViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYUIKit/FYNavigationController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYUIKit/FYViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1230">
-          <caret line="116" column="8" lean-forward="true" selection-start-line="116" selection-start-column="8" selection-end-line="116" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYUtil/FYErrorUtil.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="19" lean-forward="false" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYUtil/FYErrorUtil.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="25" column="15" lean-forward="false" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYUtil/FYFileUtil.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYUtil/FYLocationUtil.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="72" column="1" lean-forward="false" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYUtil/FYMacroDefinition.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="21" lean-forward="false" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/makefile" />
-    <entry file="file://$PROJECT_DIR$/../makefile">
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/NSTimer+FYBlock.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
@@ -847,101 +854,245 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../update_pod.sh">
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/NSTimer+FYBlock.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYInstall/FYInstall.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper.podspec">
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYInstall/FYInstall.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="49" column="28" lean-forward="false" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+        <state relative-caret-position="360">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYUtil/FYAppUtil.m">
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYInstall/Bugly+FYInstall.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#103#130#0" expanded="true" />
+            <element signature="e#435#456#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYInstall/Instabug+FYInstall.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <marker date="1499415238000" expanded="true" signature="0:436" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/UIView+FYHelper.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Podfile">
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/UIView+FYHelper.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="318" column="21" lean-forward="false" selection-start-line="318" selection-start-column="21" selection-end-line="318" selection-end-column="21" />
+        <state relative-caret-position="435">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYUtil/FYMacroDefinition.m">
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/UIView+FYAnimation.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYUtil/FYDeviceUtil.m">
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/UIView+FYLayer.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="86" column="1" lean-forward="false" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/UIWindow+FYViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/UIWindow+FYViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="4" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/UILabel+FYSize.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/UILabel+FYSize.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/UITextField+FYLimitLength.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/UITextField+FYLimitLength.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/UINavigationController+FYPushPop.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/UIColor+FYHelper.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="3" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/UIImage+FYHelper.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/UINavigationItem+FYBack.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers/UINavigationBar.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="116" column="54" lean-forward="false" selection-start-line="116" selection-start-column="54" selection-end-line="116" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/UINavigationItem+FYBack.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/UIAlertController+FYSupportedInterfaceOrientations.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/UIAlertController+FYSupportedInterfaceOrientations.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <folding>
+            <element signature="e#376#487#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/UIView+highlightOnTouch.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/UIView+highlightOnTouch.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="3" lean-forward="false" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYSubclass/FYBorderButton.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FYHelper/FYSubclass/FYPaddingTextField.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../FYHelper/FYHelper.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="413">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding>
-            <element signature="e#1160#1188#0" expanded="true" />
+            <element signature="e#181#207#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYUtil/FYTextUtil.m">
+    <entry file="file://$PROJECT_DIR$/../FYHelper.podspec">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="60">
-            <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/NSDate+FYCompare.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../FYHelper/FYCategory/NSDate+FYCompare.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="561">
+          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
           <folding />
         </state>
       </provider>

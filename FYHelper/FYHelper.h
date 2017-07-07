@@ -10,22 +10,22 @@
 #define FYHelper_h
 
 // category
-#import "NSArray+FY.h"
-#import "NSDictionary+FY.h"
-#import "UIColor+FY.h"
-#import "UINavigationController+FY.h"
-#import "UITextField+LimitLength.h"
-#import "NSData+FY.h"
-#import "NSFileManager+Addition.h"
+#import "NSArray+FYJson.h"
+#import "NSDictionary+FYJson.h"
+#import "UIColor+FYHelper.h"
+#import "UINavigationController+FYPushPop.h"
+#import "UITextField+FYLimitLength.h"
+#import "NSData+FYHelper.h"
+#import "NSFileManager+FYQuick.h"
 #import "NSDate+FYFormat.h"
-#import "NSString+FY.h"
-#import "UIAlertView+Addition.h"
-#import "UIImage+Addition.h"
-#import "UIView+Addition.h"
-#import "UIView+Animation.h"
-#import "UIView+Layer.h"
-#import "UINavigationItem+Addition.h"
-#import "UILabel+Addition.h"
+#import "NSString+FYHelper.h"
+#import "UIAlertView+FYQuick.h"
+#import "UIImage+FYHelper.h"
+#import "UIView+FYHelper.h"
+#import "UIView+FYAnimation.h"
+#import "UIView+FYLayer.h"
+#import "UINavigationItem+FYBack.h"
+#import "UILabel+FYSize.h"
 #import "UIButton+FYCountDown.h"
 #import "UIView+FYBorder.h"
 #import "UIButton+FYBlock.h"
@@ -34,11 +34,11 @@
 #import "UIView+FYFrame.h"
 #import "UIScreen+FYFrame.h"
 #import "NSDate+FYCompare.h"
-#import "UIWindow+FY.h"
+#import "UIWindow+FYViewController.h"
 #import "UILabel+FYStyle.h"
 #import "UIViewController+FYBackButtonTouched.h"
 #import "UIAlertController+FYSupportedInterfaceOrientations.h"
-#import "NSTimer+Block.h"
+#import "NSTimer+FYBlock.h"
 
 // subclass
 #import "FYPaddingTextField.h"
@@ -49,8 +49,11 @@
 #import "FYScrollViewController.h"
 #import "FYNavigationController.h"
 
-// macro definition
-#import "FYMacroDefinition.h"
+// fyinstall
+#import "Bugly+FYInstall.h"
+//#import "CocoaLumberjack+FYInstall.h"
+#import "Instabug+FYInstall.h"
+#import "FYInstall.h"
 
 // utils
 #import "FYAppUtil.h"
@@ -59,11 +62,12 @@
 #import "FYFileUtil.h"
 #import "FYLocationUtil.h"
 #import "FYTextUtil.h"
+#import "FYMacroDefinition.h"
 
 /// FYHelper默认包含的第三方库的头文件（必备常用库）
 #import <AFNetworking/AFNetworking.h>
-#import <CocoaLumberjack/DDLog.h>
 #import <BuglyHotfix/Bugly.h>
+#import <BuglyHotfix/BuglyLog.h>
 #import <FLEX/FLEX.h>
 #import <FMDB/FMDB.h>
 #import <Instabug/Instabug.h>

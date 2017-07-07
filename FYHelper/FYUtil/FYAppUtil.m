@@ -4,7 +4,7 @@
 //
 
 #import "FYAppUtil.h"
-#import "NSString+FY.h"
+#import "NSString+FYHelper.h"
 
 @implementation FYAppUtil {
 

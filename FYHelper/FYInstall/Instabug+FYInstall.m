@@ -16,5 +16,4 @@
     [Instabug startWithToken:token invocationEvent:IBGInvocationEventNone];
 }
 
-
 @end

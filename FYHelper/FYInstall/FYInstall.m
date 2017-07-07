@@ -4,7 +4,6 @@
 //
 
 #import "FYInstall.h"
-#import "DDLog+FYInstall.h"
 #import "Bugly+FYInstall.h"
 
 
@@ -20,8 +19,7 @@
 + (void)load {
     [super load];
 
-    [DDLog fy_install];
-    [Bugly fy_installWithAppId:@"xxxxxx"]; // TODO xxxxxx你在bugly.qq.com申请的app id.
+//    [Bugly fy_installWithAppId:@"xxxxxx"]; // TODO xxxxxx你在bugly.qq.com申请的app id.
 }
 
 
