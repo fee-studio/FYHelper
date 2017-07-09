@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "FYHelper"
-  s.version      = "0.0.14"
+  s.version      = "0.0.15"
   s.summary      = "iOS Dev Helper"
 
   # This description is used to generate tags and improve search results.
@@ -28,7 +28,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.requires_arc    = true
   s.source          = { :git => "https://github.com/iosfeng/FYHelper.git", :tag => "#{s.version}" }
-  s.source_files = 'FYHelper/**/*'
+
+  # s.source_files = 'FYHelper/**/*'
+
   # s.public_header_files = 'FYHelper/FYHelper.h'
 
 # s.default_subspecs = 'FYCategory', 'FYInstall', 'FYSubclass', 'FYUIKit', 'FYUtil'
@@ -51,7 +53,8 @@ Pod::Spec.new do |s|
 
   s.default_subspecs = 'FYSubclass'
   s.subspec 'FYSubclass' do |ss|
-    ss.source_files = 'FYHelper/FYSubclass/*'
+    ss.source_files = 'FYHelper/FYSubclass/**/*'
+    ss.public_header_files = 'FYHelper/FYSubclass/**/*.h'
   end
 
   s.frameworks      = 'Foundation', 'CoreGraphics', 'UIKit'
