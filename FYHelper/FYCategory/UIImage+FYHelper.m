@@ -7,7 +7,6 @@
 //
 
 #import "UIImage+FYHelper.h"
-#import "FYMacroDefinition.h"
 
 @implementation UIImage (FYHelper)
 
@@ -170,7 +169,7 @@ CGFloat RadiansToDegrees(CGFloat radians) {
     newImage = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
 
-    if (newImage == nil) FYLog(@"could not scale image");
+    if (newImage == nil) NSLog(@"could not scale image");
 
     return newImage;
 }
@@ -229,7 +228,7 @@ CGFloat RadiansToDegrees(CGFloat radians) {
     newImage = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
 
-    if (newImage == nil) FYLog(@"could not scale image");
+    if (newImage == nil) NSLog(@"could not scale image");
 
     return newImage;
 }
@@ -265,7 +264,7 @@ CGFloat RadiansToDegrees(CGFloat radians) {
     newImage = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
 
-    if (newImage == nil) FYLog(@"could not scale image");
+    if (newImage == nil) NSLog(@"could not scale image");
 
 
     return newImage;

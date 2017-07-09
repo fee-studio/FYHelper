@@ -1,6 +1,6 @@
 #import <CommonCrypto/CommonDigest.h>
 #import "NSString+FYHelper.h"
-#import "FYMacroDefinition.h"
+//#import "FYMacroDefinition.h"
 
 @implementation NSString (FYHelper)
 
@@ -48,7 +48,7 @@
         }
     }
     @catch (NSException *exception) {
-        FYLog(@"NSString(Addition) +stringCSVFromArray: - Exception: %@", exception);
+        NSLog(@"NSString(Addition) +stringCSVFromArray: - Exception: %@", exception);
     }
     @finally {
 

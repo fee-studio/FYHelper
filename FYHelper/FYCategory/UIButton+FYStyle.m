@@ -4,8 +4,7 @@
 //
 
 #import "UIButton+FYStyle.h"
-#import "FYHelper.h"
-
+#import "UIImage+FYHelper.h"
 
 @implementation UIButton (FYStyle)
 - (void)fy_setBackgroundColor:(UIColor *)backgroundColor forState:(UIControlState)state; {

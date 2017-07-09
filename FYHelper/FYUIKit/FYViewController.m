@@ -5,7 +5,6 @@
 
 #import "FYViewController.h"
 #import "FYMacroDefinition.h"
-#import "FYHelper.h"
 
 
 @implementation FYViewController {

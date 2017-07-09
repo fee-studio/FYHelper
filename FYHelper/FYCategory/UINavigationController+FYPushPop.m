@@ -6,7 +6,7 @@
 //  Copyright (c) 2014年 weiboyi. All rights reserved.
 //
 #import "UINavigationController+FYPushPop.h"
-#import "FYViewController.h"
+//#import "FYViewController.h"
 
 @implementation UINavigationController (FYPushPop)
 
@@ -22,10 +22,10 @@
 }
 
 - (void)fy_pushTo:(Class)classVc withParameter:(NSDictionary *)parameter; {
-    NSAssert([classVc isSubclassOfClass:FYViewController.class], @"必须是UIViewController的子类");
+    NSAssert([classVc isSubclassOfClass:UIViewController.class], @"必须是UIViewController的子类");
 
-    FYViewController *vc = (FYViewController *) [[classVc alloc] init];
-    vc.fy_parameter = parameter;
+    UIViewController *vc = (UIViewController *) [[classVc alloc] init];
+//    vc.fy_parameter = parameter; // todo ... delete this after
     [self pushViewController:vc animated:YES];
 }
 

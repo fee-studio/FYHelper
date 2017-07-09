@@ -6,7 +6,7 @@
 //  Copyright (c) 2013年 makeLaugh. All rights reserved.
 //
 #import "UIView+FYHelper.h"
-#import "FYHelper.h"
+#import "UIColor+FYHelper.h"
 
 @implementation UIView (FYHelper)
 

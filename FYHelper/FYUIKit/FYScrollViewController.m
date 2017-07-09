@@ -4,8 +4,8 @@
 //
 
 #import "FYScrollViewController.h"
-#import "FYHelper.h"
-
+#import "FYMacroDefinition.h"
+#import <Masonry/Masonry.h>
 
 @interface FYScrollViewController () <UIScrollViewDelegate>
 
