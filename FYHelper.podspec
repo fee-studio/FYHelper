@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "FYHelper"
-  s.version      = "0.0.15"
+  s.version      = "0.0.16"
   s.summary      = "iOS Dev Helper"
 
   # This description is used to generate tags and improve search results.
@@ -31,31 +31,61 @@ Pod::Spec.new do |s|
 
   # s.source_files = 'FYHelper/**/*'
 
+  s.source_files = 'FYHelper/FYHelper.h'
+
   # s.public_header_files = 'FYHelper/FYHelper.h'
+  # s.public_header_files = 'FYHelper/*.h'
 
-# s.default_subspecs = 'FYCategory', 'FYInstall', 'FYSubclass', 'FYUIKit', 'FYUtil'
-# s.subspec 'FYCategory' do |ss|
-#   ss.source_files = 'FYHelper/FYCategory/*'
-#   ss.dependency 'FYHelper/FYUtil'
-# end
-# s.subspec 'FYInstall' do |ss|
-#   ss.source_files = 'FYHelper/FYInstall/*'
-# end
-# s.subspec 'FYSubclass' do |ss|
-#   ss.source_files = 'FYHelper/FYSubclass/*'
-# end
-# s.subspec 'FYUIKit' do |ss|
-#   ss.source_files = 'FYHelper/FYUIKit/*'
-# en4
-# s.subspec 'FYUtil' do |ss|
-#   ss.source_files = 'FYHelper/FYUtil/*'
-# end
+  # s.default_subspecs = 'FYCategory', 'FYInstall', 'FYSubclass', 'FYUIKit', 'FYUtil'
 
-  s.default_subspecs = 'FYSubclass'
-  s.subspec 'FYSubclass' do |ss|
-    ss.source_files = 'FYHelper/FYSubclass/**/*'
-    ss.public_header_files = 'FYHelper/FYSubclass/**/*.h'
-  end
+
+   # s.default_subspecs = 'FYSubclass' # , 'FYUtil'
+
+   s.subspec 'FYSubclass' do |ss|
+     ss.source_files = 'FYHelper/FYSubclass/**/*'
+     ss.public_header_files = 'FYHelper/FYSubclass/**/*.h'
+   end
+
+   s.subspec 'FYUtil' do |ss|
+     ss.source_files = 'FYHelper/FYUtil/**/*'
+     ss.public_header_files = 'FYHelper/FYUtil/**/*.h'
+     # ss.dependency 'FYHelper/FYCategory'
+   end
+
+    s.subspec 'FYInstall' do |ss|
+      ss.source_files = 'FYHelper/FYInstall/**/*'
+      ss.public_header_files = 'FYHelper/FYInstall/**/*.h'
+      ss.dependency 'FYHelper/FYUtil'
+    end
+
+    s.subspec 'FYUIKit' do |ss|
+      ss.source_files = 'FYHelper/FYUIKit/**/*'
+      ss.public_header_files = 'FYHelper/FYUIKit/**/*.h'
+      ss.dependency 'FYHelper/FYUtil'
+    end
+
+   s.subspec 'FYCategory' do |ss|
+     ss.source_files = 'FYHelper/FYCategory/**/*'
+     ss.public_header_files = 'FYHelper/FYCategory/**/*.h'
+     ss.dependency 'FYHelper/FYUtil'
+   end
+
+
+   # s.subspec 'FYSubclass' do |ss|
+   #   ss.source_files = 'FYHelper/FYSubclass/**/*'
+   #   ss.public_header_files = 'FYHelper/FYSubclass/**/*.h'
+   # end
+
+   # s.subspec 'FYUtil' do |ss|
+   #   ss.source_files = 'FYHelper/FYUtil/**/*'
+   #   ss.public_header_files = 'FYHelper/FYUtil/**/*.h'
+   # end
+
+#  s.default_subspecs = 'FYSubclass'
+#  s.subspec 'FYSubclass' do |ss|
+#    ss.source_files = 'FYHelper/FYSubclass/**/*'
+#    ss.public_header_files = 'FYHelper/FYSubclass/**/*.h'
+#  end
 
   s.frameworks      = 'Foundation', 'CoreGraphics', 'UIKit'
   s.dependency 'AFNetworking'
