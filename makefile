@@ -23,7 +23,7 @@ update_pod:
 	git commit -m $(CMT_MSG)        # 提交被add的改动
 	git push origin master          # push代码到Git
 
-# 发布到CocoaPods
+# 发布到CocoaPods  pod trunk push FYHelper.podspec --use-libraries --allow-warnings
 	pod trunk push $(POD_NAME).podspec --use-libraries --allow-warnings
 
 # 命令更新本地pod依赖树
@@ -32,8 +32,11 @@ update_pod:
 # 搜索看是不是与TAG_CODE一致
 	pod search $(POD_NAME)
 
-
+# 提交过最新的代码 & 验证了podspec文件是可用的，再用！
 publish_pod_and_check:
-	pod trunk push ../$(POD_NAME).podspec --use-libraries --allow-warnings
+	git tag $(TAG_CODE)
+	git push --tag
+	pod trunk push $(POD_NAME).podspec --use-libraries --allow-warnings
 	pod setup
 	pod search $(POD_NAME)
+

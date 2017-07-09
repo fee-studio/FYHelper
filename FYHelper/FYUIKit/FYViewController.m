@@ -5,6 +5,7 @@
 
 #import "FYViewController.h"
 #import "FYMacroDefinition.h"
+#import "FLEXManager.h"
 
 
 @implementation FYViewController {
@@ -96,7 +97,7 @@
 #pragma mark - FLEX
 
 - (void)actionFlex:(id)sender {
-#if DEBUG
+#ifdef DEBUG
     [[FLEXManager sharedManager] showExplorer];
 #endif
 }
