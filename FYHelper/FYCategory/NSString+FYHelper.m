@@ -1,5 +1,6 @@
 #import <CommonCrypto/CommonDigest.h>
 #import "NSString+FYHelper.h"
+//#import "EXTKeyPathCoding.h"
 //#import "FYMacroDefinition.h"
 
 @implementation NSString (FYHelper)
@@ -121,6 +122,18 @@
 };
 
 - (NSURL *)fy_toURL; {
+    /* 最好是后端去转码
+    NSString *webString;
+    if ([self respondsToSelector:@selector(stringByAddingPercentEncodingWithAllowedCharacters:)]) {
+        webString = [self stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLFragmentAllowedCharacterSet]];
+    } else {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
+        webString = [self stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+#pragma clang diagnostic pop
+    }
+    return [NSURL URLWithString:webString];
+     */
     return [NSURL URLWithString:self];
 }
 

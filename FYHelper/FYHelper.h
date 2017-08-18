@@ -39,6 +39,7 @@
 #import "UIViewController+FYBackButtonTouched.h"
 #import "UIAlertController+FYSupportedInterfaceOrientations.h"
 #import "NSTimer+FYBlock.h"
+#import "NSObject+FYTag.h"
 
 // subclass
 #import "FYPaddingTextField.h"
@@ -52,7 +53,7 @@
 // fyinstall
 #import "Bugly+FYInstall.h"
 //#import "CocoaLumberjack+FYInstall.h"
-#import "Instabug+FYInstall.h"
+//#import "Instabug+FYInstall.h"
 #import "FYInstall.h"
 
 // utils
@@ -65,17 +66,16 @@
 #import "FYMacroDefinition.h"
 
 /// FYHelper默认包含的第三方库的头文件（必备常用库）
-#import <AFNetworking/AFNetworking.h>
-#import <BuglyHotfix/Bugly.h>
-#import <BuglyHotfix/BuglyLog.h>
-#import <FLEX/FLEX.h>
-#import <FMDB/FMDB.h>
-#import <Instabug/Instabug.h>
-#import <KVOController/KVOController.h>
-#import <Masonry/Masonry.h>
-#import <pop/POP.h>
-#import <iVersion/iVersion.h>
-#import <DZNEmptyDataSet/UIScrollView+EmptyDataSet.h>
+// #import <AFNetworking/AFNetworking.h>
+#import "BuglyHotfix/Bugly.h"
+#import "BuglyHotfix/BuglyLog.h"
+//#import "FLEX/FLEX.h"
+//#import <FMDB/FMDB.h>
+#import "KVOController/KVOController.h"
+#import "Masonry/Masonry.h"
+//#import <pop/POP.h>
+//#import <iVersion/iVersion.h>
+#import "DZNEmptyDataSet/UIScrollView+EmptyDataSet.h"
 
 
 #endif /* FYHelper_h */

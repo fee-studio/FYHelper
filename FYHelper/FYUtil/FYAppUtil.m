@@ -4,6 +4,7 @@
 //
 
 #import "FYAppUtil.h"
+#import "FYHelper.h"
 //#import "NSString+FYHelper.h"
 
 @implementation FYAppUtil {
@@ -68,7 +69,7 @@
 
 + (void)fy_openURL:(NSString *)scheme completionHandler:(void (^ __nullable)(BOOL success))completion {
     UIApplication *application = [UIApplication sharedApplication];
-    NSURL *URL = [NSURL URLWithString:scheme];
+    NSURL *URL = scheme.fy_toURL;
     if ([application respondsToSelector:@selector(openURL:options:completionHandler:)]) {
         [application openURL:URL
                      options:@{}
@@ -77,10 +78,33 @@
                completion(success);
            }];
     } else {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
         BOOL success = [application openURL:URL];
+#pragma clang diagnostic pop
         NSLog(@"Open %@ : %d", scheme, success);
         completion(success);
     }
+}
+
++ (void)fy_openSettingsPage {
+	NSURL *settingsURL = [NSURL URLWithString:UIApplicationOpenSettingsURLString];
+	if([[UIApplication sharedApplication] canOpenURL:settingsURL]) {
+		[FYAppUtil fy_openURL:UIApplicationOpenSettingsURLString completionHandler:NULL];
+	}
+}
+
++ (void)fy_appraiseInAppStoreWithAppId:(NSString *)appId {
+    NSString *url = [NSString stringWithFormat:@"http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id=%@&pageNumber=0&sortOrdering=2&type=Purple+Software&mt=8", appId];
+    [self.class fy_openURL:url
+         completionHandler:^(BOOL success) {
+
+         }];
+}
+
++ (void)fy_downloadInAppStoreWithAppId:(NSString *)appId {
+    NSString *url = [NSString stringWithFormat:@"itms-apps://itunes.apple.com/app/%@", appId];
+    [self.class fy_openURL:url completionHandler:NULL];
 }
 
 @end

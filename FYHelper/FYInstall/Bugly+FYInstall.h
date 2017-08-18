@@ -4,7 +4,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <BuglyHotfix/Bugly.h>
+#import "BuglyHotfix/Bugly.h"
+
 
 @interface Bugly (FYInstall)
 

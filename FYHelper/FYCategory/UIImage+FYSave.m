@@ -12,6 +12,7 @@
              completedBlock:(void (^)(BOOL success, NSError *error))completedBlock {
     //Fetch a collection in the photos library that has the title "albumName"
     PHFetchOptions *fetchOptions = [PHFetchOptions new];
+
     //Provide the predicate to match the title of the album.
     fetchOptions.predicate = [NSPredicate predicateWithFormat:[NSString stringWithFormat:@"title == '%@'", albumName]];
 
@@ -35,7 +36,7 @@
 
     [[PHPhotoLibrary sharedPhotoLibrary] performChanges:^{
                 //This will request a PHAsset be created for the UIImage
-                PHAssetCreationRequest *creationRequest = [PHAssetCreationRequest creationRequestForAssetFromImage:self];
+                PHAssetChangeRequest *creationRequest = [PHAssetChangeRequest creationRequestForAssetFromImage:self];
 
                 //Create a change request to insert the new PHAsset in the collection
                 PHAssetCollectionChangeRequest *request = [PHAssetCollectionChangeRequest changeRequestForAssetCollection:collection];

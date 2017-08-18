@@ -10,24 +10,24 @@
 
 @implementation UINavigationController (FYPushPop)
 
-- (void)fy_pushTo:(Class)classVc {
-    [self fy_pushTo:classVc animated:YES];
-}
-
-- (void)fy_pushTo:(Class)classVc animated:(BOOL)animated {
-    NSAssert([classVc isSubclassOfClass:UIViewController.class], @"必须是UIViewController的子类");
-
-    UIViewController *vc = (UIViewController *) [[classVc alloc] init];
-    [self pushViewController:vc animated:animated];
-}
-
-- (void)fy_pushTo:(Class)classVc withParameter:(NSDictionary *)parameter; {
-    NSAssert([classVc isSubclassOfClass:UIViewController.class], @"必须是UIViewController的子类");
-
-    UIViewController *vc = (UIViewController *) [[classVc alloc] init];
-//    vc.fy_parameter = parameter; // todo ... delete this after
-    [self pushViewController:vc animated:YES];
-}
+//- (void)fy_pushTo:(Class)classVc {
+//    [self fy_pushTo:classVc animated:YES];
+//}
+//
+//- (void)fy_pushTo:(Class)classVc animated:(BOOL)animated {
+//    NSAssert([classVc isSubclassOfClass:UIViewController.class], @"必须是UIViewController的子类");
+//
+//    UIViewController *vc = (UIViewController *) [[classVc alloc] init];
+//    [self pushViewController:vc animated:animated];
+//}
+//
+//- (void)fy_pushTo:(Class)classVc withParameter:(NSDictionary *)parameter; {
+//    NSAssert([classVc isSubclassOfClass:UIViewController.class], @"必须是UIViewController的子类");
+//
+//    UIViewController *vc = (UIViewController *) [[classVc alloc] init];
+////    vc.fy_parameter = parameter; // todo ... delete this after
+//    [self pushViewController:vc animated:YES];
+//}
 
 - (NSArray *)fy_popToBackLevel:(NSUInteger)level animated:(BOOL)animated {
     NSMutableArray *vcs = [NSMutableArray arrayWithArray:self.viewControllers];

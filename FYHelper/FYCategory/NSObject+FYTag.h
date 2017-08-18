@@ -7,12 +7,17 @@
 
 @interface NSObject (FYTag)
 
-- (NSString *)tagString;
+//- (NSString *)tagString;
+//
+//- (void)setTagString:(NSString *)tagString;
+//
+//- (id)tagObject;
+//
+//- (void)setTagObject:(id)tagObject;
 
-- (void)setTagString:(NSString *)tagString;
 
-- (id)tagObject;
+@property (nonatomic, copy) NSString *tagString;
+@property (nonatomic, strong) id tagObject;
 
-- (void)setTagObject:(id)tagObject;
 
 @end

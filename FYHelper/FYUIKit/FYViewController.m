@@ -6,7 +6,7 @@
 #import "FYViewController.h"
 #import "FYMacroDefinition.h"
 #import "FLEXManager.h"
-
+//#import "FLEX.h"
 
 @implementation FYViewController {
 
@@ -27,9 +27,6 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
 
-    // 分派参数
-    [self fy_dispatchParameter];
-
     // FLEX
 #if DEBUG
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]
@@ -47,51 +44,44 @@
 
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
-
 }
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
 
-    [mNotificationCenter addObserver:self
-                            selector:@selector(keyboardWillShow:)
-                                name:UIKeyboardWillShowNotification
-                              object:nil];
-    [mNotificationCenter addObserver:self
-                            selector:@selector(keyboardDidShow:)
-                                name:UIKeyboardDidShowNotification
-                              object:nil];
-    [mNotificationCenter addObserver:self
-                            selector:@selector(keyboardWillHide:)
-                                name:UIKeyboardWillHideNotification
-                              object:nil];
-    [mNotificationCenter addObserver:self
-                            selector:@selector(keyboardDidHide:)
-                                name:UIKeyboardDidHideNotification
-                              object:nil];
+//    [mNotificationCenter addObserver:self
+//                            selector:@selector(keyboardWillShow:)
+//                                name:UIKeyboardWillShowNotification
+//                              object:nil];
+//    [mNotificationCenter addObserver:self
+//                            selector:@selector(keyboardDidShow:)
+//                                name:UIKeyboardDidShowNotification
+//                              object:nil];
+//    [mNotificationCenter addObserver:self
+//                            selector:@selector(keyboardWillHide:)
+//                                name:UIKeyboardWillHideNotification
+//                              object:nil];
+//    [mNotificationCenter addObserver:self
+//                            selector:@selector(keyboardDidHide:)
+//                                name:UIKeyboardDidHideNotification
+//                              object:nil];
 }
 
 - (void)viewDidDisappear:(BOOL)animated {
     [super viewDidDisappear:animated];
 
-    [mNotificationCenter removeObserver:self
-                                   name:UIKeyboardWillShowNotification
-                                 object:nil];
-    [mNotificationCenter removeObserver:self
-                                   name:UIKeyboardDidShowNotification
-                                 object:nil];
-    [mNotificationCenter removeObserver:self
-                                   name:UIKeyboardWillHideNotification
-                                 object:nil];
-    [mNotificationCenter removeObserver:self
-                                   name:UIKeyboardDidHideNotification
-                                 object:nil];
-}
-
-#pragma mark - 基类里面啥不需要加载
-
-- (void)fy_dispatchParameter {
-    //	NSAssert(self.parameter, @"self.parameter必须不为空");
+//    [mNotificationCenter removeObserver:self
+//                                   name:UIKeyboardWillShowNotification
+//                                 object:nil];
+//    [mNotificationCenter removeObserver:self
+//                                   name:UIKeyboardDidShowNotification
+//                                 object:nil];
+//    [mNotificationCenter removeObserver:self
+//                                   name:UIKeyboardWillHideNotification
+//                                 object:nil];
+//    [mNotificationCenter removeObserver:self
+//                                   name:UIKeyboardDidHideNotification
+//                                 object:nil];
 }
 
 #pragma mark - FLEX
@@ -102,7 +92,7 @@
 #endif
 }
 
-#pragma mark -
+#pragma mark - touch
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     [self hideKeyboard];
@@ -118,19 +108,15 @@
 }
 
 - (void)keyboardWillShow:(NSNotification *)n {
-    _keyboardIsShown = YES;
 }
 
 - (void)keyboardDidShow:(NSNotification *)n {
-    _keyboardIsShown = YES;
 }
 
 - (void)keyboardWillHide:(NSNotification *)n {
-    _keyboardIsShown = NO;
 }
 
 - (void)keyboardDidHide:(NSNotification *)n {
-    _keyboardIsShown = NO;
 }
 
 #pragma mark -

@@ -47,4 +47,22 @@
  * @param completion
  */
 + (void)fy_openURL:(NSString *)scheme completionHandler:(void (^ __nullable)(BOOL success))completion;
+
+/**
+ * 打开系统的设置页面
+ */
++ (void)fy_openSettingsPage;
+
+/**
+ * 去AppStore评分
+ * @param appId App在AppStore中的ID号
+ */
++ (void)fy_appraiseInAppStoreWithAppId:(NSString *_Nonnull)appId;
+
+/**
+ * 去AppStore下载
+ * @param appId
+ */
++ (void)fy_downloadInAppStoreWithAppId:(NSString *_Nonnull)appId;
+
 @end

@@ -44,6 +44,7 @@
  * @return @"xxx,yyy,zzz"样式的字符串
  */
 + (NSString *)fy_csvStringFromArray:(NSArray *)array;
+
 + (NSString *)fy_csvFromArray:(NSArray *)array;
 
 /**

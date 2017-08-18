@@ -25,5 +25,6 @@
  */
 - (void)fy_randomColor4Subviews;
 
+- (void)fy_removeSubViews;
 
 @end

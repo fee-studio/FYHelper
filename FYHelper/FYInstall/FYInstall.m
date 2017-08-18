@@ -4,7 +4,6 @@
 //
 
 #import "FYInstall.h"
-#import "Bugly+FYInstall.h"
 
 
 @implementation FYInstall {
@@ -21,10 +20,6 @@
 
 //    [Bugly fy_installWithAppId:@"xxxxxx"]; // TODO xxxxxx你在bugly.qq.com申请的app id.
 }
-
-
-
-
 
 
 @end

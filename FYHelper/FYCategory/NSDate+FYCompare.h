@@ -28,6 +28,7 @@
 
 ///  是否为将来的时间
 - (BOOL)fy_isInFuture;
+
 ///  是否为过去的时间
 - (BOOL)fy_isInPast;
 

@@ -56,4 +56,10 @@
     }
 }
 
+- (void)fy_removeSubViews {
+    for (UIView *view in self.subviews) {
+        [view removeFromSuperview];
+    }
+}
+
 @end

@@ -10,11 +10,11 @@
 
 @interface UINavigationController (FYPushPop)
 
-- (void)fy_pushTo:(Class)classVc;
-
-- (void)fy_pushTo:(Class)classVc animated:(BOOL)animated;
-
-- (void)fy_pushTo:(Class)classVc withParameter:(NSDictionary *)parameter;
+//- (void)fy_pushTo:(Class)classVc;
+//
+//- (void)fy_pushTo:(Class)classVc animated:(BOOL)animated;
+//
+//- (void)fy_pushTo:(Class)classVc withParameter:(NSDictionary *)parameter;
 
 - (NSArray *)fy_popToBackLevel:(NSUInteger)level animated:(BOOL)animated;
 
