@@ -55,7 +55,6 @@
 		5BF2CBA37E12EB6D4CC94E04 /* AVAsset+FYVideoOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2CA8EB434656D89245C5F /* AVAsset+FYVideoOrientation.m */; };
 		5BF2CC210FA6A313A1D356F2 /* UIAlertController+FYSupportedInterfaceOrientations.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2CACBD74F4F539061780D /* UIAlertController+FYSupportedInterfaceOrientations.m */; };
 		5BF2CC3DBAF91E454BF0548B /* FYFileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C3CD95AD72EE88B2EEB8 /* FYFileUtil.m */; };
-		5BF2CC9ADA3FEA9B1F697532 /* Instabug+FYInstall.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2CB580D655AC0AB5AD449 /* Instabug+FYInstall.m */; };
 		5BF2CD1DEC17CA90AFA20856 /* NSData+FYHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C31C362D2E6C8B68B0DC /* NSData+FYHelper.m */; };
 		5BF2CD4EA04CF1FA930F3430 /* FYPaddingTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C3A8A81AEFF098E1B2AE /* FYPaddingTextField.m */; };
 		5BF2CD70AA1AF9113CD0861E /* UIView+FYBlockGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2C15C33825BAE68D22F17 /* UIView+FYBlockGesture.m */; };
@@ -168,7 +167,6 @@
 		5BF2C8D541413D7BD6671552 /* NSData+FYHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+FYHelper.h"; sourceTree = "<group>"; };
 		5BF2C915E1D3178AD548DDF8 /* UILabel+FYSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+FYSize.h"; sourceTree = "<group>"; };
 		5BF2C933B433AE5FD8DBC785 /* FYFileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYFileUtil.h; sourceTree = "<group>"; };
-		5BF2C9509D11BC9EB0470DF4 /* Instabug+FYInstall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Instabug+FYInstall.h"; sourceTree = "<group>"; };
 		5BF2C9700327158FBB653BD8 /* FYScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYScrollViewController.m; sourceTree = "<group>"; };
 		5BF2C9A9D26AF34C919FD803 /* FYScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYScrollViewController.h; sourceTree = "<group>"; };
 		5BF2C9CF143C121F9EA7FF39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -188,7 +186,6 @@
 		5BF2CB04FC765FBDD7655226 /* NSFileManager+FYQuick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+FYQuick.m"; sourceTree = "<group>"; };
 		5BF2CB38E46F1D6954358FAA /* FYHelperDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYHelperDemoUITests.m; sourceTree = "<group>"; };
 		5BF2CB44EAE6EDCB597CD7E6 /* UIView+FYFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FYFrame.h"; sourceTree = "<group>"; };
-		5BF2CB580D655AC0AB5AD449 /* Instabug+FYInstall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Instabug+FYInstall.m"; sourceTree = "<group>"; };
 		5BF2CB8B8BE0E6FBB06BC2F8 /* FYInstall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYInstall.h; sourceTree = "<group>"; };
 		5BF2CBB5ED78B8F5A093CEBD /* UIView+FYBlockGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FYBlockGesture.h"; sourceTree = "<group>"; };
 		5BF2CBBD9AEB43A4C40187FA /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
@@ -426,8 +423,6 @@
 				5BF2CB8B8BE0E6FBB06BC2F8 /* FYInstall.h */,
 				5BF2C02B584B06492DCC33A6 /* Bugly+FYInstall.m */,
 				5BF2CEDD290D1A3431A8587E /* Bugly+FYInstall.h */,
-				5BF2CB580D655AC0AB5AD449 /* Instabug+FYInstall.m */,
-				5BF2C9509D11BC9EB0470DF4 /* Instabug+FYInstall.h */,
 			);
 			path = FYInstall;
 			sourceTree = "<group>";
@@ -737,7 +732,6 @@
 				5BF2CAE2933C1D8D158AE6D5 /* Bugly+FYInstall.m in Sources */,
 				5BF2C4E4DE00713ED530F0CB /* FYScrollViewController.m in Sources */,
 				5BF2C2897CDF47F29760D3F0 /* README.md in Sources */,
-				5BF2CC9ADA3FEA9B1F697532 /* Instabug+FYInstall.m in Sources */,
 				5BF2CDD9A65F237A27B976D4 /* makefile in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

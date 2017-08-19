@@ -53,7 +53,6 @@
 // fyinstall
 #import "Bugly+FYInstall.h"
 //#import "CocoaLumberjack+FYInstall.h"
-//#import "Instabug+FYInstall.h"
 #import "FYInstall.h"
 
 // utils
