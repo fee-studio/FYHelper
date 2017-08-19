@@ -4,8 +4,6 @@
 //
 
 #import "FYAppUtil.h"
-#import "FYHelper.h"
-//#import "NSString+FYHelper.h"
 
 @implementation FYAppUtil {
 
@@ -69,7 +67,7 @@
 
 + (void)fy_openURL:(NSString *)scheme completionHandler:(void (^ __nullable)(BOOL success))completion {
     UIApplication *application = [UIApplication sharedApplication];
-    NSURL *URL = scheme.fy_toURL;
+    NSURL *URL = [NSURL URLWithString:scheme];
     if ([application respondsToSelector:@selector(openURL:options:completionHandler:)]) {
         [application openURL:URL
                      options:@{}
