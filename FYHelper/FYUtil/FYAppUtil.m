@@ -73,7 +73,9 @@
                      options:@{}
            completionHandler:^(BOOL success) {
                NSLog(@"Open %@ : %d", scheme, success);
-               completion(success);
+               if (completion) {
+                   completion(success);
+               }
            }];
     } else {
 #pragma clang diagnostic push
@@ -81,23 +83,22 @@
         BOOL success = [application openURL:URL];
 #pragma clang diagnostic pop
         NSLog(@"Open %@ : %d", scheme, success);
-        completion(success);
+        if (completion) {
+            completion(success);
+        }
     }
 }
 
 + (void)fy_openSettingsPage {
-	NSURL *settingsURL = [NSURL URLWithString:UIApplicationOpenSettingsURLString];
-	if([[UIApplication sharedApplication] canOpenURL:settingsURL]) {
-		[FYAppUtil fy_openURL:UIApplicationOpenSettingsURLString completionHandler:NULL];
-	}
+    NSURL *settingsURL = [NSURL URLWithString:UIApplicationOpenSettingsURLString];
+    if ([[UIApplication sharedApplication] canOpenURL:settingsURL]) {
+        [FYAppUtil fy_openURL:UIApplicationOpenSettingsURLString completionHandler:NULL];
+    }
 }
 
 + (void)fy_appraiseInAppStoreWithAppId:(NSString *)appId {
     NSString *url = [NSString stringWithFormat:@"http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id=%@&pageNumber=0&sortOrdering=2&type=Purple+Software&mt=8", appId];
-    [self.class fy_openURL:url
-         completionHandler:^(BOOL success) {
-
-         }];
+    [self.class fy_openURL:url completionHandler:NULL];
 }
 
 + (void)fy_downloadInAppStoreWithAppId:(NSString *)appId {

@@ -6,6 +6,8 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+static const int fyErrorCodePhotoPermission = 6001;
+
 @interface UIImage (FYSave)
 
 /**

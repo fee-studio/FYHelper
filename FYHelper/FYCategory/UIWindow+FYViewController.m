@@ -22,6 +22,10 @@
 - (UIViewController *)fy_currentViewController; {
     UIViewController *currentViewController = [self fy_topMostController];
 
+    if ([currentViewController isKindOfClass:[UITabBarController class]]) {
+        currentViewController = [(UITabBarController *) currentViewController selectedViewController];
+    }
+
     while ([currentViewController isKindOfClass:[UINavigationController class]]
             && [(UINavigationController *) currentViewController topViewController]) {
         currentViewController = [(UINavigationController *) currentViewController topViewController];

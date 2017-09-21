@@ -10,11 +10,11 @@ typedef void (^FYGestureBlock)(UIGestureRecognizer *gestureRecognizer);
 
 @interface UIView (FYBlockGesture)
 
-
 /**
  * 增加手势
  * @param block
  */
 - (void)fy_tapBlock:(FYGestureBlock)block;
 
+- (void)fy_longPressBlock:(FYGestureBlock)block;
 @end

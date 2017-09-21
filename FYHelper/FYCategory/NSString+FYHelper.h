@@ -62,4 +62,6 @@
 
 - (NSString *)fy_trim;
 
+- (NSString *)fy_encodingUTF8;
+
 @end

@@ -6,8 +6,14 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#define FYWeakSelf      __weak __typeof(self) weakSelf = self;
+/**
+ 弱引用
+ */
+#define FYWeakSelf			__weak __typeof(self) weakSelf = self;
 
+/**
+ 常用的简写
+ */
 #define mApplication        [UIApplication sharedApplication]
 #define mAppDelegate        [[UIApplication sharedApplication] delegate]
 #define mKeyWindow          [[UIApplication sharedApplication] keyWindow]
@@ -15,23 +21,32 @@
 #define mUserDefaults       [NSUserDefaults standardUserDefaults]
 #define mNotificationCenter [NSNotificationCenter defaultCenter]
 
-// 页面设计相关
-#define mNavBarHeight       44
-#define mTabBarHeight       49
+/**
+ 页面设计相关
+ */
 #define mStatusBarHeight    20
-#define mToolbarHeight      44
+#define mNavBarHeight       44
 #define mTopBarHeight       (mStatusBarHeight + mNavBarHeight)
+#define mTabBarHeight       49
+#define mToolbarHeight      44
 
 #define mScreenBounds       ([UIScreen mainScreen].bounds)
 #define mScreenWidth        ([UIScreen mainScreen].bounds.size.width)
 #define mScreenHeight       ([UIScreen mainScreen].bounds.size.height)
 
-
+/**
+ NSLog not printing to console
+ 
+ This is a bug of Xcode8 + iOS10, we can solve it in this way:
+ https://stackoverflow.com/questions/7856508/nslog-not-printing-to-console
+ */
 #ifdef DEBUG
-#define FYString [NSString stringWithFormat:@"%s", __FILE__].lastPathComponent
-#define FYLog(...)  printf("%s 第%d行: %s\n\n", [FYString UTF8String] ,__LINE__, [[NSString stringWithFormat:__VA_ARGS__] UTF8String]);
+#define FYSourceFileName [NSString stringWithFormat:@"%s", __FILE__].lastPathComponent
+#define FYLog(...) printf("\n%s 第%d行: %s\n\n", [FYSourceFileName UTF8String] ,__LINE__, [[NSString stringWithFormat:__VA_ARGS__] UTF8String]);
+#define NSLog(...) NSLog(__VA_ARGS__)
 #else
 #define FYLog(...)
+#define NSLog(...) (void)0
 #endif
 
 /**
