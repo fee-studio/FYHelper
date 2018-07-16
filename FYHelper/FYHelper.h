@@ -51,9 +51,8 @@
 #import "FYNavigationController.h"
 
 // fyinstall
-#import "Bugly+FYInstall.h"
-//#import "CocoaLumberjack+FYInstall.h"
 #import "FYInstall.h"
+#import "FYInstall+Bugly.h"
 
 // utils
 #import "FYAppUtil.h"
@@ -65,16 +64,14 @@
 #import "FYMacroDefinition.h"
 
 /// FYHelper默认包含的第三方库的头文件（必备常用库）
-// #import <AFNetworking/AFNetworking.h>
-#import "BuglyHotfix/Bugly.h"
-#import "BuglyHotfix/BuglyLog.h"
-//#import "FLEX/FLEX.h"
+ #import <AFNetworking/AFNetworking.h>
+#import <Bugly/Bugly.h>
+#import "FLEX/FLEX.h"
 //#import <FMDB/FMDB.h>
 #import "KVOController/KVOController.h"
 #import "Masonry/Masonry.h"
-//#import <pop/POP.h>
-//#import <iVersion/iVersion.h>
-#import "DZNEmptyDataSet/UIScrollView+EmptyDataSet.h"
+#import <pop/POP.h>
+#import <iVersion/iVersion.h>
 
 
 #endif /* FYHelper_h */

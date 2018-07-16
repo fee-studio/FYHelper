@@ -1,5 +1,5 @@
 //
-//  MASAttribute.m
+//  MASViewAttribute.m
 //  Masonry
 //
 //  Created by Jonas Budelmann on 21/07/13.
@@ -11,10 +11,16 @@
 @implementation MASViewAttribute
 
 - (id)initWithView:(MAS_VIEW *)view layoutAttribute:(NSLayoutAttribute)layoutAttribute {
+    self = [self initWithView:view item:view layoutAttribute:layoutAttribute];
+    return self;
+}
+
+- (id)initWithView:(MAS_VIEW *)view item:(id)item layoutAttribute:(NSLayoutAttribute)layoutAttribute {
     self = [super init];
     if (!self) return nil;
     
     _view = view;
+    _item = item;
     _layoutAttribute = layoutAttribute;
     
     return self;

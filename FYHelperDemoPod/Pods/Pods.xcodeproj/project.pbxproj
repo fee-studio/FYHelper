@@ -77,7 +77,6 @@
 		2DC178A2E78F7FA578422A43A1E1BB12 /* iVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 59E84E45D2E80C5B430B61199D879060 /* iVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E4463AE90078706E3CECAF1B1144D53 /* FLEXTableListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B584339C34A13E6B849AD685C0E4A9DF /* FLEXTableListViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2EBAA518CB8B2DAF89A63637091D4615 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2886EF81C75CAA8279DE35ACCA9847FA /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F0E6F23765C53ADEA79D9F375222156 /* Bugly+FYInstall.h in Headers */ = {isa = PBXBuildFile; fileRef = A6ABDCA26255FCC7CEEE43AC2B27868A /* Bugly+FYInstall.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F7FEF1F464082DB2B95A4D32AE255DD /* FLEXSQLiteDatabaseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BFD348CA553A30A32156EC169E10558 /* FLEXSQLiteDatabaseManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		31ED9BD97AF9E62874AF3CDF2F8090CF /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 332F0754C433F5314F1B2A189A690548 /* AFNetworkActivityIndicatorManager.m */; };
 		3258C16AEE4C00E6C509DD8B156F5F10 /* FLEXArgumentInputJSONObjectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 702640BABC39EB383DD5FC81CDBEBCC6 /* FLEXArgumentInputJSONObjectView.m */; };
@@ -216,7 +215,6 @@
 		82DBDC3E516630A2A96DA034D6E91E4D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF30D8E6AD3FF5683FC14FD890DA1A9 /* CoreGraphics.framework */; };
 		83F7619A857C6945D24D92524604A97E /* FLEXArgumentInputViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = FAED039E30BBC31A1B41D8CD8EC31B3D /* FLEXArgumentInputViewFactory.m */; };
 		84AFCFF8D8928C2375EF19894CC1CE6E /* FLEXExplorerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7886131C7ED47B447004BA43DC39142 /* FLEXExplorerViewController.m */; };
-		84DB71752B78ED032B7BC93F960C1E87 /* Bugly+FYInstall.m in Sources */ = {isa = PBXBuildFile; fileRef = 67DA161B4B20A9D25BA662570DB64C14 /* Bugly+FYInstall.m */; };
 		85D30678FF4F0AB306399A368EAA46B2 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B2794A253F163817E2DC334F6C8CC8 /* AFURLResponseSerialization.m */; };
 		8647787041F9C87E4E88B89FE568C9D9 /* POP.h in Headers */ = {isa = PBXBuildFile; fileRef = 50FF8B96C73A3465160A748F8D1C4713 /* POP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		864B39ED2628744E469902F462E44DC0 /* UIView+FYAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E522BFA991C42E4BC32A0B5E59971BA /* UIView+FYAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -729,7 +727,6 @@
 		654376C15AB2F4E5BE3B247B66B8CF0E /* POPAnimationExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationExtras.h; path = pop/POPAnimationExtras.h; sourceTree = "<group>"; };
 		654977DC52E9CB5719212B3311DE72AC /* POPAnimationRuntime.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationRuntime.mm; path = pop/POPAnimationRuntime.mm; sourceTree = "<group>"; };
 		6780426B79BB55A64864E2A7D002DADA /* FYDeviceUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FYDeviceUtil.h; path = FYHelper/FYUtil/FYDeviceUtil.h; sourceTree = "<group>"; };
-		67DA161B4B20A9D25BA662570DB64C14 /* Bugly+FYInstall.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Bugly+FYInstall.m"; path = "FYHelper/FYInstall/Bugly+FYInstall.m"; sourceTree = "<group>"; };
 		687592D2580DF05FDF8A24BFC748C75D /* FYScrollViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FYScrollViewController.h; path = FYHelper/FYUIKit/FYScrollViewController.h; sourceTree = "<group>"; };
 		691B30BE57C43CCFD08649845FFB9230 /* UIScrollView+FYTouch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+FYTouch.h"; path = "FYHelper/FYCategory/UIScrollView+FYTouch.h"; sourceTree = "<group>"; };
 		6AFE72F8FBCA5BA78F11FB2B95C31573 /* libFLEX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFLEX.a; path = libFLEX.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -846,7 +843,6 @@
 		A55FEC93F791905DA6577A7734A4FB03 /* UIViewController+FYBackButtonTouched.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+FYBackButtonTouched.m"; path = "FYHelper/FYCategory/UIViewController+FYBackButtonTouched.m"; sourceTree = "<group>"; };
 		A598F990643EE45360E4300043624AC0 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
 		A60D874846A0DED8E09B64B35C6D7834 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
-		A6ABDCA26255FCC7CEEE43AC2B27868A /* Bugly+FYInstall.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Bugly+FYInstall.h"; path = "FYHelper/FYInstall/Bugly+FYInstall.h"; sourceTree = "<group>"; };
 		A7089CE0F551254440B67F57702203A1 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		A70E3F6407FC9FE2273E7A065BEAD87F /* UILabel+FYStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+FYStyle.h"; path = "FYHelper/FYCategory/UILabel+FYStyle.h"; sourceTree = "<group>"; };
 		A7D1431DD74190013D8B6776957FF5F2 /* NSData+FYCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+FYCache.h"; path = "FYHelper/FYCategory/NSData+FYCache.h"; sourceTree = "<group>"; };
@@ -1532,8 +1528,6 @@
 		9E2B7E75A7AAABDEF0352D9FA08FF47B /* FYInstall */ = {
 			isa = PBXGroup;
 			children = (
-				A6ABDCA26255FCC7CEEE43AC2B27868A /* Bugly+FYInstall.h */,
-				67DA161B4B20A9D25BA662570DB64C14 /* Bugly+FYInstall.m */,
 				6E7FC1E614BDB2DFF09D56D03E319200 /* FYInstall.h */,
 				4CFAF9C7CA28E31692E751D917BB8EE7 /* FYInstall.m */,
 				211BA4C9D9124000D2C73BCC24F33555 /* Instabug+FYInstall.h */,
@@ -1941,7 +1935,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF8733DF97B246B8514D573DC7FA32A0 /* AVAsset+FYVideoOrientation.h in Headers */,
-				2F0E6F23765C53ADEA79D9F375222156 /* Bugly+FYInstall.h in Headers */,
 				61CF7941B0CA05F200CEF28DA4C0C19D /* FYAppUtil.h in Headers */,
 				271832AE90A17C78FF9CFEE218934CA8 /* FYBorderButton.h in Headers */,
 				F19EEAA73265FF70CFC4D5F6460FCD25 /* FYDeviceUtil.h in Headers */,
@@ -2503,7 +2496,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5827011BCD4065C6517D1D6525AA0DB9 /* AVAsset+FYVideoOrientation.m in Sources */,
-				84DB71752B78ED032B7BC93F960C1E87 /* Bugly+FYInstall.m in Sources */,
 				362EDDA47C0B949D55DC58290F09A46A /* FYAppUtil.m in Sources */,
 				1C671B96229DFC59A57D0DF2D90F8E26 /* FYBorderButton.m in Sources */,
 				66E0BE04354640DCFA78891E71FCBF20 /* FYDeviceUtil.m in Sources */,

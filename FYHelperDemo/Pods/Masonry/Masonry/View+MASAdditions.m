@@ -87,6 +87,73 @@
     };
 }
 
+#if (__IPHONE_OS_VERSION_MIN_REQUIRED >= 80000) || (__TV_OS_VERSION_MIN_REQUIRED >= 9000) || (__MAC_OS_X_VERSION_MIN_REQUIRED >= 101100)
+
+- (MASViewAttribute *)mas_firstBaseline {
+    return [[MASViewAttribute alloc] initWithView:self layoutAttribute:NSLayoutAttributeFirstBaseline];
+}
+- (MASViewAttribute *)mas_lastBaseline {
+    return [[MASViewAttribute alloc] initWithView:self layoutAttribute:NSLayoutAttributeLastBaseline];
+}
+
+#endif
+
+#if (__IPHONE_OS_VERSION_MIN_REQUIRED >= 80000) || (__TV_OS_VERSION_MIN_REQUIRED >= 9000)
+
+- (MASViewAttribute *)mas_leftMargin {
+    return [[MASViewAttribute alloc] initWithView:self layoutAttribute:NSLayoutAttributeLeftMargin];
+}
+
+- (MASViewAttribute *)mas_rightMargin {
+    return [[MASViewAttribute alloc] initWithView:self layoutAttribute:NSLayoutAttributeRightMargin];
+}
+
+- (MASViewAttribute *)mas_topMargin {
+    return [[MASViewAttribute alloc] initWithView:self layoutAttribute:NSLayoutAttributeTopMargin];
+}
+
+- (MASViewAttribute *)mas_bottomMargin {
+    return [[MASViewAttribute alloc] initWithView:self layoutAttribute:NSLayoutAttributeBottomMargin];
+}
+
+- (MASViewAttribute *)mas_leadingMargin {
+    return [[MASViewAttribute alloc] initWithView:self layoutAttribute:NSLayoutAttributeLeadingMargin];
+}
+
+- (MASViewAttribute *)mas_trailingMargin {
+    return [[MASViewAttribute alloc] initWithView:self layoutAttribute:NSLayoutAttributeTrailingMargin];
+}
+
+- (MASViewAttribute *)mas_centerXWithinMargins {
+    return [[MASViewAttribute alloc] initWithView:self layoutAttribute:NSLayoutAttributeCenterXWithinMargins];
+}
+
+- (MASViewAttribute *)mas_centerYWithinMargins {
+    return [[MASViewAttribute alloc] initWithView:self layoutAttribute:NSLayoutAttributeCenterYWithinMargins];
+}
+
+#endif
+
+#if (__IPHONE_OS_VERSION_MAX_ALLOWED >= 110000) || (__TV_OS_VERSION_MAX_ALLOWED >= 110000)
+
+- (MASViewAttribute *)mas_safeAreaLayoutGuide {
+    return [[MASViewAttribute alloc] initWithView:self item:self.safeAreaLayoutGuide layoutAttribute:NSLayoutAttributeBottom];
+}
+- (MASViewAttribute *)mas_safeAreaLayoutGuideTop {
+    return [[MASViewAttribute alloc] initWithView:self item:self.safeAreaLayoutGuide layoutAttribute:NSLayoutAttributeTop];
+}
+- (MASViewAttribute *)mas_safeAreaLayoutGuideBottom {
+    return [[MASViewAttribute alloc] initWithView:self item:self.safeAreaLayoutGuide layoutAttribute:NSLayoutAttributeBottom];
+}
+- (MASViewAttribute *)mas_safeAreaLayoutGuideLeft {
+    return [[MASViewAttribute alloc] initWithView:self item:self.safeAreaLayoutGuide layoutAttribute:NSLayoutAttributeLeft];
+}
+- (MASViewAttribute *)mas_safeAreaLayoutGuideRight {
+    return [[MASViewAttribute alloc] initWithView:self item:self.safeAreaLayoutGuide layoutAttribute:NSLayoutAttributeRight];
+}
+
+#endif
+
 #pragma mark - associated properties
 
 - (id)mas_key {

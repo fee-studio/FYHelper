@@ -27,6 +27,13 @@
 /**
  *	Modifies the NSLayoutConstraint constant,
  *  only affects MASConstraints in which the first item's NSLayoutAttribute is one of the following
+ *  NSLayoutAttributeTop, NSLayoutAttributeLeft, NSLayoutAttributeBottom, NSLayoutAttributeRight
+ */
+- (MASConstraint * (^)(CGFloat inset))inset;
+
+/**
+ *	Modifies the NSLayoutConstraint constant,
+ *  only affects MASConstraints in which the first item's NSLayoutAttribute is one of the following
  *  NSLayoutAttributeWidth, NSLayoutAttributeHeight
  */
 - (MASConstraint * (^)(CGSize offset))sizeOffset;
@@ -66,17 +73,17 @@
 /**
  *	Sets the NSLayoutConstraint priority to MASLayoutPriorityLow
  */
-- (MASConstraint * (^)())priorityLow;
+- (MASConstraint * (^)(void))priorityLow;
 
 /**
  *	Sets the NSLayoutConstraint priority to MASLayoutPriorityMedium
  */
-- (MASConstraint * (^)())priorityMedium;
+- (MASConstraint * (^)(void))priorityMedium;
 
 /**
  *	Sets the NSLayoutConstraint priority to MASLayoutPriorityHigh
  */
-- (MASConstraint * (^)())priorityHigh;
+- (MASConstraint * (^)(void))priorityHigh;
 
 /**
  *	Sets the constraint relation to NSLayoutRelationEqual
@@ -108,12 +115,12 @@
 - (MASConstraint *)with;
 
 /**
- *	optional semantic property which has no effect but improves the readability of constraint
+ *	Optional semantic property which has no effect but improves the readability of constraint
  */
 - (MASConstraint *)and;
 
 /**
- *	creates a new MASCompositeConstraint with the called attribute and reciever
+ *	Creates a new MASCompositeConstraint with the called attribute and reciever
  */
 - (MASConstraint *)left;
 - (MASConstraint *)top;
@@ -126,6 +133,27 @@
 - (MASConstraint *)centerX;
 - (MASConstraint *)centerY;
 - (MASConstraint *)baseline;
+
+#if (__IPHONE_OS_VERSION_MIN_REQUIRED >= 80000) || (__TV_OS_VERSION_MIN_REQUIRED >= 9000) || (__MAC_OS_X_VERSION_MIN_REQUIRED >= 101100)
+
+- (MASConstraint *)firstBaseline;
+- (MASConstraint *)lastBaseline;
+
+#endif
+
+#if (__IPHONE_OS_VERSION_MIN_REQUIRED >= 80000) || (__TV_OS_VERSION_MIN_REQUIRED >= 9000)
+
+- (MASConstraint *)leftMargin;
+- (MASConstraint *)rightMargin;
+- (MASConstraint *)topMargin;
+- (MASConstraint *)bottomMargin;
+- (MASConstraint *)leadingMargin;
+- (MASConstraint *)trailingMargin;
+- (MASConstraint *)centerXWithinMargins;
+- (MASConstraint *)centerYWithinMargins;
+
+#endif
+
 
 /**
  *	Sets the constraint debug name
@@ -141,6 +169,13 @@
  *  NSLayoutAttributeTop, NSLayoutAttributeLeft, NSLayoutAttributeBottom, NSLayoutAttributeRight
  */
 - (void)setInsets:(MASEdgeInsets)insets;
+
+/**
+ *	Modifies the NSLayoutConstraint constant,
+ *  only affects MASConstraints in which the first item's NSLayoutAttribute is one of the following
+ *  NSLayoutAttributeTop, NSLayoutAttributeLeft, NSLayoutAttributeBottom, NSLayoutAttributeRight
+ */
+- (void)setInset:(CGFloat)inset;
 
 /**
  *	Modifies the NSLayoutConstraint constant,
@@ -164,12 +199,23 @@
 
 // NSLayoutConstraint Installation support
 
-#if TARGET_OS_MAC && !TARGET_OS_IPHONE
+#if TARGET_OS_MAC && !(TARGET_OS_IPHONE || TARGET_OS_TV)
 /**
  *  Whether or not to go through the animator proxy when modifying the constraint
  */
 @property (nonatomic, copy, readonly) MASConstraint *animator;
 #endif
+
+/**
+ *  Activates an NSLayoutConstraint if it's supported by an OS. 
+ *  Invokes install otherwise.
+ */
+- (void)activate;
+
+/**
+ *  Deactivates previously installed/activated NSLayoutConstraint.
+ */
+- (void)deactivate;
 
 /**
  *	Creates a NSLayoutConstraint and adds it to the appropriate view.

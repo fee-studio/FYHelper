@@ -1,5 +1,5 @@
 //
-//  MASConstraintBuilder.h
+//  MASConstraintMaker.h
 //  Masonry
 //
 //  Created by Jonas Budelmann on 20/07/13.
@@ -21,6 +21,27 @@ typedef NS_OPTIONS(NSInteger, MASAttribute) {
     MASAttributeCenterX = 1 << NSLayoutAttributeCenterX,
     MASAttributeCenterY = 1 << NSLayoutAttributeCenterY,
     MASAttributeBaseline = 1 << NSLayoutAttributeBaseline,
+    
+#if (__IPHONE_OS_VERSION_MIN_REQUIRED >= 80000) || (__TV_OS_VERSION_MIN_REQUIRED >= 9000) || (__MAC_OS_X_VERSION_MIN_REQUIRED >= 101100)
+    
+    MASAttributeFirstBaseline = 1 << NSLayoutAttributeFirstBaseline,
+    MASAttributeLastBaseline = 1 << NSLayoutAttributeLastBaseline,
+    
+#endif
+    
+#if (__IPHONE_OS_VERSION_MIN_REQUIRED >= 80000) || (__TV_OS_VERSION_MIN_REQUIRED >= 9000)
+    
+    MASAttributeLeftMargin = 1 << NSLayoutAttributeLeftMargin,
+    MASAttributeRightMargin = 1 << NSLayoutAttributeRightMargin,
+    MASAttributeTopMargin = 1 << NSLayoutAttributeTopMargin,
+    MASAttributeBottomMargin = 1 << NSLayoutAttributeBottomMargin,
+    MASAttributeLeadingMargin = 1 << NSLayoutAttributeLeadingMargin,
+    MASAttributeTrailingMargin = 1 << NSLayoutAttributeTrailingMargin,
+    MASAttributeCenterXWithinMargins = 1 << NSLayoutAttributeCenterXWithinMargins,
+    MASAttributeCenterYWithinMargins = 1 << NSLayoutAttributeCenterYWithinMargins,
+
+#endif
+    
 };
 
 /**
@@ -45,6 +66,26 @@ typedef NS_OPTIONS(NSInteger, MASAttribute) {
 @property (nonatomic, strong, readonly) MASConstraint *centerX;
 @property (nonatomic, strong, readonly) MASConstraint *centerY;
 @property (nonatomic, strong, readonly) MASConstraint *baseline;
+
+#if (__IPHONE_OS_VERSION_MIN_REQUIRED >= 80000) || (__TV_OS_VERSION_MIN_REQUIRED >= 9000) || (__MAC_OS_X_VERSION_MIN_REQUIRED >= 101100)
+
+@property (nonatomic, strong, readonly) MASConstraint *firstBaseline;
+@property (nonatomic, strong, readonly) MASConstraint *lastBaseline;
+
+#endif
+
+#if (__IPHONE_OS_VERSION_MIN_REQUIRED >= 80000) || (__TV_OS_VERSION_MIN_REQUIRED >= 9000)
+
+@property (nonatomic, strong, readonly) MASConstraint *leftMargin;
+@property (nonatomic, strong, readonly) MASConstraint *rightMargin;
+@property (nonatomic, strong, readonly) MASConstraint *topMargin;
+@property (nonatomic, strong, readonly) MASConstraint *bottomMargin;
+@property (nonatomic, strong, readonly) MASConstraint *leadingMargin;
+@property (nonatomic, strong, readonly) MASConstraint *trailingMargin;
+@property (nonatomic, strong, readonly) MASConstraint *centerXWithinMargins;
+@property (nonatomic, strong, readonly) MASConstraint *centerYWithinMargins;
+
+#endif
 
 /**
  *  Returns a block which creates a new MASCompositeConstraint with the first item set
@@ -87,7 +128,7 @@ typedef NS_OPTIONS(NSInteger, MASAttribute) {
 /**
  *	initialises the maker with a default view
  *
- *	@param	view	any MASConstrait are created with this view as the first item
+ *	@param	view	any MASConstraint are created with this view as the first item
  *
  *	@return	a new MASConstraintMaker
  */

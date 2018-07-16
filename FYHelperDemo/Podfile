@@ -1,16 +1,16 @@
 platform :ios, '8.0'
+# use_frameworks!
 
 target 'FYHelperDemo' do
 
   # 版本更新控制 自动更新的第三方库
   # 地址: https://github.com/nicklockwood/iVersion
-  pod 'iVersion'
-
+  # pod 'iVersion'
 
 # 网络请求相关专用库
 # 地址: https://github.com/AFNetworking/AFNetworking
-  pod 'AFNetworking'
-  pod 'AFNetworkActivityLogger'
+#  pod 'AFNetworking'
+#  pod 'AFNetworkActivityLogger'
 
 ##################################################
 
@@ -30,7 +30,7 @@ target 'FYHelperDemo' do
 
 # 加载时动画
 # 地址: https://github.com/jdg/MBProgressHUD
-  pod 'MBProgressHUD', '~> 1.0.0'
+  pod 'MBProgressHUD'
 
 ##################################################
 
@@ -108,7 +108,7 @@ target 'FYHelperDemo' do
 
 # http://bugly.qq.com/iosfast
 
-  pod 'BuglyHotfix'
+#  pod 'Bugly'
 
 ##################################################
 
@@ -122,14 +122,14 @@ target 'FYHelperDemo' do
 # An in-app debugging and exploration tool for iOS
 # https://github.com/Flipboard/FLEX
 
-  pod 'FLEX', '~> 2.0', :configurations => ['Debug']
+#  pod 'FLEX', '~> 2.0', :configurations => ['Debug']
 
 ##################################################
 
 # autolayout NSLayoutConstraints 简化版
 # https://github.com/SnapKit/Masonry
 
-  pod 'Masonry', '0.5.3'
+#  pod 'Masonry'
 
 ##################################################
 
@@ -150,7 +150,7 @@ target 'FYHelperDemo' do
 # An extensible iOS and OS X animation library, useful for physics-based interactions.
 # https://github.com/facebook/pop
 
-  pod 'pop', '~> 1.0'
+#  pod 'pop'
 
 ##################################################
 
@@ -175,7 +175,7 @@ target 'FYHelperDemo' do
 # 版本更新控制 自动更新的第三方库
 # 地址: https://github.com/nicklockwood/iVersion
 
-  pod 'iVersion'
+#  pod 'iVersion'
 
 ##################################################
 
@@ -262,7 +262,7 @@ target 'FYHelperDemo' do
 
 # https://github.com/facebook/KVOController
 
-  pod 'KVOController'
+#  pod 'KVOController'
 
 ##################################################
 
@@ -285,7 +285,7 @@ target 'FYHelperDemo' do
 
 # https://github.com/dzenbot/DZNEmptyDataSet
 
-  pod 'DZNEmptyDataSet'
+#  pod 'DZNEmptyDataSet'
 
 ##################################################
 
@@ -316,13 +316,13 @@ target 'FYHelperDemo' do
 ##################################################
 
 # https://github.com/ccgus/fmdb
-  pod 'FMDB' #, '2.6'
+#  pod 'FMDB' #, '2.6'
 
 ##################################################
 
 # https://github.com/CocoaLumberjack/CocoaLumberjack
 # A fast & simple, yet powerful & flexible logging framework for Mac and iOS
-  pod 'CocoaLumberjack'
+#  pod 'CocoaLumberjack'
 
 ##################################################
 
@@ -333,20 +333,20 @@ target 'FYHelperDemo' do
 ##################################################
 
 # https://github.com/cwRichardKim/RKNotificationHub
-  pod 'RKNotificationHub'
+# pod 'RKNotificationHub'
 
 ##################################################
 
 # 高斯模糊2
 # 地址:https://github.com/nicklockwood/FXBlurView
 
-  pod 'FXBlurView'
+#  pod 'FXBlurView'
 
 ##################################################
 
 # https://github.com/forkingdog/UITableView-FDTemplateLayoutCell
 # 自动高度计算
-  pod 'UITableView+FDTemplateLayoutCell'
+#  pod 'UITableView+FDTemplateLayoutCell'
 
 ##################################################
 
@@ -359,13 +359,14 @@ target 'FYHelperDemo' do
 ##################################################
 
 #  pod 'FYHelper'
+ pod 'FYHelper', :path => "~/workspace/FYHelper"
 
 ##################################################
 
 # 不错的用户反馈
 # https://dashboard.instabug.com/applications/iosfeng/beta/
 # https://dashboard.instabug.com/profile/
-  pod 'Instabug'
+#  pod 'Instabug'
 
   ##################################################
 

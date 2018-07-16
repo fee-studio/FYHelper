@@ -62,21 +62,21 @@
 
 #pragma mark - MASLayoutPriority proxies
 
-- (MASConstraint * (^)())priorityLow {
+- (MASConstraint * (^)(void))priorityLow {
     return ^id{
         self.priority(MASLayoutPriorityDefaultLow);
         return self;
     };
 }
 
-- (MASConstraint * (^)())priorityMedium {
+- (MASConstraint * (^)(void))priorityMedium {
     return ^id{
         self.priority(MASLayoutPriorityDefaultMedium);
         return self;
     };
 }
 
-- (MASConstraint * (^)())priorityHigh {
+- (MASConstraint * (^)(void))priorityHigh {
     return ^id{
         self.priority(MASLayoutPriorityDefaultHigh);
         return self;
@@ -88,6 +88,13 @@
 - (MASConstraint * (^)(MASEdgeInsets))insets {
     return ^id(MASEdgeInsets insets){
         self.insets = insets;
+        return self;
+    };
+}
+
+- (MASConstraint * (^)(CGFloat))inset {
+    return ^id(CGFloat inset){
+        self.inset = inset;
         return self;
     };
 }
@@ -208,6 +215,53 @@
     return [self addConstraintWithLayoutAttribute:NSLayoutAttributeBaseline];
 }
 
+#if (__IPHONE_OS_VERSION_MIN_REQUIRED >= 80000) || (__TV_OS_VERSION_MIN_REQUIRED >= 9000) || (__MAC_OS_X_VERSION_MIN_REQUIRED >= 101100)
+
+- (MASConstraint *)firstBaseline {
+    return [self addConstraintWithLayoutAttribute:NSLayoutAttributeFirstBaseline];
+}
+- (MASConstraint *)lastBaseline {
+    return [self addConstraintWithLayoutAttribute:NSLayoutAttributeLastBaseline];
+}
+
+#endif
+
+#if (__IPHONE_OS_VERSION_MIN_REQUIRED >= 80000) || (__TV_OS_VERSION_MIN_REQUIRED >= 9000)
+
+- (MASConstraint *)leftMargin {
+    return [self addConstraintWithLayoutAttribute:NSLayoutAttributeLeftMargin];
+}
+
+- (MASConstraint *)rightMargin {
+    return [self addConstraintWithLayoutAttribute:NSLayoutAttributeRightMargin];
+}
+
+- (MASConstraint *)topMargin {
+    return [self addConstraintWithLayoutAttribute:NSLayoutAttributeTopMargin];
+}
+
+- (MASConstraint *)bottomMargin {
+    return [self addConstraintWithLayoutAttribute:NSLayoutAttributeBottomMargin];
+}
+
+- (MASConstraint *)leadingMargin {
+    return [self addConstraintWithLayoutAttribute:NSLayoutAttributeLeadingMargin];
+}
+
+- (MASConstraint *)trailingMargin {
+    return [self addConstraintWithLayoutAttribute:NSLayoutAttributeTrailingMargin];
+}
+
+- (MASConstraint *)centerXWithinMargins {
+    return [self addConstraintWithLayoutAttribute:NSLayoutAttributeCenterXWithinMargins];
+}
+
+- (MASConstraint *)centerYWithinMargins {
+    return [self addConstraintWithLayoutAttribute:NSLayoutAttributeCenterYWithinMargins];
+}
+
+#endif
+
 #pragma mark - Abstract
 
 - (MASConstraint * (^)(CGFloat multiplier))multipliedBy { MASMethodNotImplemented(); }
@@ -222,17 +276,23 @@
 
 - (void)setInsets:(MASEdgeInsets __unused)insets { MASMethodNotImplemented(); }
 
+- (void)setInset:(CGFloat __unused)inset { MASMethodNotImplemented(); }
+
 - (void)setSizeOffset:(CGSize __unused)sizeOffset { MASMethodNotImplemented(); }
 
 - (void)setCenterOffset:(CGPoint __unused)centerOffset { MASMethodNotImplemented(); }
 
 - (void)setOffset:(CGFloat __unused)offset { MASMethodNotImplemented(); }
 
-#if TARGET_OS_MAC && !TARGET_OS_IPHONE
+#if TARGET_OS_MAC && !(TARGET_OS_IPHONE || TARGET_OS_TV)
 
 - (MASConstraint *)animator { MASMethodNotImplemented(); }
 
 #endif
+
+- (void)activate { MASMethodNotImplemented(); }
+
+- (void)deactivate { MASMethodNotImplemented(); }
 
 - (void)install { MASMethodNotImplemented(); }
 
