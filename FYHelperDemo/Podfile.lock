@@ -14,7 +14,6 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - Bugly (2.5.0)
   - ChameleonFramework (2.1.0):
     - ChameleonFramework/Default (= 2.1.0)
   - ChameleonFramework/Default (2.1.0)
@@ -25,23 +24,20 @@ PODS:
   - CocoaLumberjack/Extensions (3.4.2):
     - CocoaLumberjack/Default
   - FLEX (2.4.0)
-  - FYHelper (0.1.2):
+  - FYHelper (0.2.0):
     - AFNetworking
-    - Bugly
     - CocoaLumberjack
     - FLEX
-    - FYHelper/FYCategory (= 0.1.2)
-    - FYHelper/FYInstall (= 0.1.2)
-    - FYHelper/FYSubclass (= 0.1.2)
-    - FYHelper/FYUIKit (= 0.1.2)
-    - FYHelper/FYUtil (= 0.1.2)
+    - FYHelper/FYCategory (= 0.2.0)
+    - FYHelper/FYSubclass (= 0.2.0)
+    - FYHelper/FYUIKit (= 0.2.0)
+    - FYHelper/FYUtil (= 0.2.0)
     - iVersion
     - KVOController
     - Masonry
     - pop
-  - FYHelper/FYCategory (0.1.2):
+  - FYHelper/FYCategory (0.2.0):
     - AFNetworking
-    - Bugly
     - CocoaLumberjack
     - FLEX
     - FYHelper/FYUtil
@@ -49,9 +45,16 @@ PODS:
     - KVOController
     - Masonry
     - pop
-  - FYHelper/FYInstall (0.1.2):
+  - FYHelper/FYSubclass (0.2.0):
     - AFNetworking
-    - Bugly
+    - CocoaLumberjack
+    - FLEX
+    - iVersion
+    - KVOController
+    - Masonry
+    - pop
+  - FYHelper/FYUIKit (0.2.0):
+    - AFNetworking
     - CocoaLumberjack
     - FLEX
     - FYHelper/FYUtil
@@ -59,28 +62,8 @@ PODS:
     - KVOController
     - Masonry
     - pop
-  - FYHelper/FYSubclass (0.1.2):
+  - FYHelper/FYUtil (0.2.0):
     - AFNetworking
-    - Bugly
-    - CocoaLumberjack
-    - FLEX
-    - iVersion
-    - KVOController
-    - Masonry
-    - pop
-  - FYHelper/FYUIKit (0.1.2):
-    - AFNetworking
-    - Bugly
-    - CocoaLumberjack
-    - FLEX
-    - FYHelper/FYUtil
-    - iVersion
-    - KVOController
-    - Masonry
-    - pop
-  - FYHelper/FYUtil (0.1.2):
-    - AFNetworking
-    - Bugly
     - CocoaLumberjack
     - FLEX
     - iVersion
@@ -101,7 +84,6 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
-    - Bugly
     - ChameleonFramework
     - CocoaLumberjack
     - FLEX
@@ -117,11 +99,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
   CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
   FLEX: bd1a39e55b56bb413b6f1b34b3c10a0dc44ef079
-  FYHelper: b43c3c741643dbcd2b06599e0956390f8dc65339
+  FYHelper: ec3cf946805e78c778eb814cead3cc292c4f4a4d
   iVersion: 3a93a89259eb3b52b0a8ba52c46a0027fa6b4d30
   KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201

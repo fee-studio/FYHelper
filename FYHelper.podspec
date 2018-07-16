@@ -23,23 +23,18 @@ Pod::Spec.new do |s|
 
   s.homepage        = "https://github.com/iosfeng/FYHelper"
   s.license         = "MIT"
-  s.author          = { "FengYiyi" => "iosfeng@163.com" }
+  s.author          = { "fengyiyi" => "iosfeng@163.com" }
   s.platform        = :ios
   s.ios.deployment_target = '8.0'
   s.requires_arc    = true
   s.source          = { :git => "https://github.com/iosfeng/FYHelper.git", :tag => "#{s.version}" }
 
-  # s.source_files = 'FYHelper/**/*'
-
   s.source_files = 'FYHelper/FYHelper.h'
 
+  # s.source_files = 'FYHelper/**/*'
   # s.public_header_files = 'FYHelper/FYHelper.h'
   # s.public_header_files = 'FYHelper/*.h'
-
   # s.default_subspecs = 'FYCategory', 'FYInstall', 'FYSubclass', 'FYUIKit', 'FYUtil'
-
-
-   # s.default_subspecs = 'FYSubclass' # , 'FYUtil'
 
    s.subspec 'FYSubclass' do |ss|
      ss.source_files = 'FYHelper/FYSubclass/**/*'
@@ -52,11 +47,11 @@ Pod::Spec.new do |s|
      # ss.dependency 'FYHelper/FYCategory'
    end
 
-    s.subspec 'FYInstall' do |ss|
-      ss.source_files = 'FYHelper/FYInstall/**/*'
-      ss.public_header_files = 'FYHelper/FYInstall/**/*.h'
-      ss.dependency 'FYHelper/FYUtil'
-    end
+#   s.subspec 'FYInstall' do |ss|
+#     ss.source_files = 'FYHelper/FYInstall/**/*'
+#     ss.public_header_files = 'FYHelper/FYInstall/**/*.h'
+#     ss.dependency 'FYHelper/FYUtil'
+#   end
 
     s.subspec 'FYUIKit' do |ss|
       ss.source_files = 'FYHelper/FYUIKit/**/*'
@@ -71,32 +66,18 @@ Pod::Spec.new do |s|
    end
 
 
-   # s.subspec 'FYSubclass' do |ss|
-   #   ss.source_files = 'FYHelper/FYSubclass/**/*'
-   #   ss.public_header_files = 'FYHelper/FYSubclass/**/*.h'
-   # end
+  s.frameworks = 'Foundation', 'CoreGraphics', 'UIKit'
 
-   # s.subspec 'FYUtil' do |ss|
-   #   ss.source_files = 'FYHelper/FYUtil/**/*'
-   #   ss.public_header_files = 'FYHelper/FYUtil/**/*.h'
-   # end
-
-#  s.default_subspecs = 'FYSubclass'
-#  s.subspec 'FYSubclass' do |ss|
-#    ss.source_files = 'FYHelper/FYSubclass/**/*'
-#    ss.public_header_files = 'FYHelper/FYSubclass/**/*.h'
-#  end
-
-  s.frameworks      = 'Foundation', 'CoreGraphics', 'UIKit'
   s.dependency 'AFNetworking'
-  s.dependency 'Bugly'
   s.dependency 'FLEX'
-  # s.dependency 'FMDB'
   s.dependency 'KVOController'
   s.dependency 'Masonry'
   s.dependency 'pop'
   s.dependency 'iVersion'
   s.dependency 'CocoaLumberjack'
-  # s.dependency 'DZNEmptyDataSet'
+
+# s.dependency 'Bugly'
+# s.dependency 'FMDB'
+# s.dependency 'DZNEmptyDataSet'
 
 end

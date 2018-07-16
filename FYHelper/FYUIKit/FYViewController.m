@@ -5,8 +5,7 @@
 
 #import "FYViewController.h"
 #import "FYMacroDefinition.h"
-#import "FLEXManager.h"
-//#import "FLEX.h"
+#import "FLEX.h"
 
 @implementation FYViewController {
 

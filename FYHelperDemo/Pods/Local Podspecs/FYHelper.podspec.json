@@ -1,12 +1,12 @@
 {
   "name": "FYHelper",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "summary": "iOS Dev Helper",
   "description": "iOS Dev Helper, this is a base framework for me.",
   "homepage": "https://github.com/iosfeng/FYHelper",
   "license": "MIT",
   "authors": {
-    "FengYiyi": "iosfeng@163.com"
+    "fengyiyi": "iosfeng@163.com"
   },
   "platforms": {
     "ios": "8.0"
@@ -14,7 +14,7 @@
   "requires_arc": true,
   "source": {
     "git": "https://github.com/iosfeng/FYHelper.git",
-    "tag": "0.1.2"
+    "tag": "0.2.0"
   },
   "source_files": "FYHelper/FYHelper.h",
   "frameworks": [
@@ -24,9 +24,6 @@
   ],
   "dependencies": {
     "AFNetworking": [
-
-    ],
-    "Bugly": [
 
     ],
     "FLEX": [
@@ -58,16 +55,6 @@
       "name": "FYUtil",
       "source_files": "FYHelper/FYUtil/**/*",
       "public_header_files": "FYHelper/FYUtil/**/*.h"
-    },
-    {
-      "name": "FYInstall",
-      "source_files": "FYHelper/FYInstall/**/*",
-      "public_header_files": "FYHelper/FYInstall/**/*.h",
-      "dependencies": {
-        "FYHelper/FYUtil": [
-
-        ]
-      }
     },
     {
       "name": "FYUIKit",
