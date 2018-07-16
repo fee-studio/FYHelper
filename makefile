@@ -1,9 +1,9 @@
 ###########################################################################
 TAG_CODE    = 0.2.0
 CMT_MSG     = '优化项目的结构'
+POD_NAME    = FYHelper
 ###########################################################################
 
-POD_NAME    = FYHelper
 
 
 update_pod:
@@ -34,6 +34,7 @@ update_pod:
 
 # 提交过最新的代码 & 验证了podspec文件是可用的，再用！
 publish_pod_and_check:
+
 	git tag $(TAG_CODE)
 	git push --tag
 	pod trunk push $(POD_NAME).podspec --use-libraries --allow-warnings

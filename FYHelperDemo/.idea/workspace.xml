@@ -2,412 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0700f8f-7ab7-4265-bd0a-2ddc0da2e057" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../FYHelper/FYInstall/FYInstall+Bugly.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FYHelperDemo.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Podfile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFAutoPurgingImageCache.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFAutoPurgingImageCache.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFImageDownloader.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFImageDownloader.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/AFAutoPurgingImageCache.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/AFCompatibilityMacros.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/AFImageDownloader.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/AVAsset+FYVideoOrientation.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/FYAppUtil.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/FYBorderButton.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/FYDeviceUtil.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/FYErrorUtil.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/FYFileUtil.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/FYHelper.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/FYInstall+Bugly.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/FYInstall.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/FYLocationUtil.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/FYMacroDefinition.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/FYNavigationController.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/FYPaddingTextField.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/FYScrollViewController.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/FYTextUtil.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/FYViewController.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/NSArray+FYJson.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/NSData+FYCache.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/NSData+FYHelper.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/NSDate+FYCompare.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/NSDate+FYFormat.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/NSDictionary+FYJson.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/NSFileManager+FYQuick.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/NSObject+FYTag.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/NSString+FYHelper.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/NSTimer+FYBlock.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UIAlertController+FYSupportedInterfaceOrientations.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UIAlertView+FYQuick.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UIButton+FYBlock.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UIButton+FYCountDown.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UIButton+FYStyle.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UIColor+FYHelper.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UIImage+FYCorner.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UIImage+FYHelper.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UIImage+FYSave.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UILabel+FYSize.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UILabel+FYStyle.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UINavigationController+FYPushPop.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UINavigationItem+FYBack.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UIScreen+FYFrame.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UIScrollView+FYTouch.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UITextField+FYLimitLength.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UIView+FYAnimation.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UIView+FYBlockGesture.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UIView+FYBorder.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UIView+FYFrame.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UIView+FYHelper.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UIView+FYLayer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UIView+highlightOnTouch.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UIViewController+FYBackButtonTouched.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/FYHelper/UIWindow+FYViewController.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/Masonry/ViewController+MASAdditions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/AFAutoPurgingImageCache.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/AFCompatibilityMacros.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/AFImageDownloader.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/Bugly/Bugly/Bugly.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/Bugly/Bugly/BuglyConfig.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/Bugly/Bugly/BuglyLog.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/AVAsset+FYVideoOrientation.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/FYAppUtil.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/FYBorderButton.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/FYDeviceUtil.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/FYErrorUtil.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/FYFileUtil.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/FYHelper.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/FYInstall+Bugly.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/FYInstall.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/FYLocationUtil.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/FYMacroDefinition.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/FYNavigationController.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/FYPaddingTextField.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/FYScrollViewController.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/FYTextUtil.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/FYViewController.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/NSArray+FYJson.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/NSData+FYCache.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/NSData+FYHelper.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/NSDate+FYCompare.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/NSDate+FYFormat.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/NSDictionary+FYJson.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/NSFileManager+FYQuick.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/NSObject+FYTag.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/NSString+FYHelper.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/NSTimer+FYBlock.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UIAlertController+FYSupportedInterfaceOrientations.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UIAlertView+FYQuick.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UIButton+FYBlock.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UIButton+FYCountDown.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UIButton+FYStyle.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UIColor+FYHelper.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UIImage+FYCorner.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UIImage+FYHelper.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UIImage+FYSave.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UILabel+FYSize.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UILabel+FYStyle.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UINavigationController+FYPushPop.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UINavigationItem+FYBack.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UIScreen+FYFrame.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UIScrollView+FYTouch.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UITextField+FYLimitLength.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UIView+FYAnimation.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UIView+FYBlockGesture.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UIView+FYBorder.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UIView+FYFrame.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UIView+FYHelper.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UIView+FYLayer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UIView+highlightOnTouch.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UIViewController+FYBackButtonTouched.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/FYHelper/UIWindow+FYViewController.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/Masonry/ViewController+MASAdditions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Local Podspecs/FYHelper.podspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/ViewController+MASAdditions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/ViewController+MASAdditions.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/FYHelper/FYHelper-dummy.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/FYHelper/FYHelper.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FYHelper.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/../FYHelper.podspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FYHelper/FYHelper.h" beforeDir="false" afterPath="$PROJECT_DIR$/../FYHelper/FYHelper.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FYHelper/FYInstall/Bugly+FYInstall.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FYHelper/FYInstall/Bugly+FYInstall.m" beforeDir="false" afterPath="$PROJECT_DIR$/../FYHelper/FYInstall/FYInstall+Bugly.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FYHelperDemo.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/FYHelperDemo.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/Podfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworkActivityLogger/AFNetworkActivityLogger/AFNetworkActivityLogger.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworkActivityLogger/AFNetworkActivityLogger/AFNetworkActivityLogger.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworkActivityLogger/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworkActivityLogger/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.m" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFNetworking.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFNetworking.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/AFNetworking/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/AFNetworking/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIImage+AFNetworking.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIImage+AFNetworking.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIKit+AFNetworking.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIKit+AFNetworking.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.m" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.m" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/BuglyHotfix/BuglyHotfix.framework/BuglyHotfix" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Bugly/Bugly.framework/Bugly" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/BuglyHotfix/BuglyHotfix.framework/Headers/Bugly.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Bugly/Bugly.framework/Headers/Bugly.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/BuglyHotfix/BuglyHotfix.framework/Headers/BuglyConfig.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Bugly/Bugly.framework/Headers/BuglyConfig.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/BuglyHotfix/BuglyHotfix.framework/Headers/BuglyLog.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Bugly/Bugly.framework/Headers/BuglyLog.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/BuglyHotfix/BuglyHotfix.framework/Headers/BuglyMender.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/BuglyHotfix/BuglyHotfix.framework/Modules/module.modulemap" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Bugly/Bugly.framework/Modules/module.modulemap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/CocoaLumberjack.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/CocoaLumberjack.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/DDAbstractDatabaseLogger.m" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/DDAbstractDatabaseLogger.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/DDFileLogger.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/DDFileLogger.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/DDFileLogger.m" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/DDFileLogger.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/DDLog.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/DDLog.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/DDLog.m" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/DDLog.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/DDOSLogger.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/DDOSLogger.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/DDOSLogger.m" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/DDOSLogger.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/DDTTYLogger.m" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/DDTTYLogger.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/Extensions/DDContextFilterLogFormatter.m" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/Extensions/DDContextFilterLogFormatter.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/Extensions/DDDispatchQueueLogFormatter.m" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/Extensions/DDDispatchQueueLogFormatter.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/Extensions/DDMultiFormatter.m" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/Classes/Extensions/DDMultiFormatter.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CocoaLumberjack/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/CocoaLumberjack/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/DZNEmptyDataSet/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/DZNEmptyDataSet/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/DZNEmptyDataSet/Source/UIScrollView+EmptyDataSet.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/DZNEmptyDataSet/Source/UIScrollView+EmptyDataSet.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/FXBlurView/FXBlurView/FXBlurView.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/FXBlurView/FXBlurView/FXBlurView.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/FXBlurView/LICENCE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/FXBlurView/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworkActivityLogger/AFNetworkActivityLogger.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/AFHTTPRequestOperation.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/AFHTTPRequestOperationManager.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/AFURLConnectionOperation.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/UIAlertView+AFNetworking.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Private/DZNEmptyDataSet/UIScrollView+EmptyDataSet.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Private/FMDB/FMDB.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Private/FMDB/FMDatabase.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Private/FMDB/FMDatabaseAdditions.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Private/FMDB/FMDatabasePool.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Private/FMDB/FMDatabaseQueue.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Private/FMDB/FMResultSet.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Private/FXBlurView/FXBlurView.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Private/RKNotificationHub/RKNotificationHub.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Private/UITableView+FDTemplateLayoutCell/UITableView+FDIndexPathHeightCache.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Private/UITableView+FDTemplateLayoutCell/UITableView+FDKeyedHeightCache.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Private/UITableView+FDTemplateLayoutCell/UITableView+FDTemplateLayoutCell.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Private/UITableView+FDTemplateLayoutCell/UITableView+FDTemplateLayoutCellDebug.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworkActivityLogger/AFNetworkActivityLogger.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/AFHTTPRequestOperation.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/AFHTTPRequestOperationManager.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/AFURLConnectionOperation.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/UIAlertView+AFNetworking.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Public/BuglyHotfix/BuglyHotfix/Bugly.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Public/BuglyHotfix/BuglyHotfix/BuglyConfig.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Public/BuglyHotfix/BuglyHotfix/BuglyLog.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Public/BuglyHotfix/BuglyHotfix/BuglyMender.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Public/DZNEmptyDataSet/UIScrollView+EmptyDataSet.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Public/FMDB/FMDB.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Public/FMDB/FMDatabase.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Public/FMDB/FMDatabaseAdditions.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Public/FMDB/FMDatabasePool.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Public/FMDB/FMDatabaseQueue.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Public/FMDB/FMResultSet.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Public/FXBlurView/FXBlurView.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Public/Instabug/Instabug/IBGTypes.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Public/Instabug/Instabug/Instabug.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Public/RKNotificationHub/RKNotificationHub.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Public/UITableView+FDTemplateLayoutCell/UITableView+FDIndexPathHeightCache.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Public/UITableView+FDTemplateLayoutCell/UITableView+FDKeyedHeightCache.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Public/UITableView+FDTemplateLayoutCell/UITableView+FDTemplateLayoutCell.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Headers/Public/UITableView+FDTemplateLayoutCell/UITableView+FDTemplateLayoutCellDebug.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Headers/IBGTypes.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Headers/Instabug.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/IBGActionSheetCell.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/IBGActionSheetVC-iPhone.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/IBGAttachmentButton.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/IBGBugVC-iPhone.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/IBGChatCell.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/IBGChatVC-iPhone.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/IBGChatsVC-iPhone.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/IBGFullScreenImageViewController.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/IBGMessagesView.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/IBGPoweredByView.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/IBGPromptCell.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/IBGPromptVC-iPhone.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/IBGReplyView-iPhone.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/IBGReportCategoriesVC-iPhone.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/IBGScreenshotVC-iPhone.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/IBGUnnotifiedMessagesAlertView.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/IBGVideoPlaybackViewController.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/IBGVoiceNoteRecordingViewController-iPhone.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/InAppScreenshotPlaceholder.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/InAppScreenshotPlaceholder@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/InAppScreenshotPlaceholder@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/InAppVideoPlaceholder.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/InAppVideoPlaceholder@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/InAppVideoPlaceholder@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/Instabug_dsym_upload.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/Whitebubble-IBGColorThemeDark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/Whitebubble-IBGColorThemeDark@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/Whitebubble-IBGColorThemeDark@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/ar.lproj/Localizable.strings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/audio_placeholder.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/audio_placeholder@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/audio_placeholder_3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/cs.lproj/Localizable.strings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/da.lproj/Localizable.strings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/de.lproj/Localizable.strings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/en.lproj/Localizable.strings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/es.lproj/Localizable.strings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/fr.lproj/Localizable.strings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/graybubble.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/graybubble@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/graybubble@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/instabuglogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/instabuglogo@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/instabuglogo@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/it.lproj/Localizable.strings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/ja.lproj/Localizable.strings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/ko.lproj/Localizable.strings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/nb.lproj/Localizable.strings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/nl.lproj/Localizable.strings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/notificationEdge.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/notificationEdge@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/notificationEdge@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/pl.lproj/Localizable.strings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/powerplushome.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/pt-BR.lproj/Localizable.strings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/pt-PT.lproj/Localizable.strings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/ru.lproj/Localizable.strings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/shake.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/sk.lproj/Localizable.strings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/strip-frameworks.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/sv.lproj/Localizable.strings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/tap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/tap@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/tap@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/tr.lproj/Localizable.strings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/twofingers.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/zh-Hans.lproj/Localizable.strings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/zh-Hant-TW.lproj/Localizable.strings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Instabug.bundle/zh-Hant.lproj/Localizable.strings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/InstabugDataModel.momd/InstabugDataModel 2.mom" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/InstabugDataModel.momd/InstabugDataModel 3.mom" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/InstabugDataModel.momd/InstabugDataModel 7.mom" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/InstabugDataModel.momd/InstabugDataModel 8.mom" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/InstabugDataModel.momd/InstabugDataModel 8.omo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/InstabugDataModel.momd/InstabugDataModel.mom" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/InstabugDataModel.momd/VersionInfo.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/Modules/module.modulemap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/Instabug.framework/_CodeSignature/CodeResources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Instabug/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/MBProgressHUD/MBProgressHUD.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/MBProgressHUD/MBProgressHUD.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/MBProgressHUD/MBProgressHUD.m" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/MBProgressHUD/MBProgressHUD.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/MBProgressHUD/README.mdown" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/MBProgressHUD/README.mdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Manifest.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASCompositeConstraint.m" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASCompositeConstraint.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASConstraint+Private.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASConstraint+Private.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASConstraint.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASConstraint.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASConstraint.m" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASConstraint.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASConstraintMaker.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASConstraintMaker.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASConstraintMaker.m" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASConstraintMaker.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASUtilities.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASUtilities.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASViewAttribute.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASViewAttribute.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASViewAttribute.m" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASViewAttribute.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASViewConstraint.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASViewConstraint.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASViewConstraint.m" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASViewConstraint.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Masonry/Masonry/Masonry.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/Masonry.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Masonry/Masonry/NSArray+MASAdditions.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/NSArray+MASAdditions.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Masonry/Masonry/NSArray+MASAdditions.m" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/NSArray+MASAdditions.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Masonry/Masonry/NSLayoutConstraint+MASDebugAdditions.m" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/NSLayoutConstraint+MASDebugAdditions.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Masonry/Masonry/View+MASAdditions.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/View+MASAdditions.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Masonry/Masonry/View+MASAdditions.m" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/View+MASAdditions.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Masonry/Masonry/View+MASShorthandAdditions.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/View+MASShorthandAdditions.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Masonry/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Masonry/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/RKNotificationHub/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/RKNotificationHub/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/RKNotificationHub/RKNotificationHub/RKNotificationHub.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/RKNotificationHub/RKNotificationHub/RKNotificationHub.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworkActivityLogger/AFNetworkActivityLogger-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworkActivityLogger/AFNetworkActivityLogger-prefix.pch" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/FYHelper/FYHelper-prefix.pch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworkActivityLogger/AFNetworkActivityLogger.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking-prefix.pch" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking-prefix.pch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/ChameleonFramework/ChameleonFramework.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/ChameleonFramework/ChameleonFramework.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/CocoaLumberjack/CocoaLumberjack.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/CocoaLumberjack/CocoaLumberjack.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/DZNEmptyDataSet/DZNEmptyDataSet-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/DZNEmptyDataSet/DZNEmptyDataSet-prefix.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/DZNEmptyDataSet/DZNEmptyDataSet.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/FLEX/FLEX.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/FLEX/FLEX.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/FMDB/FMDB-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/FMDB/FMDB-prefix.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/FMDB/FMDB.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/FXBlurView/FXBlurView-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/FXBlurView/FXBlurView-prefix.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/FXBlurView/FXBlurView.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/KVOController/KVOController.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/KVOController/KVOController.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/MBProgressHUD/MBProgressHUD.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/MBProgressHUD/MBProgressHUD.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Masonry/Masonry.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Masonry/Masonry.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FYHelperDemo/Pods-FYHelperDemo-acknowledgements.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FYHelperDemo/Pods-FYHelperDemo-acknowledgements.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FYHelperDemo/Pods-FYHelperDemo-acknowledgements.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FYHelperDemo/Pods-FYHelperDemo-acknowledgements.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FYHelperDemo/Pods-FYHelperDemo-frameworks.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FYHelperDemo/Pods-FYHelperDemo-frameworks.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FYHelperDemo/Pods-FYHelperDemo-resources.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FYHelperDemo/Pods-FYHelperDemo-resources.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FYHelperDemo/Pods-FYHelperDemo.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FYHelperDemo/Pods-FYHelperDemo.debug.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FYHelperDemo/Pods-FYHelperDemo.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FYHelperDemo/Pods-FYHelperDemo.release.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/RKNotificationHub/RKNotificationHub-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/RKNotificationHub/RKNotificationHub-prefix.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/RKNotificationHub/RKNotificationHub.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/UITableView+FDTemplateLayoutCell/UITableView+FDTemplateLayoutCell-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/UITableView+FDTemplateLayoutCell/UITableView+FDTemplateLayoutCell-prefix.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/UITableView+FDTemplateLayoutCell/UITableView+FDTemplateLayoutCell.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/iVersion/iVersion.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/iVersion/iVersion.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/pop/pop.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/pop/pop.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/UITableView+FDTemplateLayoutCell/Classes/UITableView+FDIndexPathHeightCache.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/UITableView+FDTemplateLayoutCell/Classes/UITableView+FDIndexPathHeightCache.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/UITableView+FDTemplateLayoutCell/Classes/UITableView+FDKeyedHeightCache.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/UITableView+FDTemplateLayoutCell/Classes/UITableView+FDKeyedHeightCache.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/UITableView+FDTemplateLayoutCell/Classes/UITableView+FDTemplateLayoutCell.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/UITableView+FDTemplateLayoutCell/Classes/UITableView+FDTemplateLayoutCell.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/UITableView+FDTemplateLayoutCell/Classes/UITableView+FDTemplateLayoutCellDebug.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFCompatibilityMacros.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/UITableView+FDTemplateLayoutCell/Classes/UITableView+FDTemplateLayoutCellDebug.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/UITableView+FDTemplateLayoutCell/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/UITableView+FDTemplateLayoutCell/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FYHelperDemoPod/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../FYHelperDemoPod/Pods/Pods.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../update_pod.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../update_pod.sh" afterDir="false" />
     </list>
     <ignored path="$USER_HOME$/Library/Caches/AppCode2017.1/DerivedData/FYHelperDemo-dihsbpjvqdohykbqbmxpybofeyru/" />
     <ignored path=".idea/" />
@@ -445,8 +40,8 @@
       <file leaf-file-name="makefile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../makefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="442">
+              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -739,7 +334,7 @@
       <workItem from="1503067983137" duration="259000" />
       <workItem from="1503109672673" duration="3548000" />
       <workItem from="1505979010305" duration="64000" />
-      <workItem from="1531706760943" duration="3918000" />
+      <workItem from="1531706760943" duration="4226000" />
     </task>
     <task id="LOCAL-00001" summary="remove UIScrollView+FYTouch">
       <created>1499051512704</created>
@@ -927,7 +522,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88942000" />
+    <option name="totallyTimeSpent" value="89250000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-880" y="-1417" width="2560" height="1417" extended-state="6" />
@@ -940,9 +535,9 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5024735" side_tool="true" weight="0.42292994" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32954547" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3628788" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4975265" visible="true" weight="0.23484848" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4975265" visible="true" weight="0.23484848" />
       <window_info id="Designer" order="4" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16600476" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16600476" />
       <window_info anchor="right" id="LuaJ" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.21201414" />
@@ -1341,8 +936,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../makefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="442">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
         </state>
       </provider>
     </entry>
