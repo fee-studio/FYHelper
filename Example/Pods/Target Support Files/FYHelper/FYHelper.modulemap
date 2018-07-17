@@ -1,0 +1,6 @@
+framework module FYHelper {
+  umbrella header "FYHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}

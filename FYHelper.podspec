@@ -29,39 +29,39 @@ Pod::Spec.new do |s|
   s.requires_arc    = true
   s.source          = { :git => "https://github.com/iosfeng/FYHelper.git", :tag => "#{s.version}" }
 
-  s.source_files = 'FYHelper/FYHelper.h'
+  s.source_files = 'FYHelper/Classes/FYHelper.h'
 
-  # s.source_files = 'FYHelper/**/*'
-  # s.public_header_files = 'FYHelper/FYHelper.h'
-  # s.public_header_files = 'FYHelper/*.h'
+  # s.source_files = 'FYHelper/Classes/**/*'
+  # s.public_header_files = 'FYHelper/Classes/FYHelper.h'
+  # s.public_header_files = 'FYHelper/Classes/*.h'
   # s.default_subspecs = 'FYCategory', 'FYInstall', 'FYSubclass', 'FYUIKit', 'FYUtil'
 
    s.subspec 'FYSubclass' do |ss|
-     ss.source_files = 'FYHelper/FYSubclass/**/*'
-     ss.public_header_files = 'FYHelper/FYSubclass/**/*.h'
+     ss.source_files = 'FYHelper/Classes/FYSubclass/**/*'
+     ss.public_header_files = 'FYHelper/Classes/FYSubclass/**/*.h'
    end
 
    s.subspec 'FYUtil' do |ss|
-     ss.source_files = 'FYHelper/FYUtil/**/*'
-     ss.public_header_files = 'FYHelper/FYUtil/**/*.h'
+     ss.source_files = 'FYHelper/Classes/FYUtil/**/*'
+     ss.public_header_files = 'FYHelper/Classes/FYUtil/**/*.h'
      # ss.dependency 'FYHelper/FYCategory'
    end
 
 #   s.subspec 'FYInstall' do |ss|
-#     ss.source_files = 'FYHelper/FYInstall/**/*'
-#     ss.public_header_files = 'FYHelper/FYInstall/**/*.h'
+#     ss.source_files = 'FYHelper/Classes/FYInstall/**/*'
+#     ss.public_header_files = 'FYHelper/Classes/FYInstall/**/*.h'
 #     ss.dependency 'FYHelper/FYUtil'
 #   end
 
     s.subspec 'FYUIKit' do |ss|
-      ss.source_files = 'FYHelper/FYUIKit/**/*'
-      ss.public_header_files = 'FYHelper/FYUIKit/**/*.h'
+      ss.source_files = 'FYHelper/Classes/FYUIKit/**/*'
+      ss.public_header_files = 'FYHelper/Classes/FYUIKit/**/*.h'
       ss.dependency 'FYHelper/FYUtil'
     end
 
    s.subspec 'FYCategory' do |ss|
-     ss.source_files = 'FYHelper/FYCategory/**/*'
-     ss.public_header_files = 'FYHelper/FYCategory/**/*.h'
+     ss.source_files = 'FYHelper/Classes/FYCategory/**/*'
+     ss.public_header_files = 'FYHelper/Classes/FYCategory/**/*.h'
      ss.dependency 'FYHelper/FYUtil'
    end
 

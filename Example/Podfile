@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'FYHelper_Example' do
+  pod 'FYHelper', :path => '../'
+
+  target 'FYHelper_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+    pod 'FBSnapshotTestCase'
+  end
+end

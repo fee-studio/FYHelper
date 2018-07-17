@@ -1,0 +1,6 @@
+framework module Pods_FYHelper_Example {
+  umbrella header "Pods-FYHelper_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
