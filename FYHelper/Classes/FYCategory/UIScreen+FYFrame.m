@@ -24,4 +24,52 @@
 + (CGFloat)fy_height {
     return [[UIScreen mainScreen] bounds].size.height;
 }
+
+
++ (BOOL)is35InchesScreen {
+    static int is35Inch = 0;
+    if (is35Inch == 0)
+        is35Inch = ([[UIScreen mainScreen] bounds].size.height == 480) ? 1 : -1;
+    return is35Inch > 0;
+}
+
++ (BOOL)is4InchesScreen {
+    static int is4Inch = 0;
+    if (is4Inch == 0)
+        is4Inch = ([[UIScreen mainScreen] bounds].size.height == 568) ? 1 : -1;
+    return is4Inch > 0;
+}
+
++ (BOOL)is47InchesScreen {
+    static int is47Inch = 0;
+    if (is47Inch == 0)
+        is47Inch = ([[UIScreen mainScreen] bounds].size.height == 667) ? 1 : -1;
+    return is47Inch > 0;
+}
+
++ (BOOL)is55InchesScreen {
+    static int is55Inch = 0;
+    if (is55Inch == 0)
+        is55Inch = ([[UIScreen mainScreen] bounds].size.height == 736) ? 1 : -1;
+    return is55Inch > 0;
+}
+
++ (BOOL)is58InchesScreen {
+    static int is58Inch = 0;
+    if (is58Inch == 0)
+        is58Inch = ([[UIScreen mainScreen] bounds].size.height == 812) ? 1 : -1;
+    return is58Inch > 0;
+}
+
++ (BOOL)isRetina {
+    if ([UIScreen instancesRespondToSelector:@selector(scale)]) {
+        CGFloat scale = [[UIScreen mainScreen] scale];
+        if (scale > 1.0) {
+            return YES;
+        }
+    }
+    return NO;
+}
+
+
 @end

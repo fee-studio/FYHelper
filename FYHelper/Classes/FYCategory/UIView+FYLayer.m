@@ -89,4 +89,16 @@
     self.layer.beginTime = timeSincePause;
 }
 
+- (void)fy_insertGradientLayerFrom:(UIColor *)fromColor to:(UIColor *)toColor {
+    NSArray *colors = @[(id) fromColor.CGColor, (id) toColor.CGColor];
+    CAGradientLayer *layer = [CAGradientLayer layer];
+    layer.colors = colors;
+//    layer.locations = @[@0.2, @0.5, @0.8];
+    layer.frame = self.bounds;
+    layer.startPoint = CGPointMake(0, 0);
+    layer.endPoint = CGPointMake(1, 0);
+
+    [self.layer insertSublayer:layer atIndex:0];
+}
+
 @end

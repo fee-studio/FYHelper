@@ -30,4 +30,5 @@
 
 - (void)resumeAnimating;
 
+- (void)fy_insertGradientLayerFrom:(UIColor *)fromColor to:(UIColor *)toColor;
 @end

@@ -6,6 +6,7 @@
 //  Copyright (c) 2012年 wsk. All rights reserved.
 //
 #import "NSFileManager+FYQuick.h"
+#import "FYFileUtil.h"
 
 @implementation NSFileManager (FYQuick)
 
@@ -23,7 +24,6 @@
 }
 
 + (BOOL)createFolderPath:(NSString *)path {
-
     NSFileManager *fileManager = [NSFileManager defaultManager];
     BOOL isDirectory;
     BOOL exist = [fileManager fileExistsAtPath:path isDirectory:&isDirectory];
@@ -69,10 +69,9 @@
     return NO;
 }
 
-+ (BOOL)saveObject:(id)object withName:(NSString *)name atPath:(NSString *)path {
++ (BOOL)fy_saveObject:(id)object withName:(NSString *)name atPath:(NSString *)path {
     if (object && name && path) {
         if ([object respondsToSelector:@selector(writeToFile:atomically:)]) {
-
             if ([self createFilePath:path]) {
                 NSString *filePath = [path stringByAppendingPathComponent:name];
                 return [object writeToFile:filePath atomically:YES];
@@ -86,7 +85,6 @@
 + (BOOL)saveObject:(id)object withFilePath:(NSString *)filePath {
     if (object && filePath) {
         if ([object respondsToSelector:@selector(writeToFile:atomically:)]) {
-
             BOOL isSuccess = [self createFilePath:filePath];
             if (isSuccess) {
                 BOOL isOk = [NSKeyedArchiver archiveRootObject:object toFile:filePath];
@@ -98,7 +96,7 @@
     return NO;
 }
 
-+ (NSData *)findFile:(NSString *)fileName atPath:(NSString *)path {
++ (NSData *)fy_findFile:(NSString *)fileName atPath:(NSString *)path {
     NSData *data = nil;
     if (fileName && path) {
         NSFileManager *fileManager = [NSFileManager defaultManager];
@@ -111,6 +109,35 @@
 
     return data;
 }
+
+#pragma mark  - new version
+
++ (BOOL)fy_setObject:(id)object withName:(NSString *)name atPath:(NSString *)path {
+    if (object && name && path) {
+        NSString *fullPath = [[FYFileUtil fy_appDocumentDirectory] stringByAppendingPathComponent:path];
+        NSString *filePath = [fullPath stringByAppendingPathComponent:name];
+        if ([self createFilePath:filePath]) {
+            BOOL success = [NSKeyedArchiver archiveRootObject:object toFile:filePath];
+            return success;
+        }
+    }
+
+    return NO;
+}
+
++ (id)fy_getObjectWithName:(NSString *)name atPath:(NSString *)path {
+    NSString *fullPath = [[FYFileUtil fy_appDocumentDirectory] stringByAppendingPathComponent:path];
+    NSString *filePath = [fullPath stringByAppendingPathComponent:name];
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    if ([fileManager fileExistsAtPath:filePath]) {
+        id object = [NSKeyedUnarchiver unarchiveObjectWithFile:filePath];
+        return object;
+    }
+
+    return nil;
+}
+
+#pragma mark  -
 
 + (id)findFileWithFilePath:(NSString *)filePath {
     id object = nil;

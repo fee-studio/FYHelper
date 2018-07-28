@@ -98,6 +98,8 @@
  */
 + (UIImage *)fy_imageWithColor:(UIColor *)color;
 
++ (UIImage *)fy_gradientImageFrom:(UIColor *)fromColor to:(UIColor *)toColor frame:(CGRect)frame;
+
 - (UIImage *)image32k;
 
 @end

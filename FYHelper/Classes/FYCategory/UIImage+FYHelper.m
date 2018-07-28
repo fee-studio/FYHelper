@@ -412,6 +412,23 @@ CGFloat RadiansToDegrees(CGFloat radians) {
     return image;
 }
 
++ (UIImage *)fy_gradientImageFrom:(UIColor *)fromColor to:(UIColor *)toColor frame:(CGRect)frame {
+    NSArray *colors = @[(id) fromColor.CGColor, (id) toColor.CGColor];
+
+    CAGradientLayer *layer = [CAGradientLayer layer];
+    layer.colors = colors;
+    layer.frame = frame;
+    layer.startPoint = CGPointMake(0, 0);
+    layer.endPoint = CGPointMake(1, 0);
+
+    UIGraphicsBeginImageContextWithOptions(layer.frame.size, NO, 0);
+    [layer renderInContext:UIGraphicsGetCurrentContext()];
+    UIImage *outputImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+
+    return outputImage;
+}
+
 - (UIImage *)image32k {
     int imageWidth = 100;
     UIImage *finalImage = self;

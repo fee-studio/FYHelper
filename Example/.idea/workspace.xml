@@ -3,9 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="5229f4f5-8133-48be-95db-9c476f928e56" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FYHelper.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/../FYHelper.podspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FYHelper/Classes/FYCategory/NSFileManager+FYQuick.h" beforeDir="false" afterPath="$PROJECT_DIR$/../FYHelper/Classes/FYCategory/NSFileManager+FYQuick.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FYHelper/Classes/FYCategory/NSFileManager+FYQuick.m" beforeDir="false" afterPath="$PROJECT_DIR$/../FYHelper/Classes/FYCategory/NSFileManager+FYQuick.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FYHelper/Classes/FYCategory/UIImage+FYHelper.h" beforeDir="false" afterPath="$PROJECT_DIR$/../FYHelper/Classes/FYCategory/UIImage+FYHelper.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FYHelper/Classes/FYCategory/UIImage+FYHelper.m" beforeDir="false" afterPath="$PROJECT_DIR$/../FYHelper/Classes/FYCategory/UIImage+FYHelper.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FYHelper/Classes/FYCategory/UIScreen+FYFrame.h" beforeDir="false" afterPath="$PROJECT_DIR$/../FYHelper/Classes/FYCategory/UIScreen+FYFrame.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FYHelper/Classes/FYCategory/UIScreen+FYFrame.m" beforeDir="false" afterPath="$PROJECT_DIR$/../FYHelper/Classes/FYCategory/UIScreen+FYFrame.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FYHelper/Classes/FYCategory/UIView+FYLayer.h" beforeDir="false" afterPath="$PROJECT_DIR$/../FYHelper/Classes/FYCategory/UIView+FYLayer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FYHelper/Classes/FYCategory/UIView+FYLayer.m" beforeDir="false" afterPath="$PROJECT_DIR$/../FYHelper/Classes/FYCategory/UIView+FYLayer.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FYHelper/Classes/FYHelper.h" beforeDir="false" afterPath="$PROJECT_DIR$/../FYHelper/Classes/FYHelper.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FYHelper/Classes/FYUtil/FYAppUtil.m" beforeDir="false" afterPath="$PROJECT_DIR$/../FYHelper/Classes/FYUtil/FYAppUtil.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FYHelper/Classes/FYUtil/FYFileUtil.h" beforeDir="false" afterPath="$PROJECT_DIR$/../FYHelper/Classes/FYUtil/FYFileUtil.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FYHelper/Classes/FYUtil/FYFileUtil.m" beforeDir="false" afterPath="$PROJECT_DIR$/../FYHelper/Classes/FYUtil/FYFileUtil.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FYHelper/Classes/FYUtil/FYMacroDefinition.h" beforeDir="false" afterPath="$PROJECT_DIR$/../FYHelper/Classes/FYUtil/FYMacroDefinition.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../update_pod.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../update_pod.sh" afterDir="false" />
     </list>
     <ignored path="$USER_HOME$/Library/Developer/Xcode/DerivedData/FYHelper-dclprhcuzijgbucxkhxpfyblhbqi/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,7 +50,7 @@
       <file leaf-file-name="update_pod.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../update_pod.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="51">
               <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
             </state>
           </provider>
@@ -48,8 +59,8 @@
       <file leaf-file-name="makefile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../makefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+            <state relative-caret-position="442">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -87,7 +98,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="1027" />
@@ -98,18 +109,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="" type="efc3779f:XcodeRootNode" />
               <item name="FYHelper" type="1d218c8b:XcodeProjectNode" />
-            </path>
-            <path>
-              <item name="" type="efc3779f:XcodeRootNode" />
-              <item name="FYHelper" type="1d218c8b:XcodeProjectNode" />
-              <item name="Podspec Metadata" type="fcab9f18:XcodeViewNode" />
             </path>
             <path>
               <item name="" type="efc3779f:XcodeRootNode" />
@@ -130,6 +135,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Cidr.FilesView" />
     </panes>
   </component>
@@ -162,7 +168,11 @@
       <option name="presentableId" value="Default" />
       <updated>1531795180929</updated>
       <workItem from="1531795183818" duration="716000" />
-      <workItem from="1531795979660" duration="5070000" />
+      <workItem from="1531795979660" duration="6476000" />
+      <workItem from="1531812369071" duration="409000" />
+      <workItem from="1531970706441" duration="828000" />
+      <workItem from="1532526304672" duration="501000" />
+      <workItem from="1532580741836" duration="82000" />
     </task>
     <task id="LOCAL-00001" summary="重新整理项目结构">
       <created>1531796337093</created>
@@ -178,28 +188,32 @@
       <option name="project" value="LOCAL" />
       <updated>1531810153647</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="podspec 0.4.0">
+      <created>1531810234976</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1531810234976</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5786000" />
+    <option name="totallyTimeSpent" value="9012000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
     <layout>
       <window_info anchor="right" id="PlantUML" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32903227" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.39569893" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.40967742" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32903227" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3935484" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24420024" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25641027" />
       <window_info anchor="right" id="LuaJ" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -207,8 +221,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32903227" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,10 +237,123 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="重新整理项目结构" />
     <MESSAGE value="podspec 0.3.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="podspec 0.3.0" />
+    <MESSAGE value="podspec 0.4.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="podspec 0.4.0" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../FYHelper.podspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FYHelper/Classes/FYHelper.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="53" column="23" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../update_pod.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FYHelper.podspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FYHelper/Classes/FYHelper.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="53" column="23" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../update_pod.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FYHelper.podspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FYHelper/Classes/FYHelper.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="53" column="23" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../update_pod.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FYHelper.podspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FYHelper/Classes/FYHelper.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="53" column="23" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../update_pod.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../FYHelper.podspec">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1190">
@@ -269,15 +398,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../update_pod.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="51">
           <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../makefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        <state relative-caret-position="442">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>

@@ -14,4 +14,16 @@
 + (CGFloat)fy_width;
 
 + (CGFloat)fy_height;
+
++ (BOOL)is35InchesScreen;
+
++ (BOOL)is4InchesScreen;
+
++ (BOOL)is47InchesScreen;
+
++ (BOOL)is55InchesScreen;
+
++ (BOOL)is58InchesScreen;
+
++ (BOOL)isRetina;
 @end

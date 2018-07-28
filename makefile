@@ -33,7 +33,6 @@ update_pod:
 
 # 提交过最新的代码 & 验证了podspec文件是可用的，再用！
 publish_pod_and_check:
-
 	git tag $(TAG_CODE)
 	git push --tag
 	pod trunk push $(POD_NAME).podspec --use-libraries --allow-warnings

@@ -25,6 +25,6 @@
  * @param fileName 文件名,不包含后缀名
  * @return
  */
-+ (id)fy_jsonDataWithFileName:(NSString *)fileName;
++ (id)fy_jsonObjectWithFileName:(NSString *)fileName;
 
 @end

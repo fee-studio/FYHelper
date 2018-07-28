@@ -24,7 +24,7 @@
 /**
  页面设计相关
  */
-#define mStatusBarHeight    20
+#define mStatusBarHeight    ([UIScreen is58InchesScreen] ? 44 : 20)
 #define mNavBarHeight       44
 #define mTopBarHeight       (mStatusBarHeight + mNavBarHeight)
 #define mTabBarHeight       49

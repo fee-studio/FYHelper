@@ -29,7 +29,7 @@
  */
 + (BOOL)saveData:(NSData *)data withName:(NSString *)name atPath:(NSString *)path;
 
-+ (BOOL)saveObject:(id)object withName:(NSString *)name atPath:(NSString *)path;
++ (BOOL)fy_saveObject:(id)object withName:(NSString *)name atPath:(NSString *)path;
 
 /**
  *  保存文件到相应路径下[Dobby项目中用这个]
@@ -47,7 +47,8 @@
  *  @param  path 文件所在的目录。
  *  return  成功返回文件，失败返回nil。
  */
-+ (NSData *)findFile:(NSString *)fileName atPath:(NSString *)path;
++ (NSData *)fy_findFile:(NSString *)fileName atPath:(NSString *)path;
+
 
 /**
  *  查找并返回文件[Dobby项目中用这个]
@@ -67,5 +68,13 @@
 + (BOOL)deleteFile:(NSString *)fileName atPath:(NSString *)path;
 
 + (BOOL)deleteObjectWithPath:(NSString *)filePath;
+
+
+#pragma mark -
+
++ (BOOL)fy_setObject:(id)object withName:(NSString *)name atPath:(NSString *)path;
+
++ (id)fy_getObjectWithName:(NSString *)name atPath:(NSString *)path;
+
 
 @end
