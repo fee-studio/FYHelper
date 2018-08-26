@@ -4,7 +4,6 @@
 //
 
 #import "FYAppUtil.h"
-#import "FYDeviceUtil.h"
 #import <CoreTelephony/CTCellularData.h>
 
 @implementation FYAppUtil {
@@ -43,7 +42,10 @@
     if ([application respondsToSelector:@selector(isRegisteredForRemoteNotifications)]) {
         return [application isRegisteredForRemoteNotifications];
     } else {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
         return application.enabledRemoteNotificationTypes != UIRemoteNotificationTypeNone;
+#pragma clang diagnostic pop
     }
 }
 
@@ -73,9 +75,12 @@
 @return 是否有权限 0 关闭 1 仅wifi 2 流量+wifi
 */
 + (int)checkNetWorkPermission {
+#pragma clang diagnostic push
+#pragma ide diagnostic ignored "UnavailableInDeploymentTarget"
     CTCellularData *cellularData = [[CTCellularData alloc] init];
     CTCellularDataRestrictedState state = cellularData.restrictedState;
     return state;
+#pragma clang diagnostic pop
 }
 
 + (void)fy_openURL:(NSString *)url completionHandler:(void (^ __nullable)(BOOL success))completion {

@@ -4,14 +4,11 @@
 
 /**
  * Object to NSData
- * @param object
- * @return
  */
 + (NSData *)fy_dataFromObject:(id)object;
 
 /**
  * NSData to Object
- * @return
  */
 - (id)fy_toObject;
 
@@ -23,7 +20,6 @@
 
 /**
  * NSData to MD5 string
- * @return
  */
 - (NSString *)fy_MD5String;
 

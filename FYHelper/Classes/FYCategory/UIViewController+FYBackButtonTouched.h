@@ -6,7 +6,6 @@ typedef void (^FYBackButtonHandler)(UINavigationController *navigationController
 
 /**
  * Intercept UINavigationController's back button pop event!
- * @param backButtonHandler
  */
 - (void)fy_backButtonTouched:(FYBackButtonHandler)backButtonHandler;
 

@@ -6,19 +6,16 @@
 
 /**
  * 是否为有效的URL
- * @return
  */
 - (BOOL)fy_isValidURL;
 
 /**
  * 是否为一个真实的字符串，!=nil & !=@""
- * @return
  */
 - (BOOL)fy_isReality;
 
 /**
  * 判断字符串是否为空，==nil || ==@""
- * @return
  */
 - (BOOL)fy_isEmpty;
 
@@ -26,8 +23,6 @@
  * 根据字体与字符串长度来计算长度与宽度
  * http://www.cocoachina.com/industry/20140604/8668.html
  * @param size 最大值
- * @param font
- * @return
  */
 - (CGSize)fy_calculateSize:(CGSize)size font:(UIFont *)font;
 
@@ -49,7 +44,6 @@
 
 /**
  * MD5 string
- * @return md5 string
  */
 - (NSString *)fy_MD5String;
 

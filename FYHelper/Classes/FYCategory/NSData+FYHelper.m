@@ -1,5 +1,5 @@
-#import <CommonCrypto/CommonDigest.h>
 #import "NSData+FYHelper.h"
+#import <CommonCrypto/CommonDigest.h>
 
 @implementation NSData (FYHelper)
 

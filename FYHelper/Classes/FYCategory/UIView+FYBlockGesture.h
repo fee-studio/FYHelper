@@ -12,7 +12,6 @@ typedef void (^FYGestureBlock)(UIGestureRecognizer *gestureRecognizer);
 
 /**
  * 增加手势
- * @param block
  */
 - (void)fy_tapBlock:(FYGestureBlock)block;
 

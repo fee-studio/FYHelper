@@ -1,6 +1,6 @@
 ###########################################################################
-TAG_CODE    = 0.4.10
-CMT_MSG     = '细微优化'
+TAG_CODE    = 0.4.12
+CMT_MSG     = 'delete warning'
 ###########################################################################
 POD_NAME    = FYHelper
 ###########################################################################
@@ -9,8 +9,8 @@ update_pod:
 
 # 给源代码打版本标签，与podspec文件中version一致即可
 # shell不允许‘=’号两边有空格 DID_TAG=1
-#	git tag $(TAG_CODE)
-#	git push --tag
+	git tag $(TAG_CODE)
+	git push --tag
 
 # 需要验证一下，以便提前发现问题。忽略警告
 #	pod lib lint --use-libraries --allow-warnings
@@ -31,7 +31,7 @@ update_pod:
 # 搜索看是不是与TAG_CODE一致
 	pod search $(POD_NAME)
 
-# 提交过最新的代码 & 验证了podspec文件是可用的，再用！
+# push过最新的代码 & 验证了podspec文件是可用的，再用！
 publish_pod_and_check:
 	git tag $(TAG_CODE)
 	git push --tag

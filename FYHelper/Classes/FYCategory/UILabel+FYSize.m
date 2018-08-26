@@ -98,6 +98,8 @@
 }
 
 - (void)alignTop {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
     CGSize fontSize = [self.text sizeWithFont:self.font];
     double finalHeight = fontSize.height * self.numberOfLines;
     double finalWidth = self.frame.size.width;    //expected width of label
@@ -105,8 +107,11 @@
     int newLinesToPad = (finalHeight - theStringSize.height) / fontSize.height;
     for (int i = 0; i < newLinesToPad; i++)
         self.text = [self.text stringByAppendingString:@"\n "];
+#pragma clang diagnostic pop
 }
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
 - (void)alignBottom {
     CGSize fontSize = [self.text sizeWithFont:self.font];
     double finalHeight = fontSize.height * self.numberOfLines;
@@ -116,6 +121,7 @@
     for (int i = 0; i < newLinesToPad; i++)
         self.text = [NSString stringWithFormat:@" \n%@", self.text];
 }
+#pragma clang diagnostic pop
 
 - (UIImage *)grabImage {
     // Create a "canvas" (image context) to draw in.

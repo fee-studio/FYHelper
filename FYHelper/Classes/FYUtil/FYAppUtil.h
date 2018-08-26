@@ -23,7 +23,6 @@
 
 /**
  * 是否同意打开远程推送
- * @return
  */
 + (BOOL)fy_isRegisteredRemoteNotification;
 
@@ -43,8 +42,6 @@
 
 /**
  * fy open url
- * @param scheme
- * @param completion
  */
 + (void)fy_openURL:(NSString *)scheme completionHandler:(void (^ __nullable)(BOOL success))completion;
 
@@ -61,7 +58,6 @@
 
 /**
  * 去AppStore下载
- * @param appId
  */
 + (void)fy_downloadInAppStoreWithAppId:(NSString *_Nonnull)appId;
 

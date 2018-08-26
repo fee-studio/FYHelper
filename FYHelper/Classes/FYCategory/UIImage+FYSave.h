@@ -13,7 +13,6 @@ static const int fyErrorCodePhotoPermission = 6001;
 /**
  * 把图片保存到指定的相册中
  * @param albumName 相册名
- * @param completedBlock
  */
 - (void)fy_saveToAlbumNamed:(NSString *)albumName
              completedBlock:(void (^)(BOOL success, NSError *error))completedBlock;

@@ -309,7 +309,6 @@ CGFloat RadiansToDegrees(CGFloat radians) {
  *  UIImageResizingModeTile：
  *      平铺模式，通过重复显示UIEdgeInsets指定的矩形区域来填充图片
  *
- *  @param image  原始图片
  *  @param top    距顶的高度
  *  @param left   距左的高度
  *  @param bottom 距底的高度
@@ -330,7 +329,6 @@ CGFloat RadiansToDegrees(CGFloat radians) {
 /**
  *  处理图片拉伸
  *
- *  @param image 原始图片
  *  @param value 四边的值都相等
  *
  *  @return 被拉伸的图片

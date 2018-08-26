@@ -54,7 +54,6 @@
 
 /**
  * 是否为iPhoneX
- * @return
  */
 + (BOOL)fy_isIphoneX;
 
