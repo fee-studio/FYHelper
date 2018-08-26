@@ -165,6 +165,8 @@
 		41F2BC218943937A59C42EEA12F6FD2F /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7789373D2CD715F35EBFB1695DF0796A /* MASConstraintMaker.m */; };
 		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = CE84D298BF69852122D6754BC01B6615 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		4242422F8C700157752250ACA7965188 /* KWSharedExample.h in Headers */ = {isa = PBXBuildFile; fileRef = 3447C607A67C45A4F02BCD9730E7BFD3 /* KWSharedExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		426644C9C39CEB1074AC765C /* UIImageView+FYRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 42664289764A5E1E7842F96D /* UIImageView+FYRender.m */; };
+		426646FFFEA16A1D4644CB88 /* UIImageView+FYRender.h in Headers */ = {isa = PBXBuildFile; fileRef = 426647BEAB690845B6BBB783 /* UIImageView+FYRender.h */; };
 		42B7A326D054FAF9ADD8B3D4523811C7 /* FYAppUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 873ED2065A4562DC18A93D7C6F3DA96B /* FYAppUtil.m */; };
 		430D19FC9BECA186680315BBFAF09E2B /* KWInequalityMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = BC30EDC8405CD2CD19AC164BAF207C76 /* KWInequalityMatcher.m */; };
 		4317CA5AF10F77EFF3A921A32C7BB713 /* KWGenericMatchEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CC9CF5A4FDB0A87EA4DC557D6B6756 /* KWGenericMatchEvaluator.m */; };
@@ -978,6 +980,8 @@
 		409295660F5D217912676BF97841C9C1 /* FLEXNetworkTransactionTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXNetworkTransactionTableViewCell.m; path = Classes/Network/FLEXNetworkTransactionTableViewCell.m; sourceTree = "<group>"; };
 		41AE3A1F7E3697FF860F5C6602D46FEF /* UIImage+FYHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+FYHelper.m"; path = "FYHelper/Classes/FYCategory/UIImage+FYHelper.m"; sourceTree = "<group>"; };
 		41DE2E4DAB3A5FCE5C5427289118A7AA /* UIView+FYAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FYAnimation.h"; path = "FYHelper/Classes/FYCategory/UIView+FYAnimation.h"; sourceTree = "<group>"; };
+		42664289764A5E1E7842F96D /* UIImageView+FYRender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+FYRender.m"; path = "FYHelper/Classes/FYCategory/UIImageView+FYRender.m"; sourceTree = "<group>"; };
+		426647BEAB690845B6BBB783 /* UIImageView+FYRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+FYRender.h"; path = "FYHelper/Classes/FYCategory/UIImageView+FYRender.h"; sourceTree = "<group>"; };
 		43E3D6D45FADBB84DB7BFF0A5933422F /* FLEXSetExplorerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXSetExplorerViewController.m; path = Classes/ObjectExplorers/FLEXSetExplorerViewController.m; sourceTree = "<group>"; };
 		45808D61D1A9BB991EE06CB584CA0D05 /* FLEXImageExplorerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXImageExplorerViewController.h; path = Classes/ObjectExplorers/FLEXImageExplorerViewController.h; sourceTree = "<group>"; };
 		45951D66833B36F21AE996073D76716E /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
@@ -2128,6 +2132,8 @@
 				CD6D92A1F717A2096780D5598A1DF639 /* UIViewController+FYBackButtonTouched.m */,
 				980C338968D06B2490526666F615CFA4 /* UIWindow+FYVcStack.h */,
 				2E49B321E2A04B74FCB51B2DA9B7A51B /* UIWindow+FYVcStack.m */,
+				426647BEAB690845B6BBB783 /* UIImageView+FYRender.h */,
+				42664289764A5E1E7842F96D /* UIImageView+FYRender.m */,
 			);
 			name = FYCategory;
 			sourceTree = "<group>";
@@ -2911,6 +2917,7 @@
 				6F1413134EAAAE98803256806743DF85 /* UIView+highlightOnTouch.h in Headers */,
 				C8ADBBF3336DC86A44D610966FE7907E /* UIViewController+FYBackButtonTouched.h in Headers */,
 				D8FEC7789A4D820D314FF5C1FECDE1B7 /* UIWindow+FYVcStack.h in Headers */,
+				426646FFFEA16A1D4644CB88 /* UIImageView+FYRender.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3686,6 +3693,7 @@
 				B539FC20690F69B042AE1CC462BB56E5 /* UIView+highlightOnTouch.m in Sources */,
 				66A5ABD9441024178DD2C31142BBDF33 /* UIViewController+FYBackButtonTouched.m in Sources */,
 				EF3E11E9E003429E279673EC05B6C5EF /* UIWindow+FYVcStack.m in Sources */,
+				426644C9C39CEB1074AC765C /* UIImageView+FYRender.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -123,7 +123,7 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 
-    FYLog(@"☣️内存警告!️");
+    FYLog(@"☣内存警告!");
 }
 
 - (void)dealloc {
