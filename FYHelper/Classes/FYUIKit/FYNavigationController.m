@@ -4,8 +4,7 @@
 //
 
 #import "FYNavigationController.h"
-#import "FYHelper.h"
-
+#import "FYMacroDefinition.h"
 
 @implementation FYNavigationController {
 
