@@ -6,7 +6,7 @@
 #import <Foundation/Foundation.h>
 #import "UIKit/UIKit.h"
 
-@interface UIWindow (FYViewController)
+@interface UIWindow (FYVcStack)
 /*!
  @method topMostController
 

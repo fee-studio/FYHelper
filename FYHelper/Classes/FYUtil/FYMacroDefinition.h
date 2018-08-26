@@ -42,7 +42,7 @@
  */
 #ifdef DEBUG
 #define FYSourceFileName [NSString stringWithFormat:@"%s", __FILE__].lastPathComponent
-#define FYLog(...) printf("\n%s 第%d行: %s\n\n", [FYSourceFileName UTF8String] ,__LINE__, [[NSString stringWithFormat:__VA_ARGS__] UTF8String]);
+#define FYLog(...) printf("🍺🍺🍺 %s Line %d: %s\n", [FYSourceFileName UTF8String] ,__LINE__, [[NSString stringWithFormat:__VA_ARGS__] UTF8String]);
 #define NSLog(...) NSLog(__VA_ARGS__)
 #else
 #define FYLog(...)

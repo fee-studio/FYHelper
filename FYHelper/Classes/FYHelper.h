@@ -34,12 +34,13 @@
 #import "UIView+FYFrame.h"
 #import "UIScreen+FYFrame.h"
 #import "NSDate+FYCompare.h"
-#import "UIWindow+FYViewController.h"
+#import "UIWindow+FYVcStack.h"
 #import "UILabel+FYStyle.h"
 #import "UIViewController+FYBackButtonTouched.h"
 #import "UIAlertController+FYSupportedInterfaceOrientations.h"
 #import "NSTimer+FYBlock.h"
 #import "NSObject+FYTag.h"
+#import "UIImageView+FYRender.h"
 
 // subclass
 #import "FYPaddingTextField.h"

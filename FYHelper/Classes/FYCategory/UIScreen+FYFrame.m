@@ -25,7 +25,7 @@
     return [[UIScreen mainScreen] bounds].size.height;
 }
 
-
+// iPhone 4 4s
 + (BOOL)is35InchesScreen {
     static int is35Inch = 0;
     if (is35Inch == 0)
@@ -33,6 +33,7 @@
     return is35Inch > 0;
 }
 
+// iPhone5 5s 5c se
 + (BOOL)is4InchesScreen {
     static int is4Inch = 0;
     if (is4Inch == 0)
@@ -40,6 +41,7 @@
     return is4Inch > 0;
 }
 
+// iPhone6 6s 7 8
 + (BOOL)is47InchesScreen {
     static int is47Inch = 0;
     if (is47Inch == 0)
@@ -47,6 +49,7 @@
     return is47Inch > 0;
 }
 
+// iPhone6+ 6s+ 7+ 8+
 + (BOOL)is55InchesScreen {
     static int is55Inch = 0;
     if (is55Inch == 0)
@@ -54,6 +57,7 @@
     return is55Inch > 0;
 }
 
+// iPhoneX
 + (BOOL)is58InchesScreen {
     static int is58Inch = 0;
     if (is58Inch == 0)

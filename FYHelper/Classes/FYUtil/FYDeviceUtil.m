@@ -86,4 +86,8 @@
 
 }
 
++ (BOOL)fy_isIphoneX {
+    return [[UIScreen mainScreen] bounds].size.height - 812 == 0;
+}
+
 @end

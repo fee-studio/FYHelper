@@ -49,7 +49,7 @@
 #import "UIView+FYLayer.h"
 #import "UIView+highlightOnTouch.h"
 #import "UIViewController+FYBackButtonTouched.h"
-#import "UIWindow+FYViewController.h"
+#import "UIWindow+FYVcStack.h"
 #import "FYBorderButton.h"
 #import "FYPaddingTextField.h"
 #import "FYNavigationController.h"

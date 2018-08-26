@@ -3,10 +3,10 @@
 // Copyright (c) 2017 weiboyi. All rights reserved.
 //
 
-#import "UIWindow+FYViewController.h"
+#import "UIWindow+FYVcStack.h"
 
 
-@implementation UIWindow (FYViewController)
+@implementation UIWindow (FYVcStack)
 - (UIViewController *)fy_topMostController {
     UIViewController *topController = [self rootViewController];
 

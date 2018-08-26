@@ -52,4 +52,10 @@
  */
 + (void)fy_callTelephone:(NSString *)phoneNumber;
 
+/**
+ * 是否为iPhoneX
+ * @return
+ */
++ (BOOL)fy_isIphoneX;
+
 @end

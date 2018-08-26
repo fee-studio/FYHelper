@@ -4,6 +4,7 @@
 //
 
 #import "FYNavigationController.h"
+#import "FYHelper.h"
 
 
 @implementation FYNavigationController {
@@ -13,7 +14,7 @@
 
 - (void)dealloc {
     NSString *tips = [NSString stringWithFormat:@"✅ FYNC: %@ - dealloc", NSStringFromClass(self.class)];
-    NSLog(@"%@", tips);
+    FYLog(@"%@", tips);
 }
 
 @end

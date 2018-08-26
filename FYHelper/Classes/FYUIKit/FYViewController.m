@@ -128,7 +128,7 @@
 
 - (void)dealloc {
     NSString *tips = [NSString stringWithFormat:@"✅ FYVC: %@ - dealloc", NSStringFromClass(self.class)];
-    NSLog(@"%@", tips);
+    FYLog(@"%@", tips);
 }
 
 @end

@@ -5,6 +5,7 @@
 
 #import "FYAppUtil.h"
 #import "FYDeviceUtil.h"
+#import <CoreTelephony/CTCellularData.h>
 
 @implementation FYAppUtil {
 
@@ -64,6 +65,17 @@
     } else {
         return @"AppStore";
     }
+}
+
+/**
+检测网络权限
+
+@return 是否有权限 0 关闭 1 仅wifi 2 流量+wifi
+*/
++ (int)checkNetWorkPermission {
+    CTCellularData *cellularData = [[CTCellularData alloc] init];
+    CTCellularDataRestrictedState state = cellularData.restrictedState;
+    return state;
 }
 
 + (void)fy_openURL:(NSString *)url completionHandler:(void (^ __nullable)(BOOL success))completion {
