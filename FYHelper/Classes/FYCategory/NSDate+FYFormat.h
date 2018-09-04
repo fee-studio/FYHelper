@@ -16,24 +16,17 @@
 
 /**
  * 把second按format格式化后返回
- * @param second
- * @param format
- * @return
  */
 + (NSString *)fy_formatDateStringWithSecond:(NSTimeInterval)second format:(NSString *)format;
 
 /**
  * 把second按@"yyyy-MM-dd HH:mm"格式化后返回
- * @param second
- * @return
  */
 + (NSString *)fy_formatDateStringWithSecond:(NSTimeInterval)second;
 
 
 /**
  * @"yyyy-MM-dd HH:mm:ss" --> NSDate
- * @param dateString
- * @return
  */
 + (NSDate *)fy_dateFromString:(NSString *)dateString;
 
@@ -41,7 +34,6 @@
  * @"yyyy-MM-dd HH:mm:ss" --> NSDate
  * @param dateString 需要转换的字符串
  * @param format 设置转换格式
- * @return
  */
 + (NSDate *)fy_dateFromString:(NSString *)dateString format:(NSString *)format;
 

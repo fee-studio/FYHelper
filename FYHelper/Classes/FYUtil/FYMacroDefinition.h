@@ -41,11 +41,15 @@
  https://stackoverflow.com/questions/7856508/nslog-not-printing-to-console
  */
 #ifdef DEBUG
-#define FYSourceFileName [NSString stringWithFormat:@"%s", __FILE__].lastPathComponent
-#define FYLog(...) printf("🍺🍺🍺 %s Line %d: %s\n", [FYSourceFileName UTF8String] ,__LINE__, [[NSString stringWithFormat:__VA_ARGS__] UTF8String]);
+#define FYSourceFileName    [NSString stringWithFormat:@"%s", __FILE__].lastPathComponent
+#define FYLog(...)          printf("🍺🍺🍺 %s Line %d: %s\n", [FYSourceFileName UTF8String] ,__LINE__, [[NSString stringWithFormat:__VA_ARGS__] UTF8String]);
+#define FYLogSuccess(...)   printf("🍺🍺🍺 %s Line %d: ✅%s\n", [FYSourceFileName UTF8String] ,__LINE__, [[NSString stringWithFormat:__VA_ARGS__] UTF8String]);
+#define FYLogError(...)     printf("🍺🍺🍺 %s Line %d: 🆘%s\n", [FYSourceFileName UTF8String] ,__LINE__, [[NSString stringWithFormat:__VA_ARGS__] UTF8String]);
 #define NSLog(...) NSLog(__VA_ARGS__)
 #else
 #define FYLog(...)
+#define FYLogSuccess(...)
+#define FYLogError(...)
 #define NSLog(...) (void)0
 #endif
 
