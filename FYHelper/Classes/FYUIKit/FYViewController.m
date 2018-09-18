@@ -5,7 +5,6 @@
 
 #import "FYViewController.h"
 #import "FYMacroDefinition.h"
-#import "FLEX.h"
 
 @implementation FYViewController {
 
@@ -26,14 +25,6 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
 
-    // FLEX
-#if DEBUG
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]
-            initWithTitle:@"FLEX"
-                    style:UIBarButtonItemStylePlain
-                   target:self
-                   action:@selector(actionFlex:)];
-#endif
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -85,11 +76,6 @@
 
 #pragma mark - FLEX
 
-- (void)actionFlex:(id)sender {
-#ifdef DEBUG
-    [[FLEXManager sharedManager] showExplorer];
-#endif
-}
 
 #pragma mark - touch
 
