@@ -37,4 +37,7 @@
 
 ///  是否为今天之后的日子，以天为单位
 - (BOOL)fy_isAfterOnDayUnit;
+
+- (NSInteger)fy_differenceDaysFromDate:(NSString *)date;
+
 @end

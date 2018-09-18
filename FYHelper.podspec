@@ -63,13 +63,13 @@ Pod::Spec.new do |s|
   s.frameworks = 'Foundation', 'CoreGraphics', 'UIKit'
 
   s.dependency 'AFNetworking'
-  s.dependency 'FLEX'
   s.dependency 'KVOController'
   s.dependency 'Masonry'
   s.dependency 'pop'
   s.dependency 'iVersion'
   s.dependency 'CocoaLumberjack'
 
+#  s.dependency 'FLEX'
 # s.dependency 'Bugly'
 # s.dependency 'FMDB'
 # s.dependency 'DZNEmptyDataSet'

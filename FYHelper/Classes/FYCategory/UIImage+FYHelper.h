@@ -98,6 +98,12 @@
 
 + (UIImage *)fy_gradientImageFrom:(UIColor *)fromColor to:(UIColor *)toColor frame:(CGRect)frame;
 
++ (UIImage *)fy_imageForViewLayer:(UIView *)view;
+
++ (UIImage *)fy_imageForView:(UIView *)view;
+
++ (UIImage *)fy_imageForLayer:(CALayer *)layer;
+
 - (UIImage *)image32k;
 
 @end

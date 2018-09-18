@@ -66,12 +66,12 @@
 
 /// FYHelper默认包含的第三方库的头文件（必备常用库）
 #import <AFNetworking/AFNetworking.h>
-#import <FLEX/FLEX.h>
 #import <KVOController/KVOController.h>
 #import <Masonry/Masonry.h>
 #import <pop/POP.h>
 #import <iVersion/iVersion.h>
 
+//#import <FLEX/FLEX.h>
 //#import <Bugly/Bugly.h>
 //#import <FMDB/FMDB.h>
 

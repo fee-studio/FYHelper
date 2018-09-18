@@ -93,4 +93,10 @@
     return [givenDate fy_isLaterThanDate:nowDate];
 }
 
+- (NSInteger)fy_differenceDaysFromDate:(NSDate *)date {
+    NSCalendar *gregorian = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
+    NSDateComponents *comps = [gregorian components:NSCalendarUnitDay fromDate:date toDate:self options:0];
+    return [comps day];
+}
+
 @end

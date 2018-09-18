@@ -1,5 +1,5 @@
 ###########################################################################
-TAG_CODE    = 0.4.14
+TAG_CODE    = 0.4.16
 CMT_MSG     = 'delete warning'
 ###########################################################################
 POD_NAME    = FYHelper
@@ -37,5 +37,5 @@ publish_pod_and_check:
 	git push --tag
 	pod trunk push $(POD_NAME).podspec --use-libraries --allow-warnings
 	pod setup
-	pod search $(POD_NAME)
+#	pod search $(POD_NAME)
 
