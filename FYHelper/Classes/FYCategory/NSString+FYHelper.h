@@ -58,4 +58,7 @@
 
 - (NSString *)fy_encodingUTF8;
 
+- (NSArray *)fy_toArrayBySeparator:(NSString *)separator;
++ (NSString *)fy_toStringFromArray:(NSArray *)array insertSeparator:(NSString *)separator;
+
 @end

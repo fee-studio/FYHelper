@@ -65,6 +65,13 @@
     return is58Inch > 0;
 }
 
++ (BOOL)isIphoneXAboveScreen {
+    static int isIphoneXAbove = 0;
+    if (isIphoneXAbove == 0)
+        isIphoneXAbove = ([[UIScreen mainScreen] bounds].size.height >= 812) ? 1 : -1;
+    return isIphoneXAbove > 0;
+}
+
 + (BOOL)isRetina {
     if ([UIScreen instancesRespondToSelector:@selector(scale)]) {
         CGFloat scale = [[UIScreen mainScreen] scale];
@@ -74,6 +81,5 @@
     }
     return NO;
 }
-
 
 @end

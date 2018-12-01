@@ -7,6 +7,7 @@
 #import "UIKit/UIKit.h"
 
 @interface UIScreen (FYFrame)
+
 + (CGSize)fy_size;
 
 + (CGSize)fy_DPISize;
@@ -25,5 +26,8 @@
 
 + (BOOL)is58InchesScreen;
 
++ (BOOL)isIphoneXAboveScreen;
+
 + (BOOL)isRetina;
+
 @end

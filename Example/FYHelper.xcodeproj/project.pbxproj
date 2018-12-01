@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		426649F7E76A7D51920F83A9 /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = 4266490A82906FF0028F1E85 /* readme.md */; };
 		4312E95FC1B439FC8A515968 /* Pods_FYHelper_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 552596A8D4593B714FCF735E /* Pods_FYHelper_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -42,6 +43,7 @@
 		0AA866866809153867B5FFCB /* Pods-FYHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYHelper_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FYHelper_Example/Pods-FYHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		22C26D0EE503D2EACE85F344 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		239324DC0A40F473AE57827E /* FYHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FYHelper.podspec; path = ../FYHelper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4266490A82906FF0028F1E85 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		552596A8D4593B714FCF735E /* Pods_FYHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYHelper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* FYHelper_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYHelper_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -121,6 +123,7 @@
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				25506D853240413CF980B867 /* Pods */,
+				4266490A82906FF0028F1E85 /* readme.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -404,6 +407,7 @@
 				6003F5A7195388D20070C39A /* FYViewController.m in Sources */,
 				65CCA6BD20FD910100B37C45 /* makefile in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				426649F7E76A7D51920F83A9 /* readme.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

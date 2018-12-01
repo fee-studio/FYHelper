@@ -1,6 +1,6 @@
 ###########################################################################
-TAG_CODE    = 0.4.20
-CMT_MSG     = 'delete warning'
+TAG_CODE    = 0.4.22
+CMT_MSG     = '补充优化分类'
 ###########################################################################
 POD_NAME    = FYHelper
 ###########################################################################
@@ -38,4 +38,28 @@ publish_pod_and_check:
 	pod trunk push $(POD_NAME).podspec --use-libraries --allow-warnings
 	pod setup
 #	pod search $(POD_NAME)
+
+update_tag:
+	git tag $(TAG_CODE)
+	git push --tag
+
+update_code:
+	git add .
+	git status
+	git commit -m $(CMT_MSG)
+	git push origin master
+
+update_pod:
+	pod trunk push $(POD_NAME).podspec --use-libraries --allow-warnings
+	pod setup
+
+update_all:
+	git tag $(TAG_CODE)
+	git push --tag
+	git add .
+	git status
+	git commit -m $(CMT_MSG)
+	git push origin master
+	pod trunk push $(POD_NAME).podspec --use-libraries --allow-warnings
+	pod setup
 
