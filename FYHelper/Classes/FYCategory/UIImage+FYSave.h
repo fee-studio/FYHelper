@@ -17,4 +17,6 @@ static const int fyErrorCodePhotoPermission = 6001;
 - (void)fy_saveToAlbumNamed:(NSString *)albumName
              completedBlock:(void (^)(BOOL success, NSError *error))completedBlock;
 
+
+
 @end

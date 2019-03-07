@@ -24,10 +24,10 @@
 /**
  页面设计相关
  */
-#define mStatusBarHeight    ([UIScreen is58InchesScreen] ? 44 : 20)
+#define mStatusBarHeight    ([UIScreen isIphoneXAboveScreen] ? 44 : 20)
 #define mNavBarHeight       44
 #define mTopBarHeight       (mStatusBarHeight + mNavBarHeight)
-#define mTabBarHeight       49
+#define mTabBarHeight       ([UIScreen isIphoneXAboveScreen] ? 83 : 49)
 #define mToolbarHeight      44
 
 #define mScreenBounds       ([UIScreen mainScreen].bounds)

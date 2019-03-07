@@ -24,7 +24,6 @@
  */
 + (NSString *)fy_formatDateStringWithSecond:(NSTimeInterval)second;
 
-
 /**
  * @"yyyy-MM-dd HH:mm:ss" --> NSDate
  */

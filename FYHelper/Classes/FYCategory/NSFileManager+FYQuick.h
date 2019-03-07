@@ -70,11 +70,12 @@
 + (BOOL)deleteObjectWithPath:(NSString *)filePath;
 
 
-#pragma mark -
+#pragma mark - 新版本
 
 + (BOOL)fy_setObject:(id)object withName:(NSString *)name atPath:(NSString *)path;
 
 + (id)fy_getObjectWithName:(NSString *)name atPath:(NSString *)path;
+
 
 
 @end

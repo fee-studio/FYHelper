@@ -19,7 +19,6 @@
 ///是否是昨天
 - (BOOL)fy_isYesterday;
 
-
 + (NSDate *)fy_dateTomorrow;
 
 + (NSDate *)fy_dateToday;
