@@ -5,51 +5,80 @@
 
 #import "NSDate+FYCompare.h"
 
-
 @implementation NSDate (FYCompare)
 
-- (BOOL)fy_isSameDay:(NSDate *)anotherDate {
+#pragma mark - 以 天 为比较计算的单位
+
+// 把一个具体的日期的时分秒去掉，只保留到【天】级别的时间
+- (NSDate *)fy_toDateOnDay {
     NSCalendar *calendar = [NSCalendar currentCalendar];
-    NSDateComponents *components1 = [calendar components:(NSCalendarUnitYear
-                    | NSCalendarUnitMonth
-                    | NSCalendarUnitDay)
-                                                fromDate:self];
-    NSDateComponents *components2 = [calendar components:(NSCalendarUnitYear
-                    | NSCalendarUnitMonth
-                    | NSCalendarUnitDay)
-                                                fromDate:anotherDate];
-    return ([components1 year] == [components2 year]
-            && [components1 month] == [components2 month]
-            && [components1 day] == [components2 day]);
+    NSDateComponents *dateComponents = [calendar components:(NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay)
+                                                   fromDate:self];
+    NSDate *aDate = [calendar dateFromComponents:dateComponents];
+    return aDate;
+}
+
++ (NSDate *)fy_todayNowAddMinute:(int)minute crossToday:(BOOL)cross {
+    NSDate *now = [NSDate date];
+    NSDateComponents *components = [[NSDateComponents alloc] init];
+    components.minute = minute;
+    NSDate *date = [[NSCalendar currentCalendar] dateByAddingComponents:components toDate:now options:0];
+
+    if (!cross && [date fy_isLaterThanDate:[NSDate fy_today_23_59]]) {
+        return [NSDate fy_today_23_59];
+    }
+    return date;
+}
+
++ (NSDate *)fy_today_00_00 {
+    NSDate *now = [NSDate date];
+    NSDate *_00_00 = [[NSCalendar currentCalendar] dateBySettingHour:0 minute:0 second:0 ofDate:now options:0];
+    return _00_00;
+}
+
++ (NSDate *)fy_today_23_59 {
+    NSDate *now = [NSDate date];
+    NSDate *_23_59 = [[NSCalendar currentCalendar] dateBySettingHour:23 minute:59 second:0 ofDate:now options:0];
+    return _23_59;
+}
+
+- (BOOL)fy_isSameOnDay:(NSDate *)anotherDate {
+    NSDate *aDate = [self fy_toDateOnDay];
+    NSDate *bDate = [anotherDate fy_toDateOnDay];
+    return [aDate isEqualToDate:bDate];
 }
 
 - (BOOL)fy_isTomorrow {
-    return [self fy_isSameDay:[NSDate fy_dateTomorrow]];
+    return [self fy_isSameOnDay:[NSDate fy_tomorrowNow]];
 }
 
 - (BOOL)fy_isToday {
-    return [self fy_isSameDay:[NSDate fy_dateToday]];
+    return [self fy_isSameOnDay:[NSDate fy_todayNow]];
 }
 
 - (BOOL)fy_isYesterday {
-    return [self fy_isSameDay:[NSDate fy_dateYesterday]];
+    return [self fy_isSameOnDay:[NSDate fy_yesterdayNow]];
 }
 
-+ (NSDate *)fy_dateTomorrow {
+#pragma mark - 以 秒 为比较计算的单位 - 具体的[NSDate date]
+
++ (NSDate *)fy_tomorrowNow {
     NSDateComponents *c = [[NSDateComponents alloc] init];
     c.day = 1;
     return [[NSCalendar currentCalendar] dateByAddingComponents:c toDate:[NSDate date] options:0];
 }
 
-+ (NSDate *)fy_dateToday {
++ (NSDate *)fy_todayNow {
     return [NSDate date];
 }
 
-+ (NSDate *)fy_dateYesterday {
++ (NSDate *)fy_yesterdayNow {
     NSDateComponents *c = [[NSDateComponents alloc] init];
     c.day = -1;
     return [[NSCalendar currentCalendar] dateByAddingComponents:c toDate:[NSDate date] options:0];
 }
+
+#pragma mark - 比较 - 秒级
 
 - (BOOL)fy_isEarlierThanDate:(NSDate *)aDate {
     return ([self compare:aDate] == NSOrderedAscending);
@@ -59,44 +88,39 @@
     return ([self compare:aDate] == NSOrderedDescending);
 }
 
-- (BOOL)fy_isInFuture {
-    return ([self fy_isLaterThanDate:[NSDate date]]);
-}
-
-- (BOOL)fy_isInPast {
+- (BOOL)fy_isEarlierThanNow {
     return ([self fy_isEarlierThanDate:[NSDate date]]);
 }
 
-- (BOOL)fy_isBeforeOnDayUnit; {
-    NSCalendar *calendar = [NSCalendar currentCalendar];
-    NSDateComponents *givenDc = [calendar components:(NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay)
-                                            fromDate:self];
-    NSDateComponents *nowDc = [calendar components:(NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay)
-                                          fromDate:[NSDate date]];
-
-    NSDate *givenDate = [calendar dateFromComponents:givenDc];
-    NSDate *nowDate = [calendar dateFromComponents:nowDc];
-
-    return [givenDate fy_isEarlierThanDate:nowDate];
+- (BOOL)fy_isLaterThanNow {
+    return ([self fy_isLaterThanDate:[NSDate date]]);
 }
 
-- (BOOL)fy_isAfterOnDayUnit; {
-    NSCalendar *calendar = [NSCalendar currentCalendar];
-    NSDateComponents *givenDc = [calendar components:(NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay)
-                                            fromDate:self];
-    NSDateComponents *nowDc = [calendar components:(NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay)
-                                          fromDate:[NSDate date]];
+#pragma mark - 比较 - 天级
 
-    NSDate *givenDate = [calendar dateFromComponents:givenDc];
-    NSDate *nowDate = [calendar dateFromComponents:nowDc];
+- (BOOL)fy_isEarlierThanTodayOnDay; {
+    NSDate *aDate = [self fy_toDateOnDay];
+    NSDate *nowDate = [[NSDate date] fy_toDateOnDay];
 
-    return [givenDate fy_isLaterThanDate:nowDate];
+    return [aDate fy_isEarlierThanDate:nowDate];
 }
 
-- (NSInteger)fy_differenceDaysFromDate:(NSDate *)date {
-    NSCalendar *gregorian = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
-    NSDateComponents *comps = [gregorian components:NSCalendarUnitDay fromDate:date toDate:self options:0];
-    return [comps day];
+- (BOOL)fy_isLaterThanTodayOnDay; {
+    NSDate *aDate = [self fy_toDateOnDay];
+    NSDate *nowDate = [[NSDate date] fy_toDateOnDay];
+
+    return [aDate fy_isLaterThanDate:nowDate];
+}
+
+#pragma mark - 比较相差的天数
+
++ (NSInteger)fy_differDaysFromDate:(NSDate *)fromDate toDate:(NSDate *)toDate {
+    NSDate *dateFrom = [fromDate fy_toDateOnDay];
+    NSDate *dateTo = [toDate fy_toDateOnDay];
+    NSCalendar *calendar = [NSCalendar currentCalendar];
+    NSDateComponents *dateComponents = [calendar components:NSCalendarUnitDay fromDate:dateFrom toDate:dateTo options:0];
+    NSInteger differDays = dateComponents.day;
+    return differDays;
 }
 
 @end
