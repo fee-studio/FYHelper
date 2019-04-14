@@ -62,13 +62,16 @@
     if (self == nil) {
         return NO;
     }
+    return ![[self stringByTrimmingCharactersInSet:
+        [NSCharacterSet whitespaceAndNewlineCharacterSet]] isEqualToString:@""];
+}
 
-    if ([[self stringByTrimmingCharactersInSet:
-            [NSCharacterSet whitespaceAndNewlineCharacterSet]] isEqualToString:@""]) {
-        return NO;
+- (BOOL)fy_isEmpty {
+    if (self == nil) {
+        return YES;
     }
-
-    return YES;
+    return [[self stringByTrimmingCharactersInSet:
+            [NSCharacterSet whitespaceAndNewlineCharacterSet]] isEqualToString:@""];
 }
 
 - (CGSize)fy_calculateSize:(CGSize)size font:(UIFont *)font {
@@ -109,11 +112,6 @@
             result[8], result[9], result[10], result[11],
             result[12], result[13], result[14], result[15]
     ];
-}
-
-- (BOOL)fy_isEmpty {
-    return [[self stringByTrimmingCharactersInSet:
-            [NSCharacterSet whitespaceAndNewlineCharacterSet]] isEqualToString:@""];
 }
 
 - (void)fy_copyStringToPasteboard {
