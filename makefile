@@ -1,5 +1,5 @@
 ###########################################################################
-TAG_CODE    = 0.4.30
+TAG_CODE    = 0.4.32
 CMT_MSG     = 'NSString优化'
 ###########################################################################
 POD_NAME    = FYHelper
@@ -54,12 +54,12 @@ update_pod:
 	pod setup
 
 update_all:
-	git tag $(TAG_CODE)
-	git push --tag
 	git add .
 	git status
 	git commit -m $(CMT_MSG)
 	git push origin master
+	git tag $(TAG_CODE)
+	git push --tag
 	pod trunk push $(POD_NAME).podspec --use-libraries --allow-warnings
 	pod setup
 
