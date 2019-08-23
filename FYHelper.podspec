@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "FYHelper"
-  s.version      = "0.4.34"
+  s.version      = "0.4.36"
   s.summary      = "iOS Dev Helper"
 
   # This description is used to generate tags and improve search results.
@@ -66,9 +66,9 @@ Pod::Spec.new do |s|
   s.dependency 'KVOController'
   s.dependency 'Masonry'
   s.dependency 'pop'
-  s.dependency 'iVersion'
   s.dependency 'CocoaLumberjack'
 
+#  s.dependency 'iVersion'
 #  s.dependency 'FLEX'
 # s.dependency 'Bugly'
 # s.dependency 'FMDB'
