@@ -69,7 +69,7 @@
 #import <KVOController/KVOController.h>
 #import <Masonry/Masonry.h>
 #import <pop/POP.h>
-#import <iVersion/iVersion.h>
+//#import <iVersion/iVersion.h>
 
 //#import <FLEX/FLEX.h>
 //#import <Bugly/Bugly.h>
