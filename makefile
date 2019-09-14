@@ -31,6 +31,11 @@ update_pod:
 # 搜索看是不是与TAG_CODE一致
 	pod search $(POD_NAME)
 
+# https://guides.cocoapods.org/making/getting-setup-with-trunk.html
+# First sign up for an account with your email address. This begins a session on your current device
+pod_register:
+	pod trunk register iosfeng@163.com 'iosfeng'
+
 # push过最新的代码 & 验证了podspec文件是可用的，再用！
 publish_pod_and_check:
 	git tag $(TAG_CODE)
