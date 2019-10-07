@@ -38,7 +38,7 @@
 
 + (NSDate *)fy_today_23_59 {
     NSDate *now = [NSDate date];
-    NSDate *_23_59 = [[NSCalendar currentCalendar] dateBySettingHour:23 minute:59 second:0 ofDate:now options:0];
+    NSDate *_23_59 = [[NSCalendar currentCalendar] dateBySettingHour:23 minute:59 second:59 ofDate:now options:0];
     return _23_59;
 }
 
